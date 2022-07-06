@@ -1,0 +1,47 @@
+version: "3.8"
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: spring_schema
+      MYSQL_USER: spring_user
+      MYSQL_PASSWORD: spring_pass
+      MYSQL_ROOT_PASSWORD: spring_rootpass
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql/sql_init:/docker-entrypoint-initdb.d
+      - ./mysql/config:/etc/mysql/conf.d
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/log:/var/log/mysql
+
+  dbclient:
+    container_name: dbclient
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
+    ports:
+      - 4040:80
+    volumes:
+      - ./dbclient/sessions:/sessions
+    links:
+      - mysql
+    depends_on:
+      - mysql
+
+  java:
+    container_name: java
+    image: openjdk:18
+    depends_on:
+      - mysql
+    ports:
+      - "8080:8080"
+      - "5050:5050"
+    volumes:
+      - ./spring_prj:/app
+    tty: true
+    working_dir: /app
