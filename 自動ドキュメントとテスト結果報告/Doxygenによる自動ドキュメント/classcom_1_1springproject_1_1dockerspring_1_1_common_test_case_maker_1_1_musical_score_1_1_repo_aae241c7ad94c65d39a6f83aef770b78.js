@@ -1,0 +1,14 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78 =
+[
+    [ "all", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a0ff8030b6160e8e39ddd68d4d82d6bb0", null ],
+    [ "arranger", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#ab6471c586f84e44765bb533ba358db48", null ],
+    [ "buy_date", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a13b648970ce23fb90e581b7c1b298ca9", null ],
+    [ "composer", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a7545d63a497a975f44a1d126e23b0333", null ],
+    [ "disp_date", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#af5fde17b8fa6948b97842fca4e625bdf", null ],
+    [ "other_comment", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a59920c0dcf5444ebcdf83456c41f13ed", null ],
+    [ "publisher", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a0dc607bf057a6e010da75dadff29be64", null ],
+    [ "score_id", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a6a411abbae5dc1319cce603d2aab1a7a", null ],
+    [ "song_title", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a0e061f49e1cb722fc0b2b81ff3b0f77c", null ],
+    [ "storage_loc", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a9fc6f5f938e9fef0ccc492240b81cef7", null ],
+    [ "subject", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html#a949e7df1114f74fb0402165cacd03bc2", null ]
+];

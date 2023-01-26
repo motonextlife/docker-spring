@@ -1,0 +1,6 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_repo_forf6d7177c46dc6f505da1c79abbff0cd2 =
+[
+    [ "sound_id", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_repo_forf6d7177c46dc6f505da1c79abbff0cd2.html#aaa409bae8dee7a34191f86458d8a24b7", null ],
+    [ "sound_name", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_repo_forf6d7177c46dc6f505da1c79abbff0cd2.html#a5598c4550e3445f0191a488ac57a2237", null ],
+    [ "subject", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_repo_forf6d7177c46dc6f505da1c79abbff0cd2.html#ad1a3fc4306cfa86127e3a5def2931d64", null ]
+];

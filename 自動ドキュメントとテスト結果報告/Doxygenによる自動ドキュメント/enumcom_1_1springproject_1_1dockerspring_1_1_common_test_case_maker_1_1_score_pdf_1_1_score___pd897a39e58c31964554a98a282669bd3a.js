@@ -1,0 +1,7 @@
+var enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pd897a39e58c31964554a98a282669bd3a =
+[
+    [ "Pdf_Data", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pd897a39e58c31964554a98a282669bd3a.html#a27817e245dc2481c241c38acbb7e49d2", null ],
+    [ "Score_Id", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pd897a39e58c31964554a98a282669bd3a.html#aa6c85c0196b51e8deb52c5e964a1f2d3", null ],
+    [ "Score_Name", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pd897a39e58c31964554a98a282669bd3a.html#a6472980ec2a0527108293d6f255ac085", null ],
+    [ "Serial_Num", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pd897a39e58c31964554a98a282669bd3a.html#a02da17a35c5a04c0742d9e1b74154ce3", null ]
+];

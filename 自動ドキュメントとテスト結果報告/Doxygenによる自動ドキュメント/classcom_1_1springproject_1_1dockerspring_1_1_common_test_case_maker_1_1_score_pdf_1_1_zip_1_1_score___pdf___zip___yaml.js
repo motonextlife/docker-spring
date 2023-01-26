@@ -1,0 +1,4 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_zip_1_1_score___pdf___zip___yaml =
+[
+    [ "zip_file", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_zip_1_1_score___pdf___zip___yaml.html#ae05c87a35dd3b7fcb28dbefca2b1b087", null ]
+];

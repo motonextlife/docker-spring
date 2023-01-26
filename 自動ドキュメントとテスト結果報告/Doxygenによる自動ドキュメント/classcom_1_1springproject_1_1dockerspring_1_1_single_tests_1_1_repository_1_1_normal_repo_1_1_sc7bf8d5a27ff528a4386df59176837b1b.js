@@ -1,0 +1,10 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b =
+[
+    [ "Delete_Success", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc321376acb94dd7836b6d7599caf5549d.html", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc321376acb94dd7836b6d7599caf5549d" ],
+    [ "testcaseSetup", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b.html#a63ac1c876ab701fea6282a665f244bc0", null ],
+    [ "compare_entity", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b.html#a3d3cd5d131205eef826923c833a84ae4", null ],
+    [ "foreign_case", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b.html#aa3a7e5444bedab53657e7f0ae5a4ffad", null ],
+    [ "softly", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b.html#ab6bf2852c32a4b20348ec8b777979c9e", null ],
+    [ "test_repo", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b.html#a1828c25f58478ddeefe5ed14c8ea4a37", null ],
+    [ "testcase", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sc7bf8d5a27ff528a4386df59176837b1b.html#a727be41cd6d197ff5f25fe24a10e4b55", null ]
+];

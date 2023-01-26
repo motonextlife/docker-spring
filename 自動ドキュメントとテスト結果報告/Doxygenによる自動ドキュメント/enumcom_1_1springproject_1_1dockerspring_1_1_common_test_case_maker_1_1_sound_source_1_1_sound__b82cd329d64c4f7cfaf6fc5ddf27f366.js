@@ -1,0 +1,11 @@
+var enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366 =
+[
+    [ "Composer", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#ac2c13687bfea4309937d30c5d0be11a9", null ],
+    [ "Other_Comment", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#a5d86c72d40870d50dec7b437f38d2e91", null ],
+    [ "Performer", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#ab0c0c5503547bfde000ace09f1974944", null ],
+    [ "Publisher", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#ae5af5517e6c171f35dfa9b5a38e7d20c", null ],
+    [ "Serial_Num", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#a1c97cdf6e06b9fa746615c8ce439297b", null ],
+    [ "Song_Title", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#ae981ac043ddab98091fa93b65d983fb3", null ],
+    [ "Sound_Id", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#a46eb6acd6b1c356bf977c4bfe749b517", null ],
+    [ "Upload_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound__b82cd329d64c4f7cfaf6fc5ddf27f366.html#a28fca19133f47f09725d13365b431850", null ]
+];

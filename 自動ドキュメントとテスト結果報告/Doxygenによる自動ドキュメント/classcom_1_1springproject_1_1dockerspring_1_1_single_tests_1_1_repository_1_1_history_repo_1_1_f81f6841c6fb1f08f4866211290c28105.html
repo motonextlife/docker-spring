@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pub-attribs">公開変数類</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_ffcb32a721e450bd3c50e863bd177edf8.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>期間を指定した履歴情報の削除において、正常に該当期間の削除が完了するパターンのテストを実施する インナークラス。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fe8a61818a0fef49297b46d6373ab92a3.png" border="0" usemap="#acom_8springproject_8dockerspring_8_single_tests_8_repository_8_history_repo_8_facility___history___repo___test_8_facility___history___repo___delete___test_8_period___delete___success_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_single_tests_8_repository_8_history_repo_8_facility___history___repo___test_8_facility___history___repo___delete___test_8_period___delete___success_coll__map" id="acom_8springproject_8dockerspring_8_single_tests_8_repository_8_history_repo_8_facility___history___repo___test_8_facility___history___repo___delete___test_8_period___delete___success_coll__map">
+<area shape="rect" title="期間を指定した履歴情報の削除において、正常に該当期間の削除が完了するパターンのテストを実施する インナークラス。" alt="" coords="865,109,1192,178"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_facility___history___repo.html" title="主に[設備管理変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="501,5,707,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,5,435,60"/>
+<area shape="rect" title=" " alt="" coords="5,20,168,45"/>
+<area shape="rect" title=" " alt="" coords="484,84,724,139"/>
+<area shape="rect" title=" " alt="" coords="551,163,657,188"/>
+<area shape="rect" title=" " alt="" coords="539,212,669,237"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5c46e2d78301e59271a0c54f292f8a58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a5c46e2d78301e59271a0c54f292f8a58">Period_Delete_Success</a> ()  throws IOException</td></tr>
+<tr class="memdesc:a5c46e2d78301e59271a0c54f292f8a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a5c46e2d78301e59271a0c54f292f8a58">[詳解]</a><br /></td></tr>
+<tr class="separator:a5c46e2d78301e59271a0c54f292f8a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf933835833e5a6171810ba3abfb540f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#acf933835833e5a6171810ba3abfb540f">該当期間データの削除の成功ケース</a> ()  throws ParseException, InterruptedException</td></tr>
+<tr class="memdesc:acf933835833e5a6171810ba3abfb540f"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴データの期間削除時の動作の確認を行う。なお、これは成功ケースである。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#acf933835833e5a6171810ba3abfb540f">[詳解]</a><br /></td></tr>
+<tr class="separator:acf933835833e5a6171810ba3abfb540f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:adc9913a4e232551f3569b2be2fae5e3f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#adc9913a4e232551f3569b2be2fae5e3f">testcaseReset</a> ()  throws IOException</td></tr>
+<tr class="memdesc:adc9913a4e232551f3569b2be2fae5e3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト終了後に、テストケースとして利用したデータを、データベースから削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#adc9913a4e232551f3569b2be2fae5e3f">[詳解]</a><br /></td></tr>
+<tr class="separator:adc9913a4e232551f3569b2be2fae5e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:a2802d9f5f65947d94a2ab005892ffe25"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a2802d9f5f65947d94a2ab005892ffe25">END_DATETIME</a> = History_RepoForm_TestCase.END_DATETIME</td></tr>
+<tr class="memdesc:a2802d9f5f65947d94a2ab005892ffe25"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索終了日時  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a2802d9f5f65947d94a2ab005892ffe25">[詳解]</a><br /></td></tr>
+<tr class="separator:a2802d9f5f65947d94a2ab005892ffe25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61aaa2397675485dd2279c40bdc0340"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#ad61aaa2397675485dd2279c40bdc0340">START_DATETIME</a> = History_RepoForm_TestCase.START_DATETIME</td></tr>
+<tr class="memdesc:ad61aaa2397675485dd2279c40bdc0340"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索開始日時  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#ad61aaa2397675485dd2279c40bdc0340">[詳解]</a><br /></td></tr>
+<tr class="separator:ad61aaa2397675485dd2279c40bdc0340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a1cdf2818af93d304927d2639004f5938"><td class="memItemLeft" align="right" valign="top">final List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___history.html">Facility_History</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a1cdf2818af93d304927d2639004f5938">compare_entity</a></td></tr>
+<tr class="separator:a1cdf2818af93d304927d2639004f5938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a959be57baec0ace34f6b08543c109679"><td class="memItemLeft" align="right" valign="top">final SimpleDateFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a959be57baec0ace34f6b08543c109679">parse_datetime</a> = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;)</td></tr>
+<tr class="separator:a959be57baec0ace34f6b08543c109679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a737fbd65a6d79c50e094aee87902ca99"><td class="memItemLeft" align="right" valign="top">final SoftAssertions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#a737fbd65a6d79c50e094aee87902ca99">softly</a></td></tr>
+<tr class="separator:a737fbd65a6d79c50e094aee87902ca99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b78017fa7df194d306a23c511c5f50"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_facility___history___repo.html">Facility_History_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html#ab1b78017fa7df194d306a23c511c5f50">test_repo</a></td></tr>
+<tr class="separator:ab1b78017fa7df194d306a23c511c5f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >期間を指定した履歴情報の削除において、正常に該当期間の削除が完了するパターンのテストを実施する インナークラス。 </p>
+<dl class="section see"><dt>参照</dt><dd>Facility_Quad_Repository_TestUtils </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a5c46e2d78301e59271a0c54f292f8a58" name="a5c46e2d78301e59271a0c54f292f8a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c46e2d78301e59271a0c54f292f8a58">&#9670;&#160;</a></span>Period_Delete_Success()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.Period_Delete_Success </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。 </p>
+<ul>
+<li>削除処理の為、テスト対象テーブルにも削除対象のデータがあらかじめ必要になる。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>使用するフィールド変数をセットする。</li>
+<li>テスト対象テーブルに更新対象データをあらかじめセットアップする。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_a5c46e2d78301e59271a0c54f292f8a58_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_a5c46e2d78301e59271a0c54f292f8a58_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_a5c46e2d78301e59271a0c54f292f8a58_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_a5c46e2d78301e59271a0c54f292f8a58_cgraph">
+<area shape="rect" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。" alt="" coords="5,31,273,115"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a4a6c5ac261bbd67a9baaf4967a8b995f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="321,45,579,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#a9e095be1503305d4f02196b2183ff4cd" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="627,45,947,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1003,5,1285,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab2298cb81b88636782e7e35cef267447" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="995,84,1293,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="1397,5,1649,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a016502f53982cb8cffdea47778773c2b" title="データベースに正常に保存される、[履歴日時]をリストに格納したものである。" alt="" coords="1341,84,1704,139"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="acf933835833e5a6171810ba3abfb540f" name="acf933835833e5a6171810ba3abfb540f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf933835833e5a6171810ba3abfb540f">&#9670;&#160;</a></span>該当期間データの削除の成功ケース()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.該当期間データの削除の成功ケース </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws ParseException, InterruptedException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>履歴データの期間削除時の動作の確認を行う。なお、これは成功ケースである。 </p>
+<ul>
+<li>テストの内容としては、指定のデータを削除した後、再度そのデータを検索しデータが存在しないことを確認する。</li>
+<li>また、まだ削除していないデータに関しては、前と変わらない状態であることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>削除を行う前に、想定される削除後に残ったデータのリストを、比較用に作成する。</li>
+<li>指定期間のデータを削除した後、テーブルを全検索し、残ったデータをすべて取得する。</li>
+<li>残ったデータが、想定されるデータ数かつ、内容が比較用のリストと同一であり、想定された削除になっている 事を確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Quad_Repository_TestUtils </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_acf933835833e5a6171810ba3abfb540f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_acf933835833e5a6171810ba3abfb540f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_acf933835833e5a6171810ba3abfb540f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_acf933835833e5a6171810ba3abfb540f_cgraph">
+<area shape="rect" title="履歴データの期間削除時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="5,91,425,175"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_12434cc116298f8aea22020e40671f6d.html#a6f0aacf7d81f02f13f76f3675a7acdd6" title="比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。" alt="" coords="515,5,749,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_0e439c4be61e09dbcdf9557f62b3878b.html#a1bef04559ec02211ae47ee6591b822a6" title="リポジトリの検索メソッドの比較用エンティティリスト作成のためのストリームを作成する。" alt="" coords="473,99,791,168"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_facility___history___repo.html#ad347db076caf5bc7b756ec4acf47abef" title="削除期間を指定して、保存されている履歴情報を削除する。" alt="" coords="513,193,751,247"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adc9913a4e232551f3569b2be2fae5e3f" name="adc9913a4e232551f3569b2be2fae5e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9913a4e232551f3569b2be2fae5e3f">&#9670;&#160;</a></span>testcaseReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.testcaseReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト終了後に、テストケースとして利用したデータを、データベースから削除する。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_adc9913a4e232551f3569b2be2fae5e3f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_adc9913a4e232551f3569b2be2fae5e3f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_adc9913a4e232551f3569b2be2fae5e3f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105_adc9913a4e232551f3569b2be2fae5e3f_cgraph">
+<area shape="rect" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="5,5,273,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#abbf944fcfd5a7e55094cd9fe2cd542c4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="321,20,579,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ae82f91c663b527b88f4753f6e45d0b02" title="履歴用のリポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="627,20,947,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="995,20,1276,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="1324,20,1576,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a1cdf2818af93d304927d2639004f5938" name="a1cdf2818af93d304927d2639004f5938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cdf2818af93d304927d2639004f5938">&#9670;&#160;</a></span>compare_entity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final List&lt;<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___history.html">Facility_History</a>&gt; com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.compare_entity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2802d9f5f65947d94a2ab005892ffe25" name="a2802d9f5f65947d94a2ab005892ffe25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2802d9f5f65947d94a2ab005892ffe25">&#9670;&#160;</a></span>END_DATETIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.END_DATETIME = History_RepoForm_TestCase.END_DATETIME</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索終了日時 </p>
+
+</div>
+</div>
+<a id="a959be57baec0ace34f6b08543c109679" name="a959be57baec0ace34f6b08543c109679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a959be57baec0ace34f6b08543c109679">&#9670;&#160;</a></span>parse_datetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SimpleDateFormat com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.parse_datetime = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a737fbd65a6d79c50e094aee87902ca99" name="a737fbd65a6d79c50e094aee87902ca99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a737fbd65a6d79c50e094aee87902ca99">&#9670;&#160;</a></span>softly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SoftAssertions com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.softly</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad61aaa2397675485dd2279c40bdc0340" name="ad61aaa2397675485dd2279c40bdc0340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad61aaa2397675485dd2279c40bdc0340">&#9670;&#160;</a></span>START_DATETIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.START_DATETIME = History_RepoForm_TestCase.START_DATETIME</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索開始日時 </p>
+
+</div>
+</div>
+<a id="ab1b78017fa7df194d306a23c511c5f50" name="ab1b78017fa7df194d306a23c511c5f50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b78017fa7df194d306a23c511c5f50">&#9670;&#160;</a></span>test_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_facility___history___repo.html">Facility_History_Repo</a> com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Facility_History_Repo_Test.Facility_History_Repo_Delete_Test.Period_Delete_Success.test_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/SingleTests/Repository/HistoryRepo/Facility_History_Repo_Test/<a class="el" href="_facility___history___repo___delete___test_8java.html">Facility_History_Repo_Delete_Test.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests.html">SingleTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository.html">Repository</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo.html">HistoryRepo</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1663caaddda39430ae9966660c03a9744.html">Facility_History_Repo_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f79b0c15a65742d60ee7d45bb4fe3856a.html">Facility_History_Repo_Delete_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f81f6841c6fb1f08f4866211290c28105.html">Period_Delete_Success</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

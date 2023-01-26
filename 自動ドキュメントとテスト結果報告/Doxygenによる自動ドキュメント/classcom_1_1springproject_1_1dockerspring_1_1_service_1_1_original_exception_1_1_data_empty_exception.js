@@ -1,0 +1,4 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception =
+[
+    [ "serialVersionUID", "classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html#ad6de3cdc850a82204a928be90793dc14", null ]
+];

@@ -1,0 +1,13 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c =
+[
+    [ "arranger", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#abe142619470c01b0faa452c90e4294e2", null ],
+    [ "buy_date", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#a30868eae46c18618e59362f1e746218b", null ],
+    [ "composer", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#a3e7dbe91a302cb2ebc3b9ebc39c7b321", null ],
+    [ "disp_date", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#a32dae48da50c3294084282c2f27be0ef", null ],
+    [ "other_comment", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#ac2a15b665c85e896196217157e757d00", null ],
+    [ "publisher", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#adee7e2c45e4d30276973bbc79732d777", null ],
+    [ "score_id", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#ab4db85bcd5b554d7ca01d6e5a66b6435", null ],
+    [ "serial_num", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#a4f3bad510f5604e60868b10d850e879b", null ],
+    [ "song_title", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#a8eb006f8719af9faa0ffd3d876dbb896", null ],
+    [ "storage_loc", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html#a957c4ced353be723ab571fdfd0d9afbc", null ]
+];

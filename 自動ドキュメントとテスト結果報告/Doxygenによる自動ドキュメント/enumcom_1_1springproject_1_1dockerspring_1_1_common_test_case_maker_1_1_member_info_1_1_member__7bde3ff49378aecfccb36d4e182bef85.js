@@ -1,0 +1,23 @@
+var enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85 =
+[
+    [ "Addr", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#aeb596117094dbeec659d74c1242f0452", null ],
+    [ "Addr_Postcode", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a5823007486ee79e230c3cf31986ecdc0", null ],
+    [ "Assign_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#aae8c10585460f1303e5c10f710dd50ac", null ],
+    [ "Assign_Dept", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a0da54da2b899dc31e44818d719c0c8da", null ],
+    [ "Birthday", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a38b4955ee91b5ce55d8076d918f8f618", null ],
+    [ "Email", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a828e7dfeb669bfc83b184db212cac413", null ],
+    [ "Face_Photo", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#ad0bd50ead06085dc91416d4bc07ea96a", null ],
+    [ "Inst_Charge", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a62c279ab106e9a47585332809c9211ee", null ],
+    [ "Job", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a282c805eaefd28fd732b09e3dca08306", null ],
+    [ "Join_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a3845efef651d440d59cf29ba51d49281", null ],
+    [ "Member_Id", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#adebc5b8be442d3e6db4a57b3cba21775", null ],
+    [ "Name", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a12882ed283d740a077d8e7903f467202", null ],
+    [ "Name_Pronu", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a60b275850c3f73475f98b71e9c3947d4", null ],
+    [ "Other_Comment", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a89817f857814e22aa14f1d129349cf98", null ],
+    [ "Position", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a5a55d9127536ceb05ffd60a073f88785", null ],
+    [ "Position_Arri_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a4e3d9a33eee108be35f653fbf77c82fd", null ],
+    [ "Ret_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#aad309809b9986dc5c4e3abab50986ef5", null ],
+    [ "Serial_Num", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#af501aac5d1826577233cca8e72300bab", null ],
+    [ "Sex", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#a6874889000316bc60ceffbdd59af4dbf", null ],
+    [ "Tel", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html#acce6bfe18edfc9bea9499f7bdfb773cd", null ]
+];

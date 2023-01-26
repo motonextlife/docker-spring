@@ -1,0 +1,64 @@
+# /** 
+#  **************************************************************************************
+#  * @file common-csv-form.yml
+#  * 
+#  * @brief 主に[全機能での共通CSVファイル]機能のテストにおいて、CSVファイルの入力の際の
+#  * テストケースを格納したファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、バリデーションを通過する合格データと、バリデーションでエラーになるデータが
+#  * 存在する。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var csv_file
+#  * 
+#  * @brief [CSVファイル]のテストケース
+#  * 
+#  * @details 未入力は許さずファイル形式が[csv]のファイルかつ、以下のエラーに引っ掛からない
+#  * データであること。
+#  * 
+#  * @param[in] normal 特に何も問題ないケース。バリデーションに関係ない場所でのテストに使用。
+#  * @param[in] ok バリデーションに通過する合格ケース。
+#  * @param[in] ng_no_csv_txt TXT形式データが渡され不合格。 
+#  * @param[in] ng_no_csv_xlsx EXCEL形式ドキュメントが渡され不合格。 
+#  * @param[in] ng_overflow 受付可能なCSVサイズを超えて不合格。 
+#  * @param[in] ng_image 画像データだった場合不合格。 
+#  * @param[in] ng_audio 音声データだった場合不合格。 
+#  * @param[in] ng_pdf PDFデータだった場合不合格。 
+#  * @param[in] ng_zip ZIPデータだった場合不合格。 
+#  * @param[in] ng_html_escape HTMLエスケープの対象文字が含まれていた場合不合格。 
+#  * @param[in] ng_sql_escape SQLエスケープの対象文字が含まれていた場合不合格。 
+#  * @param[in] ng_filepath_escape ファイルパス構成文字が含まれていた場合不合格。 
+#  * @param[in] ng_forgery_ext 拡張子がデータと違う場合不合格。 
+#  * @param[in] ng_forgery_data データが拡張子と違う場合不合格。 
+#  ************************************************************************************
+#  */
+csv_file:
+  normal: normal.csv
+  ok: ok-38dFIeiqelhax0hYHM2EHyGlKrG23xbkI51iWiMEUGW.csv
+  ng_no_csv_txt: ng-no-csv-txt.txt
+  ng_no_csv_xlsx: ng-no-csv-xlsx.xlsx
+  ng_overflow: ng-overflow.csv
+  ng_filename_overflow: ng-filename-overflow-hax0hYHM2EHyGlKrG23xbkI51i.csv
+  ng_image: ng-image.png
+  ng_audio: ng-audio.wav
+  ng_pdf: ng-pdf.pdf
+  ng_zip: ng-zip.zip
+  ng_html_escape: ng-html-escape(&).csv
+  ng_sql_escape: ng-sql-escape(%).csv
+  ng_filepath_escape: ng-filepath-escape(.).csv
+  ng_forgery_ext: ng-forgery-ext.csv
+  ng_forgery_data: ng-forgery-data.pdf

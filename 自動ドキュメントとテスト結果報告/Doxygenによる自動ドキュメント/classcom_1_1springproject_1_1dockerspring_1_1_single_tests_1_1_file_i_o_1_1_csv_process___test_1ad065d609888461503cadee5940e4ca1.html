@@ -1,0 +1,781 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1801ab2879d6bd8907dd3d1d83a4df6c6.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[音源管理]のCSVデータのデータ抽出機能のテストを行うクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1afa0d5c27f37be09d18feb223770b088.png" border="0" usemap="#acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_csv_process___test_8_sound___source___csv_impl___test_8_sound___source___csv_impl___extract_csv___test_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_csv_process___test_8_sound___source___csv_impl___test_8_sound___source___csv_impl___extract_csv___test_inherit__map" id="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_csv_process___test_8_sound___source___csv_impl___test_8_sound___source___csv_impl___extract_csv___test_inherit__map">
+<area shape="rect" title="主に[音源管理]のCSVデータのデータ抽出機能のテストを行うクラス" alt="" coords="260,5,528,75"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html" title="CSVファイルの入力データ抽出機能のテストにおいて、共通で使用するメソッドを提供する インターフェース" alt="" coords="5,5,212,75"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_14f8c8bcc5a35ceca285b5d383f54c73f.png" border="0" usemap="#acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_csv_process___test_8_sound___source___csv_impl___test_8_sound___source___csv_impl___extract_csv___test_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_csv_process___test_8_sound___source___csv_impl___test_8_sound___source___csv_impl___extract_csv___test_coll__map" id="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_csv_process___test_8_sound___source___csv_impl___test_8_sound___source___csv_impl___extract_csv___test_coll__map">
+<area shape="rect" title="主に[音源管理]のCSVデータのデータ抽出機能のテストを行うクラス" alt="" coords="2932,926,3200,995"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html" title="CSVファイルの入力データ抽出機能のテストにおいて、共通で使用するメソッドを提供する インターフェース" alt="" coords="2555,646,2762,715"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html" title="主に[音源番号]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="2515,740,2803,795"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_form_10a97a8b983a89dde707519e34544f806.html" title="主に[音源番号]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="2046,328,2331,383"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_form_1_1_sound___source___form___yaml.html" title="主に[音源番号]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="1420,292,1705,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_fail_db867dd4263561102eb5e34a2ecdd982a.html" title="主に[音源管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="2029,485,2348,540"/>
+<area shape="rect" title=" " alt="" coords="17,547,164,572"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_repo_f5414402f16749e7b57aefd5bfd540dd0.html" title="主に[音源番号]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="351,125,632,180"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_csv_1_1_sound___source___csv___yaml.html" title="主に[音源管理]機能のテストにおいて、CSVファイルの入出力に関係するテストケースの マッピングを行うクラス。" alt="" coords="353,895,629,949"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databaa7db38afe2f31211e4eb8c77d268c2cc.html" title="主に[音源管理]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="336,816,647,871"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="355,737,628,792"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="341,593,641,648"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="352,485,631,540"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_repo_f481ecb4f512574a65d1ef095f6edb331.html" title="主に[音源番号]機能のテストにおいて、リポジトリの検索のテストを行う際の検索 ワードのテストケースを読み取るクラス。" alt="" coords="1115,177,1396,232"/>
+<area shape="rect" title=" " alt="" coords="15,5,167,31"/>
+<area shape="rect" title=" " alt="" coords="15,183,166,208"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_csv_1_7f60c4f24637febf6bee8e0d10084eb8.html" title="主に[音源管理]機能のテストにおいて、CSVファイルに関係するテストケースを読み込む クラス。" alt="" coords="1729,865,2005,920"/>
+<area shape="rect" title=" " alt="" coords="5,929,176,969"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html" title="主に[音源管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="2033,693,2344,748"/>
+<area shape="rect" title=" " alt="" coords="21,832,161,857"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1435,672,1690,727"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="807,751,1080,805"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="796,593,1091,648"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="799,672,1088,727"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="804,515,1083,569"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="1422,385,1703,440"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="817,357,1069,412"/>
+<area shape="rect" title=" " alt="" coords="448,372,535,397"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="817,436,1069,491"/>
+<area shape="rect" title=" " alt="" coords="443,436,539,461"/>
+<area shape="rect" title=" " alt="" coords="1514,583,1611,608"/>
+<area shape="rect" title=" " alt="" coords="1527,511,1599,536"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_csv_process_1_1_common___csv.html" title="すべてのCSV出力機能で使用する共通処理を定義するクラス。" alt="" coords="2552,941,2765,981"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="2075,973,2302,1013"/>
+<area shape="rect" title=" " alt="" coords="2164,1037,2213,1063"/>
+<area shape="rect" title=" " alt="" coords="2100,909,2277,949"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_sound___source___csv.html" title="主に[音源管理]機能で使用する、保存されているデータをCSV形式の一覧で出力する 機能を提供するインターフェース" alt="" coords="2555,1005,2762,1060"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html" title=" " alt="" coords="2085,1087,2292,1141"/>
+<area shape="rect" title=" " alt="" coords="2605,1084,2712,1109"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ae781cdaf66e797ce60acbada7b66c36b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#ae781cdaf66e797ce60acbada7b66c36b">Sound_Source_CsvImpl_ExtractCsv_Test</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html">Sound_Source_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#adbb7a1b5da784ec46facd91dbc3dc9bb">testcase</a>)</td></tr>
+<tr class="memdesc:ae781cdaf66e797ce60acbada7b66c36b"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#ae781cdaf66e797ce60acbada7b66c36b">[詳解]</a><br /></td></tr>
+<tr class="separator:ae781cdaf66e797ce60acbada7b66c36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1479b4bff439adc9f62631da4cd064e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a1479b4bff439adc9f62631da4cd064e8">共通クラス側のCSV入力データ抽出機能確認の抽出成功パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a1479b4bff439adc9f62631da4cd064e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">共通クラス側のCSVファイルデータ抽出用の共通メソッドの検査を行う。このテストは、抽出が 成功するパターンである。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a1479b4bff439adc9f62631da4cd064e8">[詳解]</a><br /></td></tr>
+<tr class="separator:a1479b4bff439adc9f62631da4cd064e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f5d88b51819c643f0e959869fce4d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a05f5d88b51819c643f0e959869fce4d3">集約クラス側のCSV入力データ抽出機能確認の抽出成功パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a05f5d88b51819c643f0e959869fce4d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a05f5d88b51819c643f0e959869fce4d3">[詳解]</a><br /></td></tr>
+<tr class="separator:a05f5d88b51819c643f0e959869fce4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6f0da50241e5bd3763a76584f29518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#aaa6f0da50241e5bd3763a76584f29518">共通クラス側のCSV入力データ抽出機能確認の抽出失敗パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:aaa6f0da50241e5bd3763a76584f29518"><td class="mdescLeft">&#160;</td><td class="mdescRight">共通クラス側のCSVファイルデータ抽出用の共通メソッドの検査を行う。このテストは、抽出が 失敗するパターンである。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#aaa6f0da50241e5bd3763a76584f29518">[詳解]</a><br /></td></tr>
+<tr class="separator:aaa6f0da50241e5bd3763a76584f29518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559f66b6bddc1b42605e4fae9b67f4d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a559f66b6bddc1b42605e4fae9b67f4d5">集約クラス側のCSV入力データ抽出機能確認の抽出失敗パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a559f66b6bddc1b42605e4fae9b67f4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a559f66b6bddc1b42605e4fae9b67f4d5">[詳解]</a><br /></td></tr>
+<tr class="separator:a559f66b6bddc1b42605e4fae9b67f4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a798b62a4d47e6fcf43488c5907adb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a2a798b62a4d47e6fcf43488c5907adb2">共通クラス側のCSV入力データ抽出機能確認の抽出成功パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a2a798b62a4d47e6fcf43488c5907adb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSVファイル入力データ抽出処理において共通の部分を提供する共通クラスのメソッドの検査を 行う。このテストは、抽出が成功するパターンのテストである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a2a798b62a4d47e6fcf43488c5907adb2">[詳解]</a><br /></td></tr>
+<tr class="separator:a2a798b62a4d47e6fcf43488c5907adb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f601d7049eca7ce5b042ff069f9557b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a4f601d7049eca7ce5b042ff069f9557b">集約クラス側のCSV入力データ抽出機能確認の抽出成功パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a4f601d7049eca7ce5b042ff069f9557b"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSVファイルテンプレート出力処理において共通クラスをDIした集約クラス側のメソッドの検査を 行う。このテストは、抽出が成功するパターンのテストである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a4f601d7049eca7ce5b042ff069f9557b">[詳解]</a><br /></td></tr>
+<tr class="separator:a4f601d7049eca7ce5b042ff069f9557b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040d81acb7ffcb91ce8839a48cee5a3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a040d81acb7ffcb91ce8839a48cee5a3c">共通クラス側のCSV入力データ抽出機能確認の抽出失敗パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a040d81acb7ffcb91ce8839a48cee5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSVファイル入力データ抽出処理において共通の部分を提供する共通クラスのメソッドの検査を 行う。このテストは、抽出が失敗するパターンのテストである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a040d81acb7ffcb91ce8839a48cee5a3c">[詳解]</a><br /></td></tr>
+<tr class="separator:a040d81acb7ffcb91ce8839a48cee5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a38eb6a9069a233a623df64f1669c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#ae8a38eb6a9069a233a623df64f1669c2">集約クラス側のCSV入力データ抽出機能確認の抽出失敗パターン</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ae8a38eb6a9069a233a623df64f1669c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSVファイルテンプレート出力処理において共通クラスをDIした集約クラス側のメソッドの検査を 行う。このテストは、抽出が失敗するパターンのテストである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#ae8a38eb6a9069a233a623df64f1669c2">[詳解]</a><br /></td></tr>
+<tr class="separator:ae8a38eb6a9069a233a623df64f1669c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:ad296a9fe0914db9ccf775846c014e052"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#ad296a9fe0914db9ccf775846c014e052">一時ファイルディレクトリの初期化確認</a> ()  throws InterruptedException</td></tr>
+<tr class="memdesc:ad296a9fe0914db9ccf775846c014e052"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#ad296a9fe0914db9ccf775846c014e052">[詳解]</a><br /></td></tr>
+<tr class="separator:ad296a9fe0914db9ccf775846c014e052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:aaadcffe8a1e27e1c5f8634ab18d615e0"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_csv_process_1_1_common___csv.html">Common_Csv</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#aaadcffe8a1e27e1c5f8634ab18d615e0">common_csv</a></td></tr>
+<tr class="separator:aaadcffe8a1e27e1c5f8634ab18d615e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedafbe6b96075b9e19732f95252e3f03"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#aedafbe6b96075b9e19732f95252e3f03">enname_order</a></td></tr>
+<tr class="memdesc:aedafbe6b96075b9e19732f95252e3f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">データ項目の英語名定義  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#aedafbe6b96075b9e19732f95252e3f03">[詳解]</a><br /></td></tr>
+<tr class="separator:aedafbe6b96075b9e19732f95252e3f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d6c3b128eefa32f98e55e1cac6a102"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#ac1d6c3b128eefa32f98e55e1cac6a102">extension</a> = &quot;csv&quot;</td></tr>
+<tr class="separator:ac1d6c3b128eefa32f98e55e1cac6a102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a794513e74f3955497a7777438e68a3f6"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a794513e74f3955497a7777438e68a3f6">janame_order</a></td></tr>
+<tr class="memdesc:a794513e74f3955497a7777438e68a3f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">データ項目の日本語名定義  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a794513e74f3955497a7777438e68a3f6">[詳解]</a><br /></td></tr>
+<tr class="separator:a794513e74f3955497a7777438e68a3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7445139be4cb2856d215253ad1903a10"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a7445139be4cb2856d215253ad1903a10">prefix</a> = &quot;SoundSourceCsvImplExtractCsvTest&quot;</td></tr>
+<tr class="separator:a7445139be4cb2856d215253ad1903a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a145e108de2033f42b4982877e47db7c7"><td class="memItemLeft" align="right" valign="top">final SoftAssertions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a145e108de2033f42b4982877e47db7c7">softly</a> = new SoftAssertions()</td></tr>
+<tr class="separator:a145e108de2033f42b4982877e47db7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3fbbcd721de12bce726b047585c4d36"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_sound___source___csv.html">Sound_Source_Csv</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#ac3fbbcd721de12bce726b047585c4d36">sound_csv</a></td></tr>
+<tr class="separator:ac3fbbcd721de12bce726b047585c4d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4271df2590d858d56f9c661cd74f88f"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#af4271df2590d858d56f9c661cd74f88f">target_dir</a> = &quot;compcsv&quot;</td></tr>
+<tr class="separator:af4271df2590d858d56f9c661cd74f88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc317c42119a49a8d55ca46c07310113"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#acc317c42119a49a8d55ca46c07310113">target_func</a> = &quot;SoundSource&quot;</td></tr>
+<tr class="separator:acc317c42119a49a8d55ca46c07310113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb7a1b5da784ec46facd91dbc3dc9bb"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html">Sound_Source_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#adbb7a1b5da784ec46facd91dbc3dc9bb">testcase</a></td></tr>
+<tr class="separator:adbb7a1b5da784ec46facd91dbc3dc9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[音源管理]のCSVデータのデータ抽出機能のテストを行うクラス </p>
+<ul>
+<li>このテストで対象となるクラスは、[Sound_Source_CsvImpl]と[Common_Csv]である。</li>
+<li>主に、共通クラス側のCSVデータ抽出機能と、集約クラス側のCSVデータ抽出機能のテストを行う。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Sound_Double_Component_TestUtils </dd>
+<dd>
+CsvProcess_ExtractCsv_Test </dd>
+<dd>
+Sound_Source_CsvImpl </dd>
+<dd>
+Sound_Source_Csv </dd>
+<dd>
+Common_Csv</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>ここと同名のパッケージが、パッケージ[<a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests.html" title="テストを行うクラスのうち、[結合テスト]を格納したパッケージ">JoinTests</a>]に存在するが、 こちらは依存するクラスをモック化してテストする、単体テストである。 </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="ae781cdaf66e797ce60acbada7b66c36b" name="ae781cdaf66e797ce60acbada7b66c36b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae781cdaf66e797ce60acbada7b66c36b">&#9670;&#160;</a></span>Sound_Source_CsvImpl_ExtractCsv_Test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.Sound_Source_CsvImpl_ExtractCsv_Test </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html">Sound_Source_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>testcase</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。 </p>
+<ul>
+<li>環境変数に関しては、不定値の為、モックとしてインジェクションを行う。</li>
+<li>モックの環境変数において、[検索結果限界数]は[100]として設定したうえでテストを行う。</li>
+<li>モックの環境変数において、[オフセット値]は[30]として設定したうえでテストを行う。 なおここでのオフセット値は、バッファのカウント数として用いる。</li>
+<li>テスト対象クラスに関してはDIでインジェクションせず、手動でインスタンス化する際にモックの環境変数を 渡すことで、モックの環境変数が有効なテスト対象クラスを作成する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase</td><td>テストケースクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Csv </dd>
+<dd>
+Sound_Source_Csv </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a1479b4bff439adc9f62631da4cd064e8" name="a1479b4bff439adc9f62631da4cd064e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1479b4bff439adc9f62631da4cd064e8">&#9670;&#160;</a></span>共通クラス側のCSV入力データ抽出機能確認の抽出成功パターン()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.共通クラス側のCSV入力データ抽出機能確認の抽出成功パターン </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>共通クラス側のCSVファイルデータ抽出用の共通メソッドの検査を行う。このテストは、抽出が 成功するパターンである。 </p>
+<ul>
+<li>検査方法としては、比較用のCSVファイルと、テスト対象クラスから生成された抽出済みの一時ファイルを ハッシュ化して比較し、データが同一であることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースとして投入するCSVファイルをテストケースクラスから取得する。</li>
+<li>検査対象クラスに投入する列挙型マップリストを作成。</li>
+<li>テストケースのファイルを利用してモックのマルチパートファイルを作成し、検査対象のクラスに投入後、 戻り値のファイルを取得する。</li>
+<li>戻り値の一時ファイルと、比較用のファイルをハッシュ化して同一性を検査するアサーションを実行。</li>
+<li>エラーの有無にかかわらず、テストが終了したら一時ファイルを全削除する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Sound_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a2a798b62a4d47e6fcf43488c5907adb2">com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.TestInterface.CsvProcess_ExtractCsv_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a1479b4bff439adc9f62631da4cd064e8_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a1479b4bff439adc9f62631da4cd064e8_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a1479b4bff439adc9f62631da4cd064e8_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a1479b4bff439adc9f62631da4cd064e8_cgraph">
+<area shape="rect" title="共通クラス側のCSVファイルデータ抽出用の共通メソッドの検査を行う。このテストは、抽出が 成功するパターンである。" alt="" coords="5,170,475,254"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#a241badd0d22dbc40229565b297f3c353" title="指定された二つのファイルのストリームでハッシュ計算を行い、その値を利用して二つのファイルの一致 確認を行う。" alt="" coords="555,5,796,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#a9c5650752ca19d34e6733a593b02b76b" title="テスト後に生成した一時ファイルを削除する。" alt="" coords="555,99,796,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_csv_process_1_1_common___csv.html#a25f11f69a5d21eb2cedb76cd16fe8615" title="読み込んだCSVファイルからデータを抽出し、正当性が確保されれば一時ファイルとして 出力する。" alt="" coords="523,192,828,232"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#afe4916666007fe8caf83ae14aa847b6e" title="テスト時にテスト対象クラスに投入するファイルのコピーを作成する。" alt="" coords="555,256,796,325"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aa20437915b64a1df66105fd0d68dc525" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="531,350,819,405"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_csv_1_7f60c4f24637febf6bee8e0d10084eb8.html#a099592e9999bd6aa374a862bc6ffd50b" title="バリデーションで合格するテストケースを読み込んで返却する。" alt="" coords="876,350,1160,405"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a05f5d88b51819c643f0e959869fce4d3" name="a05f5d88b51819c643f0e959869fce4d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05f5d88b51819c643f0e959869fce4d3">&#9670;&#160;</a></span>集約クラス側のCSV入力データ抽出機能確認の抽出成功パターン()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.集約クラス側のCSV入力データ抽出機能確認の抽出成功パターン </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。 </p>
+<ul>
+<li>検査方法としては、比較用のCSVファイルと、テスト対象クラスから生成された抽出済みの一時ファイルを ハッシュ化して比較し、データが同一であることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースとして投入するCSVファイルをテストケースクラスから取得する。</li>
+<li>テストケースのファイルを利用してモックのマルチパートファイルを作成し、検査対象のクラスに投入後、 戻り値のファイルを取得する。</li>
+<li>戻り値の一時ファイルと、比較用のファイルをハッシュ化して同一性を検査するアサーションを実行。</li>
+<li>エラーの有無にかかわらず、テストが終了したら一時ファイルを全削除する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Sound_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a4f601d7049eca7ce5b042ff069f9557b">com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.TestInterface.CsvProcess_ExtractCsv_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a05f5d88b51819c643f0e959869fce4d3_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a05f5d88b51819c643f0e959869fce4d3_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a05f5d88b51819c643f0e959869fce4d3_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a05f5d88b51819c643f0e959869fce4d3_cgraph">
+<area shape="rect" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。" alt="" coords="5,170,475,254"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#a241badd0d22dbc40229565b297f3c353" title="指定された二つのファイルのストリームでハッシュ計算を行い、その値を利用して二つのファイルの一致 確認を行う。" alt="" coords="546,5,787,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#a9c5650752ca19d34e6733a593b02b76b" title="テスト後に生成した一時ファイルを削除する。" alt="" coords="546,99,787,168"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a693bb9626182b2899bb0db0ef104695e" title="入力されたCSVファイルから、データを抽出する。" alt="" coords="535,192,799,232"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#afe4916666007fe8caf83ae14aa847b6e" title="テスト時にテスト対象クラスに投入するファイルのコピーを作成する。" alt="" coords="546,256,787,325"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aa20437915b64a1df66105fd0d68dc525" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="523,350,811,405"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_csv_1_7f60c4f24637febf6bee8e0d10084eb8.html#a099592e9999bd6aa374a862bc6ffd50b" title="バリデーションで合格するテストケースを読み込んで返却する。" alt="" coords="859,350,1143,405"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aaa6f0da50241e5bd3763a76584f29518" name="aaa6f0da50241e5bd3763a76584f29518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa6f0da50241e5bd3763a76584f29518">&#9670;&#160;</a></span>共通クラス側のCSV入力データ抽出機能確認の抽出失敗パターン()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.共通クラス側のCSV入力データ抽出機能確認の抽出失敗パターン </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>共通クラス側のCSVファイルデータ抽出用の共通メソッドの検査を行う。このテストは、抽出が 失敗するパターンである。 </p>
+<ul>
+<li>検査方法としては、抽出時にエラーとなるファイルをテスト対象クラスに渡した際に、エラーとなって 処理が止まることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースとして投入するCSVファイルをテストケースクラスから取得する。</li>
+<li>検査対象クラスに投入する列挙型マップリストを作成。</li>
+<li>テストケースのファイルを利用してモックのマルチパートファイルを作成し、検査対象のクラスに投入。</li>
+<li>ファイル不適合を示す例外だ発生し、処理が進まないことを確認する。</li>
+<li>ファイルをあえて指定せずNullの状態にして投入し、例外によって処理が進まない事を確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Sound_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#a040d81acb7ffcb91ce8839a48cee5a3c">com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.TestInterface.CsvProcess_ExtractCsv_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_aaa6f0da50241e5bd3763a76584f29518_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_aaa6f0da50241e5bd3763a76584f29518_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_aaa6f0da50241e5bd3763a76584f29518_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_aaa6f0da50241e5bd3763a76584f29518_cgraph">
+<area shape="rect" title="共通クラス側のCSVファイルデータ抽出用の共通メソッドの検査を行う。このテストは、抽出が 失敗するパターンである。" alt="" coords="5,62,475,146"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_csv_process_1_1_common___csv.html#a25f11f69a5d21eb2cedb76cd16fe8615" title="読み込んだCSVファイルからデータを抽出し、正当性が確保されれば一時ファイルとして 出力する。" alt="" coords="523,5,828,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#afe4916666007fe8caf83ae14aa847b6e" title="テスト時にテスト対象クラスに投入するファイルのコピーを作成する。" alt="" coords="555,69,796,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a1823f38d22921f8a354d5362768b54fb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="531,163,819,218"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_csv_1_7f60c4f24637febf6bee8e0d10084eb8.html#a174020bdebb537e077d2d77361973534" title="項目[設備CSVファイル]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="876,163,1179,218"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a559f66b6bddc1b42605e4fae9b67f4d5" name="a559f66b6bddc1b42605e4fae9b67f4d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559f66b6bddc1b42605e4fae9b67f4d5">&#9670;&#160;</a></span>集約クラス側のCSV入力データ抽出機能確認の抽出失敗パターン()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.集約クラス側のCSV入力データ抽出機能確認の抽出失敗パターン </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。 </p>
+<ul>
+<li>検査方法としては、抽出時にエラーとなるファイルをテスト対象クラスに渡した際に、エラーとなって 処理が止まることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースとして投入するCSVファイルをテストケースクラスから取得する。</li>
+<li>テストケースのファイルを利用してモックのマルチパートファイルを作成し、検査対象のクラスに投入。</li>
+<li>ファイル不適合を示す例外だ発生し、処理が進まないことを確認する。</li>
+<li>ファイルをあえて指定せずNullの状態にして投入し、例外によって処理が進まない事を確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Sound_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___te5af3b43928e2a2a1e7fd0a0a211080fd.html#ae8a38eb6a9069a233a623df64f1669c2">com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.TestInterface.CsvProcess_ExtractCsv_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a559f66b6bddc1b42605e4fae9b67f4d5_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a559f66b6bddc1b42605e4fae9b67f4d5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a559f66b6bddc1b42605e4fae9b67f4d5_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_a559f66b6bddc1b42605e4fae9b67f4d5_cgraph">
+<area shape="rect" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。" alt="" coords="5,62,475,146"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a693bb9626182b2899bb0db0ef104695e" title="入力されたCSVファイルから、データを抽出する。" alt="" coords="535,5,799,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#afe4916666007fe8caf83ae14aa847b6e" title="テスト時にテスト対象クラスに投入するファイルのコピーを作成する。" alt="" coords="546,69,787,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a1823f38d22921f8a354d5362768b54fb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="523,163,811,218"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_csv_1_7f60c4f24637febf6bee8e0d10084eb8.html#a174020bdebb537e077d2d77361973534" title="項目[設備CSVファイル]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="859,163,1161,218"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad296a9fe0914db9ccf775846c014e052" name="ad296a9fe0914db9ccf775846c014e052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad296a9fe0914db9ccf775846c014e052">&#9670;&#160;</a></span>一時ファイルディレクトリの初期化確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.一時ファイルディレクトリの初期化確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_ad296a9fe0914db9ccf775846c014e052_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_ad296a9fe0914db9ccf775846c014e052_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_ad296a9fe0914db9ccf775846c014e052_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1_ad296a9fe0914db9ccf775846c014e052_cgraph">
+<area shape="rect" title="テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。" alt="" coords="5,5,612,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_utid008bc2d602dd0cf5d60263311ac8b6d.html#a16f157117381e558c50f08b06e30490a" title="テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。" alt="" coords="660,5,901,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="aaadcffe8a1e27e1c5f8634ab18d615e0" name="aaadcffe8a1e27e1c5f8634ab18d615e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadcffe8a1e27e1c5f8634ab18d615e0">&#9670;&#160;</a></span>common_csv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_csv_process_1_1_common___csv.html">Common_Csv</a> com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.common_csv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aedafbe6b96075b9e19732f95252e3f03" name="aedafbe6b96075b9e19732f95252e3f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedafbe6b96075b9e19732f95252e3f03">&#9670;&#160;</a></span>enname_order</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.enname_order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;sound_id&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;upload_date&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;song_title&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;composer&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;performer&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;publisher&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;other_comment&quot;</span></div>
+<div class="line">  }</div>
+</div><!-- fragment -->
+<p>データ項目の英語名定義 </p>
+
+</div>
+</div>
+<a id="ac1d6c3b128eefa32f98e55e1cac6a102" name="ac1d6c3b128eefa32f98e55e1cac6a102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d6c3b128eefa32f98e55e1cac6a102">&#9670;&#160;</a></span>extension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.extension = &quot;csv&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a794513e74f3955497a7777438e68a3f6" name="a794513e74f3955497a7777438e68a3f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a794513e74f3955497a7777438e68a3f6">&#9670;&#160;</a></span>janame_order</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String [] com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.janame_order</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    <span class="stringliteral">&quot;音源番号&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;登録日&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;曲名&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;作曲者&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;演奏者&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;出版社&quot;</span>,</div>
+<div class="line">    <span class="stringliteral">&quot;その他コメント&quot;</span></div>
+<div class="line">  }</div>
+</div><!-- fragment -->
+<p>データ項目の日本語名定義 </p>
+
+</div>
+</div>
+<a id="a7445139be4cb2856d215253ad1903a10" name="a7445139be4cb2856d215253ad1903a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7445139be4cb2856d215253ad1903a10">&#9670;&#160;</a></span>prefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.prefix = &quot;SoundSourceCsvImplExtractCsvTest&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a145e108de2033f42b4982877e47db7c7" name="a145e108de2033f42b4982877e47db7c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a145e108de2033f42b4982877e47db7c7">&#9670;&#160;</a></span>softly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SoftAssertions com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.softly = new SoftAssertions()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3fbbcd721de12bce726b047585c4d36" name="ac3fbbcd721de12bce726b047585c4d36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3fbbcd721de12bce726b047585c4d36">&#9670;&#160;</a></span>sound_csv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_sound___source___csv.html">Sound_Source_Csv</a> com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.sound_csv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4271df2590d858d56f9c661cd74f88f" name="af4271df2590d858d56f9c661cd74f88f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4271df2590d858d56f9c661cd74f88f">&#9670;&#160;</a></span>target_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.target_dir = &quot;compcsv&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc317c42119a49a8d55ca46c07310113" name="acc317c42119a49a8d55ca46c07310113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc317c42119a49a8d55ca46c07310113">&#9670;&#160;</a></span>target_func</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.target_func = &quot;SoundSource&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbb7a1b5da784ec46facd91dbc3dc9bb" name="adbb7a1b5da784ec46facd91dbc3dc9bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb7a1b5da784ec46facd91dbc3dc9bb">&#9670;&#160;</a></span>testcase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html">Sound_Source_TestCase_Make</a> com.springproject.dockerspring.SingleTests.FileIO.CsvProcess_Test.Sound_Source_CsvImpl_Test.Sound_Source_CsvImpl_ExtractCsv_Test.testcase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/SingleTests/FileIO/CsvProcess_Test/Sound_Source_CsvImpl_Test/<a class="el" href="_sound___source___csv_impl___extract_csv___test_8java.html">Sound_Source_CsvImpl_ExtractCsv_Test.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests.html">SingleTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test.html">CsvProcess_Test</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___ted0ef09f58330151cf42dc6778fcf4054.html">Sound_Source_CsvImpl_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html">Sound_Source_CsvImpl_ExtractCsv_Test</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

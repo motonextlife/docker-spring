@@ -1,0 +1,163 @@
+# /** 
+#  **************************************************************************************
+#  * @file common-hist-form.yml
+#  * 
+#  * @brief 主に[共通の履歴情報]機能のテストにおいて、フォームバリデーションのテストで使用する
+#  * テストケースを定義するファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、バリデーションを通過する合格データと、バリデーションでエラーになるデータが
+#  * 存在する。
+#  * - 前項のデータを、全てのフォームの項目で用意している。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var history_id
+#  * 
+#  * @brief [履歴番号]のテストケース
+#  * 
+#  * @details 数字を符号なしで[9桁]まで受け付ける。浮動小数点は受け付けない。
+#  * 
+#  * @param[in] normal 特に何も問題ないケース。バリデーションに関係ない場所でのテストに使用。
+#  * @param[in] ok バリデーションに通過する合格ケース。
+#  * @param[in] ng_overflow 桁数が規定値を超えており不合格。
+#  * @param[in] ng_double 小数が渡され不合格。
+#  * @param[in] ng_no_digit 数値以外が渡され不合格。
+#  * @param[in] ng_negative 符号付きの数字のため、不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+history_id:
+  normal: 20
+  ok: 20
+  ng_overflow: 2147483640
+  ng_double: 123.4
+  ng_no_digit: abcd 
+  ng_negative: -65432
+  ng_null: null
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var change_datetime
+#  * 
+#  * @brief [履歴日時]のテストケース
+#  * 
+#  * @details 未入力は許さない。入力値は自動的に[yyyy-MM-dd hh:mm:ss]のフォーマットに変換される。
+#  * 
+#  * @param[in] normal 特に何も問題ないケース。バリデーションに関係ない場所でのテストに使用。
+#  * @param[in] ok バリデーションに通過する合格ケース。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+change_datetime:
+  normal: 1996-02-19 12:30:00
+  ok: 2000-01-01 16:00:00
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var change_kinds
+#  * 
+#  * @brief [履歴種別]のテストケース
+#  * 
+#  * @details 空白や空文字は許さず[指定文字列]のみ受け付ける。
+#  * 
+#  * @param[in] normal 特に何も問題ないケース。バリデーションに関係ない場所でのテストに使用。
+#  * @param[in] ok_insert [新規追加]においてバリデーションに通過する合格ケース。
+#  * @param[in] ok_update [更新]においてバリデーションに通過する合格ケース。
+#  * @param[in] ok_delete [削除]においてバリデーションに通過する合格ケース。
+#  * @param[in] ok_rollback [ロールバック]においてバリデーションに通過する合格ケース。
+#  * @param[in] ng_empty 空文字が渡され不合格。
+#  * @param[in] ng_blank 空白文字が渡され不合格。
+#  * @param[in] ng_blank_zenkaku 全角の空白文字が渡され不合格。
+#  * @param[in] ng_blank_tab タブの空白文字が渡され不合格。
+#  * @param[in] ng_blank_newline 改行の空白文字が渡され不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+change_kinds:
+  normal: insert
+  ok_insert: insert
+  ok_update: update
+  ok_delete: delete
+  ok_rollback: rollback
+  ng_empty: ""
+  ng_blank: " "
+  ng_blank_zenkaku: "　"
+  ng_blank_tab: "\t"
+  ng_blank_newline: "\n"
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var operation_user
+#  * 
+#  * @brief [操作ユーザー名]のテストケース
+#  * 
+#  * @details 空白や空文字は許さず[半角英数字]のみ受け付ける。文字数は[8～20文字]まで受付可能。
+#  * 
+#  * @param[in] normal 特に何も問題ないケース。バリデーションに関係ない場所でのテストに使用。
+#  * @param[in] ok_min [最小の文字列数を満たした]バリデーションに通過する合格ケース。
+#  * @param[in] ok_max [最大の文字列数を満たした]バリデーションに通過する合格ケース。
+#  * @param[in] ng_less_than 文字数が最小規定値を下回っており、不合格。
+#  * @param[in] ng_overflow 文字数が最大規定値を超えており、不合格。
+#  * @param[in] ng_symbol 記号が紛れていて不合格。
+#  * @param[in] ng_zenkaku 全角文字が紛れていて不合格。
+#  * @param[in] ng_hankaku_kana 半角カナが紛れていて不合格。
+#  * @param[in] ng_empty 空文字が渡され不合格。
+#  * @param[in] ng_blank 空白文字が渡され不合格。
+#  * @param[in] ng_blank_zenkaku 全角の空白文字が渡され不合格。
+#  * @param[in] ng_blank_tab タブの空白文字が渡され不合格。
+#  * @param[in] ng_blank_newline 改行の空白文字が渡され不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+operation_user:
+  normal: systemuser8219
+  ok_min: BFJkxYF9
+  ok_max: 5998kSCb9YAmdauDGKVa
+  ng_less_than: sa3xHPy
+  ng_overflow: Ni5jjU3cW3SrsfwmpcbFZ
+  ng_symbol: QTRSV:2t92uGVG6
+  ng_zenkaku: YLjBzWEこJNFi3QE
+  ng_hankaku_kana: TSkﾁ38ws2gGZWPV
+  ng_empty: ""
+  ng_blank: " "
+  ng_blank_zenkaku: "　"
+  ng_blank_tab: "\t"
+  ng_blank_newline: "\n"
+  ng_null: null

@@ -1,0 +1,4 @@
+var _usage___authority___repo_form___test_case_8java =
+[
+    [ "com.springproject.dockerspring.CommonTestCaseMaker.UsageAuthority.RepoForm.Usage_Authority_RepoForm_TestCase", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252" ]
+];

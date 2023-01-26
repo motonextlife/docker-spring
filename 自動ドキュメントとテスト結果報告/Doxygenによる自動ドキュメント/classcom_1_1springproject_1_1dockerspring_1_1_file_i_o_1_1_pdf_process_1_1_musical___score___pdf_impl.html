@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[楽譜管理]機能で使用する、PDFファイルの入出力に関する機能を実装するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_file_i_o_8_pdf_process_8_musical___score___pdf_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_file_i_o_8_pdf_process_8_musical___score___pdf_impl_inherit__map" id="acom_8springproject_8dockerspring_8_file_i_o_8_pdf_process_8_musical___score___pdf_impl_inherit__map">
+<area shape="rect" title="主に[楽譜管理]機能で使用する、PDFファイルの入出力に関する機能を実装するクラス" alt="" coords="5,211,212,265"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_musical___score___pdf.html" title="主に[楽譜管理]機能で使用する、指定された情報をPDFシートとして出力する機能を 提供するインターフェース" alt="" coords="5,108,212,163"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf.html" title=" " alt="" coords="5,5,212,60"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_file_i_o_8_pdf_process_8_musical___score___pdf_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_file_i_o_8_pdf_process_8_musical___score___pdf_impl_coll__map" id="acom_8springproject_8dockerspring_8_file_i_o_8_pdf_process_8_musical___score___pdf_impl_coll__map">
+<area shape="rect" title="主に[楽譜管理]機能で使用する、PDFファイルの入出力に関する機能を実装するクラス" alt="" coords="663,41,869,96"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_musical___score___pdf.html" title="主に[楽譜管理]機能で使用する、指定された情報をPDFシートとして出力する機能を 提供するインターフェース" alt="" coords="328,5,535,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf.html" title=" " alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html" title="すべてのPDF出力機能で使用する共通処理を定義するクラス。" alt="" coords="327,85,536,125"/>
+<area shape="rect" title=" " alt="" coords="84,88,133,113"/>
+<area shape="rect" title=" " alt="" coords="20,138,197,178"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a6f053e788759eeb5ed0b9accae9ddd67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a6f053e788759eeb5ed0b9accae9ddd67">Musical_Score_PdfImpl</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html">Common_Pdf</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#ad251f7638906005d66899fd35eb2c160">common_pdf</a>)</td></tr>
+<tr class="memdesc:a6f053e788759eeb5ed0b9accae9ddd67"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用する共通クラスをコンストラクタインジェクションする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a6f053e788759eeb5ed0b9accae9ddd67">[詳解]</a><br /></td></tr>
+<tr class="separator:a6f053e788759eeb5ed0b9accae9ddd67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26effec118f82eb13dd6008fb4e2199c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a26effec118f82eb13dd6008fb4e2199c">designPdf</a> (BufferedOutputStream out)  throws IOException</td></tr>
+<tr class="memdesc:a26effec118f82eb13dd6008fb4e2199c"><td class="mdescLeft">&#160;</td><td class="mdescRight">受け取った出力ストリームに、PDFデザインの情報を書き込んでいく。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a26effec118f82eb13dd6008fb4e2199c">[詳解]</a><br /></td></tr>
+<tr class="separator:a26effec118f82eb13dd6008fb4e2199c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1bc7585172154e06d373560a7a78a2"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a5e1bc7585172154e06d373560a7a78a2">makePdf</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)  throws IOException</td></tr>
+<tr class="memdesc:a5e1bc7585172154e06d373560a7a78a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">出力対象データが入ったエンティティを読み込み、PDFを生成して、一時ファイルに書き込んだのち そのファイルを戻り値とする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a5e1bc7585172154e06d373560a7a78a2">[詳解]</a><br /></td></tr>
+<tr class="separator:a5e1bc7585172154e06d373560a7a78a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf')"><img src="closed.png" alt="-"/>&#160;基底クラス <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf.html">com.springproject.dockerspring.FileIO.CompInterface.OutPdf&lt; Musical_Score &gt;</a> に属する継承公開メンバ関数</td></tr>
+<tr class="memitem:a04f10efbbd800eaf78166cd8e28e29f9 inherit pub_methods_interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf.html#a04f10efbbd800eaf78166cd8e28e29f9">makePdf</a> (T entity)  throws IOException</td></tr>
+<tr class="memdesc:a04f10efbbd800eaf78166cd8e28e29f9 inherit pub_methods_interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内のデータを該当クラス内のフィールド変数に保持したのち、PDFを生成した後、そのデータを 一時ファイルに格納して返す。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf.html#a04f10efbbd800eaf78166cd8e28e29f9">[詳解]</a><br /></td></tr>
+<tr class="separator:a04f10efbbd800eaf78166cd8e28e29f9 inherit pub_methods_interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_out_pdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a0ed1967c95af4bf0bcbc9952d0120a04"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a0ed1967c95af4bf0bcbc9952d0120a04">arranger</a></td></tr>
+<tr class="separator:a0ed1967c95af4bf0bcbc9952d0120a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54ca5c921a170ec03ce977f6f8293486"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a54ca5c921a170ec03ce977f6f8293486">buy_date</a></td></tr>
+<tr class="separator:a54ca5c921a170ec03ce977f6f8293486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad251f7638906005d66899fd35eb2c160"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html">Common_Pdf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#ad251f7638906005d66899fd35eb2c160">common_pdf</a></td></tr>
+<tr class="separator:ad251f7638906005d66899fd35eb2c160"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f2383d0ee7f982bf3a5dc9fcb1274a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a13f2383d0ee7f982bf3a5dc9fcb1274a">composer</a></td></tr>
+<tr class="separator:a13f2383d0ee7f982bf3a5dc9fcb1274a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae83cce76927c48b619483fdceabf23"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a5ae83cce76927c48b619483fdceabf23">disp_date</a></td></tr>
+<tr class="separator:a5ae83cce76927c48b619483fdceabf23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a981e96fcd1d03181a55be96422c27d27"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a981e96fcd1d03181a55be96422c27d27">other_comment</a></td></tr>
+<tr class="separator:a981e96fcd1d03181a55be96422c27d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48534995922b831adf0e0e71c0656fa6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a48534995922b831adf0e0e71c0656fa6">publisher</a></td></tr>
+<tr class="separator:a48534995922b831adf0e0e71c0656fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8113db576b1399305bdccd40c4e93815"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a8113db576b1399305bdccd40c4e93815">score_id</a></td></tr>
+<tr class="separator:a8113db576b1399305bdccd40c4e93815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056377cfc0fe9cdb76eebe1ddd74a8ac"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a056377cfc0fe9cdb76eebe1ddd74a8ac">serial_num</a></td></tr>
+<tr class="separator:a056377cfc0fe9cdb76eebe1ddd74a8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01713a2ac01bf9e1442d7c9496ba0a70"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a01713a2ac01bf9e1442d7c9496ba0a70">song_title</a></td></tr>
+<tr class="separator:a01713a2ac01bf9e1442d7c9496ba0a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8c90eb94ea13e48517655ce24e15fd2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#ac8c90eb94ea13e48517655ce24e15fd2">strage_loc</a></td></tr>
+<tr class="separator:ac8c90eb94ea13e48517655ce24e15fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[楽譜管理]機能で使用する、PDFファイルの入出力に関する機能を実装するクラス </p>
+<ul>
+<li>このPDFの生成機能では、[iText Pdf]を用いて生成を行う。</li>
+<li>この生成機能で共通で用いる処理（一時ファイル生成やフォント設定など）は共通クラスをDIすることで 、そちらを持ちいて実現する。</li>
+<li>フィールド変数には、出力対象のエンティティの値と、共通クラスのDIしたインスタンスを登録しておく。 この不変変数から、このクラス全体で共通で用いる。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Musical_Score_Pdf </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html" title="すべてのPDF出力機能で使用する共通処理を定義するクラス。">Common_Pdf</a> </dd>
+<dd>
+Musical_Score </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a6f053e788759eeb5ed0b9accae9ddd67" name="a6f053e788759eeb5ed0b9accae9ddd67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f053e788759eeb5ed0b9accae9ddd67">&#9670;&#160;</a></span>Musical_Score_PdfImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.Musical_Score_PdfImpl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html">Common_Pdf</a>&#160;</td>
+          <td class="paramname"><em>common_pdf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用する共通クラスをコンストラクタインジェクションする。 </p>
+<ul>
+<li>本体であれば、Lombokを用いてこの記述を省略したいが、共通クラス以外の他のフィールド変数とはマッピング したくない為、個別に実装し、共通クラスのインジェクションのみ行えるようにした。 </li>
+</ul>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a26effec118f82eb13dd6008fb4e2199c" name="a26effec118f82eb13dd6008fb4e2199c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26effec118f82eb13dd6008fb4e2199c">&#9670;&#160;</a></span>designPdf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.designPdf </td>
+          <td>(</td>
+          <td class="paramtype">BufferedOutputStream&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>受け取った出力ストリームに、PDFデザインの情報を書き込んでいく。 </p>
+<ul>
+<li>デザインは[iText]の機能を用いて、Javaのコードにより実現する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">pdf_data_out</td><td>書き込み対象の一時ファイルの出力ストリーム</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>PDFを生成する際のフォント設定を行う。</li>
+<li>PDF生成用の書き込みストリームを作成。条件としては[A4用紙]への書き込みとする。</li>
+<li>デザイン関数を駆使して、PDFのデザインを決定。</li>
+<li>一時ファイルの出力ストリームに書き込む。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>デザインに関しては未完成である。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_cgraph">
+<area shape="rect" title="受け取った出力ストリームに、PDFデザインの情報を書き込んでいく。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html#a33046a5260f283c4986763fa810a9b02" title="PDF生成時に、使用するフォントの設定を行う。" alt="" coords="260,13,528,53"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a26effec118f82eb13dd6008fb4e2199c_icgraph">
+<area shape="rect" title="受け取った出力ストリームに、PDFデザインの情報を書き込んでいく。" alt="" coords="260,5,467,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a5e1bc7585172154e06d373560a7a78a2" title="出力対象データが入ったエンティティを読み込み、PDFを生成して、一時ファイルに書き込んだのち そのファイルを戻り値とする。" alt="" coords="5,5,212,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5e1bc7585172154e06d373560a7a78a2" name="a5e1bc7585172154e06d373560a7a78a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e1bc7585172154e06d373560a7a78a2">&#9670;&#160;</a></span>makePdf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.makePdf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>出力対象データが入ったエンティティを読み込み、PDFを生成して、一時ファイルに書き込んだのち そのファイルを戻り値とする。 </p>
+<ul>
+<li>エンティティを読み込んだら、そのデータをフィールド変数に格納し、このクラス全体で共通で値を使用できる ようにする。</li>
+<li>PDFのデザインの部分に関しては、膨大な量になるため他の非公開メソッドにゆだねる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成したPDF一時ファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>出力対象となるデータのエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>PDFデータ書き込み用の一時ファイルを生成。</li>
+<li>読み込んだエンティティからデータを文字列化して取り出し、このクラス内のフィールド変数に格納。</li>
+<li>クラス内のデザインメソッドの処理を実行し、出力ストリームにデザイン情報を入力。</li>
+<li>一時ファイルに書き込んだ後、そのファイルを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Musical_Score</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a5e1bc7585172154e06d373560a7a78a2_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a5e1bc7585172154e06d373560a7a78a2_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a5e1bc7585172154e06d373560a7a78a2_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl_a5e1bc7585172154e06d373560a7a78a2_cgraph">
+<area shape="rect" title="出力対象データが入ったエンティティを読み込み、PDFを生成して、一時ファイルに書き込んだのち そのファイルを戻り値とする。" alt="" coords="5,41,212,96"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html#a26effec118f82eb13dd6008fb4e2199c" title="受け取った出力ストリームに、PDFデザインの情報を書き込んでいく。" alt="" coords="302,5,509,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html#a95b0147241ce4762bb6b01cf7d9bb561" title="PDF生成用の一時ファイルを一元的に製作するメソッド。" alt="" coords="260,85,551,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html#a33046a5260f283c4986763fa810a9b02" title="PDF生成時に、使用するフォントの設定を行う。" alt="" coords="599,13,867,53"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a0ed1967c95af4bf0bcbc9952d0120a04" name="a0ed1967c95af4bf0bcbc9952d0120a04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ed1967c95af4bf0bcbc9952d0120a04">&#9670;&#160;</a></span>arranger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.arranger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a54ca5c921a170ec03ce977f6f8293486" name="a54ca5c921a170ec03ce977f6f8293486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54ca5c921a170ec03ce977f6f8293486">&#9670;&#160;</a></span>buy_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.buy_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad251f7638906005d66899fd35eb2c160" name="ad251f7638906005d66899fd35eb2c160"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad251f7638906005d66899fd35eb2c160">&#9670;&#160;</a></span>common_pdf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_common___pdf.html">Common_Pdf</a> com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.common_pdf</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13f2383d0ee7f982bf3a5dc9fcb1274a" name="a13f2383d0ee7f982bf3a5dc9fcb1274a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13f2383d0ee7f982bf3a5dc9fcb1274a">&#9670;&#160;</a></span>composer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.composer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ae83cce76927c48b619483fdceabf23" name="a5ae83cce76927c48b619483fdceabf23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ae83cce76927c48b619483fdceabf23">&#9670;&#160;</a></span>disp_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.disp_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a981e96fcd1d03181a55be96422c27d27" name="a981e96fcd1d03181a55be96422c27d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a981e96fcd1d03181a55be96422c27d27">&#9670;&#160;</a></span>other_comment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.other_comment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48534995922b831adf0e0e71c0656fa6" name="a48534995922b831adf0e0e71c0656fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48534995922b831adf0e0e71c0656fa6">&#9670;&#160;</a></span>publisher</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.publisher</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8113db576b1399305bdccd40c4e93815" name="a8113db576b1399305bdccd40c4e93815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8113db576b1399305bdccd40c4e93815">&#9670;&#160;</a></span>score_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.score_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a056377cfc0fe9cdb76eebe1ddd74a8ac" name="a056377cfc0fe9cdb76eebe1ddd74a8ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a056377cfc0fe9cdb76eebe1ddd74a8ac">&#9670;&#160;</a></span>serial_num</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.serial_num</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01713a2ac01bf9e1442d7c9496ba0a70" name="a01713a2ac01bf9e1442d7c9496ba0a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01713a2ac01bf9e1442d7c9496ba0a70">&#9670;&#160;</a></span>song_title</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.song_title</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8c90eb94ea13e48517655ce24e15fd2" name="ac8c90eb94ea13e48517655ce24e15fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8c90eb94ea13e48517655ce24e15fd2">&#9670;&#160;</a></span>strage_loc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.PdfProcess.Musical_Score_PdfImpl.strage_loc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/FileIO/PdfProcess/<a class="el" href="_musical___score___pdf_impl_8java.html">Musical_Score_PdfImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process.html">PdfProcess</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_pdf_process_1_1_musical___score___pdf_impl.html">Musical_Score_PdfImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

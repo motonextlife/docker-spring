@@ -1,0 +1,4 @@
+var _usage___authority___database___yaml_8java =
+[
+    [ "com.springproject.dockerspring.CommonTestCaseMaker.UsageAuthority.Database.Usage_Authority_Database_Yaml", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_data1b1ce707dabd0f50528a2e800576cfd.html", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_data1b1ce707dabd0f50528a2e800576cfd" ]
+];

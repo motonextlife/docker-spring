@@ -1,0 +1,4 @@
+var _samba_process___file_input___test_8java =
+[
+    [ "com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.TestInterface.SambaProcess_FileInput_Test", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___e9a04a54d21d7f140d19c5eff24aa149.html", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___e9a04a54d21d7f140d19c5eff24aa149" ]
+];

@@ -1,0 +1,7 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_1ed35426e5e81cd88ddec4abce0327c7 =
+[
+    [ "pdf_data", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_1ed35426e5e81cd88ddec4abce0327c7.html#aa0a20fc4063a501bf4032277b0851ccb", null ],
+    [ "pdf_hash", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_1ed35426e5e81cd88ddec4abce0327c7.html#a0fa326bea7b61791f631d6eba380f5cc", null ],
+    [ "score_id", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_1ed35426e5e81cd88ddec4abce0327c7.html#ae44a38b80800b53a62e754d6e78813eb", null ],
+    [ "score_name", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_1ed35426e5e81cd88ddec4abce0327c7.html#ae9a41fb535408c701e670f81a482ab27", null ]
+];

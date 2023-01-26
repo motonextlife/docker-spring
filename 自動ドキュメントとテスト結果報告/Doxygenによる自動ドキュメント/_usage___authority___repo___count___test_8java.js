@@ -1,0 +1,4 @@
+var _usage___authority___repo___count___test_8java =
+[
+    [ "com.springproject.dockerspring.SingleTests.Repository.NormalRepo.Usage_Authority_Repo_Test.Usage_Authority_Repo_Count_Test", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd" ]
+];

@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[設備写真データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_entity_8_history_entity_8_facility___photo___history_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_facility___photo___history_inherit__map" id="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_facility___photo___history_inherit__map">
+<area shape="rect" title="主に[設備写真データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。" alt="" coords="5,93,212,148"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html" title="全てのデータベース保存やデータのやり取りに使用するエンティティにおいて、共通で使用する メソッドを提供するインターフェースである。" alt="" coords="5,5,212,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_entity_8_history_entity_8_facility___photo___history_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_facility___photo___history_coll__map" id="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_facility___photo___history_coll__map">
+<area shape="rect" title="主に[設備写真データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。" alt="" coords="81,108,288,163"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html" title="全てのデータベース保存やデータのやり取りに使用するエンティティにおいて、共通で使用する メソッドを提供するインターフェースである。" alt="" coords="5,5,212,45"/>
+<area shape="rect" title=" " alt="" coords="236,13,285,38"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a35ab30f655691a1da7c8af6fa1287d86"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a35ab30f655691a1da7c8af6fa1287d86">makeMap</a> ()</td></tr>
+<tr class="memdesc:a35ab30f655691a1da7c8af6fa1287d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a35ab30f655691a1da7c8af6fa1287d86">[詳解]</a><br /></td></tr>
+<tr class="separator:a35ab30f655691a1da7c8af6fa1287d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d6ccf8decfc09590a371652b241fee2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a1d6ccf8decfc09590a371652b241fee2">stringSetNull</a> ()</td></tr>
+<tr class="memdesc:a1d6ccf8decfc09590a371652b241fee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a1d6ccf8decfc09590a371652b241fee2">[詳解]</a><br /></td></tr>
+<tr class="separator:a1d6ccf8decfc09590a371652b241fee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a9ee08500b9b2ebe507037e3d0ca8d"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#aa4a9ee08500b9b2ebe507037e3d0ca8d">makeMap</a> ()  throws IOException</td></tr>
+<tr class="memdesc:aa4a9ee08500b9b2ebe507037e3d0ca8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#aa4a9ee08500b9b2ebe507037e3d0ca8d">[詳解]</a><br /></td></tr>
+<tr class="separator:aa4a9ee08500b9b2ebe507037e3d0ca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d450566621b48915289ac45798abaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#a13d450566621b48915289ac45798abaa">stringSetNull</a> ()</td></tr>
+<tr class="memdesc:a13d450566621b48915289ac45798abaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#a13d450566621b48915289ac45798abaa">[詳解]</a><br /></td></tr>
+<tr class="separator:a13d450566621b48915289ac45798abaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:ab54d974693f4e90e3ad92598c685699d"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#ab54d974693f4e90e3ad92598c685699d">change_datetime</a></td></tr>
+<tr class="memdesc:ab54d974693f4e90e3ad92598c685699d"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴記録日時  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#ab54d974693f4e90e3ad92598c685699d">[詳解]</a><br /></td></tr>
+<tr class="separator:ab54d974693f4e90e3ad92598c685699d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d913736d88c2f4228c1aef53c0f779"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a65d913736d88c2f4228c1aef53c0f779">change_kinds</a></td></tr>
+<tr class="memdesc:a65d913736d88c2f4228c1aef53c0f779"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴種別  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a65d913736d88c2f4228c1aef53c0f779">[詳解]</a><br /></td></tr>
+<tr class="separator:a65d913736d88c2f4228c1aef53c0f779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9c5ed37f6bb903f8c3544692b15082"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a2b9c5ed37f6bb903f8c3544692b15082">faci_id</a></td></tr>
+<tr class="memdesc:a2b9c5ed37f6bb903f8c3544692b15082"><td class="mdescLeft">&#160;</td><td class="mdescRight">設備番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a2b9c5ed37f6bb903f8c3544692b15082">[詳解]</a><br /></td></tr>
+<tr class="separator:a2b9c5ed37f6bb903f8c3544692b15082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a940047df4f28aab265459658d1cfd787"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a940047df4f28aab265459658d1cfd787">history_id</a></td></tr>
+<tr class="memdesc:a940047df4f28aab265459658d1cfd787"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴番号(プライマリ)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a940047df4f28aab265459658d1cfd787">[詳解]</a><br /></td></tr>
+<tr class="separator:a940047df4f28aab265459658d1cfd787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681762641d624dc8dce06c1b3040584e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a681762641d624dc8dce06c1b3040584e">operation_user</a></td></tr>
+<tr class="memdesc:a681762641d624dc8dce06c1b3040584e"><td class="mdescLeft">&#160;</td><td class="mdescRight">操作ユーザー名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a681762641d624dc8dce06c1b3040584e">[詳解]</a><br /></td></tr>
+<tr class="separator:a681762641d624dc8dce06c1b3040584e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce8b7fd04431fa16e413eab3831a99e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#afce8b7fd04431fa16e413eab3831a99e">photo_hash</a></td></tr>
+<tr class="memdesc:afce8b7fd04431fa16e413eab3831a99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">写真ハッシュ値  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#afce8b7fd04431fa16e413eab3831a99e">[詳解]</a><br /></td></tr>
+<tr class="separator:afce8b7fd04431fa16e413eab3831a99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63d8a84b09c3196d84800bc75d5fe429"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a63d8a84b09c3196d84800bc75d5fe429">photo_name</a></td></tr>
+<tr class="memdesc:a63d8a84b09c3196d84800bc75d5fe429"><td class="mdescLeft">&#160;</td><td class="mdescRight">写真名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a63d8a84b09c3196d84800bc75d5fe429">[詳解]</a><br /></td></tr>
+<tr class="separator:a63d8a84b09c3196d84800bc75d5fe429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127b85f4b3441d74b99642cc5f069637"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a127b85f4b3441d74b99642cc5f069637">serial_num</a></td></tr>
+<tr class="memdesc:a127b85f4b3441d74b99642cc5f069637"><td class="mdescLeft">&#160;</td><td class="mdescRight">シリアルナンバー  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html#a127b85f4b3441d74b99642cc5f069637">[詳解]</a><br /></td></tr>
+<tr class="separator:a127b85f4b3441d74b99642cc5f069637"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[設備写真データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。 </p>
+<ul>
+<li>このエンティティが対応するデータベース内のテーブルの名称は[<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html" title="主に[設備写真データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。">Facility_Photo_History</a>]である。</li>
+<li>定義しているフィールド変数に関しては、対応するデータベース内のテーブルに対応した名称である。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@AllArgsConstructor</li>
+<li>@Data</li>
+<li>@NoArgsConstructor</li>
+<li>@Table("Facility_Photo_History")</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html" title="全てのデータベース保存やデータのやり取りに使用するエンティティにおいて、共通で使用する メソッドを提供するインターフェースである。">EntitySetUp</a> </dd>
+<dd>
+DateFormat_Enum </dd>
+<dd>
+History_Common_Enum </dd>
+<dd>
+Facility_Photo_Enum </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a35ab30f655691a1da7c8af6fa1287d86" name="a35ab30f655691a1da7c8af6fa1287d86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ab30f655691a1da7c8af6fa1287d86">&#9670;&#160;</a></span>makeMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.makeMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。 </p>
+<ul>
+<li>主に、フロント側の画面への出力の際に用いるデータを作成する目的として、このメソッドを使用する。</li>
+<li>「Null」が入っているデータは、全て「空文字」に変換される。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列に変換が終わり、キー名を項目の英語名としたマップリスト。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>格納済みのデータを全てNull初期化する。</li>
+<li>フィールドに格納されているデータが「Null」であれば、例外なく「空文字」をマップリストに登録。</li>
+<li>文字列型データはそのままマップリストに登録し、それ以外のデータ型は文字列型に変換して登録。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>DateFormat_Enum </dd>
+<dd>
+History_Common_Enum </dd>
+<dd>
+Facility_Photo_Enum </dd></dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#aa4a9ee08500b9b2ebe507037e3d0ca8d">com.springproject.dockerspring.Entity.EntitySetUp</a>を実装しています。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a35ab30f655691a1da7c8af6fa1287d86_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a35ab30f655691a1da7c8af6fa1287d86_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a35ab30f655691a1da7c8af6fa1287d86_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a35ab30f655691a1da7c8af6fa1287d86_icgraph">
+<area shape="rect" title="エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。" alt="" coords="685,59,892,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac2cb105cf5258e64f29663a5a4825a378.html#ac3b2de3cf8ce76b7d41e8ee5378e8a7f" title="エンティティ内にNull初期化対象のデータだけを入れた検査対象エンティティを生成する。 生成後は、そのままテストを行う。" alt="" coords="184,5,459,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac2cb105cf5258e64f29663a5a4825a378.html#a9ea60287304fe436b0bf9e28bd94c6b5" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="5,99,637,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1d6ccf8decfc09590a371652b241fee2" name="a1d6ccf8decfc09590a371652b241fee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d6ccf8decfc09590a371652b241fee2">&#9670;&#160;</a></span>stringSetNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.stringSetNull </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。 </p>
+<p >このメソッドは以下の理由で設けた。</p><ul>
+<li>空文字や空白のままデータベースに保存されると、他のテーブルとの参照制約に悪影響を及ぼすため。</li>
+</ul>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>各フィールド変数のうち、文字列型の物のみを対象とする。</li>
+<li>フィールド内に格納されている文字列が「空白」又は「空文字」か判別する。</li>
+<li>該当すれば、内容を「Null」に置き換える。 </li>
+</ol>
+</dd></dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#a13d450566621b48915289ac45798abaa">com.springproject.dockerspring.Entity.EntitySetUp</a>を実装しています。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a1d6ccf8decfc09590a371652b241fee2_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a1d6ccf8decfc09590a371652b241fee2_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a1d6ccf8decfc09590a371652b241fee2_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history_a1d6ccf8decfc09590a371652b241fee2_icgraph">
+<area shape="rect" title="エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。" alt="" coords="812,63,1019,118"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac253344a682adf9331888e73b658dd443.html#a59daff88ca61e58787a4cd39c082487e" title="エンティティ内にNull初期化対象のデータだけを入れた検査対象エンティティを生成する。 生成後は、そのままテストを行う。" alt="" coords="504,56,764,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac253344a682adf9331888e73b658dd443.html#a9416b3ce799c7fc476ee2e16d74b1ae0" title="エンティティ内部のデータに初期化対象文字が含まれていた場合、入力後に取り出した該当データが Nullに初期化されていることを確認する。" alt="" coords="5,5,456,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac253344a682adf9331888e73b658dd443.html#a0ee0b8fa89c07dad33724e3144136ac0" title="エンティティ内部のデータに[Null]が含まれていた場合でも、処理中に[NullPointerException]が 発生して処理が止まらないことを確認する。" alt="" coords="69,99,393,183"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ab54d974693f4e90e3ad92598c685699d" name="ab54d974693f4e90e3ad92598c685699d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab54d974693f4e90e3ad92598c685699d">&#9670;&#160;</a></span>change_datetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.change_datetime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴記録日時 </p>
+
+</div>
+</div>
+<a id="a65d913736d88c2f4228c1aef53c0f779" name="a65d913736d88c2f4228c1aef53c0f779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d913736d88c2f4228c1aef53c0f779">&#9670;&#160;</a></span>change_kinds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.change_kinds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴種別 </p>
+
+</div>
+</div>
+<a id="a2b9c5ed37f6bb903f8c3544692b15082" name="a2b9c5ed37f6bb903f8c3544692b15082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9c5ed37f6bb903f8c3544692b15082">&#9670;&#160;</a></span>faci_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.faci_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>設備番号 </p>
+
+</div>
+</div>
+<a id="a940047df4f28aab265459658d1cfd787" name="a940047df4f28aab265459658d1cfd787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a940047df4f28aab265459658d1cfd787">&#9670;&#160;</a></span>history_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.history_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴番号(プライマリ) </p>
+
+</div>
+</div>
+<a id="a681762641d624dc8dce06c1b3040584e" name="a681762641d624dc8dce06c1b3040584e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681762641d624dc8dce06c1b3040584e">&#9670;&#160;</a></span>operation_user</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.operation_user</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>操作ユーザー名 </p>
+
+</div>
+</div>
+<a id="afce8b7fd04431fa16e413eab3831a99e" name="afce8b7fd04431fa16e413eab3831a99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce8b7fd04431fa16e413eab3831a99e">&#9670;&#160;</a></span>photo_hash</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.photo_hash</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>写真ハッシュ値 </p>
+
+</div>
+</div>
+<a id="a63d8a84b09c3196d84800bc75d5fe429" name="a63d8a84b09c3196d84800bc75d5fe429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d8a84b09c3196d84800bc75d5fe429">&#9670;&#160;</a></span>photo_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.photo_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>写真名 </p>
+
+</div>
+</div>
+<a id="a127b85f4b3441d74b99642cc5f069637" name="a127b85f4b3441d74b99642cc5f069637"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a127b85f4b3441d74b99642cc5f069637">&#9670;&#160;</a></span>serial_num</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer com.springproject.dockerspring.Entity.HistoryEntity.Facility_Photo_History.serial_num</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シリアルナンバー </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Entity/HistoryEntity/<a class="el" href="_facility___photo___history_8java.html">Facility_Photo_History.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_entity.html">Entity</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity.html">HistoryEntity</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_facility___photo___history.html">Facility_Photo_History</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

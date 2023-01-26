@@ -1,0 +1,70 @@
+# /** 
+#  **************************************************************************************
+#  * @file score-pdf-zip.yml
+#  * 
+#  * @brief 主に[音源データ情報]機能のテストにおいて、ZIPファイルの入力の際のテストケースを
+#  * 格納したファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、バリデーションを通過する合格データと、バリデーションでエラーになるデータが
+#  * 存在する。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var zip_file
+#  * 
+#  * @brief [圧縮ファイル]のテストケース
+#  * 
+#  * @details ファイル形式が[zip]のファイルかつ、以下のエラーに引っ掛からないデータであること。
+#  * 
+#  * @param[in] normal 特に何も問題ないケース。バリデーションに関係ない場所でのテストに使用。
+#  * @param[in] ok バリデーションに通過する合格ケース。
+#  * @param[in] ng_count ファイル内のデータ数が規定値を超えて入っているため不合格。
+#  * @param[in] ng_directory ファイル内にディレクトリが混ざっているため不合格。
+#  * @param[in] ng_encrypt ファイルが暗号化されているため不合格。
+#  * @param[in] ng_no_pdf_mid: MIDI形式ファイルが混ざっており不合格。
+#  * @param[in] ng_no_pdf_svg: SVG形式ファイルが混ざっており不合格。
+#  * @param[in] ng_overflow 受付可能な音声サイズを超えたファイルが混ざっており不合格。
+#  * @param[in] ng_image 画像データが混ざっていた場合不合格。
+#  * @param[in] ng_audio 音声データが混ざっていた場合不合格。
+#  * @param[in] ng_csv CSVデータが混ざっていた場合不合格。
+#  * @param[in] ng_zip ZIPデータが混ざっていた場合不合格。
+#  * @param[in] ng_html_escape HTMLエスケープの対象文字が含まれているファイルがあった場合不合格。
+#  * @param[in] ng_sql_escape SQLエスケープの対象文字が含まれているファイルがあった場合不合格。
+#  * @param[in] ng_filepath_escape ファイルパス構成文字が含まれているファイルがあった場合不合格。
+#  * @param[in] ng_forgery_ext 拡張子がデータと違うファイルが入っていた場合不合格。
+#  * @param[in] ng_forgery_data データが拡張子と違うファイルが入っていた場合不合格。
+#  ************************************************************************************
+#  */
+zip_file:
+  normal: normal.zip
+  ok: ok.zip
+  ng_count: ng-count.zip
+  ng_directory: ng-directory.zip
+  ng_encrypt: ng-encrypt.zip
+  ng_no_pdf_mid: ng-no-pdf-mid.zip
+  ng_no_pdf_svg: ng-no-pdf-svg.zip
+  ng_overflow: ng-overflow.zip
+  ng_filename_overflow: ng-filename-overflow.zip
+  ng_image: ng-image.zip
+  ng_audio: ng-audio.zip
+  ng_csv: ng-csv.zip
+  ng_zip: ng-zip.zip
+  ng_html_escape: ng-html-escape.zip
+  ng_sql_escape: ng-sql-escape.zip
+  ng_filepath_escape: ng-filepath-escape.zip
+  ng_forgery_ext: ng-forgery-ext.zip
+  ng_forgery_data: ng-forgery-data.zip

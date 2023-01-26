@@ -1,0 +1,873 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form_4fbd0606dc44e30a2b521fa4a2a9e363.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[楽譜管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form_d37f86816db8ad06e377bddc149bca39.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___form___output___validator_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___form___output___validator_impl_inherit__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___form___output___validator_impl_inherit__map">
+<area shape="rect" title="主に[楽譜管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス" alt="" coords="381,5,603,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_musical___score___form___output___validator.html" title="主に[楽譜管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="127,5,333,60"/>
+<area shape="rect" title=" " alt="" coords="5,20,79,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form_087356fabb2f74f87662490be7368baf.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___form___output___validator_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___form___output___validator_impl_coll__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___form___output___validator_impl_coll__map">
+<area shape="rect" title="主に[楽譜管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス" alt="" coords="381,5,603,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_musical___score___form___output___validator.html" title="主に[楽譜管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="127,5,333,60"/>
+<area shape="rect" title=" " alt="" coords="5,20,79,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a405b184e36986127b93007c6dc378a8d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a405b184e36986127b93007c6dc378a8d">supports</a> (Class&lt;?&gt; clazz)</td></tr>
+<tr class="memdesc:a405b184e36986127b93007c6dc378a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validator使用時に必ず実装するメソッドだが、使用しないので説明を割愛。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a405b184e36986127b93007c6dc378a8d">[詳解]</a><br /></td></tr>
+<tr class="separator:a405b184e36986127b93007c6dc378a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4641c5c518e51c9028c7a1a9fa17d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4">validate</a> (Object target, Errors errors)</td></tr>
+<tr class="memdesc:a9a4641c5c518e51c9028c7a1a9fa17d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4">[詳解]</a><br /></td></tr>
+<tr class="separator:a9a4641c5c518e51c9028c7a1a9fa17d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">バリデーション用の非公開メソッド</div></td></tr>
+<tr class="memitem:ad2adf129773cf9c26e1992aae40bdded"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#ad2adf129773cf9c26e1992aae40bdded">validSerialNum</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:ad2adf129773cf9c26e1992aae40bdded"><td class="mdescLeft">&#160;</td><td class="mdescRight">シリアルナンバー  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#ad2adf129773cf9c26e1992aae40bdded">[詳解]</a><br /></td></tr>
+<tr class="separator:ad2adf129773cf9c26e1992aae40bdded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ef840afb47cf2771c13d072a523eea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a61ef840afb47cf2771c13d072a523eea">validScoreId</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:a61ef840afb47cf2771c13d072a523eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">楽譜番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a61ef840afb47cf2771c13d072a523eea">[詳解]</a><br /></td></tr>
+<tr class="separator:a61ef840afb47cf2771c13d072a523eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba8cac5940dfb69dacdee55c97fed532"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#aba8cac5940dfb69dacdee55c97fed532">validBuyDate</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity, Boolean flag_1)</td></tr>
+<tr class="memdesc:aba8cac5940dfb69dacdee55c97fed532"><td class="mdescLeft">&#160;</td><td class="mdescRight">購入日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#aba8cac5940dfb69dacdee55c97fed532">[詳解]</a><br /></td></tr>
+<tr class="separator:aba8cac5940dfb69dacdee55c97fed532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc6269348b46c69d29f2c180033a5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a3dc6269348b46c69d29f2c180033a5d9">validSongTitle</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:a3dc6269348b46c69d29f2c180033a5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">曲名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a3dc6269348b46c69d29f2c180033a5d9">[詳解]</a><br /></td></tr>
+<tr class="separator:a3dc6269348b46c69d29f2c180033a5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10b267ef5229773d4bb0456a82f93c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#ae10b267ef5229773d4bb0456a82f93c0">validComposer</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:ae10b267ef5229773d4bb0456a82f93c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">作曲者  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#ae10b267ef5229773d4bb0456a82f93c0">[詳解]</a><br /></td></tr>
+<tr class="separator:ae10b267ef5229773d4bb0456a82f93c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd967157099d58b21efbbeaa66ec5576"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#abd967157099d58b21efbbeaa66ec5576">validArranger</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:abd967157099d58b21efbbeaa66ec5576"><td class="mdescLeft">&#160;</td><td class="mdescRight">編曲者  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#abd967157099d58b21efbbeaa66ec5576">[詳解]</a><br /></td></tr>
+<tr class="separator:abd967157099d58b21efbbeaa66ec5576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82cffc2a44cbab13f684a08ebaa44034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a82cffc2a44cbab13f684a08ebaa44034">validPublisher</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:a82cffc2a44cbab13f684a08ebaa44034"><td class="mdescLeft">&#160;</td><td class="mdescRight">出版社  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a82cffc2a44cbab13f684a08ebaa44034">[詳解]</a><br /></td></tr>
+<tr class="separator:a82cffc2a44cbab13f684a08ebaa44034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3de9e16cc429ec6e0746105253043a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#aab3de9e16cc429ec6e0746105253043a">validStorageLoc</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:aab3de9e16cc429ec6e0746105253043a"><td class="mdescLeft">&#160;</td><td class="mdescRight">保管場所  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#aab3de9e16cc429ec6e0746105253043a">[詳解]</a><br /></td></tr>
+<tr class="separator:aab3de9e16cc429ec6e0746105253043a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc7ac99de224cebe4bfc40c30e83e54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a7cc7ac99de224cebe4bfc40c30e83e54">validOtherComment</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a> entity)</td></tr>
+<tr class="memdesc:a7cc7ac99de224cebe4bfc40c30e83e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">その他コメント  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a7cc7ac99de224cebe4bfc40c30e83e54">[詳解]</a><br /></td></tr>
+<tr class="separator:a7cc7ac99de224cebe4bfc40c30e83e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd6f5c50ca4deaa59ca69e213ad538c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#afbd6f5c50ca4deaa59ca69e213ad538c">dateLogicCheck</a> (Boolean judge, Boolean flag_1, Boolean flag_2, Date buy_date, Date disp_date)</td></tr>
+<tr class="memdesc:afbd6f5c50ca4deaa59ca69e213ad538c"><td class="mdescLeft">&#160;</td><td class="mdescRight">「購入日」と「廃棄日」の論理チェック  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#afbd6f5c50ca4deaa59ca69e213ad538c">[詳解]</a><br /></td></tr>
+<tr class="separator:afbd6f5c50ca4deaa59ca69e213ad538c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[楽譜管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス </p>
+<ul>
+<li>主に、データ出力時に誤って不正なデータを出力してしまわないようにする目的で用いる。</li>
+<li>使い方としては、このクラスと対になる通常用エンティティが存在するので、そのエンティティに検査 対象データを格納した状態の物で渡す事で検査を実施する。</li>
+<li>出力時に関しては、入力時に用いる手法でのバリデーションを用いることができない為、[Validator] インターフェースを用いた手法で行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Musical_Score </dd>
+<dd>
+Musical_Score_Form_Output_Validator </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="afbd6f5c50ca4deaa59ca69e213ad538c" name="afbd6f5c50ca4deaa59ca69e213ad538c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd6f5c50ca4deaa59ca69e213ad538c">&#9670;&#160;</a></span>dateLogicCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.dateLogicCheck </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>buy_date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>disp_date</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>「購入日」と「廃棄日」の論理チェック </p>
+<ol type="1">
+<li>「購入日」が「廃棄日」以前に設定されている事を判別。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_1</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_2</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buy_date</td><td>検査対象購入日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">disp_date</td><td>検査対象廃棄日</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>日付論理チェックの際の真偽値フラグとは、対象の日付が有効、 つまりNullやバリデーションエラーの状態ではなくて検査が可能だ 状態であることを示すためにある。なので、検査対象の日付が全て 有効状態になっていないと検査ができない。 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_afbd6f5c50ca4deaa59ca69e213ad538c_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_afbd6f5c50ca4deaa59ca69e213ad538c_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_afbd6f5c50ca4deaa59ca69e213ad538c_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_afbd6f5c50ca4deaa59ca69e213ad538c_icgraph">
+<area shape="rect" title="「購入日」と「廃棄日」の論理チェック" alt="" coords="288,5,572,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a405b184e36986127b93007c6dc378a8d" name="a405b184e36986127b93007c6dc378a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a405b184e36986127b93007c6dc378a8d">&#9670;&#160;</a></span>supports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.supports </td>
+          <td>(</td>
+          <td class="paramtype">Class&lt;?&gt;&#160;</td>
+          <td class="paramname"><em>clazz</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validator使用時に必ず実装するメソッドだが、使用しないので説明を割愛。 </p>
+
+</div>
+</div>
+<a id="abd967157099d58b21efbbeaa66ec5576" name="abd967157099d58b21efbbeaa66ec5576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd967157099d58b21efbbeaa66ec5576">&#9670;&#160;</a></span>validArranger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validArranger </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>編曲者 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_abd967157099d58b21efbbeaa66ec5576_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_abd967157099d58b21efbbeaa66ec5576_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_abd967157099d58b21efbbeaa66ec5576_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_abd967157099d58b21efbbeaa66ec5576_icgraph">
+<area shape="rect" title="編曲者" alt="" coords="288,5,553,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9a4641c5c518e51c9028c7a1a9fa17d4" name="a9a4641c5c518e51c9028c7a1a9fa17d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4641c5c518e51c9028c7a1a9fa17d4">&#9670;&#160;</a></span>validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validate </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Errors&#160;</td>
+          <td class="paramname"><em>errors</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。 </p>
+<dl class="section note"><dt>覚え書き</dt><dd>途中でバリデーションエラーが発生した場合は、判定用の 真偽値が「False」になり、後続の処理は実行されずスルーするように なっている。 </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a9a4641c5c518e51c9028c7a1a9fa17d4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a9a4641c5c518e51c9028c7a1a9fa17d4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a9a4641c5c518e51c9028c7a1a9fa17d4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a9a4641c5c518e51c9028c7a1a9fa17d4_cgraph">
+<area shape="rect" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,360,240,415"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#afbd6f5c50ca4deaa59ca69e213ad538c" title="「購入日」と「廃棄日」の論理チェック" alt="" coords="298,5,582,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#abd967157099d58b21efbbeaa66ec5576" title="編曲者" alt="" coords="307,84,573,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#aba8cac5940dfb69dacdee55c97fed532" title="購入日" alt="" coords="307,163,573,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#ae10b267ef5229773d4bb0456a82f93c0" title="作曲者" alt="" coords="303,241,577,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a7cc7ac99de224cebe4bfc40c30e83e54" title="その他コメント" alt="" coords="288,320,592,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a82cffc2a44cbab13f684a08ebaa44034" title="出版社" alt="" coords="305,399,575,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a61ef840afb47cf2771c13d072a523eea" title="楽譜番号" alt="" coords="310,477,570,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#ad2adf129773cf9c26e1992aae40bdded" title="シリアルナンバー" alt="" coords="302,556,578,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a3dc6269348b46c69d29f2c180033a5d9" title="曲名" alt="" coords="305,635,575,689"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#aab3de9e16cc429ec6e0746105253043a" title="保管場所" alt="" coords="299,713,581,768"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aba8cac5940dfb69dacdee55c97fed532" name="aba8cac5940dfb69dacdee55c97fed532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba8cac5940dfb69dacdee55c97fed532">&#9670;&#160;</a></span>validBuyDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validBuyDate </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>購入日 </p>
+<ol type="1">
+<li>値が空でない事。</li>
+</ol>
+<dl class="section return"><dt>戻り値</dt><dd>抽出した購入日データ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_1</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aba8cac5940dfb69dacdee55c97fed532_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aba8cac5940dfb69dacdee55c97fed532_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aba8cac5940dfb69dacdee55c97fed532_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aba8cac5940dfb69dacdee55c97fed532_icgraph">
+<area shape="rect" title="購入日" alt="" coords="288,5,555,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae10b267ef5229773d4bb0456a82f93c0" name="ae10b267ef5229773d4bb0456a82f93c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae10b267ef5229773d4bb0456a82f93c0">&#9670;&#160;</a></span>validComposer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validComposer </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>作曲者 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ae10b267ef5229773d4bb0456a82f93c0_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ae10b267ef5229773d4bb0456a82f93c0_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ae10b267ef5229773d4bb0456a82f93c0_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ae10b267ef5229773d4bb0456a82f93c0_icgraph">
+<area shape="rect" title="作曲者" alt="" coords="288,5,563,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7cc7ac99de224cebe4bfc40c30e83e54" name="a7cc7ac99de224cebe4bfc40c30e83e54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc7ac99de224cebe4bfc40c30e83e54">&#9670;&#160;</a></span>validOtherComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validOtherComment </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>その他コメント </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a7cc7ac99de224cebe4bfc40c30e83e54_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a7cc7ac99de224cebe4bfc40c30e83e54_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a7cc7ac99de224cebe4bfc40c30e83e54_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a7cc7ac99de224cebe4bfc40c30e83e54_icgraph">
+<area shape="rect" title="その他コメント" alt="" coords="288,5,592,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a82cffc2a44cbab13f684a08ebaa44034" name="a82cffc2a44cbab13f684a08ebaa44034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82cffc2a44cbab13f684a08ebaa44034">&#9670;&#160;</a></span>validPublisher()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validPublisher </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>出版社 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a82cffc2a44cbab13f684a08ebaa44034_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a82cffc2a44cbab13f684a08ebaa44034_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a82cffc2a44cbab13f684a08ebaa44034_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a82cffc2a44cbab13f684a08ebaa44034_icgraph">
+<area shape="rect" title="出版社" alt="" coords="288,5,559,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a61ef840afb47cf2771c13d072a523eea" name="a61ef840afb47cf2771c13d072a523eea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ef840afb47cf2771c13d072a523eea">&#9670;&#160;</a></span>validScoreId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validScoreId </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>楽譜番号 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[30文字以内]であること。</li>
+<li>文字列が[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a61ef840afb47cf2771c13d072a523eea_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a61ef840afb47cf2771c13d072a523eea_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a61ef840afb47cf2771c13d072a523eea_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a61ef840afb47cf2771c13d072a523eea_icgraph">
+<area shape="rect" title="楽譜番号" alt="" coords="288,5,548,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad2adf129773cf9c26e1992aae40bdded" name="ad2adf129773cf9c26e1992aae40bdded"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2adf129773cf9c26e1992aae40bdded">&#9670;&#160;</a></span>validSerialNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validSerialNum </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シリアルナンバー </p>
+<ol type="1">
+<li>値が空でない事。</li>
+<li>符号なしで[9桁]までの数値であり、浮動小数点でない事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ad2adf129773cf9c26e1992aae40bdded_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ad2adf129773cf9c26e1992aae40bdded_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ad2adf129773cf9c26e1992aae40bdded_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_ad2adf129773cf9c26e1992aae40bdded_icgraph">
+<area shape="rect" title="シリアルナンバー" alt="" coords="288,5,564,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3dc6269348b46c69d29f2c180033a5d9" name="a3dc6269348b46c69d29f2c180033a5d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc6269348b46c69d29f2c180033a5d9">&#9670;&#160;</a></span>validSongTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validSongTitle </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>曲名 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a3dc6269348b46c69d29f2c180033a5d9_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a3dc6269348b46c69d29f2c180033a5d9_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a3dc6269348b46c69d29f2c180033a5d9_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_a3dc6269348b46c69d29f2c180033a5d9_icgraph">
+<area shape="rect" title="曲名" alt="" coords="288,5,559,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aab3de9e16cc429ec6e0746105253043a" name="aab3de9e16cc429ec6e0746105253043a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab3de9e16cc429ec6e0746105253043a">&#9670;&#160;</a></span>validStorageLoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Form_Output_ValidatorImpl.validStorageLoc </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_musical___score.html">Musical_Score</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保管場所 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aab3de9e16cc429ec6e0746105253043a_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aab3de9e16cc429ec6e0746105253043a_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aab3de9e16cc429ec6e0746105253043a_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl_aab3de9e16cc429ec6e0746105253043a_icgraph">
+<area shape="rect" title="保管場所" alt="" coords="288,5,571,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html#a9a4641c5c518e51c9028c7a1a9fa17d4" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Form/CsvImplForm/<a class="el" href="_musical___score___form___output___validator_impl_8java.html">Musical_Score_Form_Output_ValidatorImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form.html">Form</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form.html">CsvImplForm</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___form___output___validator_impl.html">Musical_Score_Form_Output_ValidatorImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,809 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form_e58a167fb474370a7499822e1010258f.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[権限管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form_81a93a73a139f5e6464347c365686a1a.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_normal_form_8_usage___authority___form___output___validator_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_normal_form_8_usage___authority___form___output___validator_impl_inherit__map" id="acom_8springproject_8dockerspring_8_form_8_normal_form_8_usage___authority___form___output___validator_impl_inherit__map">
+<area shape="rect" title="主に[権限管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス" alt="" coords="409,5,636,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_usage___authority___form___output___validator.html" title="主に[権限管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="127,5,361,60"/>
+<area shape="rect" title=" " alt="" coords="5,20,79,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form_a62abd0db496c9b7bdeca1b0c0f25d25.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_normal_form_8_usage___authority___form___output___validator_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_normal_form_8_usage___authority___form___output___validator_impl_coll__map" id="acom_8springproject_8dockerspring_8_form_8_normal_form_8_usage___authority___form___output___validator_impl_coll__map">
+<area shape="rect" title="主に[権限管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス" alt="" coords="409,5,636,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_usage___authority___form___output___validator.html" title="主に[権限管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="127,5,361,60"/>
+<area shape="rect" title=" " alt="" coords="5,20,79,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8786deeb362fbd9281aa87288aaf6ef6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8786deeb362fbd9281aa87288aaf6ef6">supports</a> (Class&lt;?&gt; clazz)</td></tr>
+<tr class="memdesc:a8786deeb362fbd9281aa87288aaf6ef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validator使用時に必ず実装するメソッドだが、使用しないので説明を割愛。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8786deeb362fbd9281aa87288aaf6ef6">[詳解]</a><br /></td></tr>
+<tr class="separator:a8786deeb362fbd9281aa87288aaf6ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab6709f4b08d6ed33a8a2e98a64bca0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0">validate</a> (Object target, Errors errors)</td></tr>
+<tr class="memdesc:a8ab6709f4b08d6ed33a8a2e98a64bca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0">[詳解]</a><br /></td></tr>
+<tr class="separator:a8ab6709f4b08d6ed33a8a2e98a64bca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">バリデーション用の非公開メソッド</div></td></tr>
+<tr class="memitem:aca1b9e4937775bd22da0a1c2e60c9337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#aca1b9e4937775bd22da0a1c2e60c9337">validSerialNum</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:aca1b9e4937775bd22da0a1c2e60c9337"><td class="mdescLeft">&#160;</td><td class="mdescRight">シリアルナンバー  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#aca1b9e4937775bd22da0a1c2e60c9337">[詳解]</a><br /></td></tr>
+<tr class="separator:aca1b9e4937775bd22da0a1c2e60c9337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59dfa45290ad81fe0a79e8aea0c07fc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a59dfa45290ad81fe0a79e8aea0c07fc1">validAuthId</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:a59dfa45290ad81fe0a79e8aea0c07fc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">権限番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a59dfa45290ad81fe0a79e8aea0c07fc1">[詳解]</a><br /></td></tr>
+<tr class="separator:a59dfa45290ad81fe0a79e8aea0c07fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f6de82c6776c303b3841eb0f4f0e5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a87f6de82c6776c303b3841eb0f4f0e5e">validAuthName</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:a87f6de82c6776c303b3841eb0f4f0e5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">権限名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a87f6de82c6776c303b3841eb0f4f0e5e">[詳解]</a><br /></td></tr>
+<tr class="separator:a87f6de82c6776c303b3841eb0f4f0e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d87752e465c3964a634bfb947b0259"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#af0d87752e465c3964a634bfb947b0259">validAdmin</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:af0d87752e465c3964a634bfb947b0259"><td class="mdescLeft">&#160;</td><td class="mdescRight">権限名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#af0d87752e465c3964a634bfb947b0259">[詳解]</a><br /></td></tr>
+<tr class="separator:af0d87752e465c3964a634bfb947b0259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207e30bf70a4bbc24d2dfe764f036d8c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a207e30bf70a4bbc24d2dfe764f036d8c">validMemberInfo</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:a207e30bf70a4bbc24d2dfe764f036d8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">団員管理権限  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a207e30bf70a4bbc24d2dfe764f036d8c">[詳解]</a><br /></td></tr>
+<tr class="separator:a207e30bf70a4bbc24d2dfe764f036d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad13470b0572538580d0b83945f89211f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#ad13470b0572538580d0b83945f89211f">validFacility</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:ad13470b0572538580d0b83945f89211f"><td class="mdescLeft">&#160;</td><td class="mdescRight">設備管理権限  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#ad13470b0572538580d0b83945f89211f">[詳解]</a><br /></td></tr>
+<tr class="separator:ad13470b0572538580d0b83945f89211f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcfb8e81fb88a4a0f5a08058cf8bcd9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#addcfb8e81fb88a4a0f5a08058cf8bcd9">validMusicalScore</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:addcfb8e81fb88a4a0f5a08058cf8bcd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">楽譜管理権限  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#addcfb8e81fb88a4a0f5a08058cf8bcd9">[詳解]</a><br /></td></tr>
+<tr class="separator:addcfb8e81fb88a4a0f5a08058cf8bcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead14166a4a24580adebbdde92d171e2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#aead14166a4a24580adebbdde92d171e2">validSoundSource</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> entity)</td></tr>
+<tr class="memdesc:aead14166a4a24580adebbdde92d171e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">音源管理権限  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#aead14166a4a24580adebbdde92d171e2">[詳解]</a><br /></td></tr>
+<tr class="separator:aead14166a4a24580adebbdde92d171e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b93dc94dcd0a4b8cf882216a1be58a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8b93dc94dcd0a4b8cf882216a1be58a1">checkIntegrity</a> (Boolean judge, Boolean admin, String member_info, String facility, String musical_score, String sound_source)</td></tr>
+<tr class="memdesc:a8b93dc94dcd0a4b8cf882216a1be58a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">管理者権限との不整合チェック  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8b93dc94dcd0a4b8cf882216a1be58a1">[詳解]</a><br /></td></tr>
+<tr class="separator:a8b93dc94dcd0a4b8cf882216a1be58a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[権限管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス </p>
+<ul>
+<li>主に、データ出力時に誤って不正なデータを出力してしまわないようにする目的で用いる。</li>
+<li>使い方としては、このクラスと対になる通常用エンティティが存在するので、そのエンティティに検査 対象データを格納した状態の物で渡す事で検査を実施する。</li>
+<li>出力時に関しては、入力時に用いる手法でのバリデーションを用いることができない為、[Validator] インターフェースを用いた手法で行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority </dd>
+<dd>
+Usage_Authority_Form_Output_Validator </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a8b93dc94dcd0a4b8cf882216a1be58a1" name="a8b93dc94dcd0a4b8cf882216a1be58a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b93dc94dcd0a4b8cf882216a1be58a1">&#9670;&#160;</a></span>checkIntegrity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.checkIntegrity </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>admin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>member_info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>facility</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>musical_score</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>sound_source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>管理者権限との不整合チェック </p>
+<ol type="1">
+<li>全ての機能の権限を確認し、一つでも「none」以外が付与されていれば エラーとする。</li>
+<li>なお管理者権限が付与されていなければ、バリデーションの必要はない。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">admin</td><td>管理者権限 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">member_info</td><td>団員管理権限 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">facility</td><td>設備管理権限 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">musical_score</td><td>楽譜管理権限 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">sound_source</td><td>音源管理権限 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8b93dc94dcd0a4b8cf882216a1be58a1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8b93dc94dcd0a4b8cf882216a1be58a1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8b93dc94dcd0a4b8cf882216a1be58a1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8b93dc94dcd0a4b8cf882216a1be58a1_icgraph">
+<area shape="rect" title="管理者権限との不整合チェック" alt="" coords="288,5,560,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8786deeb362fbd9281aa87288aaf6ef6" name="a8786deeb362fbd9281aa87288aaf6ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8786deeb362fbd9281aa87288aaf6ef6">&#9670;&#160;</a></span>supports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.supports </td>
+          <td>(</td>
+          <td class="paramtype">Class&lt;?&gt;&#160;</td>
+          <td class="paramname"><em>clazz</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validator使用時に必ず実装するメソッドだが、使用しないので説明を割愛。 </p>
+
+</div>
+</div>
+<a id="af0d87752e465c3964a634bfb947b0259" name="af0d87752e465c3964a634bfb947b0259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d87752e465c3964a634bfb947b0259">&#9670;&#160;</a></span>validAdmin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Boolean com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validAdmin </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>権限名 </p>
+<ol type="1">
+<li>値が空でない事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_af0d87752e465c3964a634bfb947b0259_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_af0d87752e465c3964a634bfb947b0259_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_af0d87752e465c3964a634bfb947b0259_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_af0d87752e465c3964a634bfb947b0259_icgraph">
+<area shape="rect" title="権限名" alt="" coords="288,5,541,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8ab6709f4b08d6ed33a8a2e98a64bca0" name="a8ab6709f4b08d6ed33a8a2e98a64bca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab6709f4b08d6ed33a8a2e98a64bca0">&#9670;&#160;</a></span>validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validate </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Errors&#160;</td>
+          <td class="paramname"><em>errors</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。 </p>
+<dl class="section note"><dt>覚え書き</dt><dd>途中でバリデーションエラーが発生した場合は、判定用の 真偽値が「False」になり、後続の処理は実行されずスルーするように なっている。 </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8ab6709f4b08d6ed33a8a2e98a64bca0_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8ab6709f4b08d6ed33a8a2e98a64bca0_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8ab6709f4b08d6ed33a8a2e98a64bca0_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a8ab6709f4b08d6ed33a8a2e98a64bca0_cgraph">
+<area shape="rect" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,320,240,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8b93dc94dcd0a4b8cf882216a1be58a1" title="管理者権限との不整合チェック" alt="" coords="299,5,571,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#af0d87752e465c3964a634bfb947b0259" title="権限名" alt="" coords="309,84,562,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a59dfa45290ad81fe0a79e8aea0c07fc1" title="権限番号" alt="" coords="309,163,562,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a87f6de82c6776c303b3841eb0f4f0e5e" title="権限名" alt="" coords="297,241,574,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#ad13470b0572538580d0b83945f89211f" title="設備管理権限" alt="" coords="306,320,565,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a207e30bf70a4bbc24d2dfe764f036d8c" title="団員管理権限" alt="" coords="294,399,577,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#addcfb8e81fb88a4a0f5a08058cf8bcd9" title="楽譜管理権限" alt="" coords="288,477,583,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#aca1b9e4937775bd22da0a1c2e60c9337" title="シリアルナンバー" alt="" coords="297,556,573,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#aead14166a4a24580adebbdde92d171e2" title="音源管理権限" alt="" coords="288,635,583,689"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a59dfa45290ad81fe0a79e8aea0c07fc1" name="a59dfa45290ad81fe0a79e8aea0c07fc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59dfa45290ad81fe0a79e8aea0c07fc1">&#9670;&#160;</a></span>validAuthId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validAuthId </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>権限番号 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[30文字以内]であること。</li>
+<li>文字列が[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a59dfa45290ad81fe0a79e8aea0c07fc1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a59dfa45290ad81fe0a79e8aea0c07fc1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a59dfa45290ad81fe0a79e8aea0c07fc1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a59dfa45290ad81fe0a79e8aea0c07fc1_icgraph">
+<area shape="rect" title="権限番号" alt="" coords="288,5,541,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a87f6de82c6776c303b3841eb0f4f0e5e" name="a87f6de82c6776c303b3841eb0f4f0e5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f6de82c6776c303b3841eb0f4f0e5e">&#9670;&#160;</a></span>validAuthName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validAuthName </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>権限名 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+<li>文字数が[50文字以内]であること。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a87f6de82c6776c303b3841eb0f4f0e5e_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a87f6de82c6776c303b3841eb0f4f0e5e_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a87f6de82c6776c303b3841eb0f4f0e5e_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a87f6de82c6776c303b3841eb0f4f0e5e_icgraph">
+<area shape="rect" title="権限名" alt="" coords="288,5,565,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad13470b0572538580d0b83945f89211f" name="ad13470b0572538580d0b83945f89211f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad13470b0572538580d0b83945f89211f">&#9670;&#160;</a></span>validFacility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validFacility </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>設備管理権限 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>指定の文字列であること。 (none, brows, change, delete, hist, rollback)</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_ad13470b0572538580d0b83945f89211f_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_ad13470b0572538580d0b83945f89211f_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_ad13470b0572538580d0b83945f89211f_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_ad13470b0572538580d0b83945f89211f_icgraph">
+<area shape="rect" title="設備管理権限" alt="" coords="288,5,547,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a207e30bf70a4bbc24d2dfe764f036d8c" name="a207e30bf70a4bbc24d2dfe764f036d8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a207e30bf70a4bbc24d2dfe764f036d8c">&#9670;&#160;</a></span>validMemberInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validMemberInfo </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>団員管理権限 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>指定の文字列であること。 (none, brows, change, delete, hist, rollback)</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a207e30bf70a4bbc24d2dfe764f036d8c_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a207e30bf70a4bbc24d2dfe764f036d8c_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a207e30bf70a4bbc24d2dfe764f036d8c_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_a207e30bf70a4bbc24d2dfe764f036d8c_icgraph">
+<area shape="rect" title="団員管理権限" alt="" coords="288,5,571,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="addcfb8e81fb88a4a0f5a08058cf8bcd9" name="addcfb8e81fb88a4a0f5a08058cf8bcd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addcfb8e81fb88a4a0f5a08058cf8bcd9">&#9670;&#160;</a></span>validMusicalScore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validMusicalScore </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>楽譜管理権限 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>指定の文字列であること。 (none, brows, change, delete, hist, rollback)</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_addcfb8e81fb88a4a0f5a08058cf8bcd9_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_addcfb8e81fb88a4a0f5a08058cf8bcd9_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_addcfb8e81fb88a4a0f5a08058cf8bcd9_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_addcfb8e81fb88a4a0f5a08058cf8bcd9_icgraph">
+<area shape="rect" title="楽譜管理権限" alt="" coords="288,5,583,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aca1b9e4937775bd22da0a1c2e60c9337" name="aca1b9e4937775bd22da0a1c2e60c9337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1b9e4937775bd22da0a1c2e60c9337">&#9670;&#160;</a></span>validSerialNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validSerialNum </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シリアルナンバー </p>
+<ol type="1">
+<li>値が空でない事。</li>
+<li>符号なしで[9桁]までの数値であり、浮動小数点でない事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aca1b9e4937775bd22da0a1c2e60c9337_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aca1b9e4937775bd22da0a1c2e60c9337_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aca1b9e4937775bd22da0a1c2e60c9337_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aca1b9e4937775bd22da0a1c2e60c9337_icgraph">
+<area shape="rect" title="シリアルナンバー" alt="" coords="288,5,564,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aead14166a4a24580adebbdde92d171e2" name="aead14166a4a24580adebbdde92d171e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aead14166a4a24580adebbdde92d171e2">&#9670;&#160;</a></span>validSoundSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Form.NormalForm.Usage_Authority_Form_Output_ValidatorImpl.validSoundSource </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音源管理権限 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>指定の文字列であること。 (none, brows, change, delete, hist, rollback)</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aead14166a4a24580adebbdde92d171e2_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aead14166a4a24580adebbdde92d171e2_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aead14166a4a24580adebbdde92d171e2_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl_aead14166a4a24580adebbdde92d171e2_icgraph">
+<area shape="rect" title="音源管理権限" alt="" coords="288,5,583,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html#a8ab6709f4b08d6ed33a8a2e98a64bca0" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Form/NormalForm/<a class="el" href="_usage___authority___form___output___validator_impl_8java.html">Usage_Authority_Form_Output_ValidatorImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form.html">Form</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form.html">NormalForm</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form___output___validator_impl.html">Usage_Authority_Form_Output_ValidatorImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

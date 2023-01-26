@@ -1,0 +1,1036 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pub-attribs">公開変数類</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="#pri-static-attribs">静的非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m6d0ea7ded94e48ea73199d2f8a4bf2a2.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[楽譜情報変更履歴]のリポジトリクラスで、検索メソッドの分岐と実行を行うメソッドの テストを行うクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee3b7f4b07bb10d526f7e6f044ab3c9b.png" border="0" usemap="#acom_8springproject_8dockerspring_8_single_tests_8_repository_8_history_repo_8_musical___score___history___repo___test_8_musical___score___history___repo___find_all_branch___test_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_single_tests_8_repository_8_history_repo_8_musical___score___history___repo___test_8_musical___score___history___repo___find_all_branch___test_coll__map" id="acom_8springproject_8dockerspring_8_single_tests_8_repository_8_history_repo_8_musical___score___history___repo___test_8_musical___score___history___repo___find_all_branch___test_coll__map">
+<area shape="rect" title="主に[楽譜情報変更履歴]のリポジトリクラスで、検索メソッドの分岐と実行を行うメソッドの テストを行うクラス" alt="" coords="2957,577,3232,647"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html" title="主に[楽譜管理変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="2563,338,2771,393"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="2084,199,2301,254"/>
+<area shape="rect" title=" " alt="" coords="1483,214,1646,239"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html" title="主に[楽譜管理]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="2519,521,2816,575"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_f6b26b52ef427cf9d2d77c9850b0eab8.html" title="主に[楽譜管理]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="2049,806,2336,861"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html" title="主に[楽譜管理]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="1421,882,1708,937"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_fail_5c161eac48d4b61c5a09b818059768f7.html" title="主に[楽譜管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="2033,701,2352,755"/>
+<area shape="rect" title=" " alt="" coords="17,662,164,687"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html" title="主に[楽譜管理]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="350,237,633,291"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_csv_1_1_musical___score___csv___yaml.html" title="主に[楽譜管理]機能のテストにおいて、CSVファイルの入出力に関係するテストケースの マッピングを行うクラス。" alt="" coords="353,949,630,1003"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab52f26acf9c8531e2a6a4beaea0fabc28.html" title="主に[楽譜管理]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="336,315,647,370"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="355,394,628,449"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="341,582,641,637"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="352,503,631,558"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_44cc611869042ce1267ba1519b1319b0.html" title="主に[楽譜管理]機能のテストにおいて、リポジトリの検索のテストを行う際の検索 ワードのテストケースを読み取るクラス。" alt="" coords="1115,258,1397,313"/>
+<area shape="rect" title=" " alt="" coords="15,6,167,31"/>
+<area shape="rect" title=" " alt="" coords="15,385,166,410"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_csv_1b94e2abf36adfc36d94d4f603a2f8075.html" title="主に[楽譜管理]機能のテストにおいて、CSVファイルに関係するテストケースを読み込む クラス。" alt="" coords="1732,943,2009,998"/>
+<area shape="rect" title=" " alt="" coords="5,985,176,1025"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html" title="主に[楽譜管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="2037,521,2348,575"/>
+<area shape="rect" title=" " alt="" coords="21,122,161,147"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1437,459,1692,514"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="807,381,1080,435"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="796,538,1091,593"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="799,617,1088,671"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="804,459,1083,514"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="1424,709,1705,763"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="817,695,1069,750"/>
+<area shape="rect" title=" " alt="" coords="448,661,535,686"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="817,774,1069,829"/>
+<area shape="rect" title=" " alt="" coords="443,710,539,735"/>
+<area shape="rect" title=" " alt="" coords="1516,802,1613,827"/>
+<area shape="rect" title=" " alt="" coords="1529,601,1601,626"/>
+<area shape="rect" title=" " alt="" coords="2614,599,2721,625"/>
+<area shape="rect" title=" " alt="" coords="2602,649,2733,674"/>
+<area shape="rect" title=" " alt="" coords="2547,698,2787,753"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ad695f73ad9ed78b0c1c24a34afdc8fd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ad695f73ad9ed78b0c1c24a34afdc8fd9">Musical_Score_History_Repo_FindAllBranch_Test</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html">Musical_Score_History_Repo</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a3209798883af068e0c6f31dcbba57147">test_repo</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a906458a18b8cc6f3b3df0489f2a18f0c">testcase</a>)  throws IOException</td></tr>
+<tr class="memdesc:ad695f73ad9ed78b0c1c24a34afdc8fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ad695f73ad9ed78b0c1c24a34afdc8fd9">[詳解]</a><br /></td></tr>
+<tr class="separator:ad695f73ad9ed78b0c1c24a34afdc8fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c23671c6c30ff137b6b98f9292cff2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ae6c23671c6c30ff137b6b98f9292cff2">検索分岐メソッドにおいて検索種別が履歴日時の際のテスト</a> ()  throws InterruptedException, ExecutionException, ParseException</td></tr>
+<tr class="memdesc:ae6c23671c6c30ff137b6b98f9292cff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ae6c23671c6c30ff137b6b98f9292cff2">[詳解]</a><br /></td></tr>
+<tr class="separator:ae6c23671c6c30ff137b6b98f9292cff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e626721210d892eb70242dc05683141"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a9e626721210d892eb70242dc05683141">検索分岐メソッドにおいて検索種別が管理番号の際のテスト</a> ()  throws InterruptedException, ExecutionException, ParseException</td></tr>
+<tr class="memdesc:a9e626721210d892eb70242dc05683141"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a9e626721210d892eb70242dc05683141">[詳解]</a><br /></td></tr>
+<tr class="separator:a9e626721210d892eb70242dc05683141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247cfa5cdf3915cb3ed6446d191f53a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a247cfa5cdf3915cb3ed6446d191f53a8">検索分岐メソッドにおいて検索種別が履歴種別の際のテスト</a> ()  throws InterruptedException, ExecutionException, ParseException</td></tr>
+<tr class="memdesc:a247cfa5cdf3915cb3ed6446d191f53a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a247cfa5cdf3915cb3ed6446d191f53a8">[詳解]</a><br /></td></tr>
+<tr class="separator:a247cfa5cdf3915cb3ed6446d191f53a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52767658fe3c7e83423642f0ec51de54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a52767658fe3c7e83423642f0ec51de54">検索分岐メソッドにおいて検索種別が操作ユーザー名の際のテスト</a> ()  throws InterruptedException, ExecutionException, ParseException</td></tr>
+<tr class="memdesc:a52767658fe3c7e83423642f0ec51de54"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a52767658fe3c7e83423642f0ec51de54">[詳解]</a><br /></td></tr>
+<tr class="separator:a52767658fe3c7e83423642f0ec51de54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f187bc599364886176c7aabb49f9dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a15f187bc599364886176c7aabb49f9dd">検索分岐メソッドにおいて検索種別が不適合の際のエラーテスト</a> ()  throws ParseException</td></tr>
+<tr class="memdesc:a15f187bc599364886176c7aabb49f9dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a15f187bc599364886176c7aabb49f9dd">[詳解]</a><br /></td></tr>
+<tr class="separator:a15f187bc599364886176c7aabb49f9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a47d5491389fd4487177180213cc5bddb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a47d5491389fd4487177180213cc5bddb">testcaseReset</a> ()  throws IOException</td></tr>
+<tr class="memdesc:a47d5491389fd4487177180213cc5bddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト終了後に、テストケースとして利用したデータを、データベースから削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a47d5491389fd4487177180213cc5bddb">[詳解]</a><br /></td></tr>
+<tr class="separator:a47d5491389fd4487177180213cc5bddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+公開変数類</h2></td></tr>
+<tr class="memitem:a8f2bcd614fe3d141c9d9596b36f5f4fc"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a8f2bcd614fe3d141c9d9596b36f5f4fc">ANSWER_COUNT_DOUBLE</a> = History_RepoForm_TestCase.ANSWER_COUNT_DOUBLE</td></tr>
+<tr class="memdesc:a8f2bcd614fe3d141c9d9596b36f5f4fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索結果の全件数を出力した際の結果数想定値(履歴日時と検索ワードを組み合わせた検索時)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a8f2bcd614fe3d141c9d9596b36f5f4fc">[詳解]</a><br /></td></tr>
+<tr class="separator:a8f2bcd614fe3d141c9d9596b36f5f4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81cc787fdfecb92711034f4cdfc5345e"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a81cc787fdfecb92711034f4cdfc5345e">ANSWER_COUNT_SINGLE</a> = History_RepoForm_TestCase.ANSWER_COUNT_SINGLE</td></tr>
+<tr class="memdesc:a81cc787fdfecb92711034f4cdfc5345e"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索結果の全件数を出力した際の結果数想定値(履歴日時単体での検索時)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a81cc787fdfecb92711034f4cdfc5345e">[詳解]</a><br /></td></tr>
+<tr class="separator:a81cc787fdfecb92711034f4cdfc5345e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b0b6826cb508f3c1e034934134f4ad"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a03b0b6826cb508f3c1e034934134f4ad">END_DATETIME</a> = History_RepoForm_TestCase.END_DATETIME</td></tr>
+<tr class="memdesc:a03b0b6826cb508f3c1e034934134f4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索終了日時  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a03b0b6826cb508f3c1e034934134f4ad">[詳解]</a><br /></td></tr>
+<tr class="separator:a03b0b6826cb508f3c1e034934134f4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c955de968ad783948e6833913690c2e"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a3c955de968ad783948e6833913690c2e">LIMIT_DOUBLE</a> = History_RepoForm_TestCase.LIMIT_DOUBLE</td></tr>
+<tr class="memdesc:a3c955de968ad783948e6833913690c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">1ページ当たりの検索結果の出力限界数(履歴日時と検索ワードを組み合わせた検索時)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a3c955de968ad783948e6833913690c2e">[詳解]</a><br /></td></tr>
+<tr class="separator:a3c955de968ad783948e6833913690c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c747a31e910e10f2cce2ce7e79b76d"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a15c747a31e910e10f2cce2ce7e79b76d">LIMIT_SINGLE</a> = History_RepoForm_TestCase.LIMIT_SINGLE</td></tr>
+<tr class="memdesc:a15c747a31e910e10f2cce2ce7e79b76d"><td class="mdescLeft">&#160;</td><td class="mdescRight">1ページ当たりの検索結果の出力限界数(履歴日時単体での検索時)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a15c747a31e910e10f2cce2ce7e79b76d">[詳解]</a><br /></td></tr>
+<tr class="separator:a15c747a31e910e10f2cce2ce7e79b76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab837b10dccc5434d1c241f4523da36c9"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ab837b10dccc5434d1c241f4523da36c9">OFFSET_DOUBLE</a> = History_RepoForm_TestCase.OFFSET_DOUBLE</td></tr>
+<tr class="memdesc:ab837b10dccc5434d1c241f4523da36c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">オフセット値(履歴日時と検索ワードを組み合わせた検索時)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ab837b10dccc5434d1c241f4523da36c9">[詳解]</a><br /></td></tr>
+<tr class="separator:ab837b10dccc5434d1c241f4523da36c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa87766a58983561d8648adb49f4298d"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#afa87766a58983561d8648adb49f4298d">OFFSET_SINGLE</a> = History_RepoForm_TestCase.OFFSET_SINGLE</td></tr>
+<tr class="memdesc:afa87766a58983561d8648adb49f4298d"><td class="mdescLeft">&#160;</td><td class="mdescRight">オフセット値(履歴日時単体での検索時)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#afa87766a58983561d8648adb49f4298d">[詳解]</a><br /></td></tr>
+<tr class="separator:afa87766a58983561d8648adb49f4298d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2fbfcfe3b2ab6b347218883080eb67"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a7a2fbfcfe3b2ab6b347218883080eb67">START_DATETIME</a> = History_RepoForm_TestCase.START_DATETIME</td></tr>
+<tr class="memdesc:a7a2fbfcfe3b2ab6b347218883080eb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索開始日時  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a7a2fbfcfe3b2ab6b347218883080eb67">[詳解]</a><br /></td></tr>
+<tr class="separator:a7a2fbfcfe3b2ab6b347218883080eb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677bd89e7d93210f3b7e121fc21a580b"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a677bd89e7d93210f3b7e121fc21a580b">WORD</a> = History_RepoForm_TestCase.WORD</td></tr>
+<tr class="memdesc:a677bd89e7d93210f3b7e121fc21a580b"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索ワード  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a677bd89e7d93210f3b7e121fc21a580b">[詳解]</a><br /></td></tr>
+<tr class="separator:a677bd89e7d93210f3b7e121fc21a580b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a9f3c5abd445c9cb8376a3bd7a9377099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a9f3c5abd445c9cb8376a3bd7a9377099">configStaticSet</a> ()</td></tr>
+<tr class="memdesc:a9f3c5abd445c9cb8376a3bd7a9377099"><td class="mdescLeft">&#160;</td><td class="mdescRight">DIした環境変数を、静的変数でも使えるようにする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a9f3c5abd445c9cb8376a3bd7a9377099">[詳解]</a><br /></td></tr>
+<tr class="separator:a9f3c5abd445c9cb8376a3bd7a9377099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627e68ac559c5fc9e9d7df58cf848cb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a627e68ac559c5fc9e9d7df58cf848cb4">findAllBranchCheck</a> (TestParamBuilder&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_musical___score___history.html">Musical_Score_History</a> &gt; test_builder)  throws ExecutionException, InterruptedException, ParseException</td></tr>
+<tr class="memdesc:a627e68ac559c5fc9e9d7df58cf848cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a627e68ac559c5fc9e9d7df58cf848cb4">[詳解]</a><br /></td></tr>
+<tr class="separator:a627e68ac559c5fc9e9d7df58cf848cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a5510eb61e8019530e54ca6f5d1e1e79c"><td class="memItemLeft" align="right" valign="top">final List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_musical___score___history.html">Musical_Score_History</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a5510eb61e8019530e54ca6f5d1e1e79c">origin_compare</a></td></tr>
+<tr class="separator:a5510eb61e8019530e54ca6f5d1e1e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79df2ee641faff169103641e71e1b652"><td class="memItemLeft" align="right" valign="top">final SimpleDateFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a79df2ee641faff169103641e71e1b652">parse_datetime</a> = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;)</td></tr>
+<tr class="separator:a79df2ee641faff169103641e71e1b652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2477dc958bdcd6b2845324c7a339407"><td class="memItemLeft" align="right" valign="top">final SoftAssertions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ab2477dc958bdcd6b2845324c7a339407">softly</a> = new SoftAssertions()</td></tr>
+<tr class="separator:ab2477dc958bdcd6b2845324c7a339407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3209798883af068e0c6f31dcbba57147"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html">Musical_Score_History_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a3209798883af068e0c6f31dcbba57147">test_repo</a></td></tr>
+<tr class="separator:a3209798883af068e0c6f31dcbba57147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906458a18b8cc6f3b3df0489f2a18f0c"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a906458a18b8cc6f3b3df0489f2a18f0c">testcase</a></td></tr>
+<tr class="separator:a906458a18b8cc6f3b3df0489f2a18f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+静的非公開変数類</h2></td></tr>
+<tr class="memitem:a2c52d67335e79da28135da57c0745d9c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a2c52d67335e79da28135da57c0745d9c">testcase_static</a></td></tr>
+<tr class="separator:a2c52d67335e79da28135da57c0745d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[楽譜情報変更履歴]のリポジトリクラスで、検索メソッドの分岐と実行を行うメソッドの テストを行うクラス </p>
+<ul>
+<li>このテストで対象となるクラスは、[Musical_Score_History_Repo]である。</li>
+<li>このテストに使用するデータベースは、本番環境と同一の種類の物を使用する。</li>
+<li>並列処理が可能なメソッドのテストの為、並列処理用の設定ファイルをインポートし、並列処理の 使用を許可しておく。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Musical_Score_History_Repo </dd>
+<dd>
+RepoConfig </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="ad695f73ad9ed78b0c1c24a34afdc8fd9" name="ad695f73ad9ed78b0c1c24a34afdc8fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad695f73ad9ed78b0c1c24a34afdc8fd9">&#9670;&#160;</a></span>Musical_Score_History_Repo_FindAllBranch_Test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.Musical_Score_History_Repo_FindAllBranch_Test </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html">Musical_Score_History_Repo</a>&#160;</td>
+          <td class="paramname"><em>test_repo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>testcase</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。 </p>
+<ul>
+<li>テスト前に、テストに必要なテストケースをデータベース内に保存しておく。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">test_repo</td><td>テスト対象のリポジトリ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase</td><td>テストケースクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Musical_Score_History_Repo</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ad695f73ad9ed78b0c1c24a34afdc8fd9_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ad695f73ad9ed78b0c1c24a34afdc8fd9_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ad695f73ad9ed78b0c1c24a34afdc8fd9_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ad695f73ad9ed78b0c1c24a34afdc8fd9_cgraph">
+<area shape="rect" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="5,188,323,272"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#af813b2a2131b80a2753375d6a4b59764" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="371,161,696,216"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a7ab6d607664504453034ef9a6550f0f7" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="385,241,682,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a1eb40e6a2390ffe5fc4d41a659c3c536" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="763,151,1089,221"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab2298cb81b88636782e7e35cef267447" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1156,241,1455,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab73653b341c280bacf238bf16e3f1610" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1166,163,1445,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a5df7c09df1a53d9c1a55017856d636b9" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1178,5,1433,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a1b5471ee358334b0dd640287d7d2ef7e" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1163,84,1448,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a016502f53982cb8cffdea47778773c2b" title="データベースに正常に保存される、[履歴日時]をリストに格納したものである。" alt="" coords="1503,241,1865,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a3d50dcfb617e58dc70592c06fe78cf67" title="データベースに正常に保存される、[履歴種別]をリストに格納したものである。" alt="" coords="1513,163,1855,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a8b97dc8a70292a3ae99393b1a895fabf" title="データベースに正常に保存される、[管理番号]をリストに格納したものである。" alt="" coords="1547,5,1821,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a2d1bfb0ca4a823913d41e380345f038f" title="データベースに正常に保存される、[操作ユーザー名]をリストに格納したものである。" alt="" coords="1509,84,1859,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a3ca8740216aa092f4034c2f00d241605" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="744,245,1108,300"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1165,320,1446,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="1558,320,1810,375"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a9f3c5abd445c9cb8376a3bd7a9377099" name="a9f3c5abd445c9cb8376a3bd7a9377099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3c5abd445c9cb8376a3bd7a9377099">&#9670;&#160;</a></span>configStaticSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.configStaticSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DIした環境変数を、静的変数でも使えるようにする。 </p>
+<ul>
+<li>設けた理由としては、テスト後のデータベースのリセット確認の際に環境変数を用いる必要があるが、AfterAll は静的メソッドでしか実装できない為、通常のフィールド変数にDIされている環境変数が使えない。</li>
+<li>そのため、新たに静的フィールド変数を作成して、その中にDIした環境変数の参照を入れておくことで、テスト後の データベースリセット確認にも環境変数を使用できるようにしている。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@PostConstruct</li>
+</ul>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、セットアップのための非公開メソッドであり、外部に出さない。 </dd></dl>
+
+</div>
+</div>
+<a id="a627e68ac559c5fc9e9d7df58cf848cb4" name="a627e68ac559c5fc9e9d7df58cf848cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a627e68ac559c5fc9e9d7df58cf848cb4">&#9670;&#160;</a></span>findAllBranchCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.findAllBranchCheck </td>
+          <td>(</td>
+          <td class="paramtype">TestParamBuilder&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_musical___score___history.html">Musical_Score_History</a> &gt;&#160;</td>
+          <td class="paramname"><em>test_builder</em></td><td>)</td>
+          <td> throws ExecutionException, InterruptedException, ParseException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。 </p>
+<ul>
+<li>実際の判定結果は、このクラスでは行わず、共通のユーティリティクラスに処理を委託する。</li>
+<li>こちらのクラスでは、エンティティの比較に用いるユーティリティメソッドを、関数型インターフェース内で 指定して、委託先のメソッドに渡すだけである。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">test_builder</td><td>組立途中の引数のビルダー</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Repository_TestUtils </dd>
+<dd>
+Score_Quad_Repository_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a627e68ac559c5fc9e9d7df58cf848cb4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a627e68ac559c5fc9e9d7df58cf848cb4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a627e68ac559c5fc9e9d7df58cf848cb4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a627e68ac559c5fc9e9d7df58cf848cb4_cgraph">
+<area shape="rect" title="リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。" alt="" coords="5,52,391,121"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_f7e5d91d8ef517de6bf20c937977c915.html#acdc01bd2ef7bb218e880c40f1f6bbded" title="比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。" alt="" coords="469,5,695,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_0e439c4be61e09dbcdf9557f62b3878b.html#a8f5ab2f2c93144445c5a364a2382eadd" title="履歴データのリポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。" alt="" coords="439,99,725,168"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="773,106,1015,161"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae6c23671c6c30ff137b6b98f9292cff2" name="ae6c23671c6c30ff137b6b98f9292cff2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6c23671c6c30ff137b6b98f9292cff2">&#9670;&#160;</a></span>検索分岐メソッドにおいて検索種別が履歴日時の際のテスト()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.検索分岐メソッドにおいて検索種別が履歴日時の際のテスト </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException, ExecutionException, ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。 </p>
+<ul>
+<li>テストの内容としては、検索ワードや検索種別を指定して検索をした場合、想定された検索結果と、 テスト対象メソッドから返ってきた値が、順番含めて一致することを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースから比較用のエンティティリストを取得し、そのリストをオフセット値やリミット、検索ワードで 加工し、検索条件に応じた比較用のエンティティリストを作成する。</li>
+<li>テスト対象メソッドを実行し、比較用のエンティティリストで比較を行う。</li>
+<li>その結果、想定通りの結果件数や、結果の順番、結果の内容であることを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Repository_TestUtils </dd>
+<dd>
+CompareParam </dd>
+<dd>
+TestParam</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ae6c23671c6c30ff137b6b98f9292cff2_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ae6c23671c6c30ff137b6b98f9292cff2_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ae6c23671c6c30ff137b6b98f9292cff2_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_ae6c23671c6c30ff137b6b98f9292cff2_cgraph">
+<area shape="rect" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="5,92,844,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_0e439c4be61e09dbcdf9557f62b3878b.html#a1bef04559ec02211ae47ee6591b822a6" title="リポジトリの検索メソッドの比較用エンティティリスト作成のためのストリームを作成する。" alt="" coords="892,5,1209,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a8af21efad99c0a28830c3057017bec27" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="901,99,1200,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ac3cfacbc915e23abccdac81145a75843" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="895,178,1206,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1263,99,1522,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#a910d2591088977512601375ffb5c9e65" title="マッピングエンティティから読み取った[検索種別以外]のテストケースを出力する。" alt="" coords="1582,99,1909,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1257,178,1528,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#ab94d438bfe1d40c1766aeaea10e878c0" title="マッピングエンティティから読み取った[検索種別]を出力する。" alt="" coords="1576,178,1915,233"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9e626721210d892eb70242dc05683141" name="a9e626721210d892eb70242dc05683141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e626721210d892eb70242dc05683141">&#9670;&#160;</a></span>検索分岐メソッドにおいて検索種別が管理番号の際のテスト()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.検索分岐メソッドにおいて検索種別が管理番号の際のテスト </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException, ExecutionException, ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。 </p>
+<ul>
+<li>テストの内容としては、検索ワードや検索種別を指定して検索をした場合、想定された検索結果と、 テスト対象メソッドから返ってきた値が、順番含めて一致することを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースから比較用のエンティティリストを取得し、そのリストをオフセット値やリミット、検索ワードで 加工し、検索条件に応じた比較用のエンティティリストを作成する。</li>
+<li>テスト対象メソッドを実行し、比較用のエンティティリストで比較を行う。</li>
+<li>その結果、想定通りの結果件数や、結果の順番、結果の内容であることを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Repository_TestUtils </dd>
+<dd>
+CompareParam </dd>
+<dd>
+TestParam</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a9e626721210d892eb70242dc05683141_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a9e626721210d892eb70242dc05683141_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a9e626721210d892eb70242dc05683141_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a9e626721210d892eb70242dc05683141_cgraph">
+<area shape="rect" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="5,92,844,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_0e439c4be61e09dbcdf9557f62b3878b.html#a1bef04559ec02211ae47ee6591b822a6" title="リポジトリの検索メソッドの比較用エンティティリスト作成のためのストリームを作成する。" alt="" coords="892,5,1209,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a8af21efad99c0a28830c3057017bec27" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="901,99,1200,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ac3cfacbc915e23abccdac81145a75843" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="895,178,1206,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1263,99,1522,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#a910d2591088977512601375ffb5c9e65" title="マッピングエンティティから読み取った[検索種別以外]のテストケースを出力する。" alt="" coords="1582,99,1909,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1257,178,1528,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#ab94d438bfe1d40c1766aeaea10e878c0" title="マッピングエンティティから読み取った[検索種別]を出力する。" alt="" coords="1576,178,1915,233"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a247cfa5cdf3915cb3ed6446d191f53a8" name="a247cfa5cdf3915cb3ed6446d191f53a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247cfa5cdf3915cb3ed6446d191f53a8">&#9670;&#160;</a></span>検索分岐メソッドにおいて検索種別が履歴種別の際のテスト()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.検索分岐メソッドにおいて検索種別が履歴種別の際のテスト </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException, ExecutionException, ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。 </p>
+<ul>
+<li>テストの内容としては、検索ワードや検索種別を指定して検索をした場合、想定された検索結果と、 テスト対象メソッドから返ってきた値が、順番含めて一致することを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースから比較用のエンティティリストを取得し、そのリストをオフセット値やリミット、検索ワードで 加工し、検索条件に応じた比較用のエンティティリストを作成する。</li>
+<li>テスト対象メソッドを実行し、比較用のエンティティリストで比較を行う。</li>
+<li>その結果、想定通りの結果件数や、結果の順番、結果の内容であることを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Repository_TestUtils </dd>
+<dd>
+CompareParam </dd>
+<dd>
+TestParam</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a247cfa5cdf3915cb3ed6446d191f53a8_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a247cfa5cdf3915cb3ed6446d191f53a8_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a247cfa5cdf3915cb3ed6446d191f53a8_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a247cfa5cdf3915cb3ed6446d191f53a8_cgraph">
+<area shape="rect" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="5,92,844,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_0e439c4be61e09dbcdf9557f62b3878b.html#a1bef04559ec02211ae47ee6591b822a6" title="リポジトリの検索メソッドの比較用エンティティリスト作成のためのストリームを作成する。" alt="" coords="892,5,1209,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a8af21efad99c0a28830c3057017bec27" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="901,99,1200,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ac3cfacbc915e23abccdac81145a75843" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="895,178,1206,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1263,99,1522,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#a910d2591088977512601375ffb5c9e65" title="マッピングエンティティから読み取った[検索種別以外]のテストケースを出力する。" alt="" coords="1582,99,1909,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1257,178,1528,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#ab94d438bfe1d40c1766aeaea10e878c0" title="マッピングエンティティから読み取った[検索種別]を出力する。" alt="" coords="1576,178,1915,233"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a52767658fe3c7e83423642f0ec51de54" name="a52767658fe3c7e83423642f0ec51de54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52767658fe3c7e83423642f0ec51de54">&#9670;&#160;</a></span>検索分岐メソッドにおいて検索種別が操作ユーザー名の際のテスト()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.検索分岐メソッドにおいて検索種別が操作ユーザー名の際のテスト </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException, ExecutionException, ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。 </p>
+<ul>
+<li>テストの内容としては、検索ワードや検索種別を指定して検索をした場合、想定された検索結果と、 テスト対象メソッドから返ってきた値が、順番含めて一致することを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースから比較用のエンティティリストを取得し、そのリストをオフセット値やリミット、検索ワードで 加工し、検索条件に応じた比較用のエンティティリストを作成する。</li>
+<li>テスト対象メソッドを実行し、比較用のエンティティリストで比較を行う。</li>
+<li>その結果、想定通りの結果件数や、結果の順番、結果の内容であることを確認する。</li>
+<li>検索ワードにNullを渡した際には、検索結果が0件となることを確認する。</li>
+<li>また、本来Nullが許容されない引数に対してNullを渡した際に、エラーとなることを確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Repository_TestUtils </dd>
+<dd>
+CompareParam </dd>
+<dd>
+TestParam</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a52767658fe3c7e83423642f0ec51de54_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a52767658fe3c7e83423642f0ec51de54_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a52767658fe3c7e83423642f0ec51de54_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a52767658fe3c7e83423642f0ec51de54_cgraph">
+<area shape="rect" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="5,92,908,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_0e439c4be61e09dbcdf9557f62b3878b.html#a1bef04559ec02211ae47ee6591b822a6" title="リポジトリの検索メソッドの比較用エンティティリスト作成のためのストリームを作成する。" alt="" coords="956,5,1273,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a8af21efad99c0a28830c3057017bec27" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="965,99,1264,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ac3cfacbc915e23abccdac81145a75843" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="959,178,1270,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1327,99,1586,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#a910d2591088977512601375ffb5c9e65" title="マッピングエンティティから読み取った[検索種別以外]のテストケースを出力する。" alt="" coords="1646,99,1973,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1321,178,1592,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#ab94d438bfe1d40c1766aeaea10e878c0" title="マッピングエンティティから読み取った[検索種別]を出力する。" alt="" coords="1640,178,1979,233"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a15f187bc599364886176c7aabb49f9dd" name="a15f187bc599364886176c7aabb49f9dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f187bc599364886176c7aabb49f9dd">&#9670;&#160;</a></span>検索分岐メソッドにおいて検索種別が不適合の際のエラーテスト()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.検索分岐メソッドにおいて検索種別が不適合の際のエラーテスト </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。 </p>
+<ul>
+<li>テストの内容としては、受付ができない検索種別を渡した際に、想定されるエラーが出力されることを確認する。 </li>
+</ul>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a15f187bc599364886176c7aabb49f9dd_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a15f187bc599364886176c7aabb49f9dd_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a15f187bc599364886176c7aabb49f9dd_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a15f187bc599364886176c7aabb49f9dd_cgraph">
+<area shape="rect" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,989,887,1058"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a2f07f5757eac5eb74aeda4e540cb6ff9" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="976,508,1204,563"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a8af21efad99c0a28830c3057017bec27" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="941,996,1239,1051"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ac3cfacbc915e23abccdac81145a75843" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="935,1075,1245,1129"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a5250db275e05222621b8cfa7b2f064cb" title="検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1311,5,1591,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a4d21bf2b6ea1a00a89df7bfee1f2368a" title="検索種別を[履歴日時]に指定し、全検索結果数をカウントする。" alt="" coords="1294,84,1609,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a54fbf653a60fca1f23b47945e17c2791" title="検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1293,163,1609,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#aad2aedc9f01a0487c948523d85b2c5ae" title="検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1316,241,1587,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#acc3d837232901964bdfea30c58b8281b" title="検索種別を[履歴種別]に指定し、全検索結果数をカウントする。" alt="" coords="1335,321,1567,390"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#add7320e8f8e0b6c29544fbf33280caf0" title="検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1335,414,1567,483"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a151edf4ce90bef0dbc2d535b8541ab63" title="検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1313,508,1589,563"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a6eae231779033d362f070d863ae3c23d" title="検索種別を[操作ユーザー名]に指定し、全検索結果数をカウントする。" alt="" coords="1329,587,1573,657"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a6cc823c58aaa2bebbc86a0250e5fcb22" title="検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1295,681,1607,736"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a20343335fab6bf66373280037ba0d0c6" title="検索種別を[楽譜番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1332,760,1571,815"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#a378cf94fda684583d5e60df9a16a4a39" title="検索種別を[楽譜番号]に指定し、全検索結果数をカウントする。" alt="" coords="1315,839,1588,893"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html#ae255209f694f828d16013fce24ba971e" title="検索種別を[楽譜番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1314,917,1589,972"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1322,996,1581,1051"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#a910d2591088977512601375ffb5c9e65" title="マッピングエンティティから読み取った[検索種別以外]のテストケースを出力する。" alt="" coords="1663,996,1990,1051"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1316,1075,1587,1129"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#ab94d438bfe1d40c1766aeaea10e878c0" title="マッピングエンティティから読み取った[検索種別]を出力する。" alt="" coords="1657,1075,1996,1129"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a47d5491389fd4487177180213cc5bddb" name="a47d5491389fd4487177180213cc5bddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d5491389fd4487177180213cc5bddb">&#9670;&#160;</a></span>testcaseReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.testcaseReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト終了後に、テストケースとして利用したデータを、データベースから削除する。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a47d5491389fd4487177180213cc5bddb_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a47d5491389fd4487177180213cc5bddb_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a47d5491389fd4487177180213cc5bddb_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684_a47d5491389fd4487177180213cc5bddb_cgraph">
+<area shape="rect" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="5,5,361,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#afee88a35cfcf87be027a50b9218f28bc" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="409,13,707,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a990abbc83bb08c505aa7997f0b1f5f8e" title="履歴用のリポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="755,13,1119,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1167,13,1448,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="1496,13,1748,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a8f2bcd614fe3d141c9d9596b36f5f4fc" name="a8f2bcd614fe3d141c9d9596b36f5f4fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2bcd614fe3d141c9d9596b36f5f4fc">&#9670;&#160;</a></span>ANSWER_COUNT_DOUBLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.ANSWER_COUNT_DOUBLE = History_RepoForm_TestCase.ANSWER_COUNT_DOUBLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索結果の全件数を出力した際の結果数想定値(履歴日時と検索ワードを組み合わせた検索時) </p>
+
+</div>
+</div>
+<a id="a81cc787fdfecb92711034f4cdfc5345e" name="a81cc787fdfecb92711034f4cdfc5345e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81cc787fdfecb92711034f4cdfc5345e">&#9670;&#160;</a></span>ANSWER_COUNT_SINGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.ANSWER_COUNT_SINGLE = History_RepoForm_TestCase.ANSWER_COUNT_SINGLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索結果の全件数を出力した際の結果数想定値(履歴日時単体での検索時) </p>
+
+</div>
+</div>
+<a id="a03b0b6826cb508f3c1e034934134f4ad" name="a03b0b6826cb508f3c1e034934134f4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b0b6826cb508f3c1e034934134f4ad">&#9670;&#160;</a></span>END_DATETIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.END_DATETIME = History_RepoForm_TestCase.END_DATETIME</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索終了日時 </p>
+
+</div>
+</div>
+<a id="a3c955de968ad783948e6833913690c2e" name="a3c955de968ad783948e6833913690c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c955de968ad783948e6833913690c2e">&#9670;&#160;</a></span>LIMIT_DOUBLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.LIMIT_DOUBLE = History_RepoForm_TestCase.LIMIT_DOUBLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>1ページ当たりの検索結果の出力限界数(履歴日時と検索ワードを組み合わせた検索時) </p>
+
+</div>
+</div>
+<a id="a15c747a31e910e10f2cce2ce7e79b76d" name="a15c747a31e910e10f2cce2ce7e79b76d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15c747a31e910e10f2cce2ce7e79b76d">&#9670;&#160;</a></span>LIMIT_SINGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.LIMIT_SINGLE = History_RepoForm_TestCase.LIMIT_SINGLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>1ページ当たりの検索結果の出力限界数(履歴日時単体での検索時) </p>
+
+</div>
+</div>
+<a id="ab837b10dccc5434d1c241f4523da36c9" name="ab837b10dccc5434d1c241f4523da36c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab837b10dccc5434d1c241f4523da36c9">&#9670;&#160;</a></span>OFFSET_DOUBLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.OFFSET_DOUBLE = History_RepoForm_TestCase.OFFSET_DOUBLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オフセット値(履歴日時と検索ワードを組み合わせた検索時) </p>
+
+</div>
+</div>
+<a id="afa87766a58983561d8648adb49f4298d" name="afa87766a58983561d8648adb49f4298d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa87766a58983561d8648adb49f4298d">&#9670;&#160;</a></span>OFFSET_SINGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.OFFSET_SINGLE = History_RepoForm_TestCase.OFFSET_SINGLE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>オフセット値(履歴日時単体での検索時) </p>
+
+</div>
+</div>
+<a id="a5510eb61e8019530e54ca6f5d1e1e79c" name="a5510eb61e8019530e54ca6f5d1e1e79c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5510eb61e8019530e54ca6f5d1e1e79c">&#9670;&#160;</a></span>origin_compare</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final List&lt;<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_musical___score___history.html">Musical_Score_History</a>&gt; com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.origin_compare</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79df2ee641faff169103641e71e1b652" name="a79df2ee641faff169103641e71e1b652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79df2ee641faff169103641e71e1b652">&#9670;&#160;</a></span>parse_datetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SimpleDateFormat com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.parse_datetime = new SimpleDateFormat(&quot;yyyy-MM-dd HH:mm:ss&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2477dc958bdcd6b2845324c7a339407" name="ab2477dc958bdcd6b2845324c7a339407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2477dc958bdcd6b2845324c7a339407">&#9670;&#160;</a></span>softly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SoftAssertions com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.softly = new SoftAssertions()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a2fbfcfe3b2ab6b347218883080eb67" name="a7a2fbfcfe3b2ab6b347218883080eb67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2fbfcfe3b2ab6b347218883080eb67">&#9670;&#160;</a></span>START_DATETIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.START_DATETIME = History_RepoForm_TestCase.START_DATETIME</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索開始日時 </p>
+
+</div>
+</div>
+<a id="a3209798883af068e0c6f31dcbba57147" name="a3209798883af068e0c6f31dcbba57147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3209798883af068e0c6f31dcbba57147">&#9670;&#160;</a></span>test_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html">Musical_Score_History_Repo</a> com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.test_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a906458a18b8cc6f3b3df0489f2a18f0c" name="a906458a18b8cc6f3b3df0489f2a18f0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a906458a18b8cc6f3b3df0489f2a18f0c">&#9670;&#160;</a></span>testcase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a> com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.testcase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2c52d67335e79da28135da57c0745d9c" name="a2c52d67335e79da28135da57c0745d9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c52d67335e79da28135da57c0745d9c">&#9670;&#160;</a></span>testcase_static</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a> com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.testcase_static</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a677bd89e7d93210f3b7e121fc21a580b" name="a677bd89e7d93210f3b7e121fc21a580b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a677bd89e7d93210f3b7e121fc21a580b">&#9670;&#160;</a></span>WORD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int com.springproject.dockerspring.SingleTests.Repository.HistoryRepo.Musical_Score_History_Repo_Test.Musical_Score_History_Repo_FindAllBranch_Test.WORD = History_RepoForm_TestCase.WORD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索ワード </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/SingleTests/Repository/HistoryRepo/Musical_Score_History_Repo_Test/<a class="el" href="_musical___score___history___repo___find_all_branch___test_8java.html">Musical_Score_History_Repo_FindAllBranch_Test.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests.html">SingleTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository.html">Repository</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo.html">HistoryRepo</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_11f49d4c969251b9678828a57fe3fd2ed.html">Musical_Score_History_Repo_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html">Musical_Score_History_Repo_FindAllBranch_Test</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

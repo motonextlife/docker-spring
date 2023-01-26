@@ -1,0 +1,4 @@
+var _facility___photo___fail___samba___test_case_8java =
+[
+    [ "com.springproject.dockerspring.CommonTestCaseMaker.FacilityPhoto.FailDatabase.Facility_Photo_Fail_Samba_TestCase", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail632503e6f3c95fcdc159008c95471296.html", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail632503e6f3c95fcdc159008c95471296" ]
+];

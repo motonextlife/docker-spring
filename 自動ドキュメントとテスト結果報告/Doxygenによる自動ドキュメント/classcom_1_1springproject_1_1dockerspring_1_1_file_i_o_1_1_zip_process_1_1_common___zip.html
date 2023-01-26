@@ -1,0 +1,796 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>すべての圧縮ファイル作成機能で使用する共通処理を定義するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_file_i_o_8_zip_process_8_common___zip_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_file_i_o_8_zip_process_8_common___zip_coll__map" id="acom_8springproject_8dockerspring_8_file_i_o_8_zip_process_8_common___zip_coll__map">
+<area shape="rect" title="すべての圧縮ファイル作成機能で使用する共通処理を定義するクラス" alt="" coords="5,108,212,148"/>
+<area shape="rect" title=" " alt="" coords="16,13,65,38"/>
+<area shape="rect" title=" " alt="" coords="89,5,267,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:abedc1df097527881394939650c71d065"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#abedc1df097527881394939650c71d065">extractZipCom</a> (MultipartFile zip_file, int count_limit, int size_limit)  throws IOException, ZipException, InputFileDifferException </td></tr>
+<tr class="memdesc:abedc1df097527881394939650c71d065"><td class="mdescLeft">&#160;</td><td class="mdescRight">読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#abedc1df097527881394939650c71d065">[詳解]</a><br /></td></tr>
+<tr class="separator:abedc1df097527881394939650c71d065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae83948626ad3981da6ef96c52e5518c0"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ae83948626ad3981da6ef96c52e5518c0">outputZipCom</a> (Supplier&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt; &gt; samba_generate)  throws ZipException, IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ae83948626ad3981da6ef96c52e5518c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ae83948626ad3981da6ef96c52e5518c0">[詳解]</a><br /></td></tr>
+<tr class="separator:ae83948626ad3981da6ef96c52e5518c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">このクラス内で用いるユーティリティクラス（外部へは一切出さない）</div></td></tr>
+<tr class="memitem:a86ebab88f88ac5dee00e465d2e2490c1"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a86ebab88f88ac5dee00e465d2e2490c1">makeTmpFile</a> (String prefix, String ext, Boolean name_only)  throws IOException </td></tr>
+<tr class="memdesc:a86ebab88f88ac5dee00e465d2e2490c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">このクラス内で生成する一時ファイルを一元的に製作するメソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a86ebab88f88ac5dee00e465d2e2490c1">[詳解]</a><br /></td></tr>
+<tr class="separator:a86ebab88f88ac5dee00e465d2e2490c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05be3bc364fbd442f1435c5d3ef38a58"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a05be3bc364fbd442f1435c5d3ef38a58">entryExtSet</a> (LocalFileHeader zip_ent)  throws IOException, InputFileDifferException </td></tr>
+<tr class="memdesc:a05be3bc364fbd442f1435c5d3ef38a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">圧縮ファイルからのエントリのファイル名から拡張子を抜き出し、抜き出した拡張子を返す。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a05be3bc364fbd442f1435c5d3ef38a58">[詳解]</a><br /></td></tr>
+<tr class="separator:a05be3bc364fbd442f1435c5d3ef38a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb21fa9bd3f01fa18fc1f01d1f0b7c11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aeb21fa9bd3f01fa18fc1f01d1f0b7c11">errorTmpFileReset</a> (File delete_tmp_file)  throws IOException, InputFileDifferException </td></tr>
+<tr class="memdesc:aeb21fa9bd3f01fa18fc1f01d1f0b7c11"><td class="mdescLeft">&#160;</td><td class="mdescRight">処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは単体の一時ファイルの削除用となる。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aeb21fa9bd3f01fa18fc1f01d1f0b7c11">[詳解]</a><br /></td></tr>
+<tr class="separator:aeb21fa9bd3f01fa18fc1f01d1f0b7c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc909ae42bc474a60380a70a9d0d901b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#adc909ae42bc474a60380a70a9d0d901b">errorTmpFileReset</a> (List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt; delete_files)  throws IOException, InputFileDifferException </td></tr>
+<tr class="memdesc:adc909ae42bc474a60380a70a9d0d901b"><td class="mdescLeft">&#160;</td><td class="mdescRight">処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは既に複数生成されている一時ファイルの削除用となる。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#adc909ae42bc474a60380a70a9d0d901b">[詳解]</a><br /></td></tr>
+<tr class="separator:adc909ae42bc474a60380a70a9d0d901b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99658c33b528e711b171b7ee259a15c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ab99658c33b528e711b171b7ee259a15c">zipEntryRead</a> (ZipInputStream zipin, LocalFileHeader zip_ent, int size_limit)  throws IOException, ZipException, InputFileDifferException </td></tr>
+<tr class="memdesc:ab99658c33b528e711b171b7ee259a15c"><td class="mdescLeft">&#160;</td><td class="mdescRight">読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ab99658c33b528e711b171b7ee259a15c">[詳解]</a><br /></td></tr>
+<tr class="separator:ab99658c33b528e711b171b7ee259a15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa507cab0f8677b1f5bdeb59fdcb642c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aa507cab0f8677b1f5bdeb59fdcb642c8">renameFilename</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> file, ZipParameters param, Map&lt; String, Integer &gt; filename_list)</td></tr>
+<tr class="memdesc:aa507cab0f8677b1f5bdeb59fdcb642c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルの圧縮時に、同じ名称のファイルが複数あった場合に、ファイル名本体と拡張子の間に 連番を付与することで、名前が被るのを防ぐ。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aa507cab0f8677b1f5bdeb59fdcb642c8">[詳解]</a><br /></td></tr>
+<tr class="separator:aa507cab0f8677b1f5bdeb59fdcb642c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a716cc535ac0a1de489077b0877169891"><td class="memItemLeft" align="right" valign="top">final FileAttribute&lt; Set&lt; PosixFilePermission &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a716cc535ac0a1de489077b0877169891">perms</a></td></tr>
+<tr class="separator:a716cc535ac0a1de489077b0877169891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13b12aad1431f96b902cab3143bb6c4f"><td class="memItemLeft" align="right" valign="top">final Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a13b12aad1431f96b902cab3143bb6c4f">specify_dir</a> = Paths.get(File_Path_Enum.ResourceFilePath.getPath())</td></tr>
+<tr class="separator:a13b12aad1431f96b902cab3143bb6c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >すべての圧縮ファイル作成機能で使用する共通処理を定義するクラス </p>
+<ul>
+<li>この共通処理では、ファイルサーバー通信処理に関して、特定のクラスに依存しない共通の処理を 定義する。作成対象の特定クラスに対してはDIでこのクラスを使えるようにする。</li>
+<li>このクラスで作成される一時ファイルに関しては、すべてローカルにある一時ファイル用の ディレクトリに出力する。なお、その際のパーミッションは、実行権限をすべて剥奪しておく。</li>
+<li>ZIP圧縮を行うライブラリは[zip4j]を用いる。これによって、標準の圧縮機能では実現が難しい 暗号化済みの圧縮ファイルへの対応が可能になる。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>FileEntity </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a05be3bc364fbd442f1435c5d3ef38a58" name="a05be3bc364fbd442f1435c5d3ef38a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05be3bc364fbd442f1435c5d3ef38a58">&#9670;&#160;</a></span>entryExtSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.entryExtSet </td>
+          <td>(</td>
+          <td class="paramtype">LocalFileHeader&#160;</td>
+          <td class="paramname"><em>zip_ent</em></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>圧縮ファイルからのエントリのファイル名から拡張子を抜き出し、抜き出した拡張子を返す。 </p>
+<ul>
+<li>このメソッドは主に、圧縮ファイルから抽出したファイルと同じ拡張子の一時ファイルを作成するために用いる。</li>
+<li>システムで許可されている拡張子は受付可能で、抜き出した拡張子文字列をそのまま返すが、少しでも違う拡張子 のファイルだった場合は、エラーを返す。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>抜き出した拡張子文字列</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">zip_ent</td><td>圧縮ファイルのエントリ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、おもに[extractZipCom]さらには[zipEntryRead]で使用する。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a05be3bc364fbd442f1435c5d3ef38a58_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a05be3bc364fbd442f1435c5d3ef38a58_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a05be3bc364fbd442f1435c5d3ef38a58_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a05be3bc364fbd442f1435c5d3ef38a58_icgraph">
+<area shape="rect" title="圧縮ファイルからのエントリのファイル名から拡張子を抜き出し、抜き出した拡張子を返す。" alt="" coords="936,91,1215,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ab99658c33b528e711b171b7ee259a15c" title="読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。" alt="" coords="601,91,888,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#abedc1df097527881394939650c71d065" title="読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。" alt="" coords="260,91,553,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a94030e9556faa31f2396eabe05d4cd4d" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aefcdfa26913f7315d9d8a422d801fc32" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#a8090cc6cb08e44e7038144d2f9ec4d88" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeb21fa9bd3f01fa18fc1f01d1f0b7c11" name="aeb21fa9bd3f01fa18fc1f01d1f0b7c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb21fa9bd3f01fa18fc1f01d1f0b7c11">&#9670;&#160;</a></span>errorTmpFileReset() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.errorTmpFileReset </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>delete_tmp_file</em></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは単体の一時ファイルの削除用となる。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">delete_tmp_file</td><td>削除対象の一時ファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、おもに[extractZipCom]さらには[zipEntryRead]で使用する。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aeb21fa9bd3f01fa18fc1f01d1f0b7c11_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aeb21fa9bd3f01fa18fc1f01d1f0b7c11_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aeb21fa9bd3f01fa18fc1f01d1f0b7c11_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aeb21fa9bd3f01fa18fc1f01d1f0b7c11_icgraph">
+<area shape="rect" title="処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは単体の一時ファイルの削除用となる。" alt="" coords="939,141,1173,196"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#abedc1df097527881394939650c71d065" title="読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。" alt="" coords="260,91,553,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ae83948626ad3981da6ef96c52e5518c0" title="ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。" alt="" coords="601,227,891,267"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ab99658c33b528e711b171b7ee259a15c" title="読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。" alt="" coords="603,149,889,189"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a94030e9556faa31f2396eabe05d4cd4d" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aefcdfa26913f7315d9d8a422d801fc32" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#a8090cc6cb08e44e7038144d2f9ec4d88" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,163,212,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a4a948dc1427f76a893426d451f3b9215" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="303,156,510,211"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aeb86923d43edda8aace31d6cbd967b0a" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="303,235,510,289"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#accfab7d6c54a71e80fac1b44ea85b5d5" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="303,313,510,368"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adc909ae42bc474a60380a70a9d0d901b" name="adc909ae42bc474a60380a70a9d0d901b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc909ae42bc474a60380a70a9d0d901b">&#9670;&#160;</a></span>errorTmpFileReset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.errorTmpFileReset </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt;&#160;</td>
+          <td class="paramname"><em>delete_files</em></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは既に複数生成されている一時ファイルの削除用となる。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">delete_files</td><td>既にエンティティに格納済みの削除対象の複数の一時ファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、このクラスの全域で使用。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abedc1df097527881394939650c71d065" name="abedc1df097527881394939650c71d065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abedc1df097527881394939650c71d065">&#9670;&#160;</a></span>extractZipCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt; com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.extractZipCom </td>
+          <td>(</td>
+          <td class="paramtype">MultipartFile&#160;</td>
+          <td class="paramname"><em>zip_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>count_limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size_limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException, ZipException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">zip_file</td><td>入力された圧縮ファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">count_limit</td><td>読み取り可能なファイル数の制限値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size_limit</td><td>読み取り可能な、一つのファイルのデータ量制限値</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>圧縮ファイルの入力ストリームを開く。この時点で、圧縮ファイルにパスワードがかかっていて開けない場合は エラーとなる。</li>
+<li>圧縮ファイルから個別のファイルのエントリを読み込んでいくが、以下の状態になったら後続の処理を行わず すぐにエラーを出す。<ul>
+<li>エントリのファイルにパスワードがかかっていて開けない場合。</li>
+<li>エントリのファイルが、ディレクトリだった場合。</li>
+<li>エントリの数が、制限値を超えた場合。</li>
+</ul>
+</li>
+<li>エントリからファイルのデータを抽出し、専用のエンティティに抽出したデータを全て格納する。</li>
+<li>エラーになった際は、作成しておいた一時ファイルを全て削除（抽出が成功したものを含めて）し、例外を投げる。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>データ量とファイル数の制限値は、このクラスを使用する特定クラスで設定している環境変数に依存する。 また、読取時の文字コードは[UTF-8]とする。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">ZipException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_cgraph">
+<area shape="rect" title="読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。" alt="" coords="5,50,299,90"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aeb21fa9bd3f01fa18fc1f01d1f0b7c11" title="処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは単体の一時ファイルの削除用となる。" alt="" coords="707,5,942,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ab99658c33b528e711b171b7ee259a15c" title="読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。" alt="" coords="347,78,633,118"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a05be3bc364fbd442f1435c5d3ef38a58" title="圧縮ファイルからのエントリのファイル名から拡張子を抜き出し、抜き出した拡張子を返す。" alt="" coords="685,85,964,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a86ebab88f88ac5dee00e465d2e2490c1" title="このクラス内で生成する一時ファイルを一元的に製作するメソッド。" alt="" coords="681,149,968,189"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_abedc1df097527881394939650c71d065_icgraph">
+<area shape="rect" title="読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。" alt="" coords="260,91,553,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a94030e9556faa31f2396eabe05d4cd4d" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aefcdfa26913f7315d9d8a422d801fc32" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#a8090cc6cb08e44e7038144d2f9ec4d88" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a86ebab88f88ac5dee00e465d2e2490c1" name="a86ebab88f88ac5dee00e465d2e2490c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ebab88f88ac5dee00e465d2e2490c1">&#9670;&#160;</a></span>makeTmpFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.makeTmpFile </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>name_only</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>このクラス内で生成する一時ファイルを一元的に製作するメソッド。 </p>
+<ul>
+<li>このメソッドを使用する際に、任意の文字列を渡すことでファイル名にその文字列を付加する。 これによって一時ファイル生成を指示した呼び出し元メソッドが特定できる。</li>
+<li>このメソッドでは、モードを切り替えて動作させることができる。一つ目は、「ランダムな名前を付けた一時 ファイルの作成」、もう一つは「一時ファイルは作成せず、ランダムな名前を付けたFileインスタンスのみ作成」の 2種類である。</li>
+<li>モードを分けた理由としては、ライブラリの仕様上、何もデータが定義されていない空のファイルに圧縮ファイル データを書き込むことができない。書き込む際には、ファイルの名前だけ指定して、ファイル生成はライブラリに ゆだねる必要があるためである。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成した一時ファイル or ランダムな名前を付加したFileインスタンス</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">prefix</td><td>ファイル生成時に、ファイル名に付加する名前 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>ファイル生成時の拡張子の指定 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name_only</td><td>モード切替の真偽値。「True」でインスタンスのみ、「False」で一時ファイル作成。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>ランダムファイル名の生成方法</dt><dd><ol type="1">
+<li>20文字のランダムの半角数字の文字列を自動生成。</li>
+<li>現在のタイムスタンプを取得し、文字列に変換した物を作成。</li>
+<li>作成した二つの文字列を連結する。</li>
+<li>なお、これはインスタンス生成時のみ使用する。通常の一時ファイル作成時には、Javaが自動的にスレッドを 認識して一意な名前を付けるので、この機能は使わなくてもよい。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、このクラスの全域で使用。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a86ebab88f88ac5dee00e465d2e2490c1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a86ebab88f88ac5dee00e465d2e2490c1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a86ebab88f88ac5dee00e465d2e2490c1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_a86ebab88f88ac5dee00e465d2e2490c1_icgraph">
+<area shape="rect" title="このクラス内で生成する一時ファイルを一元的に製作するメソッド。" alt="" coords="939,167,1225,207"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ae83948626ad3981da6ef96c52e5518c0" title="ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。" alt="" coords="601,131,891,171"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ab99658c33b528e711b171b7ee259a15c" title="読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。" alt="" coords="603,199,889,239"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a4a948dc1427f76a893426d451f3b9215" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="303,5,510,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aeb86923d43edda8aace31d6cbd967b0a" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="303,84,510,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#accfab7d6c54a71e80fac1b44ea85b5d5" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="303,163,510,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#abedc1df097527881394939650c71d065" title="読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。" alt="" coords="260,242,553,282"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a94030e9556faa31f2396eabe05d4cd4d" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,156,212,211"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aefcdfa26913f7315d9d8a422d801fc32" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,235,212,289"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#a8090cc6cb08e44e7038144d2f9ec4d88" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,313,212,368"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae83948626ad3981da6ef96c52e5518c0" name="ae83948626ad3981da6ef96c52e5518c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae83948626ad3981da6ef96c52e5518c0">&#9670;&#160;</a></span>outputZipCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.outputZipCom </td>
+          <td>(</td>
+          <td class="paramtype">Supplier&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt; &gt;&#160;</td>
+          <td class="paramname"><em>samba_generate</em></td><td>)</td>
+          <td> throws ZipException, IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。 </p>
+<ul>
+<li>ファイルサーバーからのデータ取得の処理は、関数型インターフェースとして引数で渡し、その中で実行する。 これによって、ファイルサーバー通信処理とファイル圧縮処理を明確に分けることが可能になる。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">samba_generate</td><td>ファイルサーバーからのデータ取得の処理の関数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>圧縮ファイル出力用として、Fileインスタンスを生成する。</li>
+<li>圧縮ファイルの設定には、「標準の圧縮度」かつ「パスワード無し」で設定する。</li>
+<li>ファイルサーバーからデータを取り出し、圧縮ファイルのエントリに追加していく。その際に、ファイル名が重複 すれば、重複防止として連番を付与する。</li>
+<li>生成した圧縮ファイルを戻り値とする。また、この処理の際に生成されている一時ファイルは、エラーの有無に 関わらず全て削除する。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>出力する圧縮ファイルはパスワードを設定しない。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">ZipException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_cgraph">
+<area shape="rect" title="ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。" alt="" coords="5,85,295,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aeb21fa9bd3f01fa18fc1f01d1f0b7c11" title="処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは単体の一時ファイルの削除用となる。" alt="" coords="369,5,603,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a86ebab88f88ac5dee00e465d2e2490c1" title="このクラス内で生成する一時ファイルを一元的に製作するメソッド。" alt="" coords="343,85,629,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aa507cab0f8677b1f5bdeb59fdcb642c8" title="ファイルの圧縮時に、同じ名称のファイルが複数あった場合に、ファイル名本体と拡張子の間に 連番を付与することで、名前が被るのを防ぐ。" alt="" coords="360,149,612,204"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ae83948626ad3981da6ef96c52e5518c0_icgraph">
+<area shape="rect" title="ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。" alt="" coords="260,91,549,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a4a948dc1427f76a893426d451f3b9215" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aeb86923d43edda8aace31d6cbd967b0a" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#accfab7d6c54a71e80fac1b44ea85b5d5" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa507cab0f8677b1f5bdeb59fdcb642c8" name="aa507cab0f8677b1f5bdeb59fdcb642c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa507cab0f8677b1f5bdeb59fdcb642c8">&#9670;&#160;</a></span>renameFilename()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.renameFilename </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a>&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ZipParameters&#160;</td>
+          <td class="paramname"><em>param</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, Integer &gt;&#160;</td>
+          <td class="paramname"><em>filename_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルの圧縮時に、同じ名称のファイルが複数あった場合に、ファイル名本体と拡張子の間に 連番を付与することで、名前が被るのを防ぐ。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">file</td><td>変換対象のファイルが格納された専用エンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">param</td><td>圧縮ファイルの中身のファイル名をセットするパラメーター</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>ファイル名を抽出し、ファイル名専用のマップリストに登録。その際に現在の重複数をカウントして保存。</li>
+<li>次のファイル名の抽出の際に、同じファイル名がマップリストに登録されていないことを確認。</li>
+<li>同じ名前が保存されていれば、登録されている重複数を、抽出するファイル名に付加する。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、おもに[outputZipCom]で使用する。 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aa507cab0f8677b1f5bdeb59fdcb642c8_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aa507cab0f8677b1f5bdeb59fdcb642c8_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aa507cab0f8677b1f5bdeb59fdcb642c8_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_aa507cab0f8677b1f5bdeb59fdcb642c8_icgraph">
+<area shape="rect" title="ファイルの圧縮時に、同じ名称のファイルが複数あった場合に、ファイル名本体と拡張子の間に 連番を付与することで、名前が被るのを防ぐ。" alt="" coords="597,84,849,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#ae83948626ad3981da6ef96c52e5518c0" title="ファイルサーバーから読み込んだデータを、圧縮ファイルとして出力する。" alt="" coords="260,91,549,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a4a948dc1427f76a893426d451f3b9215" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aeb86923d43edda8aace31d6cbd967b0a" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#accfab7d6c54a71e80fac1b44ea85b5d5" title="ファイルサーバーから対象のファイルを取り出し、圧縮ファイルとして出力する。 返す。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab99658c33b528e711b171b7ee259a15c" name="ab99658c33b528e711b171b7ee259a15c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab99658c33b528e711b171b7ee259a15c">&#9670;&#160;</a></span>zipEntryRead()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.zipEntryRead </td>
+          <td>(</td>
+          <td class="paramtype">ZipInputStream&#160;</td>
+          <td class="paramname"><em>zipin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LocalFileHeader&#160;</td>
+          <td class="paramname"><em>zip_ent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size_limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException, ZipException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">zipin</td><td>圧縮ファイル入力のストリーム </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">zip_ent</td><td>圧縮ファイルから取り出したエントリ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size_limit</td><td>設定されている読み込み可能データ量の制限値</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>エントリのファイル名から拡張子を抜き出す。この時点で、拡張子がシステムで受け入れることができる物 以外の場合は、エラーとなる。</li>
+<li>抜き出した拡張子を使って、読み込んだファイルのデータを格納するための一時ファイルを作成する。</li>
+<li>ストリームを開き、バッファを用いて少しづつ読み取っていくが、以下の状態になった時は後続の処理を実行せず すぐにエラーとする。<ul>
+<li>読み取ったファイルのデータ量が制限値を少しでも超えた場合。</li>
+<li>ファイルの名前の長さが余りにも長い（ここでは200文字）だった場合。</li>
+</ul>
+</li>
+<li>異常が無ければ、専用の格納エンティティに作成したエントリのファイル名と、一時ファイルをセットで格納し 戻り値とする。</li>
+<li>エラーになった際は、作成しておいた一時ファイルを削除し、例外を投げる。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、おもに[extractZipCom]で使用する。なお、データ量の制限値は、このクラスを使用する 特定クラスで設定している環境変数に依存する。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">ZipException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_cgraph">
+<area shape="rect" title="読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。" alt="" coords="5,77,292,117"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a05be3bc364fbd442f1435c5d3ef38a58" title="圧縮ファイルからのエントリのファイル名から拡張子を抜き出し、抜き出した拡張子を返す。" alt="" coords="344,5,623,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#aeb21fa9bd3f01fa18fc1f01d1f0b7c11" title="処理中にエラーになった際は、作成されている一時ファイルを削除し例外を投げる。 同じ名前のメソッドが二つあるが、こちらは単体の一時ファイルの削除用となる。" alt="" coords="366,70,601,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#a86ebab88f88ac5dee00e465d2e2490c1" title="このクラス内で生成する一時ファイルを一元的に製作するメソッド。" alt="" coords="340,149,627,189"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip_ab99658c33b528e711b171b7ee259a15c_icgraph">
+<area shape="rect" title="読み込んだ個別の圧縮ファイルのエントリからファイルを読み込み、専用のエンティティに格納する。" alt="" coords="601,91,888,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html#abedc1df097527881394939650c71d065" title="読み込んだ圧縮ファイルからデータを抽出し、専用のエンティティに格納して返す。" alt="" coords="260,91,553,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_audio___data___zip_impl.html#a94030e9556faa31f2396eabe05d4cd4d" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_facility___photo___zip_impl.html#aefcdfa26913f7315d9d8a422d801fc32" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_score___pdf___zip_impl.html#a8090cc6cb08e44e7038144d2f9ec4d88" title="読み込んだZIPファイルからデータを抽出し、専用エンティティに格納した抽出結果のファイルリストを 返す。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a716cc535ac0a1de489077b0877169891" name="a716cc535ac0a1de489077b0877169891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716cc535ac0a1de489077b0877169891">&#9670;&#160;</a></span>perms</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final FileAttribute&lt;Set&lt;PosixFilePermission&gt; &gt; com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.perms</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= PosixFilePermissions</div>
+<div class="line">                                                                .asFileAttribute(PosixFilePermissions</div>
+<div class="line">                                                                                .fromString(File_Path_Enum.Permission.getPath()))</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a13b12aad1431f96b902cab3143bb6c4f" name="a13b12aad1431f96b902cab3143bb6c4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13b12aad1431f96b902cab3143bb6c4f">&#9670;&#160;</a></span>specify_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Path com.springproject.dockerspring.FileIO.ZipProcess.Common_Zip.specify_dir = Paths.get(File_Path_Enum.ResourceFilePath.getPath())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/FileIO/ZipProcess/<a class="el" href="_common___zip_8java.html">Common_Zip.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process.html">ZipProcess</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html">Common_Zip</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

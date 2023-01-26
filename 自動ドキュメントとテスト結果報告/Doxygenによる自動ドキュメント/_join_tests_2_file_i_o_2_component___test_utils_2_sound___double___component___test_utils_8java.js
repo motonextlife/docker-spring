@@ -1,0 +1,4 @@
+var _join_tests_2_file_i_o_2_component___test_utils_2_sound___double___component___test_utils_8java =
+[
+    [ "com.springproject.dockerspring.JoinTests.FileIO.Component_TestUtils.Sound_Double_Component_TestUtils", "classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilscb1fd3c0b3bbbb11e6ba85a7a3f98e24.html", "classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilscb1fd3c0b3bbbb11e6ba85a7a3f98e24" ]
+];

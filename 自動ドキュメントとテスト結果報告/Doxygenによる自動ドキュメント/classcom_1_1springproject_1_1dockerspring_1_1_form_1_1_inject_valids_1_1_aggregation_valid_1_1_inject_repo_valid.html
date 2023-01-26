@@ -1,0 +1,819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>DIが必要なフォームバリデーションの項目に関して、[リポジトリからの値が必要な項目]の 判定を行うフォームバリデーションクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_inject_valids_8_aggregation_valid_8_inject_repo_valid_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_inject_valids_8_aggregation_valid_8_inject_repo_valid_coll__map" id="acom_8springproject_8dockerspring_8_form_8_inject_valids_8_aggregation_valid_8_inject_repo_valid_coll__map">
+<area shape="rect" title="DIが必要なフォームバリデーションの項目に関して、[リポジトリからの値が必要な項目]の 判定を行うフォームバリデーションクラス" alt="" coords="1276,643,1505,697"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html" title="DIが必要なフォームバリデーションの項目に関して、[設備関連のリポジトリからの値が必要な項目] の判定を行うフォームバリデーションクラス" alt="" coords="893,163,1122,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_facility___repo.html" title="主に[設備管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="484,17,727,57"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,5,435,60"/>
+<area shape="rect" title=" " alt="" coords="5,623,168,648"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,84,435,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,163,435,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,241,435,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,320,435,375"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,399,435,453"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,477,435,532"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,556,435,611"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,635,435,689"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,713,435,768"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,792,435,847"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,871,435,925"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,949,435,1004"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,1028,435,1083"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,1107,435,1161"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="217,1185,435,1240"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_facility___history___repo.html" title="主に[設備管理変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,84,709,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_facility___photo___repo.html" title="主に[設備写真データ管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,163,709,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_facility___photo___history___repo.html" title="主に[設備写真データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,241,709,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html" title="DIが必要なフォームバリデーションの項目に関して、[団員関連のリポジトリからの値が必要な項目] の判定を行うフォームバリデーションクラス" alt="" coords="892,477,1123,532"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_member___info___repo.html" title="主に[団員管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="500,320,711,375"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_member___info___history___repo.html" title="主に[団員管理変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="500,399,711,453"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html" title="主に[システムユーザー管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="501,477,709,532"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html" title="主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,556,709,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html" title="DIが必要なフォームバリデーションの項目に関して、[楽譜関連のリポジトリからの値が必要な項目] の判定を行うフォームバリデーションクラス" alt="" coords="893,713,1122,768"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html" title="主に[楽譜管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="501,635,709,689"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_musical___score___history___repo.html" title="主に[楽譜管理変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="501,713,709,768"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_score___pdf___repo.html" title="主に[楽譜データ管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,792,709,847"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_score___pdf___history___repo.html" title="主に[楽譜データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,871,709,925"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html" title="DIが必要なフォームバリデーションの項目に関して、[音源関連のリポジトリからの値が必要な項目] の判定を行うフォームバリデーションクラス" alt="" coords="893,1028,1122,1083"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_sound___source___repo.html" title="主に[音源管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,949,709,1004"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_sound___source___history___repo.html" title="主に[音源管理変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,1028,709,1083"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_audio___data___repo.html" title="主に[音源データ情報]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,1107,709,1161"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html" title="主に[音源データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="502,1185,709,1240"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1b0503bc42f355c8278db1a2e6794347"><td class="memItemLeft" align="right" valign="top">BindingResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1b0503bc42f355c8278db1a2e6794347">deleteForeignCheck</a> (String id, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a> table, BindingResult bind_data)</td></tr>
+<tr class="memdesc:a1b0503bc42f355c8278db1a2e6794347"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定テーブルの指定された管理番号が、他のテーブルから参照されていないことを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1b0503bc42f355c8278db1a2e6794347">[詳解]</a><br /></td></tr>
+<tr class="separator:a1b0503bc42f355c8278db1a2e6794347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaec9954e4ba3af8088c43b5b035f9b4"><td class="memItemLeft" align="right" valign="top">BindingResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#abaec9954e4ba3af8088c43b5b035f9b4">foreignKeyCheck</a> (String id, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a> table, BindingResult bind_data, String field_name)</td></tr>
+<tr class="memdesc:abaec9954e4ba3af8088c43b5b035f9b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたテーブルに、指定した管理番号があることを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#abaec9954e4ba3af8088c43b5b035f9b4">[詳解]</a><br /></td></tr>
+<tr class="separator:abaec9954e4ba3af8088c43b5b035f9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2143ac9d851aecf11fed1388d783c22c"><td class="memItemLeft" align="right" valign="top">BindingResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a2143ac9d851aecf11fed1388d783c22c">historyIdExistCheck</a> (Integer history_id, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a> table, BindingResult bind_data)</td></tr>
+<tr class="memdesc:a2143ac9d851aecf11fed1388d783c22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">検査対象の履歴番号がテーブル内に存在するか確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a2143ac9d851aecf11fed1388d783c22c">[詳解]</a><br /></td></tr>
+<tr class="separator:a2143ac9d851aecf11fed1388d783c22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd3239af0b9eeec396f4e8c80f16548"><td class="memItemLeft" align="right" valign="top">BindingResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1bd3239af0b9eeec396f4e8c80f16548">idUniqueCheck</a> (String id, Integer serial_num, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a> table, BindingResult bind_data, String field_name)</td></tr>
+<tr class="memdesc:a1bd3239af0b9eeec396f4e8c80f16548"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1bd3239af0b9eeec396f4e8c80f16548">[詳解]</a><br /></td></tr>
+<tr class="separator:a1bd3239af0b9eeec396f4e8c80f16548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbe7dbf3323aeaa0f68f9a82a3328c4"><td class="memItemLeft" align="right" valign="top">BindingResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1cbe7dbf3323aeaa0f68f9a82a3328c4">pairExistCheckValid</a> (String id, List&lt; Integer &gt; serial_num_list, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a> table, BindingResult bind_data, String field_name)</td></tr>
+<tr class="memdesc:a1cbe7dbf3323aeaa0f68f9a82a3328c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された管理番号とシリアルナンバーのペアが存在することを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1cbe7dbf3323aeaa0f68f9a82a3328c4">[詳解]</a><br /></td></tr>
+<tr class="separator:a1cbe7dbf3323aeaa0f68f9a82a3328c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd3418c7e53c206c0c1038e8f04a636"><td class="memItemLeft" align="right" valign="top">BindingResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a5fd3418c7e53c206c0c1038e8f04a636">usernameUniqueCheck</a> (String username, Integer serial_num, BindingResult bind_data)</td></tr>
+<tr class="memdesc:a5fd3418c7e53c206c0c1038e8f04a636"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたユーザー名を、アカウント情報に登録しようとした際に重複しないことを 確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a5fd3418c7e53c206c0c1038e8f04a636">[詳解]</a><br /></td></tr>
+<tr class="separator:a5fd3418c7e53c206c0c1038e8f04a636"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a5a3c08616a78d107ee56a2c54802adaa"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html">FacilityRepoValid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a5a3c08616a78d107ee56a2c54802adaa">faci_repo_valid</a></td></tr>
+<tr class="separator:a5a3c08616a78d107ee56a2c54802adaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5219a6cb105132fa889a93c91942a68d"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html">MemberRepoValid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a5219a6cb105132fa889a93c91942a68d">memb_repo_valid</a></td></tr>
+<tr class="separator:a5219a6cb105132fa889a93c91942a68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66bf5d304b4303a51a9822f71ccb9eca"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html">ScoreRepoValid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a66bf5d304b4303a51a9822f71ccb9eca">score_repo_valid</a></td></tr>
+<tr class="separator:a66bf5d304b4303a51a9822f71ccb9eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bf85dfe3b8be47f31f650feb84f1ec"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html">SoundRepoValid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a83bf85dfe3b8be47f31f650feb84f1ec">sound_repo_valid</a></td></tr>
+<tr class="separator:a83bf85dfe3b8be47f31f650feb84f1ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >DIが必要なフォームバリデーションの項目に関して、[リポジトリからの値が必要な項目]の 判定を行うフォームバリデーションクラス </p>
+<ul>
+<li>このクラスのようにDIが必要なバリデーションの項目を分離した理由としては、他のアノテーション ベースのバリデーションのようにアノテーション内でDIを行おうとすると、正常にDIが行われず テストができない為、動作が保証できないからである。</li>
+<li>そのため、確実に動作し品質の保証が可能な方法として、通常のフォームクラスとは分離し、 コントローラー内で別途バリデーションを行う方式として、このクラスを設けた。</li>
+</ul>
+<dl class="section note"><dt>覚え書き</dt><dd>実際の判定処理は、集約したクラス側に任せる。このクラスは、集約したクラスへ処理を中継 するためのメソッドのみ設けている。</dd></dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired))</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>FacilityRepoValid </dd>
+<dd>
+MemberRepoValid </dd>
+<dd>
+ScoreRepoValid </dd>
+<dd>
+SoundRepoValid </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a1b0503bc42f355c8278db1a2e6794347" name="a1b0503bc42f355c8278db1a2e6794347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b0503bc42f355c8278db1a2e6794347">&#9670;&#160;</a></span>deleteForeignCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BindingResult com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.deleteForeignCheck </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a>&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BindingResult&#160;</td>
+          <td class="paramname"><em>bind_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定テーブルの指定された管理番号が、他のテーブルから参照されていないことを確認する。 </p>
+<p >　</p><ul>
+<li>使用の用途としては、他のテーブルからデータを参照されているテーブルのデータを削除したい 場合、参照されているままにもかかわらず削除するとエラーが発生する。 そのため、削除する前に削除対象の管理番号が、参照先のテーブルに存在しないか確認して 参照されていないことを確認するためである。</li>
+<li>なお、レスポンスを早くするため、この処理を実行する前にすでに他の箇所でバリデーション エラーが発生しておりエラーが登録されている場合は、処理を行わずスルーする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>登録したエラーの情報</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>指定の管理番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>検査対象のテーブル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bind_data</td><td>エラー情報を登録するためのインスタンス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定された管理番号で、参照先のテーブルを検索し、結果がなくて参照されていないことを 確認する。</li>
+<li>条件に当てはまらなければ、指定されたフィールドにエラーインスタンスにエラーを 登録して戻り値とする。条件に合致していれば、空のエラーインスタンスを返す。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_cgraph">
+<area shape="rect" title="指定テーブルの指定された管理番号が、他のテーブルから参照されていないことを確認する。" alt="" coords="5,45,236,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#a1ce0fa823b4e3a1be0d7379d950b253f" title="指定テーブルの指定された管理番号が、他のテーブルから参照されていないことを確認する。" alt="" coords="284,45,635,100"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#aa9104d391e90fa1aa4cfbeabea4c384f" title="指定した[権限番号]のデータが、テーブル内に「存在しないことを」確認する。" alt="" coords="693,5,929,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#ae879e63c6aa732c7f570e75bd24c1dce" title="指定した[団員番号]のデータが、テーブル内に「存在しないことを」確認する。" alt="" coords="683,84,939,139"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1b0503bc42f355c8278db1a2e6794347_icgraph">
+<area shape="rect" title="指定テーブルの指定された管理番号が、他のテーブルから参照されていないことを確認する。" alt="" coords="323,5,553,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a4268b154e7c35ea7bfec05dfbc1c4969" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,275,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abaec9954e4ba3af8088c43b5b035f9b4" name="abaec9954e4ba3af8088c43b5b035f9b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaec9954e4ba3af8088c43b5b035f9b4">&#9670;&#160;</a></span>foreignKeyCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BindingResult com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.foreignKeyCheck </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a>&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BindingResult&#160;</td>
+          <td class="paramname"><em>bind_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>field_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたテーブルに、指定した管理番号があることを確認する。 </p>
+<p >　</p><ul>
+<li>使用の用途としては、バイナリデータの追加や更新を行う際に、追加しようとしている データに紐付いている管理番号が、参照元のテーブルに存在しているかを確認する為。 参照できない管理番号だと、データベース追加の際にエラーが発生してしまうためである。</li>
+<li>なお、レスポンスを早くするため、この処理を実行する前にすでに他の箇所でバリデーション エラーが発生しておりエラーが登録されている場合は、処理を行わずスルーする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>登録したエラーの情報</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>指定の管理番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>検査対象のテーブル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bind_data</td><td>エラー情報を登録するためのインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">field_name</td><td>エラー情報を登録する対象のフィールド変数名</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定された管理番号で、指定されたテーブルを検索する。</li>
+<li>検索結果が存在し、指定の管理番号が参照できることを確認する。</li>
+<li>条件に当てはまらなければ、指定されたフィールドにエラーインスタンスにエラーを 登録して戻り値とする。条件に合致していれば、空のエラーインスタンスを返す。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_cgraph">
+<area shape="rect" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="5,199,235,253"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html#ad65ac26655d6e0f292e174b9815ed51c" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="310,26,578,95"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#a3ad7a5a00d84ac11e3d0bbd722a4ca32" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="307,147,581,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html#a243a590641a57e38ab034b62902408f8" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="284,241,604,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html#afed2ef9d492657786b2d3996f8b93982" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="283,320,605,375"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_facility___repo.html#ac5ff1aeb9c62cb3dfc0a0b6356c99249" title="[設備番号]に完全一致するデータを一件取得する。" alt="" coords="655,5,862,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a11f20ae51e6c4e87343d035f25b0d89c" title="[権限番号]に完全一致するデータを一件取得する。" alt="" coords="655,84,862,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_member___info___repo.html#a6da32a8d03d13d157eaa548e6fa30c9e" title="[団員番号]に完全一致するデータを一件取得する。" alt="" coords="653,163,864,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html#a7eb34be07f82997cc61432cb845edd31" title="[楽譜番号]に完全一致するデータを一件取得する。" alt="" coords="655,241,863,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_sound___source___repo.html#a633adaf9a73b1b211c9090015dea1c9b" title="[音源番号]に完全一致するデータを一件取得する。" alt="" coords="655,320,862,375"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_abaec9954e4ba3af8088c43b5b035f9b4_icgraph">
+<area shape="rect" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="325,5,555,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a3ccd51fb010f6cae5389e9c00c49fbcb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,277,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2143ac9d851aecf11fed1388d783c22c" name="a2143ac9d851aecf11fed1388d783c22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2143ac9d851aecf11fed1388d783c22c">&#9670;&#160;</a></span>historyIdExistCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BindingResult com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.historyIdExistCheck </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>history_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a>&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BindingResult&#160;</td>
+          <td class="paramname"><em>bind_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検査対象の履歴番号がテーブル内に存在するか確認する。 </p>
+<p >　</p><ul>
+<li>使用の用途としては、ロールバック時の対象のデータの指定の際の履歴番号が、テーブル内に 存在し、処理が可能かどうかを判定する。</li>
+<li>なお、レスポンスを早くするため、この処理を実行する前にすでに他の箇所でバリデーション エラーが発生しておりエラーが登録されている場合は、処理を行わずスルーする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>登録したエラーの情報</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">history_id</td><td>検査対象の履歴番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>検査対象のテーブル名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bind_data</td><td>エラー情報を登録するためのインスタンス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定されたテーブル内に、指定した履歴番号が存在するか確認する。</li>
+<li>条件に当てはまらなければ、指定されたフィールドにエラーインスタンスにエラーを 登録して戻り値とする。条件に合致していれば、空のエラーインスタンスを返す。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_cgraph">
+<area shape="rect" title="検査対象の履歴番号がテーブル内に存在するか確認する。" alt="" coords="5,153,237,207"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html#adebfa4233a85d1f5214465101ed62c9b" title="検査対象の履歴番号がテーブル内に存在するか確認する。" alt="" coords="288,5,557,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#aa72d16525ea96648afbd47a268fa454e" title="検査対象の履歴番号がテーブル内に存在するか確認する。" alt="" coords="285,99,560,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html#a020c72e1e803dfb3323f26d0653930d3" title="検査対象の履歴番号がテーブル内に存在するか確認する。" alt="" coords="287,192,558,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html#af54699d3a9aa28f738089f595c7d3947" title="検査対象の履歴番号がテーブル内に存在するか確認する。" alt="" coords="285,285,560,355"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_facility___repo.html#ac5ff1aeb9c62cb3dfc0a0b6356c99249" title="[設備番号]に完全一致するデータを一件取得する。" alt="" coords="609,13,815,67"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html#a7eb34be07f82997cc61432cb845edd31" title="[楽譜番号]に完全一致するデータを一件取得する。" alt="" coords="608,199,816,254"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_sound___source___repo.html#a633adaf9a73b1b211c9090015dea1c9b" title="[音源番号]に完全一致するデータを一件取得する。" alt="" coords="609,293,815,347"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a2143ac9d851aecf11fed1388d783c22c_icgraph">
+<area shape="rect" title="検査対象の履歴番号がテーブル内に存在するか確認する。" alt="" coords="327,5,559,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a197e4522ad944a7de36fb55a8db74269" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,279,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1bd3239af0b9eeec396f4e8c80f16548" name="a1bd3239af0b9eeec396f4e8c80f16548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bd3239af0b9eeec396f4e8c80f16548">&#9670;&#160;</a></span>idUniqueCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BindingResult com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.idUniqueCheck </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>serial_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a>&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BindingResult&#160;</td>
+          <td class="paramname"><em>bind_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>field_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。 </p>
+<p >　</p><ul>
+<li>使用の用途としては、データの新規追加や更新の際に管理番号を指定するが、同じデータが 既に対象テーブル内にあった場合、一意制約エラーとなる。それを防ぐために用いる。</li>
+<li>なお、レスポンスを早くするため、この処理を実行する前にすでに他の箇所でバリデーション エラーが発生しておりエラーが登録されている場合は、処理を行わずスルーする。</li>
+<li>新規追加の時と、更新の時で判定処理の挙動が異なる。</li>
+<li>新規追加の際は、単純に対象テーブルを指定した管理番号で検索して、検索結果が返ってこない 事を確認する。</li>
+<li>更新の際は、新規追加の時みたいに同じ存在チェックをしてしまうと、既にある指定の管理番号 自身のせいで一意制約エラーとバリデーションエラーと認識されてしまうので、管理番号と 同時に紐付いているシリアルナンバーを指定して「そのシリアルナンバー以外のデータだけ」を 対象にして管理番号の検索を行う。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>登録したエラーの情報</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>指定の管理番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">serial_num</td><td>指定のシリアルナンバー </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>検査対象のテーブル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bind_data</td><td>エラー情報を登録するためのインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">field_name</td><td>エラー情報を登録する対象のフィールド変数名</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>シリアルナンバーがNullで新規追加の際は、指定した管理番号で対象テーブルを 検索し、データが存在しないことを確認する。</li>
+<li>シリアルナンバーが存在する更新処理の場合は、まずそのシリアルナンバーで検索を 行い、データが存在することを確認する -#　データの存在確認が取れたら、専用のクエリメソッドを用いて、指定シリアルナンバー以外の データを対象に管理番号の検索を行う。</li>
+<li>検索の結果がなくて、データが存在しないことを確認する。</li>
+<li>条件に当てはまらなければ、指定されたフィールドにエラーインスタンスにエラーを 登録して戻り値とする。条件に合致していれば、空のエラーインスタンスを返す。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_cgraph">
+<area shape="rect" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="5,517,235,572"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html#a6ed3a5c543a62b4f96863ebd90ed00bc" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="285,84,603,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#acfe211a63a5355dbd8faa84aa7c78a96" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="283,399,605,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html#ab5aec4916e77acf18b3aa5368fadca9e" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="289,635,599,689"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html#a83137816f2239d964b17f6e00695cd2d" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="288,792,600,847"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_facility___repo.html#a3802230e4fec7016a979aedad2b6af88" title="指定した[設備番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="655,5,862,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_facility___repo.html#ac5ff1aeb9c62cb3dfc0a0b6356c99249" title="[設備番号]に完全一致するデータを一件取得する。" alt="" coords="655,84,862,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aa341815218de53546ac66381aae7cada" title="指定した[権限番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="655,163,862,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_member___info___repo.html#a69017369a2bab09dd986bfde5a63ccb5" title="指定した[団員番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="653,241,864,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a367ec9bc6881e679dad6cd138727b974" title="指定した[団員番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="655,320,863,375"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a11f20ae51e6c4e87343d035f25b0d89c" title="[権限番号]に完全一致するデータを一件取得する。" alt="" coords="655,399,862,453"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_member___info___repo.html#a6da32a8d03d13d157eaa548e6fa30c9e" title="[団員番号]に完全一致するデータを一件取得する。" alt="" coords="653,477,864,532"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a6a5a718c5239baf7616cdfcb7a74fd8c" title="[団員番号]に完全一致するデータを一件取得する。" alt="" coords="655,556,863,611"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html#a214d941fe5f53f0fdf3c420565edc6cc" title="指定した[楽譜番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="655,635,863,689"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html#a7eb34be07f82997cc61432cb845edd31" title="[楽譜番号]に完全一致するデータを一件取得する。" alt="" coords="655,713,863,768"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_sound___source___repo.html#a28eaa1264e27dfc4bd1765f2707f2a43" title="指定した[音源番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="655,792,862,847"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_sound___source___repo.html#a633adaf9a73b1b211c9090015dea1c9b" title="[音源番号]に完全一致するデータを一件取得する。" alt="" coords="655,871,862,925"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1bd3239af0b9eeec396f4e8c80f16548_icgraph">
+<area shape="rect" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="297,5,527,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a15b1c02c61913452aee381488f7ed3c1" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,249,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1cbe7dbf3323aeaa0f68f9a82a3328c4" name="a1cbe7dbf3323aeaa0f68f9a82a3328c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbe7dbf3323aeaa0f68f9a82a3328c4">&#9670;&#160;</a></span>pairExistCheckValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BindingResult com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.pairExistCheckValid </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>serial_num_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_form_1_1_valid_table___enum.html">ValidTable_Enum</a>&#160;</td>
+          <td class="paramname"><em>table</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BindingResult&#160;</td>
+          <td class="paramname"><em>bind_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>field_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された管理番号とシリアルナンバーのペアが存在することを確認する。 </p>
+<p >　</p><ul>
+<li>使用の用途としては、データ削除の際などに管理番号と複数のシリアルナンバーを指定して 削除対象のデータを決定する際に、該当データが存在して削除が可能であることを確認する 為である。</li>
+<li>なお、レスポンスを早くするため、この処理を実行する前にすでに他の箇所でバリデーション エラーが発生しておりエラーが登録されている場合は、処理を行わずスルーする。</li>
+<li>注意点として、バイナリデータではない通常のデータに関しては、一度に一つのデータしか 削除できない仕様なので、複数のシリアルナンバーをリストとして渡したとしても、リストの最初の 値しか判定しない。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>登録したエラーの情報</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>指定の管理番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">serial_num_list</td><td>指定の複数のシリアルナンバーを格納したリスト </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">table</td><td>検査対象のテーブル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bind_data</td><td>エラー情報を登録するためのインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">field_name</td><td>エラー情報を登録する対象のフィールド変数名</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定されたシリアルナンバーで、指定テーブルの検索を行う。</li>
+<li>検索によって取得したデータに紐付いている管理番号が、引数で指定された管理番号と 同一であることを確認する。</li>
+<li>なお、検索の際に結果が返ってこなかったとしてもエラーとして扱われる。</li>
+<li>条件に当てはまらなければ、指定されたフィールドにエラーインスタンスにエラーを 登録して戻り値とする。条件に合致していれば、空のエラーインスタンスを返す。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_cgraph">
+<area shape="rect" title="指定された管理番号とシリアルナンバーのペアが存在することを確認する。" alt="" coords="5,153,239,207"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html#a2f8549a0ddf041941db9072ac1b4ba31" title="指定された管理番号とシリアルナンバーのペアが存在することを確認する。" alt="" coords="289,5,571,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#ad664c29539b9c6c9c5b5493571f29146" title="指定された管理番号とシリアルナンバーのペアが存在することを確認する。" alt="" coords="287,99,573,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html#a6bbc9c062aa86eaf704027d6b8b1f901" title="指定された管理番号とシリアルナンバーのペアが存在することを確認する。" alt="" coords="293,192,567,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html#a935309ed3a56213516c4f61c947b32a7" title="指定された管理番号とシリアルナンバーのペアが存在することを確認する。" alt="" coords="292,285,568,355"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a1cbe7dbf3323aeaa0f68f9a82a3328c4_icgraph">
+<area shape="rect" title="指定された管理番号とシリアルナンバーのペアが存在することを確認する。" alt="" coords="308,5,541,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#ab2e83c251aa24e0a952243cbf3015370" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,260,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5fd3418c7e53c206c0c1038e8f04a636" name="a5fd3418c7e53c206c0c1038e8f04a636"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd3418c7e53c206c0c1038e8f04a636">&#9670;&#160;</a></span>usernameUniqueCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BindingResult com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.usernameUniqueCheck </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>username</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>serial_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BindingResult&#160;</td>
+          <td class="paramname"><em>bind_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたユーザー名を、アカウント情報に登録しようとした際に重複しないことを 確認する。 </p>
+<p >　</p><ul>
+<li>使用の用途としては、データの新規追加や更新の際にユーザー名を指定するが、同じデータが 既に対象テーブル内にあった場合、一意制約エラーとなる。それを防ぐために用いる。</li>
+<li>なお、レスポンスを早くするため、この処理を実行する前にすでに他の箇所でバリデーション エラーが発生しておりエラーが登録されている場合は、処理を行わずスルーする。</li>
+<li>新規追加の時と、更新の時で判定処理の挙動が異なる。</li>
+<li>新規追加の際は、単純に対象テーブルを指定したユーザー名で検索して、検索結果が返ってこない 事を確認する。</li>
+<li>更新の際は、新規追加の時みたいに同じ存在チェックをしてしまうと、既にある指定のユーザー名 自身のせいで一意制約エラーとバリデーションエラーと認識されてしまうので、ユーザー名と 同時に紐付いているシリアルナンバーを指定して「そのシリアルナンバー以外のデータだけ」を 対象にしてユーザー名の検索を行う。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>登録したエラーの情報</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">username</td><td>指定のユーザー名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">serial_num</td><td>指定のシリアルナンバー </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bind_data</td><td>エラー情報を登録するためのインスタンス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>シリアルナンバーがNullで新規追加の際は、指定したユーザー名で対象テーブルを 検索し、データが存在しないことを確認する。</li>
+<li>シリアルナンバーが存在する更新処理の場合は、まずそのシリアルナンバーで検索を 行い、データが存在することを確認する -#　データの存在確認が取れたら、専用のクエリメソッドを用いて、指定シリアルナンバー以外の データを対象にユーザー名の検索を行う。</li>
+<li>検索の結果がなくて、データが存在しないことを確認する。</li>
+<li>条件に当てはまらなければ、指定されたフィールドにエラーインスタンスにエラーを 登録して戻り値とする。条件に合致していれば、空のエラーインスタンスを返す。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_cgraph">
+<area shape="rect" title="指定されたユーザー名を、アカウント情報に登録しようとした際に重複しないことを 確認する。" alt="" coords="5,45,256,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#a8bf069feb1fc8be8f3545ad38c654517" title="指定されたユーザー名を、アカウント情報に登録しようとした際に重複しないことを 確認する。" alt="" coords="304,38,596,107"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a9d83d88346eaf24b671fa4ff0dd23157" title="指定した[ユーザー名][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="644,5,875,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#ac93bacb61099e0b93ecf2532a1f1a271" title="ログインを行う際に、[ユーザー名]で検索してユーザー情報をすべて取得する。" alt="" coords="655,84,863,139"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid_a5fd3418c7e53c206c0c1038e8f04a636_icgraph">
+<area shape="rect" title="指定されたユーザー名を、アカウント情報に登録しようとした際に重複しないことを 確認する。" alt="" coords="344,5,595,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#aaa64011881c7c1393cf10b4620e287eb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,296,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a5a3c08616a78d107ee56a2c54802adaa" name="a5a3c08616a78d107ee56a2c54802adaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a3c08616a78d107ee56a2c54802adaa">&#9670;&#160;</a></span>faci_repo_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_sb6d3671352514c267ce710eb5ed79742.html">FacilityRepoValid</a> com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.faci_repo_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5219a6cb105132fa889a93c91942a68d" name="a5219a6cb105132fa889a93c91942a68d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5219a6cb105132fa889a93c91942a68d">&#9670;&#160;</a></span>memb_repo_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html">MemberRepoValid</a> com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.memb_repo_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a66bf5d304b4303a51a9822f71ccb9eca" name="a66bf5d304b4303a51a9822f71ccb9eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66bf5d304b4303a51a9822f71ccb9eca">&#9670;&#160;</a></span>score_repo_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s137723f45e7cbf4559e62fc4c5e4b7ff.html">ScoreRepoValid</a> com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.score_repo_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83bf85dfe3b8be47f31f650feb84f1ec" name="a83bf85dfe3b8be47f31f650feb84f1ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bf85dfe3b8be47f31f650feb84f1ec">&#9670;&#160;</a></span>sound_repo_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_s65be958ba22a36dd75415947cc04c257.html">SoundRepoValid</a> com.springproject.dockerspring.Form.InjectValids.AggregationValid.InjectRepoValid.sound_repo_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Form/InjectValids/AggregationValid/<a class="el" href="_inject_repo_valid_8java.html">InjectRepoValid.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form.html">Form</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids.html">InjectValids</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid.html">AggregationValid</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html">InjectRepoValid</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

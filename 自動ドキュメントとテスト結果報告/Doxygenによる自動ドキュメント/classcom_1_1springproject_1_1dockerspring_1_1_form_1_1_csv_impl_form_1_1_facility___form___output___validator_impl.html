@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[設備管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___outpu143877754f60f61de24c031b9287a3e3.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_facility___form___output___validator_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_facility___form___output___validator_impl_inherit__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_facility___form___output___validator_impl_inherit__map">
+<area shape="rect" title="主に[設備管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス" alt="" coords="5,181,212,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_facility___form___output___validator.html" title="主に[設備管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="5,79,212,133"/>
+<area shape="rect" title=" " alt="" coords="72,5,145,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_facility___form___output___validator_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_facility___form___output___validator_impl_coll__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_facility___form___output___validator_impl_coll__map">
+<area shape="rect" title="主に[設備管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス" alt="" coords="5,181,212,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_facility___form___output___validator.html" title="主に[設備管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="5,79,212,133"/>
+<area shape="rect" title=" " alt="" coords="72,5,145,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa61085cce110da646705d5e4ab9bc799"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#aa61085cce110da646705d5e4ab9bc799">supports</a> (Class&lt;?&gt; clazz)</td></tr>
+<tr class="memdesc:aa61085cce110da646705d5e4ab9bc799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validator使用時に必ず実装するメソッドだが、使用しないので説明を割愛。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#aa61085cce110da646705d5e4ab9bc799">[詳解]</a><br /></td></tr>
+<tr class="separator:aa61085cce110da646705d5e4ab9bc799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93aa49141dff7e6cb6b89a192ed86298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298">validate</a> (Object target, Errors errors)</td></tr>
+<tr class="memdesc:a93aa49141dff7e6cb6b89a192ed86298"><td class="mdescLeft">&#160;</td><td class="mdescRight">実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298">[詳解]</a><br /></td></tr>
+<tr class="separator:a93aa49141dff7e6cb6b89a192ed86298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">バリデーション用の非公開メソッド</div></td></tr>
+<tr class="memitem:a38f5c4557c774cfaefaeb9e4028557cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a38f5c4557c774cfaefaeb9e4028557cd">validSerialNum</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity)</td></tr>
+<tr class="memdesc:a38f5c4557c774cfaefaeb9e4028557cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">シリアルナンバー  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a38f5c4557c774cfaefaeb9e4028557cd">[詳解]</a><br /></td></tr>
+<tr class="separator:a38f5c4557c774cfaefaeb9e4028557cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af926dcf54cbd5e104bbbd40708f3209b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#af926dcf54cbd5e104bbbd40708f3209b">validFaciId</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity)</td></tr>
+<tr class="memdesc:af926dcf54cbd5e104bbbd40708f3209b"><td class="mdescLeft">&#160;</td><td class="mdescRight">設備番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#af926dcf54cbd5e104bbbd40708f3209b">[詳解]</a><br /></td></tr>
+<tr class="separator:af926dcf54cbd5e104bbbd40708f3209b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab729a28dc11cbf6b4743e6c437a99ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#ab729a28dc11cbf6b4743e6c437a99ba8">validFaciName</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity)</td></tr>
+<tr class="memdesc:ab729a28dc11cbf6b4743e6c437a99ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">設備名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#ab729a28dc11cbf6b4743e6c437a99ba8">[詳解]</a><br /></td></tr>
+<tr class="separator:ab729a28dc11cbf6b4743e6c437a99ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7467c966c8c81db69d47d930782243f3"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a7467c966c8c81db69d47d930782243f3">validBuyDate</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity, Boolean flag_1)</td></tr>
+<tr class="memdesc:a7467c966c8c81db69d47d930782243f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">購入日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a7467c966c8c81db69d47d930782243f3">[詳解]</a><br /></td></tr>
+<tr class="separator:a7467c966c8c81db69d47d930782243f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ea1fbb97753310384f2b98dc4ebf30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#aa1ea1fbb97753310384f2b98dc4ebf30">validProducer</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity)</td></tr>
+<tr class="memdesc:aa1ea1fbb97753310384f2b98dc4ebf30"><td class="mdescLeft">&#160;</td><td class="mdescRight">製作者  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#aa1ea1fbb97753310384f2b98dc4ebf30">[詳解]</a><br /></td></tr>
+<tr class="separator:aa1ea1fbb97753310384f2b98dc4ebf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826b5122f0d681d1d8b4ae15f995537f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a826b5122f0d681d1d8b4ae15f995537f">validStorageLoc</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity)</td></tr>
+<tr class="memdesc:a826b5122f0d681d1d8b4ae15f995537f"><td class="mdescLeft">&#160;</td><td class="mdescRight">保管場所  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a826b5122f0d681d1d8b4ae15f995537f">[詳解]</a><br /></td></tr>
+<tr class="separator:a826b5122f0d681d1d8b4ae15f995537f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff49b86326af8f54ac44a31798ac91f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#acff49b86326af8f54ac44a31798ac91f">validOtherComment</a> (Boolean judge, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a> entity)</td></tr>
+<tr class="memdesc:acff49b86326af8f54ac44a31798ac91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">その他コメント  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#acff49b86326af8f54ac44a31798ac91f">[詳解]</a><br /></td></tr>
+<tr class="separator:acff49b86326af8f54ac44a31798ac91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1ba5d3e922200551f1da7370291bd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a3b1ba5d3e922200551f1da7370291bd2">dateLogicCheck</a> (Boolean judge, Boolean flag_1, Boolean flag_2, Date buy_date, Date disp_date)</td></tr>
+<tr class="memdesc:a3b1ba5d3e922200551f1da7370291bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">「購入日」と「廃棄日」の論理チェック  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a3b1ba5d3e922200551f1da7370291bd2">[詳解]</a><br /></td></tr>
+<tr class="separator:a3b1ba5d3e922200551f1da7370291bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[設備管理]の出力時バリデーションにおいて、実際の検査処理を実行するクラス </p>
+<ul>
+<li>主に、データ出力時に誤って不正なデータを出力してしまわないようにする目的で用いる。</li>
+<li>使い方としては、このクラスと対になる通常用エンティティが存在するので、そのエンティティに検査 対象データを格納した状態の物で渡す事で検査を実施する。</li>
+<li>出力時に関しては、入力時に用いる手法でのバリデーションを用いることができない為、[Validator] インターフェースを用いた手法で行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility </dd>
+<dd>
+Facility_Form_Output_Validator </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a3b1ba5d3e922200551f1da7370291bd2" name="a3b1ba5d3e922200551f1da7370291bd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b1ba5d3e922200551f1da7370291bd2">&#9670;&#160;</a></span>dateLogicCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.dateLogicCheck </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>buy_date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>disp_date</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>「購入日」と「廃棄日」の論理チェック </p>
+<ol type="1">
+<li>「購入日」が「廃棄日」以前に設定されている事を判別。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_1</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_2</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buy_date</td><td>検査対象購入日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">disp_date</td><td>検査対象廃棄日</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>日付論理チェックの際の真偽値フラグとは、対象の日付が有効、 つまりNullやバリデーションエラーの状態ではなくて検査が可能だ 状態であることを示すためにある。なので、検査対象の日付が全て 有効状態になっていないと検査ができない。 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a3b1ba5d3e922200551f1da7370291bd2_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a3b1ba5d3e922200551f1da7370291bd2_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a3b1ba5d3e922200551f1da7370291bd2_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a3b1ba5d3e922200551f1da7370291bd2_icgraph">
+<area shape="rect" title="「購入日」と「廃棄日」の論理チェック" alt="" coords="288,5,572,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa61085cce110da646705d5e4ab9bc799" name="aa61085cce110da646705d5e4ab9bc799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61085cce110da646705d5e4ab9bc799">&#9670;&#160;</a></span>supports()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.supports </td>
+          <td>(</td>
+          <td class="paramtype">Class&lt;?&gt;&#160;</td>
+          <td class="paramname"><em>clazz</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validator使用時に必ず実装するメソッドだが、使用しないので説明を割愛。 </p>
+
+</div>
+</div>
+<a id="a93aa49141dff7e6cb6b89a192ed86298" name="a93aa49141dff7e6cb6b89a192ed86298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93aa49141dff7e6cb6b89a192ed86298">&#9670;&#160;</a></span>validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validate </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Errors&#160;</td>
+          <td class="paramname"><em>errors</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。 </p>
+<dl class="section note"><dt>覚え書き</dt><dd>途中でバリデーションエラーが発生した場合は、判定用の 真偽値が「False」になり、後続の処理は実行されずスルーするように なっている。 </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a93aa49141dff7e6cb6b89a192ed86298_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a93aa49141dff7e6cb6b89a192ed86298_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a93aa49141dff7e6cb6b89a192ed86298_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a93aa49141dff7e6cb6b89a192ed86298_cgraph">
+<area shape="rect" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,285,240,340"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a3b1ba5d3e922200551f1da7370291bd2" title="「購入日」と「廃棄日」の論理チェック" alt="" coords="288,5,572,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a7467c966c8c81db69d47d930782243f3" title="購入日" alt="" coords="297,84,563,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#af926dcf54cbd5e104bbbd40708f3209b" title="設備番号" alt="" coords="305,163,555,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#ab729a28dc11cbf6b4743e6c437a99ba8" title="設備名" alt="" coords="293,241,567,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#acff49b86326af8f54ac44a31798ac91f" title="その他コメント" alt="" coords="306,321,554,390"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#aa1ea1fbb97753310384f2b98dc4ebf30" title="製作者" alt="" coords="296,415,564,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a38f5c4557c774cfaefaeb9e4028557cd" title="シリアルナンバー" alt="" coords="292,493,568,548"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a826b5122f0d681d1d8b4ae15f995537f" title="保管場所" alt="" coords="289,572,571,627"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7467c966c8c81db69d47d930782243f3" name="a7467c966c8c81db69d47d930782243f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7467c966c8c81db69d47d930782243f3">&#9670;&#160;</a></span>validBuyDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validBuyDate </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>購入日 </p>
+<ol type="1">
+<li>値が空でない事。</li>
+</ol>
+<dl class="section return"><dt>戻り値</dt><dd>抽出した購入日データ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_1</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a7467c966c8c81db69d47d930782243f3_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a7467c966c8c81db69d47d930782243f3_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a7467c966c8c81db69d47d930782243f3_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a7467c966c8c81db69d47d930782243f3_icgraph">
+<area shape="rect" title="購入日" alt="" coords="288,5,555,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af926dcf54cbd5e104bbbd40708f3209b" name="af926dcf54cbd5e104bbbd40708f3209b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af926dcf54cbd5e104bbbd40708f3209b">&#9670;&#160;</a></span>validFaciId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validFaciId </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>設備番号 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[30文字以内]であること。</li>
+<li>文字列が[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_af926dcf54cbd5e104bbbd40708f3209b_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_af926dcf54cbd5e104bbbd40708f3209b_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_af926dcf54cbd5e104bbbd40708f3209b_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_af926dcf54cbd5e104bbbd40708f3209b_icgraph">
+<area shape="rect" title="設備番号" alt="" coords="288,5,539,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab729a28dc11cbf6b4743e6c437a99ba8" name="ab729a28dc11cbf6b4743e6c437a99ba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab729a28dc11cbf6b4743e6c437a99ba8">&#9670;&#160;</a></span>validFaciName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validFaciName </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>設備名 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_ab729a28dc11cbf6b4743e6c437a99ba8_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_ab729a28dc11cbf6b4743e6c437a99ba8_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_ab729a28dc11cbf6b4743e6c437a99ba8_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_ab729a28dc11cbf6b4743e6c437a99ba8_icgraph">
+<area shape="rect" title="設備名" alt="" coords="288,5,563,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="acff49b86326af8f54ac44a31798ac91f" name="acff49b86326af8f54ac44a31798ac91f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff49b86326af8f54ac44a31798ac91f">&#9670;&#160;</a></span>validOtherComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validOtherComment </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>その他コメント </p>
+<ol type="1">
+<li>文字数が[400文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_acff49b86326af8f54ac44a31798ac91f_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_acff49b86326af8f54ac44a31798ac91f_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_acff49b86326af8f54ac44a31798ac91f_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_acff49b86326af8f54ac44a31798ac91f_icgraph">
+<area shape="rect" title="その他コメント" alt="" coords="288,5,536,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,13,240,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa1ea1fbb97753310384f2b98dc4ebf30" name="aa1ea1fbb97753310384f2b98dc4ebf30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ea1fbb97753310384f2b98dc4ebf30">&#9670;&#160;</a></span>validProducer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validProducer </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>製作者 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_aa1ea1fbb97753310384f2b98dc4ebf30_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_aa1ea1fbb97753310384f2b98dc4ebf30_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_aa1ea1fbb97753310384f2b98dc4ebf30_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_aa1ea1fbb97753310384f2b98dc4ebf30_icgraph">
+<area shape="rect" title="製作者" alt="" coords="288,5,556,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a38f5c4557c774cfaefaeb9e4028557cd" name="a38f5c4557c774cfaefaeb9e4028557cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38f5c4557c774cfaefaeb9e4028557cd">&#9670;&#160;</a></span>validSerialNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validSerialNum </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シリアルナンバー </p>
+<ol type="1">
+<li>値が空でない事。</li>
+<li>符号なしで[9桁]までの数値であり、浮動小数点でない事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a38f5c4557c774cfaefaeb9e4028557cd_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a38f5c4557c774cfaefaeb9e4028557cd_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a38f5c4557c774cfaefaeb9e4028557cd_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a38f5c4557c774cfaefaeb9e4028557cd_icgraph">
+<area shape="rect" title="シリアルナンバー" alt="" coords="288,5,564,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a826b5122f0d681d1d8b4ae15f995537f" name="a826b5122f0d681d1d8b4ae15f995537f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826b5122f0d681d1d8b4ae15f995537f">&#9670;&#160;</a></span>validStorageLoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Facility_Form_Output_ValidatorImpl.validStorageLoc </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>judge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_facility.html">Facility</a>&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保管場所 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">judge</td><td>現在の判定状況を保持する真偽値 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>検査対象のデータを格納したエンティティ </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a826b5122f0d681d1d8b4ae15f995537f_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a826b5122f0d681d1d8b4ae15f995537f_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a826b5122f0d681d1d8b4ae15f995537f_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl_a826b5122f0d681d1d8b4ae15f995537f_icgraph">
+<area shape="rect" title="保管場所" alt="" coords="288,5,571,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html#a93aa49141dff7e6cb6b89a192ed86298" title="実際のバリデーション処理を行う。各項目の検査処理は 非公開メソッドに切り分けてあるので、そちらを参照。" alt="" coords="5,5,240,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Form/CsvImplForm/<a class="el" href="_facility___form___output___validator_impl_8java.html">Facility_Form_Output_ValidatorImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form.html">Form</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form.html">CsvImplForm</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_facility___form___output___validator_impl.html">Facility_Form_Output_ValidatorImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

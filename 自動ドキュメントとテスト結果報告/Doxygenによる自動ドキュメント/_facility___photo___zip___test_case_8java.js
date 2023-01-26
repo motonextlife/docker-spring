@@ -1,0 +1,4 @@
+var _facility___photo___zip___test_case_8java =
+[
+    [ "com.springproject.dockerspring.CommonTestCaseMaker.FacilityPhoto.Zip.Facility_Photo_Zip_TestCase", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_ed5c1bce6869fbe8d95b8898bd79f805.html", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_ed5c1bce6869fbe8d95b8898bd79f805" ]
+];

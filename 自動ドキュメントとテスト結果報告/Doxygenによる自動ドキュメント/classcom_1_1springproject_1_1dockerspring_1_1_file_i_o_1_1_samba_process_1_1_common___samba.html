@@ -1,0 +1,990 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>すべてのファイルサーバー通信機能で使用する共通処理を定義するクラス。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_file_i_o_8_samba_process_8_common___samba_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_file_i_o_8_samba_process_8_common___samba_coll__map" id="acom_8springproject_8dockerspring_8_file_i_o_8_samba_process_8_common___samba_coll__map">
+<area shape="rect" title="すべてのファイルサーバー通信機能で使用する共通処理を定義するクラス。" alt="" coords="347,63,600,103"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="5,5,232,45"/>
+<area shape="rect" title=" " alt="" coords="94,70,143,95"/>
+<area shape="rect" title=" " alt="" coords="30,120,207,160"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aeb4beb6acb3f226c7019ada3edba907a"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#aeb4beb6acb3f226c7019ada3edba907a">checkHash</a> (File target_data, String database_hash)  throws IOException</td></tr>
+<tr class="memdesc:aeb4beb6acb3f226c7019ada3edba907a"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたファイルのハッシュ値と、あらかじめ用意されているハッシュ値が一致するか確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#aeb4beb6acb3f226c7019ada3edba907a">[詳解]</a><br /></td></tr>
+<tr class="separator:aeb4beb6acb3f226c7019ada3edba907a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bf23c71b2fedaa9cb294e9873dd817"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#aa5bf23c71b2fedaa9cb294e9873dd817">compress</a> (File before_file)  throws IOException</td></tr>
+<tr class="memdesc:aa5bf23c71b2fedaa9cb294e9873dd817"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたファイルをGZIP圧縮する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#aa5bf23c71b2fedaa9cb294e9873dd817">[詳解]</a><br /></td></tr>
+<tr class="separator:aa5bf23c71b2fedaa9cb294e9873dd817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa26d8fe338743e0f4e92ca00789d57"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a3aa26d8fe338743e0f4e92ca00789d57">decompress</a> (File before_file, String ext)  throws IOException</td></tr>
+<tr class="memdesc:a3aa26d8fe338743e0f4e92ca00789d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された、GZIP圧縮されたファイルを解凍する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a3aa26d8fe338743e0f4e92ca00789d57">[詳解]</a><br /></td></tr>
+<tr class="separator:a3aa26d8fe338743e0f4e92ca00789d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44486b339ab6951baa50dcf82f59b912"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a44486b339ab6951baa50dcf82f59b912">fileDeleteCom</a> (String dir, String file_name, String ext, Boolean hist)  throws IOException</td></tr>
+<tr class="memdesc:a44486b339ab6951baa50dcf82f59b912"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定したファイルサーバー上のファイルを削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a44486b339ab6951baa50dcf82f59b912">[詳解]</a><br /></td></tr>
+<tr class="separator:a44486b339ab6951baa50dcf82f59b912"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a29311583bb8a45224c5a51025c1232"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a6a29311583bb8a45224c5a51025c1232">fileInputCom</a> (String dir, String file_name, String ext, Boolean hist)  throws IOException</td></tr>
+<tr class="memdesc:a6a29311583bb8a45224c5a51025c1232"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーから指定したファイルを読み込む。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a6a29311583bb8a45224c5a51025c1232">[詳解]</a><br /></td></tr>
+<tr class="separator:a6a29311583bb8a45224c5a51025c1232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24929b12902b2d7aaaf8aec075f270c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a24929b12902b2d7aaaf8aec075f270c4">fileOutputCom</a> (String dir, String file_name, String ext, File temp_file, Boolean hist)  throws IOException</td></tr>
+<tr class="memdesc:a24929b12902b2d7aaaf8aec075f270c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーへ指定したファイルパスへデータを書き込む。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a24929b12902b2d7aaaf8aec075f270c4">[詳解]</a><br /></td></tr>
+<tr class="separator:a24929b12902b2d7aaaf8aec075f270c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48456a4dd9b21ba6765cefd31223faaf"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a48456a4dd9b21ba6765cefd31223faaf">makeHash</a> (File data)  throws IOException</td></tr>
+<tr class="memdesc:a48456a4dd9b21ba6765cefd31223faaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたファイルのハッシュ値を計算する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a48456a4dd9b21ba6765cefd31223faaf">[詳解]</a><br /></td></tr>
+<tr class="separator:a48456a4dd9b21ba6765cefd31223faaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">このクラス内で用いるユーティリティクラス（外部へは一切出さない）</div></td></tr>
+<tr class="memitem:ae01cd6b10d23889da0faa029d683164d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#ae01cd6b10d23889da0faa029d683164d">makePath</a> (String dir, String file_name, String ext, Boolean hist)  throws IOException </td></tr>
+<tr class="memdesc:ae01cd6b10d23889da0faa029d683164d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバー内へのアクセスファイルパスの作成を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#ae01cd6b10d23889da0faa029d683164d">[詳解]</a><br /></td></tr>
+<tr class="separator:ae01cd6b10d23889da0faa029d683164d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3153beb60e536b2f049bc06df28b73d1"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a3153beb60e536b2f049bc06df28b73d1">makeTmpFile</a> (String prefix, String ext)  throws IOException </td></tr>
+<tr class="memdesc:a3153beb60e536b2f049bc06df28b73d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">このクラス内で生成する一時ファイルを一元的に製作するメソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a3153beb60e536b2f049bc06df28b73d1">[詳解]</a><br /></td></tr>
+<tr class="separator:a3153beb60e536b2f049bc06df28b73d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8e20c42af7119ef6d6304a5a619575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#afe8e20c42af7119ef6d6304a5a619575">setTimeout</a> (SmbFile smb)  throws IOException </td></tr>
+<tr class="memdesc:afe8e20c42af7119ef6d6304a5a619575"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーへの通信の際の、タイムアウトの時間の設定を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#afe8e20c42af7119ef6d6304a5a619575">[詳解]</a><br /></td></tr>
+<tr class="separator:afe8e20c42af7119ef6d6304a5a619575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f59df8b9e2d35194fbe136d1b2fe5c9"><td class="memItemLeft" align="right" valign="top">CIFSContext&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a9f59df8b9e2d35194fbe136d1b2fe5c9">sambaSetup</a> ()  throws CIFSException</td></tr>
+<tr class="memdesc:a9f59df8b9e2d35194fbe136d1b2fe5c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーへの通信の際の接続設定を作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a9f59df8b9e2d35194fbe136d1b2fe5c9">[詳解]</a><br /></td></tr>
+<tr class="separator:a9f59df8b9e2d35194fbe136d1b2fe5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a4e0d7817546366924abab5acd284c1b3"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a4e0d7817546366924abab5acd284c1b3">config</a></td></tr>
+<tr class="separator:a4e0d7817546366924abab5acd284c1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af044dd79fed64367e182abab8732e9f8"><td class="memItemLeft" align="right" valign="top">final FileAttribute&lt; Set&lt; PosixFilePermission &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#af044dd79fed64367e182abab8732e9f8">perms</a></td></tr>
+<tr class="separator:af044dd79fed64367e182abab8732e9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67077f4f537a362d8798997cd2b8f8e4"><td class="memItemLeft" align="right" valign="top">final Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a67077f4f537a362d8798997cd2b8f8e4">specify_dir</a> = Paths.get(File_Path_Enum.ResourceFilePath.getPath())</td></tr>
+<tr class="separator:a67077f4f537a362d8798997cd2b8f8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >すべてのファイルサーバー通信機能で使用する共通処理を定義するクラス。 </p>
+<ul>
+<li>通信対象のファイルサーバーの種類は、[samba]とする。</li>
+<li>この共通処理では、ファイルサーバー通信処理に関して、特定のクラスに依存しない共通の処理を 定義する。作成対象の特定クラスに対してはDIでこのクラスを使えるようにする。</li>
+<li>このクラスで作成される一時ファイルに関しては、すべてローカルにある一時ファイル用の ディレクトリに出力する。なお、その際のパーミッションは、実行権限をすべて剥奪しておく。</li>
+<li>このクラスで用いる環境変数のインジェクションは、Lombokによりコンストラクタインジェクションを 行うことで実現する。</li>
+<li>ファイルサーバーを操作するライブラリに関しては、[jcifs-ng]を用いる。これによって、 セキュリティを確保しつつファイルサーバーへの通信を行うことが可能になる。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired)) </li>
+</ul>
+</dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="aeb4beb6acb3f226c7019ada3edba907a" name="aeb4beb6acb3f226c7019ada3edba907a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4beb6acb3f226c7019ada3edba907a">&#9670;&#160;</a></span>checkHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Boolean com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.checkHash </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>target_data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>database_hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたファイルのハッシュ値と、あらかじめ用意されているハッシュ値が一致するか確認する。 </p>
+<ul>
+<li>使い方としては、ファイルサーバーから取得したデータの改ざんチェックを行うためである。</li>
+<li>以前にファイルサーバーに保管する際に計算してデータベースに保存しておいてハッシュ値を用いて、 取り出そうとするファイルが改ざんされていないことを確認するためである。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>照合した結果の真偽値。一致していれば「True」である。</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">target_data</td><td>ファイルサーバーから取り出してきた検査対象データ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">database_hash</td><td>データベースにあらかじめ保存されていたハッシュ値</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aeb4beb6acb3f226c7019ada3edba907a_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aeb4beb6acb3f226c7019ada3edba907a_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aeb4beb6acb3f226c7019ada3edba907a_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aeb4beb6acb3f226c7019ada3edba907a_icgraph">
+<area shape="rect" title="指定されたファイルのハッシュ値と、あらかじめ用意されているハッシュ値が一致するか確認する。" alt="" coords="292,203,499,257"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#a57cc2aa1a3da0dc14ff962112e206458" title="指定されたシリアルナンバーのファイルを読み込み、出力する。" alt="" coords="21,5,228,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a71e9d254c038ef7800ebbbfd96a529db" title="指定されたシリアルナンバーのファイルを読み込み、出力する。" alt="" coords="21,84,228,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#ad1f1ab526532eba12554ad1b55045efd" title="指定されたシリアルナンバーのファイルを読み込み、出力する。" alt="" coords="21,163,228,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#ad08b806150055087ba2a1a7e5805eb5c" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="9,241,240,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a59bab5edbba8e1ef6c1b3e016910e72d" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="5,320,244,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a9032ae4ec15064c82d38f36c26f76052" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="13,399,236,453"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa5bf23c71b2fedaa9cb294e9873dd817" name="aa5bf23c71b2fedaa9cb294e9873dd817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5bf23c71b2fedaa9cb294e9873dd817">&#9670;&#160;</a></span>compress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.compress </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>before_file</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたファイルをGZIP圧縮する。 </p>
+<ul>
+<li>使い方としては、履歴情報を保存する際にGZIP形式で圧縮して保管する際に用いる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>圧縮後のデータが格納された一時ファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">before_file</td><td>対象となる圧縮前のファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>拡張子を[gz]に指定したうえで、圧縮後ファイルの書き込み用の一時ファイルを作成。</li>
+<li>メモリ枯渇を避けるため、バッファを設けて少しづつ圧縮前ファイルからデータを読み取って、圧縮後 ファイルに書き込んでいく。</li>
+<li>エラーが発生すれば、圧縮後ファイルを書き込むための一時ファイルを削除して例外を出す。</li>
+<li>エラーが出る出ないにかかわらず、圧縮前の一時ファイルは削除して、処理を終了する。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aa5bf23c71b2fedaa9cb294e9873dd817_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aa5bf23c71b2fedaa9cb294e9873dd817_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aa5bf23c71b2fedaa9cb294e9873dd817_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_aa5bf23c71b2fedaa9cb294e9873dd817_icgraph">
+<area shape="rect" title="指定されたファイルをGZIP圧縮する。" alt="" coords="933,839,1140,893"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test8502ecef2657003a63713a36999b10b9.html#a2a66f612b0d69fdb8e96e131a7c9cf72" title="必要なクラスをDIした後に、ファイルサーバー内に必要なテストケースのファイルを事前に保存する。" alt="" coords="312,5,579,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a8b2b5d1b516f89ab4c89a702919279fc" title="必要なクラスをDIした後に、ファイルサーバー内に必要なテストケースのファイルを事前に保存する。" alt="" coords="335,114,556,213"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test921f5ab7f7efc2b82e800a8820f9d030.html#a730df84ab044d57ba274feebcdc8ef93" title="必要なクラスをDIした後に、ファイルサーバー内に必要なテストケースのファイルを事前に保存する。" alt="" coords="315,237,575,321"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#a28f728439f31ed6621f6f4b20caebfee" title="指定された履歴データのファイルを、ファイルサーバーに書き込む。" alt="" coords="333,345,557,400"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a42d3151a9e8d67fbd5089cb25f65fd9e" title="指定された履歴データのファイルを、ファイルサーバーに書き込む。" alt="" coords="330,424,561,479"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a7446c0a3706c659f34beb04c2256052e" title="指定された履歴データのファイルを、ファイルサーバーに書き込む。" alt="" coords="337,503,553,557"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test0c4e307be8cde4177b1413c22c37e792.html#aae30558b8ecb95e90d01ad85415b9f48" title="テストで用いる、比較用ファイルやテストケースとして使用するファイルを準備する。" alt="" coords="283,582,608,651"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb1a266c0ed636ad8e7d4dd4a541d59fa.html#afc8e096b9322060fee180a5db8ef3af4" title="共通クラス側のバイナリデータ圧縮解凍メソッドの動作確認を行う。" alt="" coords="173,676,717,760"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testa0aef28fc9a2ff251d23875614f04afe.html#ab403f24f56434bef253e088c533c2edd" title="共通クラス側のファイルサーバー内のファイルの削除機能のメソッドの検査を行う。" alt="" coords="26,785,865,854"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test72d4802ae4c46b91e818b0acddd1ffbf.html#aae780de5ad077c267a639919ddb9f7a0" title="テストで用いる、比較用ファイルやテストケースとして使用するファイルを準備する。" alt="" coords="287,878,604,947"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___teste31ec46a55f564b99cef87101681f24f.html#ad9d3f56b5e63b0cb36eec4916237ee29" title="共通クラス側のバイナリデータ圧縮解凍メソッドの動作確認を行う。" alt="" coords="120,971,771,1041"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testa0aef28fc9a2ff251d23875614f04afe.html#a353c3d5315279bb00c3a337384eb607e" title="集約クラス側のファイルサーバー内の履歴データの削除機能のメソッドの検査を行う。" alt="" coords="5,1065,885,1134"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testf4987a904d9a0e628274d562e10e8638.html#a733fd283c9e88a7a7b812e9215850fc5" title="共通クラス側のファイルサーバー内のファイルの削除機能のメソッドの検査を行う。" alt="" coords="79,1159,811,1243"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testf4987a904d9a0e628274d562e10e8638.html#ae1f2d36577c5fc11f2fa86b041caab3a" title="集約クラス側のファイルサーバー内の履歴データの削除機能のメソッドの検査を行う。" alt="" coords="58,1267,833,1351"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testbbaf3ead870a2ae1fa072de957ab2ace.html#a1d6790483e8416ba4a2185bc51fa175d" title="テストで用いる、比較用ファイルやテストケースとして使用するファイルを準備する。" alt="" coords="335,1375,556,1459"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testee02c2e16ff48914c8d8577916a0fbdc.html#a1981f6a5dd4652382be6291d8f02005a" title="共通クラス側のバイナリデータ圧縮解凍メソッドの動作確認を行う。" alt="" coords="124,1483,767,1553"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb1d8b4cdf5650c00bbcf43058cf1779f.html#aa8c7b00225b62731247a091225f2e046" title="共通クラス側のファイルサーバー内のファイルの削除機能のメソッドの検査を行う。" alt="" coords="30,1577,861,1646"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb1d8b4cdf5650c00bbcf43058cf1779f.html#a1ef8dfd6d60d38122951649c438a4d74" title="集約クラス側のファイルサーバー内の履歴データの削除機能のメソッドの検査を行う。" alt="" coords="9,1670,881,1739"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3aa26d8fe338743e0f4e92ca00789d57" name="a3aa26d8fe338743e0f4e92ca00789d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aa26d8fe338743e0f4e92ca00789d57">&#9670;&#160;</a></span>decompress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.decompress </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>before_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された、GZIP圧縮されたファイルを解凍する。 </p>
+<ul>
+<li>使い方としては、ファイルサーバー上の履歴保存用のデータを取り出した後に、解凍して他の場所で用いれる ようにすることである。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>解凍が終わったデータを格納した一時ファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">before_file</td><td>対象となる圧縮後のファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>解凍後の一時ファイルに付加する拡張子</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定された拡張子で、解凍後のデータを書き込む一時ファイルを作成。</li>
+<li>メモリ枯渇を避けるため、バッファを設けて少しづつ解凍前ファイルからデータを読み取って、解凍後 ファイルに書き込んでいく。</li>
+<li>エラーが発生すれば、解凍後ファイルを書き込むための一時ファイルを削除して例外を出す。</li>
+<li>エラーが出る出ないにかかわらず、解凍前の一時ファイルは削除して、処理を終了する。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a3aa26d8fe338743e0f4e92ca00789d57_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a3aa26d8fe338743e0f4e92ca00789d57_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a3aa26d8fe338743e0f4e92ca00789d57_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a3aa26d8fe338743e0f4e92ca00789d57_icgraph">
+<area shape="rect" title="指定された、GZIP圧縮されたファイルを解凍する。" alt="" coords="704,215,911,269"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#ad08b806150055087ba2a1a7e5805eb5c" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="215,5,446,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a59bab5edbba8e1ef6c1b3e016910e72d" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="211,84,450,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testee02c2e16ff48914c8d8577916a0fbdc.html#a1981f6a5dd4652382be6291d8f02005a" title="共通クラス側のバイナリデータ圧縮解凍メソッドの動作確認を行う。" alt="" coords="9,163,652,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a9032ae4ec15064c82d38f36c26f76052" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="219,257,442,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb1a266c0ed636ad8e7d4dd4a541d59fa.html#afc8e096b9322060fee180a5db8ef3af4" title="共通クラス側のバイナリデータ圧縮解凍メソッドの動作確認を行う。" alt="" coords="59,336,603,420"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___teste31ec46a55f564b99cef87101681f24f.html#ad9d3f56b5e63b0cb36eec4916237ee29" title="共通クラス側のバイナリデータ圧縮解凍メソッドの動作確認を行う。" alt="" coords="5,445,656,514"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a44486b339ab6951baa50dcf82f59b912" name="a44486b339ab6951baa50dcf82f59b912"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44486b339ab6951baa50dcf82f59b912">&#9670;&#160;</a></span>fileDeleteCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.fileDeleteCom </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>file_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>hist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定したファイルサーバー上のファイルを削除する。 </p>
+<ul>
+<li>引数として、指定する機能名と、ファイル名（シリアルナンバーや履歴番号）を指定する事で、対象のファイルを 削除することができる。</li>
+<li>このメソッドは、通常データと履歴用データで共用で用いることができる。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dir</td><td>削除を指定する機能名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>削除を指定するファイル名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>削除時に指定する拡張子 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist</td><td>通常データ用のファイルサーバー上のディレクトリ内のファイルを削除する場合は「False」、 履歴用のディレクトリ内のファイルを削除する場合は「True」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>削除対象のファイルパスを生成。</li>
+<li>事前に作成したファイルサーバーへの接続コンテキストを用いて、接続ストリームを作成。</li>
+<li>削除対象のファイルが存在するか確認を行い、存在しなければエラーを出す。</li>
+<li>対象ファイルを削除し、処理を終了する。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a44486b339ab6951baa50dcf82f59b912_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a44486b339ab6951baa50dcf82f59b912_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a44486b339ab6951baa50dcf82f59b912_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a44486b339ab6951baa50dcf82f59b912_icgraph">
+<area shape="rect" title="指定したファイルサーバー上のファイルを削除する。" alt="" coords="892,320,1099,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#a2b9a6727554b3f211053742ff5c25c65" title="指定されたシリアルナンバーのデータを削除する。" alt="" coords="321,5,528,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#aa29c0c490fc3b53eff0dd902239ff895" title="指定されたシリアルナンバーのデータを削除する。" alt="" coords="321,84,528,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#ab9d7887ccca4eb436c71cde955002d24" title="指定された履歴番号のデータを削除する。" alt="" coords="310,163,539,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a590065a19f9b8dfb8a3003084519725e" title="指定された履歴番号のデータを削除する。" alt="" coords="307,241,543,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a9eeb97ecaebab3671b996d493fff9e86" title="指定された履歴番号のデータを削除する。" alt="" coords="314,320,535,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testf4987a904d9a0e628274d562e10e8638.html#a733fd283c9e88a7a7b812e9215850fc5" title="共通クラス側のファイルサーバー内のファイルの削除機能のメソッドの検査を行う。" alt="" coords="59,399,791,483"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testa0aef28fc9a2ff251d23875614f04afe.html#ab403f24f56434bef253e088c533c2edd" title="共通クラス側のファイルサーバー内のファイルの削除機能のメソッドの検査を行う。" alt="" coords="5,507,844,577"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#abf9b34022f44e99607fdfb589a816c3d" title="指定されたシリアルナンバーのデータを削除する。" alt="" coords="321,601,528,656"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb1d8b4cdf5650c00bbcf43058cf1779f.html#aa8c7b00225b62731247a091225f2e046" title="共通クラス側のファイルサーバー内のファイルの削除機能のメソッドの検査を行う。" alt="" coords="9,681,840,750"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6a29311583bb8a45224c5a51025c1232" name="a6a29311583bb8a45224c5a51025c1232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a29311583bb8a45224c5a51025c1232">&#9670;&#160;</a></span>fileInputCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.fileInputCom </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>file_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>hist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ファイルサーバーから指定したファイルを読み込む。 </p>
+<ul>
+<li>引数として、指定する機能名と、ファイル名（シリアルナンバーや履歴番号）を指定する事で、ファイルを 読み取ることができる。</li>
+<li>このメソッドは、通常データと履歴用データで共用で用いることができる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>読み取ったデータを格納した一時ファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dir</td><td>読取を指定する機能名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>読取を指定するファイル名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>ファイル読取時のファイルの拡張子の指定 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist</td><td>通常データ用のファイルサーバー上のディレクトリにアクセスする場合は「False」、履歴用の ディレクトリにアクセスする場合は「True」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>読み取ったファイルのデータを格納するための一時ファイルを作成。</li>
+<li>事前に作成したファイルサーバーへの接続コンテキストを用いて、入力ストリームを作成。</li>
+<li>読み取るファイルパスを指定して読み取る際に、その接続先のファイルが「ディレクトリではない」かつ 「ファイルが存在する」ことを確認する。満たさなければ、エラーを出す。</li>
+<li>データを読み取る際にメモリの枯渇を避けるため、バッファを設けながら少しづつデータを読み取って、作成 した一時ファイルに書き込む。</li>
+<li>書き込みが終わった一時ファイルを戻り値とする。</li>
+<li>もし処理の過程でエラーが発生した場合は、作成した一時ファイルを削除し例を投げる。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a6a29311583bb8a45224c5a51025c1232_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a6a29311583bb8a45224c5a51025c1232_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a6a29311583bb8a45224c5a51025c1232_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a6a29311583bb8a45224c5a51025c1232_icgraph">
+<area shape="rect" title="ファイルサーバーから指定したファイルを読み込む。" alt="" coords="915,320,1121,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#a57cc2aa1a3da0dc14ff962112e206458" title="指定されたシリアルナンバーのファイルを読み込み、出力する。" alt="" coords="333,5,539,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a71e9d254c038ef7800ebbbfd96a529db" title="指定されたシリアルナンバーのファイルを読み込み、出力する。" alt="" coords="333,84,539,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#ad1f1ab526532eba12554ad1b55045efd" title="指定されたシリアルナンバーのファイルを読み込み、出力する。" alt="" coords="333,163,539,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#ad08b806150055087ba2a1a7e5805eb5c" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="321,241,551,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a59bab5edbba8e1ef6c1b3e016910e72d" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="317,320,555,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a9032ae4ec15064c82d38f36c26f76052" title="指定された履歴番号のファイルを読み込み、出力する。" alt="" coords="325,399,547,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a7daeed9cf03155e5e56db36110e13ef5" title="共通クラス側のファイルサーバー内のファイル取得機能のメソッドの検査を行う。" alt="" coords="59,477,813,561"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test8502ecef2657003a63713a36999b10b9.html#a0d7bfed937a21548f411d17931952d97" title="共通クラス側のファイルサーバー内のファイル取得機能のメソッドの検査を行う。" alt="" coords="5,586,867,655"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test921f5ab7f7efc2b82e800a8820f9d030.html#a36d228841cfd7d8708b5a0535cdf46f7" title="共通クラス側のファイルサーバー内のファイル取得機能のメソッドの検査を行う。" alt="" coords="9,679,863,749"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a24929b12902b2d7aaaf8aec075f270c4" name="a24929b12902b2d7aaaf8aec075f270c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24929b12902b2d7aaaf8aec075f270c4">&#9670;&#160;</a></span>fileOutputCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.fileOutputCom </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>file_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>temp_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>hist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ファイルサーバーへ指定したファイルパスへデータを書き込む。 </p>
+<ul>
+<li>引数として、指定する機能名と、ファイル名（シリアルナンバーや履歴番号）、書き込むデータが入った一時 ファイルを指定する事で、データを書き込むことができる。</li>
+<li>このメソッドは、通常データと履歴用データで共用で用いることができる。また、新規追加と更新で共用。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dir</td><td>書き込みを指定する機能名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>書き込み時に指定するファイル名 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>書き込む際に指定する拡張子 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">temp_file</td><td>書き込むデータが格納された一時ファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist</td><td>通常データ用のファイルサーバー上のディレクトリに書き込む場合は「False」、履歴用の ディレクトリに書き込む場合は「True」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>書き込み対象のファイルパスを生成。</li>
+<li>事前に作成したファイルサーバーへの接続コンテキストを用いて、出力ストリームを作成。</li>
+<li>書き込み対象のデータを読み取る際にメモリの枯渇を避けるため、バッファを設けながら少しづつデータを 読み取って、書き込み先のファイルサーバー上のディレクトリに書き込む。</li>
+<li>エラーが出る出ないにかかわらず、引数で渡された一時ファイルは削除して、処理を終了する。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a24929b12902b2d7aaaf8aec075f270c4_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a24929b12902b2d7aaaf8aec075f270c4_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a24929b12902b2d7aaaf8aec075f270c4_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a24929b12902b2d7aaaf8aec075f270c4_icgraph">
+<area shape="rect" title="ファイルサーバーへ指定したファイルパスへデータを書き込む。" alt="" coords="883,365,1089,420"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#aae309f44aae0113f41c1e91334aeb2be" title="指定された通常データのファイルを、ファイルサーバーに書き込む。" alt="" coords="309,5,531,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#a28f728439f31ed6621f6f4b20caebfee" title="指定された履歴データのファイルを、ファイルサーバーに書き込む。" alt="" coords="308,84,532,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testbbaf3ead870a2ae1fa072de957ab2ace.html#ae88490d21a26083789c0663de3050a1f" title="共通クラス側のファイルサーバー内のファイルの出力保存機能のメソッドの検査を行う。" alt="" coords="59,163,781,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test0c4e307be8cde4177b1413c22c37e792.html#a5ce6d1006c093b4cbd3b90084e3073aa" title="共通クラス側のファイルサーバー内のファイルの出力保存機能のメソッドの検査を行う。" alt="" coords="5,271,835,341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#ae5e693e93d7db6aabc04ae78ed6d3398" title="指定された通常データのファイルを、ファイルサーバーに書き込む。" alt="" coords="306,365,534,420"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a74993abbfb3ad657197145f5f87b46fd" title="指定された通常データのファイルを、ファイルサーバーに書き込む。" alt="" coords="313,444,527,499"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a42d3151a9e8d67fbd5089cb25f65fd9e" title="指定された履歴データのファイルを、ファイルサーバーに書き込む。" alt="" coords="305,523,535,577"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#a7446c0a3706c659f34beb04c2256052e" title="指定された履歴データのファイルを、ファイルサーバーに書き込む。" alt="" coords="312,601,528,656"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test72d4802ae4c46b91e818b0acddd1ffbf.html#ada36fc7f7230b4362e4b5ad1a44e056d" title="共通クラス側のファイルサーバー内のファイルの出力保存機能のメソッドの検査を行う。" alt="" coords="9,681,831,750"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a48456a4dd9b21ba6765cefd31223faaf" name="a48456a4dd9b21ba6765cefd31223faaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48456a4dd9b21ba6765cefd31223faaf">&#9670;&#160;</a></span>makeHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.makeHash </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたファイルのハッシュ値を計算する。 </p>
+<ul>
+<li>このメソッドで用いるハッシュ値の計算方法は[SHA512_256Hex]とする。</li>
+<li>このメソッドは、通常データと履歴用データで共用で用いることができる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>計算で産出されたハッシュ値の文字列</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>ハッシュ値計算対象のファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a48456a4dd9b21ba6765cefd31223faaf_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a48456a4dd9b21ba6765cefd31223faaf_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a48456a4dd9b21ba6765cefd31223faaf_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba_a48456a4dd9b21ba6765cefd31223faaf_icgraph">
+<area shape="rect" title="指定されたファイルのハッシュ値を計算する。" alt="" coords="260,84,467,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_audio___data___samba_impl.html#ac13a3df889336c6eb8a6e5f2cfcf68df" title="指定されたファイルのハッシュ値を計算する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_facility___photo___samba_impl.html#a973f33b3e18eca913ab5f54643efae83" title="指定されたファイルのハッシュ値を計算する。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_score___pdf___samba_impl.html#af6ee358c7ed2d32eb175c3ef3b25e555" title="指定されたファイルのハッシュ値を計算する。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae01cd6b10d23889da0faa029d683164d" name="ae01cd6b10d23889da0faa029d683164d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01cd6b10d23889da0faa029d683164d">&#9670;&#160;</a></span>makePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.makePath </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>file_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>hist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルサーバー内へのアクセスファイルパスの作成を行う。 </p>
+<ul>
+<li>アクセス対象の機能の名称と、ファイル名（シリアルナンバー又は履歴番号）を指定する事で、ファイルサーバー へのアクセスに必要なファイルパスの組立を行う。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成したファイルパス文字列</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dir</td><td>アクセス対象の機能の名称 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">file_name</td><td>アクセス対象のファイル名（シリアルナンバー又は履歴番号） </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>ファイル名に付加する拡張子 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist</td><td>通常データ用のファイルサーバー上のディレクトリにアクセスする場合は「False」、履歴用の ディレクトリにアクセスする場合は「True」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、このクラスの全域で使用。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3153beb60e536b2f049bc06df28b73d1" name="a3153beb60e536b2f049bc06df28b73d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3153beb60e536b2f049bc06df28b73d1">&#9670;&#160;</a></span>makeTmpFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.makeTmpFile </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>ext</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>このクラス内で生成する一時ファイルを一元的に製作するメソッド。 </p>
+<ul>
+<li>このメソッドを使用する際に、任意の文字列を渡すことでファイル名にその文字列を付加する。 これによって一時ファイル生成を指示した呼び出し元メソッドが特定できる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成した一時ファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">prefix</td><td>ファイル生成時に、ファイル名に付加する名前 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext</td><td>ファイル生成時の拡張子の指定</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、このクラスの全域で使用。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9f59df8b9e2d35194fbe136d1b2fe5c9" name="a9f59df8b9e2d35194fbe136d1b2fe5c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f59df8b9e2d35194fbe136d1b2fe5c9">&#9670;&#160;</a></span>sambaSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">CIFSContext com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.sambaSetup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws CIFSException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルサーバーへの通信の際の接続設定を作成する。 </p>
+<ul>
+<li>設定する内容としては、接続先ファイルサーバーのバージョン設定や、認証情報を設定する。</li>
+<li>接続先ファイルサーバーのユーザー名とパスワードに関しては、環境変数から指定する。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>作成した接続コンテキスト</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>接続先ファイルサーバーの対応最小バージョンと、対応最大バージョンをプロパティとして設定。</li>
+<li>環境変数から読み取った、ユーザー名とパスワードを用いて認証情報を作成。</li>
+<li>作成したプロパティと認証情報を用いて、接続コンテキストを作成して戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、このクラスの全域で使用。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">CIFSException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afe8e20c42af7119ef6d6304a5a619575" name="afe8e20c42af7119ef6d6304a5a619575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8e20c42af7119ef6d6304a5a619575">&#9670;&#160;</a></span>setTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.setTimeout </td>
+          <td>(</td>
+          <td class="paramtype">SmbFile&#160;</td>
+          <td class="paramname"><em>smb</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ファイルサーバーへの通信の際の、タイムアウトの時間の設定を行う。 </p>
+<ul>
+<li>設定する内容としては、指定ファイルへの接続時のタイムアウト時間と、指定ファイルの読取時のタイムアウト 時間を設定する。</li>
+<li>設定時間は、環境変数から取得し、その値を設定する。</li>
+<li>注意点として、二つの設定時間に同じ環境変数の時間を設定するため、厳密に環境変数の設定時間で必ず タイムアウトとはならない。若干の誤差がある。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">smb</td><td>ファイルサーバーへの接続ストリーム</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、このクラスの全域で使用。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a4e0d7817546366924abab5acd284c1b3" name="a4e0d7817546366924abab5acd284c1b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e0d7817546366924abab5acd284c1b3">&#9670;&#160;</a></span>config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.config</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af044dd79fed64367e182abab8732e9f8" name="af044dd79fed64367e182abab8732e9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af044dd79fed64367e182abab8732e9f8">&#9670;&#160;</a></span>perms</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final FileAttribute&lt;Set&lt;PosixFilePermission&gt; &gt; com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.perms</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= PosixFilePermissions</div>
+<div class="line">                                                                .asFileAttribute(PosixFilePermissions</div>
+<div class="line">                                                                                .fromString(File_Path_Enum.Permission.getPath()))</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a67077f4f537a362d8798997cd2b8f8e4" name="a67077f4f537a362d8798997cd2b8f8e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67077f4f537a362d8798997cd2b8f8e4">&#9670;&#160;</a></span>specify_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Path com.springproject.dockerspring.FileIO.SambaProcess.Common_Samba.specify_dir = Paths.get(File_Path_Enum.ResourceFilePath.getPath())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/FileIO/SambaProcess/<a class="el" href="_common___samba_8java.html">Common_Samba.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process.html">SambaProcess</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html">Common_Samba</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

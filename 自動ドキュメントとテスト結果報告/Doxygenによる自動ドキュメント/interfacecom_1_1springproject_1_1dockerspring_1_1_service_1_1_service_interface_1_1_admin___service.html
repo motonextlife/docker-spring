@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Service.ServiceInterface.Admin_Service インタフェース</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service インタフェース</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[管理者]が使用するサービスに機能を提供するインターフェース  
+ <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Service.ServiceInterface.Admin_Service の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_service_8_service_interface_8_admin___service_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_service_8_service_interface_8_admin___service_inherit__map" id="acom_8springproject_8dockerspring_8_service_8_service_interface_8_admin___service_inherit__map">
+<area shape="rect" title="主に[管理者]が使用するサービスに機能を提供するインターフェース" alt="" coords="5,5,255,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html" title="主に[管理者]が使用するサービスの機能を実装するクラス" alt="" coords="27,93,233,148"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a624d6f339c1dfa7708b9029ae0ff6dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a624d6f339c1dfa7708b9029ae0ff6dc0">accountList</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a624d6f339c1dfa7708b9029ae0ff6dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a624d6f339c1dfa7708b9029ae0ff6dc0">[詳解]</a><br /></td></tr>
+<tr class="separator:a624d6f339c1dfa7708b9029ae0ff6dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9947803fc0776265f9c29127e7116522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a9947803fc0776265f9c29127e7116522">authList</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a9947803fc0776265f9c29127e7116522"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a9947803fc0776265f9c29127e7116522">[詳解]</a><br /></td></tr>
+<tr class="separator:a9947803fc0776265f9c29127e7116522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc59511554e24833ab384d8d4899482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#acfc59511554e24833ab384d8d4899482">changeAccount</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_system___user___form.html">System_User_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:acfc59511554e24833ab384d8d4899482"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡されたシステムユーザー情報をデータベース内に格納する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#acfc59511554e24833ab384d8d4899482">[詳解]</a><br /></td></tr>
+<tr class="separator:acfc59511554e24833ab384d8d4899482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0b180c0cd8dcb45019f32837cd0f98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a6a0b180c0cd8dcb45019f32837cd0f98">changeAuth</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form.html">Usage_Authority_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:a6a0b180c0cd8dcb45019f32837cd0f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡された権限情報をデータベース内に格納する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a6a0b180c0cd8dcb45019f32837cd0f98">[詳解]</a><br /></td></tr>
+<tr class="separator:a6a0b180c0cd8dcb45019f32837cd0f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2b91fd6c2fbc7eda6914d7f201ef4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#aac2b91fd6c2fbc7eda6914d7f201ef4b">checkAccount</a> (String member_id)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:aac2b91fd6c2fbc7eda6914d7f201ef4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された団員番号に対応する情報を、個別にデータベースから取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#aac2b91fd6c2fbc7eda6914d7f201ef4b">[詳解]</a><br /></td></tr>
+<tr class="separator:aac2b91fd6c2fbc7eda6914d7f201ef4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3786eabb484adfc2faa691b8187a0131"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a3786eabb484adfc2faa691b8187a0131">checkAuth</a> (String auth_id)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a3786eabb484adfc2faa691b8187a0131"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された権限番号に対応する情報を、個別にデータベースから取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a3786eabb484adfc2faa691b8187a0131">[詳解]</a><br /></td></tr>
+<tr class="separator:a3786eabb484adfc2faa691b8187a0131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d0ab7d39bc348f9925c3e4be71c4b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a33d0ab7d39bc348f9925c3e4be71c4b0">deleteAccount</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:a33d0ab7d39bc348f9925c3e4be71c4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたシステムユーザーデータ内のシリアルナンバーのデータを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a33d0ab7d39bc348f9925c3e4be71c4b0">[詳解]</a><br /></td></tr>
+<tr class="separator:a33d0ab7d39bc348f9925c3e4be71c4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e7428e79a84b07c429ef5051274521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ac1e7428e79a84b07c429ef5051274521">deleteAuth</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:ac1e7428e79a84b07c429ef5051274521"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された権限データ内のシリアルナンバーのデータを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ac1e7428e79a84b07c429ef5051274521">[詳解]</a><br /></td></tr>
+<tr class="separator:ac1e7428e79a84b07c429ef5051274521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30050625ae202e1463f4dbec51e05dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad30050625ae202e1463f4dbec51e05dd">deleteHistory</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:ad30050625ae202e1463f4dbec51e05dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたテーブルの、指定された期間内の履歴データを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad30050625ae202e1463f4dbec51e05dd">[詳解]</a><br /></td></tr>
+<tr class="separator:ad30050625ae202e1463f4dbec51e05dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9d5d208631af3711dc9714b436f0fb"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a2d9d5d208631af3711dc9714b436f0fb">mapPacking</a> (List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt; data_list)  throws Exception</td></tr>
+<tr class="memdesc:a2d9d5d208631af3711dc9714b436f0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a2d9d5d208631af3711dc9714b436f0fb">[詳解]</a><br /></td></tr>
+<tr class="separator:a2d9d5d208631af3711dc9714b436f0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e46972b593d15e56c13aa0acbef5a8"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad5e46972b593d15e56c13aa0acbef5a8">parseString</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> entity)  throws Exception</td></tr>
+<tr class="memdesc:ad5e46972b593d15e56c13aa0acbef5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad5e46972b593d15e56c13aa0acbef5a8">[詳解]</a><br /></td></tr>
+<tr class="separator:ad5e46972b593d15e56c13aa0acbef5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[管理者]が使用するサービスに機能を提供するインターフェース </p>
+<ul>
+<li>サービスからは、特定の例外以外は全ての例外をキャッチするように作成する。 </li>
+</ul>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a624d6f339c1dfa7708b9029ae0ff6dc0" name="a624d6f339c1dfa7708b9029ae0ff6dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a624d6f339c1dfa7708b9029ae0ff6dc0">&#9670;&#160;</a></span>accountList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt; com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.accountList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。 </p>
+<ul>
+<li>検索した結果、結果が存在しなかった場合と、検索結果を出力する際にデータに不正があって出力できない 場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時の必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Search_Form </dd>
+<dd>
+FindAllResult </dd>
+<dd>
+System_User</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aa4247e4dd97eb3c984a81a115b6099b5">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a9947803fc0776265f9c29127e7116522" name="a9947803fc0776265f9c29127e7116522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9947803fc0776265f9c29127e7116522">&#9670;&#160;</a></span>authList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.authList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。 </p>
+<ul>
+<li>検索した結果、結果が存在しなかった場合と、検索結果を出力する際にデータに不正があって出力できない 場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時の必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Search_Form </dd>
+<dd>
+FindAllResult </dd>
+<dd>
+Usage_Authority</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a55b5ba612a131b5d44f7288a0fab2c2f">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="acfc59511554e24833ab384d8d4899482" name="acfc59511554e24833ab384d8d4899482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfc59511554e24833ab384d8d4899482">&#9670;&#160;</a></span>changeAccount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.changeAccount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_system___user___form.html">System_User_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フォームから渡されたシステムユーザー情報をデータベース内に格納する。 </p>
+<ul>
+<li>このメソッドは、新規追加と更新で共用できる。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>データベースに格納する情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>System_User_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a3f17aea015f4ea7f0df5cdd24e99f2a6">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a6a0b180c0cd8dcb45019f32837cd0f98" name="a6a0b180c0cd8dcb45019f32837cd0f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a0b180c0cd8dcb45019f32837cd0f98">&#9670;&#160;</a></span>changeAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.changeAuth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form.html">Usage_Authority_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フォームから渡された権限情報をデータベース内に格納する。 </p>
+<ul>
+<li>このメソッドは、新規追加と更新で共用できる。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>データベースに格納する情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a91f8bbcab84067204bea7705fc64cce3">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="aac2b91fd6c2fbc7eda6914d7f201ef4b" name="aac2b91fd6c2fbc7eda6914d7f201ef4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2b91fd6c2fbc7eda6914d7f201ef4b">&#9670;&#160;</a></span>checkAccount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.checkAccount </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>member_id</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された団員番号に対応する情報を、個別にデータベースから取得する。 </p>
+<ul>
+<li>このメソッドは、単体情報の検索時に用いられる。</li>
+<li>指定した団員番号の情報が見つからなかったり、取得したデータに不正があって出力できない場合は、特定の例外を 出し、別として扱う。</li>
+<li>その他の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>取得したデータのエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">member_id</td><td>指定する団員番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>System_User</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a79c692f04625808e49f643c807312d1f">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a3786eabb484adfc2faa691b8187a0131" name="a3786eabb484adfc2faa691b8187a0131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3786eabb484adfc2faa691b8187a0131">&#9670;&#160;</a></span>checkAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.checkAuth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>auth_id</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された権限番号に対応する情報を、個別にデータベースから取得する。 </p>
+<ul>
+<li>このメソッドは、単体情報の検索時に用いられる。</li>
+<li>指定した権限番号の情報が見つからなかったり、取得したデータに不正があって出力できない場合は、特定の例外を 出し、別として扱う。</li>
+<li>その他の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>取得したデータのエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">auth_id</td><td>指定する権限番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a80c8d3d7bfc2fc12277d6d88b3dd2495">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a33d0ab7d39bc348f9925c3e4be71c4b0" name="a33d0ab7d39bc348f9925c3e4be71c4b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d0ab7d39bc348f9925c3e4be71c4b0">&#9670;&#160;</a></span>deleteAccount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.deleteAccount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたシステムユーザーデータ内のシリアルナンバーのデータを削除する。 </p>
+<ul>
+<li>削除しようとしたデータが見つからなかった場合は、特定の例外を投げ、別として対応する。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Delete_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a61ccb00359b7fb96687cc10d78f4800f">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="ac1e7428e79a84b07c429ef5051274521" name="ac1e7428e79a84b07c429ef5051274521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1e7428e79a84b07c429ef5051274521">&#9670;&#160;</a></span>deleteAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.deleteAuth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された権限データ内のシリアルナンバーのデータを削除する。 </p>
+<ul>
+<li>削除しようとしたデータが見つからなかった場合は、特定の例外を投げ、別として対応する。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Delete_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a67dd8913c49cf363a8ef1ef6b084c6f4">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="ad30050625ae202e1463f4dbec51e05dd" name="ad30050625ae202e1463f4dbec51e05dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad30050625ae202e1463f4dbec51e05dd">&#9670;&#160;</a></span>deleteHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.deleteHistory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたテーブルの、指定された期間内の履歴データを削除する。 </p>
+<ul>
+<li>複数のテーブルの履歴情報をまとめて削除する際に、並列処理ができるようにする。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Del_Indivi_Hist_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#ace7c949a28374abd48373263c7e027e5">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="a2d9d5d208631af3711dc9714b436f0fb" name="a2d9d5d208631af3711dc9714b436f0fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d9d5d208631af3711dc9714b436f0fb">&#9670;&#160;</a></span>mapPacking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; String, String &gt; &gt; com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.mapPacking </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt;&#160;</td>
+          <td class="paramname"><em>data_list</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。 </p>
+<ul>
+<li>このメソッドは、データの画面出力時は文字列である必要があることから、フロント側にデータを渡す直前に 行う。</li>
+<li>処理内容としては、ただ単にエンティティ内に備わっている文字列変換出力メソッドを実行するだけである。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列変換したデータのマップリストを格納したリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_list</td><td>変換対象となるデータが入ったエンティティのリスト</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a66f0e8c527beb7189a6051bf2055fb1a">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<a id="ad5e46972b593d15e56c13aa0acbef5a8" name="ad5e46972b593d15e56c13aa0acbef5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5e46972b593d15e56c13aa0acbef5a8">&#9670;&#160;</a></span>parseString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Service.ServiceInterface.Admin_Service.parseString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。 </p>
+<ul>
+<li>このメソッドは、データの画面出力時は文字列である必要があることから、フロント側にデータを渡す直前に 行う。</li>
+<li>処理内容としては、ただ単にエンティティ内に備わっている文字列変換出力メソッドを実行するだけである。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列変換したデータのマップリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>変換対象となるデータが入ったエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#abffdac39c857f9fa80c6257157d88f0e">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl</a>で実装されています。</p>
+
+</div>
+</div>
+<hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Service/ServiceInterface/<a class="el" href="_admin___service_8java.html">Admin_Service.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service.html">Service</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface.html">ServiceInterface</a></li><li class="navelem"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html">Admin_Service</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

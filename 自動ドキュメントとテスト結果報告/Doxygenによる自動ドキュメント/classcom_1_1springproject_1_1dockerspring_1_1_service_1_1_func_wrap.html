@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Service.FuncWrap クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">クラス</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Service.FuncWrap クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>サービス内で使用する関数型インターフェース全般において、TryCatchを使うことをなく記述 できるようにラップするクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_function.html">ThrowBiFunction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[BiFunction]の代わりとして、例外を投げることができるように作成した物。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_function.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html">ThrowBiPredicate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[BiPredicate]の代わりとして、例外を投げることができるように作成した物。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_consumer.html">ThrowConsumer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Consumer]の代わりとして、例外を投げることができるように作成した物。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_consumer.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_function.html">ThrowFunction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Function]の代わりとして、例外を投げることができるように作成した物。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_function.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_predicate.html">ThrowPredicate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Predicate]の代わりとして、例外を投げることができるように作成した物。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_predicate.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_supplier.html">ThrowSupplier</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Supplier]の代わりとして、例外を投げることができるように作成した物。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_supplier.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:aee8910d2209d2f2368441c2b4f8fca8b"><td class="memItemLeft" align="right" valign="top">static&lt; T, R, U &gt; BiFunction&lt; T, R, U &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#aee8910d2209d2f2368441c2b4f8fca8b">throwBiFunction</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_function.html">ThrowBiFunction</a>&lt; T, R, U &gt; target_func)</td></tr>
+<tr class="memdesc:aee8910d2209d2f2368441c2b4f8fca8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[BiFunction]をラップする、静的メソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#aee8910d2209d2f2368441c2b4f8fca8b">[詳解]</a><br /></td></tr>
+<tr class="separator:aee8910d2209d2f2368441c2b4f8fca8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abddc13ddc10ab3a6977a19a57fbac3b7"><td class="memItemLeft" align="right" valign="top">static&lt; T, R &gt; BiPredicate&lt; T, R &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#abddc13ddc10ab3a6977a19a57fbac3b7">throwBiPredicate</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html">ThrowBiPredicate</a>&lt; T, R &gt; target_func)</td></tr>
+<tr class="memdesc:abddc13ddc10ab3a6977a19a57fbac3b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[BiPredicate]をラップする、静的メソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#abddc13ddc10ab3a6977a19a57fbac3b7">[詳解]</a><br /></td></tr>
+<tr class="separator:abddc13ddc10ab3a6977a19a57fbac3b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e05a2a649c25f9373b1106cc0ae9fc"><td class="memItemLeft" align="right" valign="top">static&lt; T, R &gt; Consumer&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a82e05a2a649c25f9373b1106cc0ae9fc">throwConsumer</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_consumer.html">ThrowConsumer</a>&lt; T &gt; target_func)</td></tr>
+<tr class="memdesc:a82e05a2a649c25f9373b1106cc0ae9fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Consumer]をラップする、静的メソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a82e05a2a649c25f9373b1106cc0ae9fc">[詳解]</a><br /></td></tr>
+<tr class="separator:a82e05a2a649c25f9373b1106cc0ae9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a8d38bfa0c62f0ad9871d4aba813c1"><td class="memItemLeft" align="right" valign="top">static&lt; T, R &gt; Function&lt; T, R &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a05a8d38bfa0c62f0ad9871d4aba813c1">throwFunction</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_function.html">ThrowFunction</a>&lt; T, R &gt; target_func)</td></tr>
+<tr class="memdesc:a05a8d38bfa0c62f0ad9871d4aba813c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Function]をラップする、静的メソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a05a8d38bfa0c62f0ad9871d4aba813c1">[詳解]</a><br /></td></tr>
+<tr class="separator:a05a8d38bfa0c62f0ad9871d4aba813c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1528b589a2f5c93ed503be4e2be92de"><td class="memItemLeft" align="right" valign="top">static&lt; T, R &gt; Predicate&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#ac1528b589a2f5c93ed503be4e2be92de">throwPredicate</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_predicate.html">ThrowPredicate</a>&lt; T &gt; target_func)</td></tr>
+<tr class="memdesc:ac1528b589a2f5c93ed503be4e2be92de"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Predicate]をラップする、静的メソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#ac1528b589a2f5c93ed503be4e2be92de">[詳解]</a><br /></td></tr>
+<tr class="separator:ac1528b589a2f5c93ed503be4e2be92de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae8a8ce23668e1f376870aba04c31f5"><td class="memItemLeft" align="right" valign="top">static&lt; T, R &gt; Supplier&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a8ae8a8ce23668e1f376870aba04c31f5">throwSupplier</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_supplier.html">ThrowSupplier</a>&lt; T &gt; target_func)</td></tr>
+<tr class="memdesc:a8ae8a8ce23668e1f376870aba04c31f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">既存の関数型インターフェース[Supplier]をラップする、静的メソッド。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a8ae8a8ce23668e1f376870aba04c31f5">[詳解]</a><br /></td></tr>
+<tr class="separator:a8ae8a8ce23668e1f376870aba04c31f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >サービス内で使用する関数型インターフェース全般において、TryCatchを使うことをなく記述 できるようにラップするクラス </p>
+<ul>
+<li>サービスクラスは、処理の集約の為に関数型インターフェースを多用しているが、検査例外をラムダ式の外部に 出すことができず、TryCatch構文が増えてダサくなってしまう。</li>
+<li>このクラスでは、使用する関数型インターフェースをあらかじめラップした静的メソッドを作成しておき、 そのメソッドを介して関数型インターフェースを用いることでスマートに書けるようにする。</li>
+</ul>
+<dl class="section user"><dt>非検査例外と検査例外の対応表</dt><dd><ul>
+<li>DataEmptyException -&gt; NoSuchElementException</li>
+<li>OverCountException -&gt; IndexOutOfBoundsException</li>
+<li>InputFileDifferException -&gt; IllegalArgumentException</li>
+<li>OutputDataFailedException -&gt; SecurityException</li>
+<li>Exception -&gt; RuntimeException </li>
+</ul>
+</dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="aee8910d2209d2f2368441c2b4f8fca8b" name="aee8910d2209d2f2368441c2b4f8fca8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee8910d2209d2f2368441c2b4f8fca8b">&#9670;&#160;</a></span>throwBiFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static&lt; T, R, U &gt; BiFunction&lt; T, R, U &gt; com.springproject.dockerspring.Service.FuncWrap.throwBiFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_function.html">ThrowBiFunction</a>&lt; T, R, U &gt;&#160;</td>
+          <td class="paramname"><em>target_func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>既存の関数型インターフェース[BiFunction]をラップする、静的メソッド。 </p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_cgraph">
+<area shape="rect" title="既存の関数型インターフェース[BiFunction]をラップする、静的メソッド。" alt="" coords="5,5,231,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_function.html#a335e7d4d698faee14b7aeb4289f86a78" title=" " alt="" coords="279,5,541,45"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_aee8910d2209d2f2368441c2b4f8fca8b_icgraph">
+<area shape="rect" title="既存の関数型インターフェース[BiFunction]をラップする、静的メソッド。" alt="" coords="269,91,495,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a11adb9bdf0266dca41b19b12fd9e542c" title="指定された期間内の履歴データを削除する。" alt="" coords="9,5,218,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#aa87037f7facf36bb47ad9746deceb0bd" title="指定された期間内の履歴データを削除する。" alt="" coords="5,84,221,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a107ff1dc9ba919262bc209d3f7d3d0d2" title="指定された期間内の履歴データを削除する。" alt="" coords="10,163,217,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abddc13ddc10ab3a6977a19a57fbac3b7" name="abddc13ddc10ab3a6977a19a57fbac3b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abddc13ddc10ab3a6977a19a57fbac3b7">&#9670;&#160;</a></span>throwBiPredicate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static&lt; T, R &gt; BiPredicate&lt; T, R &gt; com.springproject.dockerspring.Service.FuncWrap.throwBiPredicate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html">ThrowBiPredicate</a>&lt; T, R &gt;&#160;</td>
+          <td class="paramname"><em>target_func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>既存の関数型インターフェース[BiPredicate]をラップする、静的メソッド。 </p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_cgraph">
+<area shape="rect" title="既存の関数型インターフェース[BiPredicate]をラップする、静的メソッド。" alt="" coords="5,5,236,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html#afadaca3b64290ae319a91c61a5161706" title=" " alt="" coords="284,5,543,45"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_abddc13ddc10ab3a6977a19a57fbac3b7_icgraph">
+<area shape="rect" title="既存の関数型インターフェース[BiPredicate]をラップする、静的メソッド。" alt="" coords="265,210,496,250"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#af809813b88e11375f676755cc3028675" title="入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。" alt="" coords="8,5,215,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a83cd4faa86d7479f4f165b50e72c2fb7" title="入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。" alt="" coords="8,84,215,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a7ba95a1b820edbba768ffe1021c36d0c" title="入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。" alt="" coords="8,163,215,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7d9e5d6b681e54e664902891f336c201" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="8,241,215,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a0b5e5d86c6b019d149a2e191f1919d86" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="5,320,217,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ab488f128c21f052f5616a8841804bf27" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="8,399,215,453"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a82e05a2a649c25f9373b1106cc0ae9fc" name="a82e05a2a649c25f9373b1106cc0ae9fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82e05a2a649c25f9373b1106cc0ae9fc">&#9670;&#160;</a></span>throwConsumer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static&lt; T, R &gt; Consumer&lt; T &gt; com.springproject.dockerspring.Service.FuncWrap.throwConsumer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_consumer.html">ThrowConsumer</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>target_func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>既存の関数型インターフェース[Consumer]をラップする、静的メソッド。 </p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_cgraph">
+<area shape="rect" title="既存の関数型インターフェース[Consumer]をラップする、静的メソッド。" alt="" coords="5,5,228,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_consumer.html#a2b73e6e5255f28d7629689eed98f6b4f" title=" " alt="" coords="276,5,544,45"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a82e05a2a649c25f9373b1106cc0ae9fc_icgraph">
+<area shape="rect" title="既存の関数型インターフェース[Consumer]をラップする、静的メソッド。" alt="" coords="272,289,495,329"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a1d9f59fc3aae9603a223603b8c525d57" title="渡されたCSVファイルの情報を読み込み、読み込んだ内容をデータベースに保存する。" alt="" coords="11,5,218,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a47c525b2acedbdb7fb46c5687b6e0952" title="渡されたCSVファイルの情報を読み込み、読み込んだ内容をデータベースに保存する。" alt="" coords="11,84,218,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a67b2b7172612452d2ce417eed1c5c1b2" title="渡されたCSVファイルの情報を読み込み、読み込んだ内容をデータベースに保存する。" alt="" coords="11,163,218,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#aed175640dc1ea63115fed404a83134bd" title="渡されたCSVファイルの情報を読み込み、読み込んだ内容をデータベースに保存する。" alt="" coords="11,241,218,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a4d030399db19a95a95305e789a155884" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,320,218,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#ae6d96c6e8adaea4d277dab41f25b85cb" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,399,218,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a6f12c5d1668cfe8959badb66505841f0" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="9,477,221,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#aab650abd07c5d92b34fdce2f46aeccee" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="5,556,224,611"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a05a8d38bfa0c62f0ad9871d4aba813c1" name="a05a8d38bfa0c62f0ad9871d4aba813c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a8d38bfa0c62f0ad9871d4aba813c1">&#9670;&#160;</a></span>throwFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static&lt; T, R &gt; Function&lt; T, R &gt; com.springproject.dockerspring.Service.FuncWrap.throwFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_function.html">ThrowFunction</a>&lt; T, R &gt;&#160;</td>
+          <td class="paramname"><em>target_func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>既存の関数型インターフェース[Function]をラップする、静的メソッド。 </p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_cgraph">
+<area shape="rect" title="既存の関数型インターフェース[Function]をラップする、静的メソッド。" alt="" coords="5,5,219,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_function.html#aa3c1aca0ca5374c380ed08e10604ed82" title=" " alt="" coords="267,5,517,45"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a05a8d38bfa0c62f0ad9871d4aba813c1_icgraph">
+<area shape="rect" title="既存の関数型インターフェース[Function]をラップする、静的メソッド。" alt="" coords="260,131,473,171"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a1783e2a551755c2897beeb182dab20ee" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a76142f43069a005c3b4cd13c40d83eab" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a176e42b58c78acae2f17364bf4966732" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="5,163,212,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#ab8acabeff246851d43e263e17a62ff5f" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="5,241,212,296"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac1528b589a2f5c93ed503be4e2be92de" name="ac1528b589a2f5c93ed503be4e2be92de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1528b589a2f5c93ed503be4e2be92de">&#9670;&#160;</a></span>throwPredicate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static&lt; T, R &gt; Predicate&lt; T &gt; com.springproject.dockerspring.Service.FuncWrap.throwPredicate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_predicate.html">ThrowPredicate</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>target_func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>既存の関数型インターフェース[Predicate]をラップする、静的メソッド。 </p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_cgraph">
+<area shape="rect" title="既存の関数型インターフェース[Predicate]をラップする、静的メソッド。" alt="" coords="5,5,224,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_predicate.html#a60f758c0502242470c4af8f494c74958" title=" " alt="" coords="272,5,519,45"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_ac1528b589a2f5c93ed503be4e2be92de_icgraph">
+<area shape="rect" title="既存の関数型インターフェース[Predicate]をラップする、静的メソッド。" alt="" coords="265,91,484,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7d9e5d6b681e54e664902891f336c201" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="8,5,215,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a0b5e5d86c6b019d149a2e191f1919d86" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="5,84,217,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ab488f128c21f052f5616a8841804bf27" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="8,163,215,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8ae8a8ce23668e1f376870aba04c31f5" name="a8ae8a8ce23668e1f376870aba04c31f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ae8a8ce23668e1f376870aba04c31f5">&#9670;&#160;</a></span>throwSupplier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static&lt; T, R &gt; Supplier&lt; T &gt; com.springproject.dockerspring.Service.FuncWrap.throwSupplier </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_supplier.html">ThrowSupplier</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>target_func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>既存の関数型インターフェース[Supplier]をラップする、静的メソッド。 </p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_cgraph">
+<area shape="rect" title="既存の関数型インターフェース[Supplier]をラップする、静的メソッド。" alt="" coords="5,5,216,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_supplier.html#a50aab9c0330f72326ae89519655561d2" title=" " alt="" coords="264,5,499,45"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_a8ae8a8ce23668e1f376870aba04c31f5_icgraph">
+<area shape="rect" title="既存の関数型インターフェース[Supplier]をラップする、静的メソッド。" alt="" coords="260,91,471,131"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae22c9cac6e1677d8adc5e72bfad8ef87" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a2b249c9b3e2a3ecbcf7169ae5dcc676a" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a3306109242a750f43bb8e557996b61e8" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="5,163,212,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Service/<a class="el" href="_func_wrap_8java.html">FuncWrap.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service.html">Service</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html">FuncWrap</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

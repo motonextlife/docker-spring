@@ -1,0 +1,11 @@
+var enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369 =
+[
+    [ "Admin", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#a95fcef46fd475b271facee358c9ff6d8", null ],
+    [ "Auth_Id", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#a37d4f1872fb6e824ee21016b7f6613f1", null ],
+    [ "Auth_Name", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#ac69d28b4ce0bb9a6ddbff6f87597ad67", null ],
+    [ "Facility", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#a26bc4cd6b774b473be16a863d3c0453c", null ],
+    [ "Member_Info", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#ac9951c2aaba0d84337b8191dd2f93ab1", null ],
+    [ "Musical_Score", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#aa40604914cd22cf346f876cc8f21dcf7", null ],
+    [ "Serial_Num", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#aac734e40fb2a63152cbbfb6509cae23c", null ],
+    [ "Sound_Source", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html#ade159347695eb6154acba0acae447725", null ]
+];

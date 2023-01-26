@@ -1,0 +1,1159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[楽譜管理]機能で使用する、CSVから取り出したデータを並列処理でバリデーションする 機能を実装するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___csv___form_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___csv___form_impl_inherit__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___csv___form_impl_inherit__map">
+<area shape="rect" title="主に[楽譜管理]機能で使用する、CSVから取り出したデータを並列処理でバリデーションする 機能を実装するクラス" alt="" coords="7,196,228,251"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_musical___score___csv___form.html" title="主に[楽譜管理]機能で使用する、入力されたCSvファイルのバリデーションを行う機能を 提供するインターフェース" alt="" coords="14,93,221,148"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html" title="共通の入力時のCSVファイルデータのバリデーションの際に用いる機能を提供を行う インターフェース" alt="" coords="5,5,229,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___csv___form_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___csv___form_impl_coll__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_musical___score___csv___form_impl_coll__map">
+<area shape="rect" title="主に[楽譜管理]機能で使用する、CSVから取り出したデータを並列処理でバリデーションする 機能を実装するクラス" alt="" coords="909,221,1131,276"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_musical___score___csv___form.html" title="主に[楽譜管理]機能で使用する、入力されたCSvファイルのバリデーションを行う機能を 提供するインターフェース" alt="" coords="571,5,777,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html" title="共通の入力時のCSVファイルデータのバリデーションの際に用いる機能を提供を行う インターフェース" alt="" coords="217,13,441,53"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_distinct_shell.html" title="CSVファイルの管理番号の重複チェックの際に使用するシェルスクリプトを作成し実行する クラス" alt="" coords="571,85,777,125"/>
+<area shape="rect" title=" " alt="" coords="305,92,354,117"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html" title="主に[楽譜管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="570,149,778,204"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="221,149,438,204"/>
+<area shape="rect" title=" " alt="" coords="5,164,168,189"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="561,229,787,269"/>
+<area shape="rect" title=" " alt="" coords="609,293,739,319"/>
+<area shape="rect" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_normal_enum_1_1_musical___score___enum.html" title="主に[楽譜情報管理]機能において使用する列挙型である。" alt="" coords="556,343,792,397"/>
+<area shape="rect" title=" " alt="" coords="643,421,705,447"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a985fb9c550d325291ff1df3045b0d2b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_csv_check_result.html">CsvCheckResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a985fb9c550d325291ff1df3045b0d2b3">csvChecker</a> (File tmp_file)  throws ExecutionException, InterruptedException, ParseException, IOException, InputFileDifferException </td></tr>
+<tr class="memdesc:a985fb9c550d325291ff1df3045b0d2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数で受け取ったCSV一時ファイルのデータを抽出し、バリデーションを行う。また、エラーが発生 すれば、エラーが発生したCSVファイルの行番号と列番号をまとめたリストを出力する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a985fb9c550d325291ff1df3045b0d2b3">[詳解]</a><br /></td></tr>
+<tr class="separator:a985fb9c550d325291ff1df3045b0d2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ceebd9f8977958388fe09c2646bdbfe"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; Integer &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a1ceebd9f8977958388fe09c2646bdbfe">parallelCheck</a> (Map&lt; String, String &gt; csv_map)  throws ParseException </td></tr>
+<tr class="memdesc:a1ceebd9f8977958388fe09c2646bdbfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数で受け取った判定対象のデータが入ったマップリストを並列処理で検査する。検査後は、エラー発生 箇所の列番号を格納したリストを返す。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a1ceebd9f8977958388fe09c2646bdbfe">[詳解]</a><br /></td></tr>
+<tr class="separator:a1ceebd9f8977958388fe09c2646bdbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24e9e88d37b14fed66e0fc903442333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_csv_check_result.html">CsvCheckResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html#ac24e9e88d37b14fed66e0fc903442333">csvChecker</a> (File tmp_file)  throws ExecutionException, InterruptedException, ParseException, IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ac24e9e88d37b14fed66e0fc903442333"><td class="mdescLeft">&#160;</td><td class="mdescRight">受け取ったCSVデータが格納された一時ファイルのバリデーションを行う。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html#ac24e9e88d37b14fed66e0fc903442333">[詳解]</a><br /></td></tr>
+<tr class="separator:ac24e9e88d37b14fed66e0fc903442333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abba988562775ddbdd5cc616b3504b865"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; Integer &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html#abba988562775ddbdd5cc616b3504b865">parallelCheck</a> (Map&lt; String, String &gt; csv_map)  throws ParseException</td></tr>
+<tr class="memdesc:abba988562775ddbdd5cc616b3504b865"><td class="mdescLeft">&#160;</td><td class="mdescRight">実際にチェック処理を並列処理で行う。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html#abba988562775ddbdd5cc616b3504b865">[詳解]</a><br /></td></tr>
+<tr class="separator:abba988562775ddbdd5cc616b3504b865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">バリデーション用の非公開メソッド</div></td></tr>
+<tr class="memitem:aca00bcad4499f45ea5de5649e831b327"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#aca00bcad4499f45ea5de5649e831b327">writeTextFile</a> (File txt_file, List&lt; String &gt; buf_score_list)  throws IOException</td></tr>
+<tr class="memdesc:aca00bcad4499f45ea5de5649e831b327"><td class="mdescLeft">&#160;</td><td class="mdescRight">抽出した団員番号のバッファリストを、一時テキストファイルに 書き込んでいく。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#aca00bcad4499f45ea5de5649e831b327">[詳解]</a><br /></td></tr>
+<tr class="separator:aca00bcad4499f45ea5de5649e831b327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bdbf90e69ef630e22e430ff2082b280"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a5bdbf90e69ef630e22e430ff2082b280">getValidResult</a> (List&lt; CompletableFuture&lt; List&lt; Integer &gt; &gt; &gt; buf_list, LinkedHashMap&lt; Integer, List&lt; Integer &gt; &gt; error_list, Integer error_row_count, int error_list_limit)  throws InterruptedException, ExecutionException</td></tr>
+<tr class="memdesc:a5bdbf90e69ef630e22e430ff2082b280"><td class="mdescLeft">&#160;</td><td class="mdescRight">判定が終わった結果を並列処理ストリームの中から取り出し、 エラーリストに格納する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a5bdbf90e69ef630e22e430ff2082b280">[詳解]</a><br /></td></tr>
+<tr class="separator:a5bdbf90e69ef630e22e430ff2082b280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59da75c2bfb7452b7784f989e99807a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a59da75c2bfb7452b7784f989e99807a1">validScoreId</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:a59da75c2bfb7452b7784f989e99807a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">楽譜番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a59da75c2bfb7452b7784f989e99807a1">[詳解]</a><br /></td></tr>
+<tr class="separator:a59da75c2bfb7452b7784f989e99807a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1b15718035ad296e333eabb5b18303"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a7f1b15718035ad296e333eabb5b18303">validBuyDate</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list, Boolean flag_1)  throws ParseException </td></tr>
+<tr class="memdesc:a7f1b15718035ad296e333eabb5b18303"><td class="mdescLeft">&#160;</td><td class="mdescRight">購入日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a7f1b15718035ad296e333eabb5b18303">[詳解]</a><br /></td></tr>
+<tr class="separator:a7f1b15718035ad296e333eabb5b18303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acf30c0e497cedfa3f3ebdb308afbbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a0acf30c0e497cedfa3f3ebdb308afbbf">validSongTitle</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:a0acf30c0e497cedfa3f3ebdb308afbbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">曲名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a0acf30c0e497cedfa3f3ebdb308afbbf">[詳解]</a><br /></td></tr>
+<tr class="separator:a0acf30c0e497cedfa3f3ebdb308afbbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7712638f04591cd3def645caa8305a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#aa7712638f04591cd3def645caa8305a3">validComposer</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:aa7712638f04591cd3def645caa8305a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">作曲者  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#aa7712638f04591cd3def645caa8305a3">[詳解]</a><br /></td></tr>
+<tr class="separator:aa7712638f04591cd3def645caa8305a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9ba3ac7242510ae813e3180460760c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a2e9ba3ac7242510ae813e3180460760c">validArranger</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:a2e9ba3ac7242510ae813e3180460760c"><td class="mdescLeft">&#160;</td><td class="mdescRight">編曲者  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a2e9ba3ac7242510ae813e3180460760c">[詳解]</a><br /></td></tr>
+<tr class="separator:a2e9ba3ac7242510ae813e3180460760c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8599f56bf1fda2c52276de369aafc55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#ae8599f56bf1fda2c52276de369aafc55">validPublisher</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:ae8599f56bf1fda2c52276de369aafc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">出版社  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#ae8599f56bf1fda2c52276de369aafc55">[詳解]</a><br /></td></tr>
+<tr class="separator:ae8599f56bf1fda2c52276de369aafc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b783879de584023daf75c703f9d06f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a7b783879de584023daf75c703f9d06f4">validStorageLoc</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:a7b783879de584023daf75c703f9d06f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">保管場所  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a7b783879de584023daf75c703f9d06f4">[詳解]</a><br /></td></tr>
+<tr class="separator:a7b783879de584023daf75c703f9d06f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ac4ce24bd30a89be05ba83de3b3da5"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a27ac4ce24bd30a89be05ba83de3b3da5">validDispDate</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list, Boolean flag_2)  throws ParseException </td></tr>
+<tr class="memdesc:a27ac4ce24bd30a89be05ba83de3b3da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">廃棄日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a27ac4ce24bd30a89be05ba83de3b3da5">[詳解]</a><br /></td></tr>
+<tr class="separator:a27ac4ce24bd30a89be05ba83de3b3da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac182748539839e7ea459ff8a1dd4d4eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#ac182748539839e7ea459ff8a1dd4d4eb">validOtherComment</a> (Map&lt; String, String &gt; csv_map, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:ac182748539839e7ea459ff8a1dd4d4eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">その他コメント  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#ac182748539839e7ea459ff8a1dd4d4eb">[詳解]</a><br /></td></tr>
+<tr class="separator:ac182748539839e7ea459ff8a1dd4d4eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbcc1d347e2e0130913ee6bce4742561"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#afbcc1d347e2e0130913ee6bce4742561">dateLogicCheck</a> (Boolean flag_1, Boolean flag_2, Date buy_date, Date disp_date, List&lt; Integer &gt; error_col_list)</td></tr>
+<tr class="memdesc:afbcc1d347e2e0130913ee6bce4742561"><td class="mdescLeft">&#160;</td><td class="mdescRight">「購入日」と「廃棄日」の論理チェック  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#afbcc1d347e2e0130913ee6bce4742561">[詳解]</a><br /></td></tr>
+<tr class="separator:afbcc1d347e2e0130913ee6bce4742561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a70c290258e0d13041cfe8497a7a94619"><td class="memItemLeft" align="right" valign="top">final Builder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a70c290258e0d13041cfe8497a7a94619">builder</a></td></tr>
+<tr class="memdesc:a70c290258e0d13041cfe8497a7a94619"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apache Commons Csvによる、ヘッダー行のマッピング指定  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a70c290258e0d13041cfe8497a7a94619">[詳解]</a><br /></td></tr>
+<tr class="separator:a70c290258e0d13041cfe8497a7a94619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9250b48f4b0a55e4ae2ae296d36fe33"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#ae9250b48f4b0a55e4ae2ae296d36fe33">config</a></td></tr>
+<tr class="separator:ae9250b48f4b0a55e4ae2ae296d36fe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a998614c94ae678e45596a5bdbf04bcac"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_normal_enum_1_1_musical___score___enum.html">Musical_Score_Enum</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a998614c94ae678e45596a5bdbf04bcac">enum_list</a></td></tr>
+<tr class="memdesc:a998614c94ae678e45596a5bdbf04bcac"><td class="mdescLeft">&#160;</td><td class="mdescRight">ヘッダー行の定義値列挙型と順番の指定  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a998614c94ae678e45596a5bdbf04bcac">[詳解]</a><br /></td></tr>
+<tr class="separator:a998614c94ae678e45596a5bdbf04bcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac672231330d2430094552bd2f8b51cda"><td class="memItemLeft" align="right" valign="top">final SimpleDateFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#ac672231330d2430094552bd2f8b51cda">parse_date</a> = new SimpleDateFormat(DateFormat_Enum.DATE_NO_HYPHEN.getFormat())</td></tr>
+<tr class="separator:ac672231330d2430094552bd2f8b51cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c86563f63222a13d10324cdd6e0772"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html">Musical_Score_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#aa7c86563f63222a13d10324cdd6e0772">score_repo</a></td></tr>
+<tr class="separator:aa7c86563f63222a13d10324cdd6e0772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1b42b53ef2e87976b0de8713f67400"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_distinct_shell.html">DistinctShell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html#a9b1b42b53ef2e87976b0de8713f67400">shell</a></td></tr>
+<tr class="separator:a9b1b42b53ef2e87976b0de8713f67400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[楽譜管理]機能で使用する、CSVから取り出したデータを並列処理でバリデーションする 機能を実装するクラス </p>
+<ul>
+<li>このクラスで用いる環境変数のインジェクションは、Lombokによりコンストラクタインジェクションを 行うことで実現する。</li>
+<li>CSVからデータを抽出するライブラリに関しては、[Apache commons csv]を用いる。 これによって、複雑な条件のデータを不具合なく抽出することが可能になる。</li>
+<li>管理番号の重複判定に関しては、メモリの枯渇を避けるためシェルスクリプトでの実行とする。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired))</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_distinct_shell.html" title="CSVファイルの管理番号の重複チェックの際に使用するシェルスクリプトを作成し実行する クラス">DistinctShell</a> </dd>
+<dd>
+Musical_Score_Csv_Form </dd>
+<dd>
+Musical_Score_Repo </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_csv_check_result.html" title="CSVバリデーションの際に結果として出力されたエラー個所のマップリストを格納するための エンティティクラス">CsvCheckResult</a> </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a985fb9c550d325291ff1df3045b0d2b3" name="a985fb9c550d325291ff1df3045b0d2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a985fb9c550d325291ff1df3045b0d2b3">&#9670;&#160;</a></span>csvChecker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_csv_check_result.html">CsvCheckResult</a> com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.csvChecker </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>tmp_file</em></td><td>)</td>
+          <td> throws ExecutionException, InterruptedException, ParseException, IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数で受け取ったCSV一時ファイルのデータを抽出し、バリデーションを行う。また、エラーが発生 すれば、エラーが発生したCSVファイルの行番号と列番号をまとめたリストを出力する。 </p>
+<ul>
+<li>バリデーションの判定処理に関しては並列に実行し、CSVファイルの全行を効率よく判定する。</li>
+<li>楽譜番号の重複判定に関してはシェルスクリプトを用いた判定を行い、大量のデータが来てもメモリリークを 起こさず処理が可能になる。</li>
+<li>エラーリストに関しては、余りにも量が多い場合は後続の判定処理を行っても無意味なので、一旦途中で フロント側に返却し、エラーが判明している部分のみ直してもらって再度データを投入してもらう。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーリストと重複判定結果を格納した専用格納エンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tmp_file</td><td>判定対象となるCSV一時ファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>楽譜番号の重複判定の為に用いる、テキスト一時ファイルを作成。</li>
+<li>CSVからデータを一行ずつ抽出し、並列判定処理メソッドにデータを渡す。</li>
+<li>一行ずつ抽出した楽譜番号を、バッファ用のリストに書き込んでいく。</li>
+<li>リストに並列判定処理結果をため込んで置き、指定しておいたバッファ数の長さになったら、結果抽出処理を行う。</li>
+<li>判定結果抽出処理と同時に、ため込んで置いた楽譜番号リストをテキスト一時ファイルに書き込む。</li>
+<li>エラーリストの行番号を、ヘッダー行を飛ばして「2」からカウントしていき、その数字をエラーの列番号と 一緒に書き込む。</li>
+<li>バッファリストの内容を書き込んだら、バッファリストをリセットし処理を繰り返す。</li>
+<li>一連の抽出処理を終えたら、楽譜番号重複チェック用のシェルスクリプトを実行し、重複判定する。</li>
+<li>出力されたエラーリストと重複判定結果を専用エンティティに格納し、戻り値とする。</li>
+<li>処理の過程でエラーリストが環境変数で指定した制限数を超えたら、バリデーション処理を中断する。また、 CSVファイルの読み取り行が制限値を超過しても処理を中断する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_csv_check_result.html" title="CSVバリデーションの際に結果として出力されたエラー個所のマップリストを格納するための エンティティクラス">CsvCheckResult</a></dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>CSV読取時の文字コードは、[UTF-8]を指定する。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html#ac24e9e88d37b14fed66e0fc903442333">com.springproject.dockerspring.Form.FormInterface.Csv_Validation</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a985fb9c550d325291ff1df3045b0d2b3_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a985fb9c550d325291ff1df3045b0d2b3_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a985fb9c550d325291ff1df3045b0d2b3_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a985fb9c550d325291ff1df3045b0d2b3_cgraph">
+<area shape="rect" title="引数で受け取ったCSV一時ファイルのデータを抽出し、バリデーションを行う。また、エラーが発生 すれば、エラーが発生したCSVファイルの行番号と列番号をまとめたリストを出力する。" alt="" coords="5,30,227,85"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_distinct_shell.html#a3cfe464eec05945343709fa67f04de35" title="処理対象の重複チェック処理を行うシェルスクリプトファイルを作成し、判定を行う。" alt="" coords="299,5,506,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_distinct_shell.html#a96fce1e1b1f91b57af2a34c7506ed595" title="重複チェック対象となる管理番号を書きだす先の一時テキストファイルを作成する。" alt="" coords="275,69,531,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afbcc1d347e2e0130913ee6bce4742561" name="afbcc1d347e2e0130913ee6bce4742561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbcc1d347e2e0130913ee6bce4742561">&#9670;&#160;</a></span>dateLogicCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.dateLogicCheck </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>buy_date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>disp_date</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>「購入日」と「廃棄日」の論理チェック </p>
+<ol type="1">
+<li>「購入日」が「廃棄日」以前に設定されている事を判別。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_1</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flag_2</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buy_date</td><td>検査対象購入日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">disp_date</td><td>検査対象廃棄日 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>日付論理チェックの際の真偽値フラグとは、対象の日付が有効、 つまりNullやバリデーションエラーの状態ではなくて検査が可能だ 状態であることを示すためにある。なので、検査対象の日付が全て 有効状態になっていないと検査ができない。 </dd></dl>
+
+</div>
+</div>
+<a id="a5bdbf90e69ef630e22e430ff2082b280" name="a5bdbf90e69ef630e22e430ff2082b280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bdbf90e69ef630e22e430ff2082b280">&#9670;&#160;</a></span>getValidResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Boolean com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.getValidResult </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; CompletableFuture&lt; List&lt; Integer &gt; &gt; &gt;&#160;</td>
+          <td class="paramname"><em>buf_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LinkedHashMap&lt; Integer, List&lt; Integer &gt; &gt;&#160;</td>
+          <td class="paramname"><em>error_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>error_row_count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>error_list_limit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws InterruptedException, ExecutionException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>判定が終わった結果を並列処理ストリームの中から取り出し、 エラーリストに格納する。 </p>
+<ul>
+<li>エラーリストの行番号のカウントの際、環境変数から指定されている 制限数を超えたら、抽出処理を取りやめる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>処理を取りやめる判定</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf_list</td><td>判定結果抽出対象の並列ストリームリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_list</td><td>書き込むエラーリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_row_count</td><td>エラーリストの行カウント </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">error_list_limit</td><td>エラーリスト行カウントの制限値 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1ceebd9f8977958388fe09c2646bdbfe" name="a1ceebd9f8977958388fe09c2646bdbfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ceebd9f8977958388fe09c2646bdbfe">&#9670;&#160;</a></span>parallelCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; Integer &gt; &gt; com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.parallelCheck </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em></td><td>)</td>
+          <td> throws ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数で受け取った判定対象のデータが入ったマップリストを並列処理で検査する。検査後は、エラー発生 箇所の列番号を格納したリストを返す。 </p>
+<ul>
+<li>各項目の判定処理内容は切り分けてあるので、そちらを参照の事。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラー発生列番号を格納した並列処理結果格納クラス</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象となるCSVファイル一行分のマップリストデータ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Form")</li>
+</ul>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_csv___validation.html#abba988562775ddbdd5cc616b3504b865">com.springproject.dockerspring.Form.FormInterface.Csv_Validation</a>を実装しています。</p>
+
+</div>
+</div>
+<a id="a2e9ba3ac7242510ae813e3180460760c" name="a2e9ba3ac7242510ae813e3180460760c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9ba3ac7242510ae813e3180460760c">&#9670;&#160;</a></span>validArranger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validArranger </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>編曲者 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7f1b15718035ad296e333eabb5b18303" name="a7f1b15718035ad296e333eabb5b18303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1b15718035ad296e333eabb5b18303">&#9670;&#160;</a></span>validBuyDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validBuyDate </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ParseException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>購入日 </p>
+<ol type="1">
+<li>値が空でない事。</li>
+<li>日付文字列が[yyyyMMdd]の構成になっている事。</li>
+</ol>
+<dl class="section return"><dt>戻り値</dt><dd>抽出した購入日データ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">flag_1</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa7712638f04591cd3def645caa8305a3" name="aa7712638f04591cd3def645caa8305a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7712638f04591cd3def645caa8305a3">&#9670;&#160;</a></span>validComposer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validComposer </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>作曲者 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a27ac4ce24bd30a89be05ba83de3b3da5" name="a27ac4ce24bd30a89be05ba83de3b3da5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ac4ce24bd30a89be05ba83de3b3da5">&#9670;&#160;</a></span>validDispDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validDispDate </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>flag_2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ParseException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>廃棄日 </p>
+<ol type="1">
+<li>日付文字列が[yyyyMMdd]の構成になっている事。</li>
+</ol>
+<dl class="section return"><dt>戻り値</dt><dd>抽出した廃棄日データ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">flag_2</td><td>日付論理チェックの際に使用する真偽値フラグ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac182748539839e7ea459ff8a1dd4d4eb" name="ac182748539839e7ea459ff8a1dd4d4eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac182748539839e7ea459ff8a1dd4d4eb">&#9670;&#160;</a></span>validOtherComment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validOtherComment </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>その他コメント </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae8599f56bf1fda2c52276de369aafc55" name="ae8599f56bf1fda2c52276de369aafc55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8599f56bf1fda2c52276de369aafc55">&#9670;&#160;</a></span>validPublisher()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validPublisher </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>出版社 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a59da75c2bfb7452b7784f989e99807a1" name="a59da75c2bfb7452b7784f989e99807a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59da75c2bfb7452b7784f989e99807a1">&#9670;&#160;</a></span>validScoreId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validScoreId </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>楽譜番号 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[30文字以内]であること。</li>
+<li>文字列が[半角英数字＆ハイフン]のみで構成されている事。</li>
+<li>既に存在する楽譜番号と重複していない事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a59da75c2bfb7452b7784f989e99807a1_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a59da75c2bfb7452b7784f989e99807a1_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a59da75c2bfb7452b7784f989e99807a1_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl_a59da75c2bfb7452b7784f989e99807a1_cgraph">
+<area shape="rect" title="楽譜番号" alt="" coords="5,5,227,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html#a7eb34be07f82997cc61432cb845edd31" title="[楽譜番号]に完全一致するデータを一件取得する。" alt="" coords="275,5,483,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0acf30c0e497cedfa3f3ebdb308afbbf" name="a0acf30c0e497cedfa3f3ebdb308afbbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0acf30c0e497cedfa3f3ebdb308afbbf">&#9670;&#160;</a></span>validSongTitle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validSongTitle </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>曲名 </p>
+<ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7b783879de584023daf75c703f9d06f4" name="a7b783879de584023daf75c703f9d06f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b783879de584023daf75c703f9d06f4">&#9670;&#160;</a></span>validStorageLoc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.validStorageLoc </td>
+          <td>(</td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>csv_map</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Integer &gt;&#160;</td>
+          <td class="paramname"><em>error_col_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保管場所 </p>
+<ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_map</td><td>判定対象のデータが入ったマップリスト </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">error_col_list</td><td>エラーの列番号を書き込むリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aca00bcad4499f45ea5de5649e831b327" name="aca00bcad4499f45ea5de5649e831b327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca00bcad4499f45ea5de5649e831b327">&#9670;&#160;</a></span>writeTextFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.writeTextFile </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>txt_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>buf_score_list</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>抽出した団員番号のバッファリストを、一時テキストファイルに 書き込んでいく。 </p>
+<ul>
+<li>このテキストファイルは、シェルスクリプトで団員番号の重複チェックを 行う際に用いられる。</li>
+<li>書き込みモードは追記である。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">txt_file</td><td>書き込み対象の一時ファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">buf_score_list</td><td>書き込む団員番号のリスト </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a70c290258e0d13041cfe8497a7a94619" name="a70c290258e0d13041cfe8497a7a94619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70c290258e0d13041cfe8497a7a94619">&#9670;&#160;</a></span>builder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Builder com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.builder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= CSVFormat.DEFAULT</div>
+<div class="line">                                           .builder()</div>
+<div class="line">                                           .setSkipHeaderRecord(<span class="keyword">true</span>)</div>
+<div class="line">                                           .setHeader(Musical_Score_Enum.Score_Id.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Buy_Date.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Song_Title.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Composer.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Arranger.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Publisher.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Storage_Loc.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Disp_Date.getJaName(),</div>
+<div class="line">                                                      Musical_Score_Enum.Other_Comment.getJaName())</div>
+</div><!-- fragment -->
+<p>Apache Commons Csvによる、ヘッダー行のマッピング指定 </p>
+
+</div>
+</div>
+<a id="ae9250b48f4b0a55e4ae2ae296d36fe33" name="ae9250b48f4b0a55e4ae2ae296d36fe33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9250b48f4b0a55e4ae2ae296d36fe33">&#9670;&#160;</a></span>config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.config</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a998614c94ae678e45596a5bdbf04bcac" name="a998614c94ae678e45596a5bdbf04bcac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a998614c94ae678e45596a5bdbf04bcac">&#9670;&#160;</a></span>enum_list</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_normal_enum_1_1_musical___score___enum.html">Musical_Score_Enum</a> [] com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.enum_list</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    Musical_Score_Enum.Score_Id,</div>
+<div class="line">    Musical_Score_Enum.Buy_Date,</div>
+<div class="line">    Musical_Score_Enum.Song_Title,</div>
+<div class="line">    Musical_Score_Enum.Composer,</div>
+<div class="line">    Musical_Score_Enum.Arranger,</div>
+<div class="line">    Musical_Score_Enum.Publisher,</div>
+<div class="line">    Musical_Score_Enum.Storage_Loc,</div>
+<div class="line">    Musical_Score_Enum.Disp_Date,</div>
+<div class="line">    Musical_Score_Enum.Other_Comment</div>
+<div class="line">  }</div>
+</div><!-- fragment -->
+<p>ヘッダー行の定義値列挙型と順番の指定 </p>
+
+</div>
+</div>
+<a id="ac672231330d2430094552bd2f8b51cda" name="ac672231330d2430094552bd2f8b51cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac672231330d2430094552bd2f8b51cda">&#9670;&#160;</a></span>parse_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SimpleDateFormat com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.parse_date = new SimpleDateFormat(DateFormat_Enum.DATE_NO_HYPHEN.getFormat())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7c86563f63222a13d10324cdd6e0772" name="aa7c86563f63222a13d10324cdd6e0772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c86563f63222a13d10324cdd6e0772">&#9670;&#160;</a></span>score_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_musical___score___repo.html">Musical_Score_Repo</a> com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.score_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b1b42b53ef2e87976b0de8713f67400" name="a9b1b42b53ef2e87976b0de8713f67400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1b42b53ef2e87976b0de8713f67400">&#9670;&#160;</a></span>shell</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_distinct_shell.html">DistinctShell</a> com.springproject.dockerspring.Form.CsvImplForm.Musical_Score_Csv_FormImpl.shell</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Form/CsvImplForm/<a class="el" href="_musical___score___csv___form_impl_8java.html">Musical_Score_Csv_FormImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form.html">Form</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form.html">CsvImplForm</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_musical___score___csv___form_impl.html">Musical_Score_Csv_FormImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

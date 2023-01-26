@@ -1,0 +1,339 @@
+# /** 
+#  **************************************************************************************
+#  * @file usage-authority-database.yml
+#  * 
+#  * @brief 主に[権限管理]機能のテストにおいて、データベースが関連したテストの際に
+#  * 用いる、データベースセットアップ用のデータを定義したファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、データベースへの格納が成功し、フォームバリデーションの通過が可能な20個のデータと
+#  * データベースへの格納に失敗するデータが存在する。
+#  * - 前項のデータを、データベースのテーブル定義の全てのカラムで用意している。
+#  * - 格納成功ケースのデータの文字数に関しては、フォームバリデーションの文字数限界値検査で成功する
+#  * テストケースを定義するため、ギリギリの文字数で定義している。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var auth_id
+#  * 
+#  * @brief [権限番号]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型50文字]まで。[権限番号]の番号を参照している。
+#  * 値の重複は不可能である。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_unique 値が重複しており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+auth_id:     
+  case_1: Center-001-properness-properne
+  case_2: Center-002-properness-properne
+  case_3: Center-003-properness-properne
+  case_4: Center-004-properness-properne
+  case_5: Center-005-properness-properne
+  case_6: Contact-010-properness-propern
+  case_7: Contact-011-properness-propern
+  case_8: Contact-012-properness-propern
+  case_9: Contact-013-properness-propern
+  case_10: Contact-014-properness-propern
+  case_11: Deploy-101-properness-properne
+  case_12: Deploy-102-properness-properne
+  case_13: Deploy-103-properness-properne
+  case_14: Deploy-104-properness-properne
+  case_15: Deploy-105-properness-properne
+  case_16: Invite-111-properness-properne
+  case_17: Invite-112-properness-properne
+  case_18: Invite-113-properness-properne
+  case_19: Invite-114-properness-properne
+  case_20: Invite-115-properness-properne
+  ok_length: OBIcmcxzI-hDqivzq5N9ONoDqTzbEUyZ7oXnWstcatCUtauMpC
+  ng_overflow: bquUw-bj1mcr1AXnlqj6tp2wRfWsJjib8ewKjUlU2IfKGcr81BZ
+  ng_unique: Center-001-properness-properne
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var auth_name
+#  * 
+#  * @brief [権限名]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型70文字]まで。値の重複は不可である。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+auth_name:
+  case_1: ２０１９年度整然とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_2: ２０２０年度毅然としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_3: ２０２１年度堕落とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_4: ２０２２年度誠実としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_5: ２０２３年度整然とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_6: ２０１９年度毅然としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_7: ２０２０年度堕落とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_8: ２０２１年度誠実としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_9: ２０２２年度整然とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_10: ２０２３年度毅然としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_11: ２０１９年度堕落とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_12: ２０２０年度誠実としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_13: ２０２１年度整然とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_14: ２０２２年度毅然としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_15: ２０２３年度堕落とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_16: ２０１９年度誠実としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_17: ２０２０年度整然とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_18: ２０２１年度毅然としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_19: ２０２２年度堕落とした文章＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_20: ２０２３年度誠実としたポエム＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  ok_length: んデ充エ富ゲえ祷捷新らて術の迫ち雪浸ごジ卜漣慧イ局楓じ彪モも玉めじ暖娠え晶狛バぺぽ蓋著ヲ悼罵はソゆ活幼くソ橡ン依閲か傷宅六双擬験謡は双さし朔
+  ng_overflow: 碑柁闘容妓傘こ洪沫ピ楊狼蛭筏ヌ香氾わの騰鴻じ症傑尊氾栽壌ぷべザ諭某え鞘属潔杢みブぇ逢ネ田あ幸往歓べ聾矧ぅ蘇脚炎化洗ぉ傘朝件蜘購淫ぶ種ごふ声愉ツ
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var admin
+#  * 
+#  * @brief [管理者権限]のテストケース
+#  * 
+#  * @details Nullを許さず真偽値のみ受け付ける
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+admin:
+  case_1: true
+  case_2: false
+  case_3: true
+  case_4: false
+  case_5: true
+  case_6: false
+  case_7: true
+  case_8: false
+  case_9: true
+  case_10: false
+  case_11: true
+  case_12: false
+  case_13: true
+  case_14: false
+  case_15: true
+  case_16: false
+  case_17: true
+  case_18: false
+  case_19: true
+  case_20: false
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var member_info
+#  * 
+#  * @brief [団員管理権限]のテストケース
+#  * 
+#  * @details Nullは許さず、[指定文字だけ]受け付ける。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_enum 指定文字以外が渡されて不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+member_info:
+  case_1: none
+  case_2: brows
+  case_3: change
+  case_4: delete
+  case_5: hist
+  case_6: rollback
+  case_7: none
+  case_8: brows
+  case_9: change
+  case_10: delete
+  case_11: hist
+  case_12: rollback
+  case_13: none
+  case_14: brows
+  case_15: change
+  case_16: delete
+  case_17: hist
+  case_18: rollback
+  case_19: none
+  case_20: brows
+  ng_enum: missing
+  ng_null: null
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var facility
+#  * 
+#  * @brief [設備管理権限]のテストケース
+#  * 
+#  * @details Nullは許さず、[指定文字だけ]受け付ける。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_enum 指定文字以外が渡されて不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+facility:
+  case_1: brows
+  case_2: none
+  case_3: brows
+  case_4: change
+  case_5: delete
+  case_6: hist
+  case_7: rollback
+  case_8: none
+  case_9: brows
+  case_10: change
+  case_11: delete
+  case_12: hist
+  case_13: rollback
+  case_14: none
+  case_15: brows
+  case_16: change
+  case_17: delete
+  case_18: hist
+  case_19: rollback
+  case_20: none
+  ng_enum: missing
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var musical_score
+#  * 
+#  * @brief [楽譜管理権限]のテストケース
+#  * 
+#  * @details Nullは許さず、[指定文字だけ]受け付ける。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_enum 指定文字以外が渡されて不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+musical_score:
+  case_1: none
+  case_2: brows
+  case_3: none
+  case_4: brows
+  case_5: change
+  case_6: delete
+  case_7: hist
+  case_8: rollback
+  case_9: none
+  case_10: brows
+  case_11: change
+  case_12: delete
+  case_13: hist
+  case_14: rollback
+  case_15: none
+  case_16: brows
+  case_17: change
+  case_18: delete
+  case_19: hist
+  case_20: rollback
+  ng_enum: missing
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var sound_source
+#  * 
+#  * @brief [音源管理権限]のテストケース
+#  * 
+#  * @details Nullは許さず、[指定文字だけ]受け付ける。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_enum 指定文字以外が渡されて不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+sound_source:
+  case_1: rollback
+  case_2: none
+  case_3: brows
+  case_4: none
+  case_5: brows
+  case_6: change
+  case_7: delete
+  case_8: hist
+  case_9: rollback
+  case_10: none
+  case_11: brows
+  case_12: change
+  case_13: delete
+  case_14: hist
+  case_15: rollback
+  case_16: none
+  case_17: brows
+  case_18: change
+  case_19: delete
+  case_20: hist
+  ng_enum: missing
+  ng_null: null
+

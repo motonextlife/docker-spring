@@ -1,0 +1,187 @@
+# /** 
+#  **************************************************************************************
+#  * @file common-hist-database.yml
+#  * 
+#  * @brief 主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、
+#  * データベースセットアップ用のデータを定義したファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、データベースへの格納が成功し、フォームバリデーションの通過が可能な20個のデータと
+#  * データベースへの格納に失敗するデータが存在する。
+#  * - 前項のデータを、データベースのテーブル定義の全てのカラムで用意している。
+#  * - 格納成功ケースのデータの文字数に関しては、フォームバリデーションの文字数限界値検査で成功する
+#  * テストケースを定義するため、ギリギリの文字数で定義している。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var id
+#  * 
+#  * @brief [管理番号]のテストケース
+#  * 
+#  * @details これは、履歴データの検証用に用いる管理番号である。使用時には、既存のエンティティの
+#  * 番号を、この番号に置き換えて履歴用テーブルへの保存を行い検証する。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  ************************************************************************************
+#  */
+id:
+  case_1: Center-001-properness-properne
+  case_2: Center-001-properness-properne
+  case_3: Center-001-properness-properne
+  case_4: Center-001-properness-properne
+  case_5: Center-001-properness-properne
+  case_6: Center-001-properness-properne
+  case_7: Center-001-properness-properne
+  case_8: Center-001-properness-properne
+  case_9: Center-001-properness-properne
+  case_10: Center-001-properness-properne
+  case_11: Deploy-102-properness-properne
+  case_12: Deploy-102-properness-properne
+  case_13: Deploy-102-properness-properne
+  case_14: Deploy-102-properness-properne
+  case_15: Deploy-102-properness-properne
+  case_16: Deploy-102-properness-properne
+  case_17: Deploy-102-properness-properne
+  case_18: Deploy-102-properness-properne
+  case_19: Deploy-102-properness-properne
+  case_20: Deploy-102-properness-properne
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var change_datetime
+#  * 
+#  * @brief [履歴日時]のテストケース
+#  * 
+#  * @details Nullは許さない。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+change_datetime:
+  case_1: 1950-01-01 12:30:30
+  case_2: 1950-01-11 23:00:00
+  case_3: 1950-06-01 09:10:50
+  case_4: 1950-06-11 16:20:45
+  case_5: 1950-12-01 12:30:30
+  case_6: 2000-01-01 23:00:00
+  case_7: 2000-01-11 09:10:50
+  case_8: 2000-06-01 16:20:45
+  case_9: 2000-06-11 12:30:30
+  case_10: 2000-12-01 23:00:00
+  case_11: 1950-01-01 12:30:30
+  case_12: 1950-01-11 23:00:00
+  case_13: 1950-06-01 09:10:50
+  case_14: 1950-06-11 16:20:45
+  case_15: 1950-12-01 12:30:30
+  case_16: 2000-01-01 23:00:00
+  case_17: 2000-01-11 09:10:50
+  case_18: 2000-06-01 16:20:45
+  case_19: 2000-06-11 12:30:30
+  case_20: 2000-12-01 23:00:00
+  ng_null: null
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var change_kinds
+#  * 
+#  * @brief [履歴種別]のテストケース
+#  * 
+#  * @details Nullは許さず、[指定文字だけ]受け付ける。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ng_enum 指定文字以外が渡されて不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+change_kinds:
+  case_1: update
+  case_2: update
+  case_3: update
+  case_4: delete
+  case_5: delete
+  case_6: delete
+  case_7: insert
+  case_8: insert
+  case_9: rollback
+  case_10: rollback
+  case_11: update
+  case_12: update
+  case_13: update
+  case_14: delete
+  case_15: delete
+  case_16: delete
+  case_17: insert
+  case_18: insert
+  case_19: rollback
+  case_20: rollback
+  ng_enum: missing
+  ng_null: null
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var operation_user
+#  * 
+#  * @brief [操作ユーザー名]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型40文字]受け付ける。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+operation_user:     
+  case_1: Systemuser1propernes
+  case_2: Systemuser1propernes
+  case_3: Systemuser1propernes
+  case_4: Creater4propernesspr
+  case_5: Creater4propernesspr
+  case_6: Creater4propernesspr
+  case_7: Admin3propernessprop
+  case_8: Admin3propernessprop
+  case_9: Admin3propernessprop
+  case_10: Admin3propernessprop
+  case_11: Systemuser1propernes
+  case_12: Systemuser1propernes
+  case_13: Systemuser1propernes
+  case_14: Creater4propernesspr
+  case_15: Creater4propernesspr
+  case_16: Creater4propernesspr
+  case_17: Admin3propernessprop
+  case_18: Admin3propernessprop
+  case_19: Admin3propernessprop
+  case_20: Admin3propernessprop
+  ok_length: OBIcmcxzI-hDqivzq5N9ONoDqTzbEUyZ7oXnWstc
+  ng_overflow: bquUw-bj1mcr1AXnlqj6tp2wRfWsJjib8ewKjUlU2
+  ng_null: null

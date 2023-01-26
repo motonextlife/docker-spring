@@ -1,0 +1,2136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo インタフェース</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo インタフェース</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。  
+ <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_repository_8_normal_repo_8_usage___authority___repo_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_repository_8_normal_repo_8_usage___authority___repo_inherit__map" id="acom_8springproject_8dockerspring_8_repository_8_normal_repo_8_usage___authority___repo_inherit__map">
+<area shape="rect" title="主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="11,181,217,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="5,79,223,133"/>
+<area shape="rect" title=" " alt="" coords="33,5,195,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_repository_8_normal_repo_8_usage___authority___repo_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_repository_8_normal_repo_8_usage___authority___repo_coll__map" id="acom_8springproject_8dockerspring_8_repository_8_normal_repo_8_usage___authority___repo_coll__map">
+<area shape="rect" title="主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="11,181,217,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="5,79,223,133"/>
+<area shape="rect" title=" " alt="" coords="33,5,195,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa341815218de53546ac66381aae7cada"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aa341815218de53546ac66381aae7cada">checkUnique</a> (@Param(&quot;serial_num&quot;) Integer serial_num, @Param(&quot;auth_id&quot;) String auth_id)</td></tr>
+<tr class="memdesc:aa341815218de53546ac66381aae7cada"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した[権限番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aa341815218de53546ac66381aae7cada">[詳解]</a><br /></td></tr>
+<tr class="separator:aa341815218de53546ac66381aae7cada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d97ad4a667f01fd561d50bbd863f022"><td class="memItemLeft" align="right" valign="top">default <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022">findAllBranch</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html">FindAllParam</a> param)  throws ExecutionException, InterruptedException</td></tr>
+<tr class="memdesc:a8d97ad4a667f01fd561d50bbd863f022"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022">[詳解]</a><br /></td></tr>
+<tr class="separator:a8d97ad4a667f01fd561d50bbd863f022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f20ae51e6c4e87343d035f25b0d89c"><td class="memItemLeft" align="right" valign="top">Optional&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a11f20ae51e6c4e87343d035f25b0d89c">findByAuth_id</a> (@Param(&quot;auth_id&quot;) String auth_id)</td></tr>
+<tr class="memdesc:a11f20ae51e6c4e87343d035f25b0d89c"><td class="mdescLeft">&#160;</td><td class="mdescRight">[権限番号]に完全一致するデータを一件取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a11f20ae51e6c4e87343d035f25b0d89c">[詳解]</a><br /></td></tr>
+<tr class="separator:a11f20ae51e6c4e87343d035f25b0d89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[全取得]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:a5b92ae8cbb33050f38a7958d7847277d"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a5b92ae8cbb33050f38a7958d7847277d">findAllOriginalCount</a> (@Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:a5b92ae8cbb33050f38a7958d7847277d"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[全取得]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a5b92ae8cbb33050f38a7958d7847277d">[詳解]</a><br /></td></tr>
+<tr class="separator:a5b92ae8cbb33050f38a7958d7847277d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf61795a9177a3036c54fe820a65259f"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aaf61795a9177a3036c54fe820a65259f">findAllOriginal</a> (@Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:aaf61795a9177a3036c54fe820a65259f"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aaf61795a9177a3036c54fe820a65259f">[詳解]</a><br /></td></tr>
+<tr class="separator:aaf61795a9177a3036c54fe820a65259f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b93eae11e4857e55eeb6d204824ef0"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a50b93eae11e4857e55eeb6d204824ef0">findAllOriginalDESC</a> (@Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a50b93eae11e4857e55eeb6d204824ef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a50b93eae11e4857e55eeb6d204824ef0">[詳解]</a><br /></td></tr>
+<tr class="separator:a50b93eae11e4857e55eeb6d204824ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[権限番号]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:a4c32c5cfb205be2e9f02ae79f5c79e99"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a4c32c5cfb205be2e9f02ae79f5c79e99">findAllByAuth_idCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:a4c32c5cfb205be2e9f02ae79f5c79e99"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[権限番号]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a4c32c5cfb205be2e9f02ae79f5c79e99">[詳解]</a><br /></td></tr>
+<tr class="separator:a4c32c5cfb205be2e9f02ae79f5c79e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe4f4497a3d742933f92326330ffce68"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#abe4f4497a3d742933f92326330ffce68">findAllByAuth_id</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:abe4f4497a3d742933f92326330ffce68"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#abe4f4497a3d742933f92326330ffce68">[詳解]</a><br /></td></tr>
+<tr class="separator:abe4f4497a3d742933f92326330ffce68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc957a9c5e9ac201872b9a5b32c3f85"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#afbc957a9c5e9ac201872b9a5b32c3f85">findAllByAuth_idDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:afbc957a9c5e9ac201872b9a5b32c3f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#afbc957a9c5e9ac201872b9a5b32c3f85">[詳解]</a><br /></td></tr>
+<tr class="separator:afbc957a9c5e9ac201872b9a5b32c3f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[権限名]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:ad58effab2b0c6ccde656088220110e12"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad58effab2b0c6ccde656088220110e12">findAllByAuth_nameCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:ad58effab2b0c6ccde656088220110e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[権限名]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad58effab2b0c6ccde656088220110e12">[詳解]</a><br /></td></tr>
+<tr class="separator:ad58effab2b0c6ccde656088220110e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6322948edf8ae64cf19972c4ee22495"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ac6322948edf8ae64cf19972c4ee22495">findAllByAuth_name</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:ac6322948edf8ae64cf19972c4ee22495"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ac6322948edf8ae64cf19972c4ee22495">[詳解]</a><br /></td></tr>
+<tr class="separator:ac6322948edf8ae64cf19972c4ee22495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2173671d860d70a037af6f7e80ba6145"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a2173671d860d70a037af6f7e80ba6145">findAllByAuth_nameDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a2173671d860d70a037af6f7e80ba6145"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a2173671d860d70a037af6f7e80ba6145">[詳解]</a><br /></td></tr>
+<tr class="separator:a2173671d860d70a037af6f7e80ba6145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[管理者権限]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:a49be9af0653fc91459b8d121d4c0351e"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a49be9af0653fc91459b8d121d4c0351e">findAllByAdminCount</a> (@Param(&quot;admin_bool&quot;) Boolean admin_bool, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:a49be9af0653fc91459b8d121d4c0351e"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[管理者権限]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a49be9af0653fc91459b8d121d4c0351e">[詳解]</a><br /></td></tr>
+<tr class="separator:a49be9af0653fc91459b8d121d4c0351e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8fe201e02ae50a76367551778981b59"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aa8fe201e02ae50a76367551778981b59">findAllByAdmin</a> (@Param(&quot;admin_bool&quot;) Boolean admin_bool, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:aa8fe201e02ae50a76367551778981b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aa8fe201e02ae50a76367551778981b59">[詳解]</a><br /></td></tr>
+<tr class="separator:aa8fe201e02ae50a76367551778981b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46cafa88f7d28efb584562e5d0a8e546"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a46cafa88f7d28efb584562e5d0a8e546">findAllByAdminDESC</a> (@Param(&quot;admin_bool&quot;) Boolean admin_bool, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a46cafa88f7d28efb584562e5d0a8e546"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a46cafa88f7d28efb584562e5d0a8e546">[詳解]</a><br /></td></tr>
+<tr class="separator:a46cafa88f7d28efb584562e5d0a8e546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[団員管理権限]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:ab4760ed61b49e2bad2311855b2ccc0a8"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ab4760ed61b49e2bad2311855b2ccc0a8">findAllByMember_infoCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:ab4760ed61b49e2bad2311855b2ccc0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[団員管理権限]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ab4760ed61b49e2bad2311855b2ccc0a8">[詳解]</a><br /></td></tr>
+<tr class="separator:ab4760ed61b49e2bad2311855b2ccc0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd7e142b0c1dfbdc3bb918f7717abe5"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#afbd7e142b0c1dfbdc3bb918f7717abe5">findAllByMember_info</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:afbd7e142b0c1dfbdc3bb918f7717abe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#afbd7e142b0c1dfbdc3bb918f7717abe5">[詳解]</a><br /></td></tr>
+<tr class="separator:afbd7e142b0c1dfbdc3bb918f7717abe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148b95ddc4e75c19b420aaf6caa046a4"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a148b95ddc4e75c19b420aaf6caa046a4">findAllByMember_infoDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a148b95ddc4e75c19b420aaf6caa046a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a148b95ddc4e75c19b420aaf6caa046a4">[詳解]</a><br /></td></tr>
+<tr class="separator:a148b95ddc4e75c19b420aaf6caa046a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[設備管理権限]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:a7eed42fc49cfe48eac1e5439e3d305ac"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a7eed42fc49cfe48eac1e5439e3d305ac">findAllByFacilityCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:a7eed42fc49cfe48eac1e5439e3d305ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[設備管理権限]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a7eed42fc49cfe48eac1e5439e3d305ac">[詳解]</a><br /></td></tr>
+<tr class="separator:a7eed42fc49cfe48eac1e5439e3d305ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4911380358d2b87bba8d5832cb28114b"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a4911380358d2b87bba8d5832cb28114b">findAllByFacility</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a4911380358d2b87bba8d5832cb28114b"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a4911380358d2b87bba8d5832cb28114b">[詳解]</a><br /></td></tr>
+<tr class="separator:a4911380358d2b87bba8d5832cb28114b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a534a2227b0f795c509cb06d823054e"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a9a534a2227b0f795c509cb06d823054e">findAllByFacilityDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a9a534a2227b0f795c509cb06d823054e"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a9a534a2227b0f795c509cb06d823054e">[詳解]</a><br /></td></tr>
+<tr class="separator:a9a534a2227b0f795c509cb06d823054e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[楽譜管理権限]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:ad83f78c6cf41a6c11da77665762ef6b4"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad83f78c6cf41a6c11da77665762ef6b4">findAllByMusical_scoreCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:ad83f78c6cf41a6c11da77665762ef6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[楽譜管理権限]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad83f78c6cf41a6c11da77665762ef6b4">[詳解]</a><br /></td></tr>
+<tr class="separator:ad83f78c6cf41a6c11da77665762ef6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af973cde3280b5224bbbccaaf702b97e0"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af973cde3280b5224bbbccaaf702b97e0">findAllByMusical_score</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:af973cde3280b5224bbbccaaf702b97e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af973cde3280b5224bbbccaaf702b97e0">[詳解]</a><br /></td></tr>
+<tr class="separator:af973cde3280b5224bbbccaaf702b97e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8c1a311f65e0756e55b9d528663930"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a6c8c1a311f65e0756e55b9d528663930">findAllByMusical_scoreDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a6c8c1a311f65e0756e55b9d528663930"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a6c8c1a311f65e0756e55b9d528663930">[詳解]</a><br /></td></tr>
+<tr class="separator:a6c8c1a311f65e0756e55b9d528663930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[音源管理権限]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:af7d1daf5ace6ecbd34177278a1c3c8c4"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af7d1daf5ace6ecbd34177278a1c3c8c4">findAllBySound_sourceCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:af7d1daf5ace6ecbd34177278a1c3c8c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[音源管理権限]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af7d1daf5ace6ecbd34177278a1c3c8c4">[詳解]</a><br /></td></tr>
+<tr class="separator:af7d1daf5ace6ecbd34177278a1c3c8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad18f4d1c5a8b963623df29a2b2c99ef6"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad18f4d1c5a8b963623df29a2b2c99ef6">findAllBySound_source</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:ad18f4d1c5a8b963623df29a2b2c99ef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad18f4d1c5a8b963623df29a2b2c99ef6">[詳解]</a><br /></td></tr>
+<tr class="separator:ad18f4d1c5a8b963623df29a2b2c99ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66b5c359777c6c7da35b031651692cb"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af66b5c359777c6c7da35b031651692cb">findAllBySound_sourceDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:af66b5c359777c6c7da35b031651692cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af66b5c359777c6c7da35b031651692cb">[詳解]</a><br /></td></tr>
+<tr class="separator:af66b5c359777c6c7da35b031651692cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755fea38aee32c3f88dbb5d44070578c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c">findAllBranch</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html">FindAllParam</a> param)  throws ExecutionException, InterruptedException, ParseException</td></tr>
+<tr class="memdesc:a755fea38aee32c3f88dbb5d44070578c"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c">[詳解]</a><br /></td></tr>
+<tr class="separator:a755fea38aee32c3f88dbb5d44070578c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。 </p>
+<ul>
+<li>このリポジトリが対応するデータベース内のテーブルの名称は[Usage_Authority]である。</li>
+<li>SpringDataJDBCを採用し、ネイティブなSQLの作成を行っている。</li>
+<li>なお、このインターフェースの実装クラスは使用時にSpringFrameworkによって自動的に作成される。 そのため、明示的に実装しているクラスはこのシステム上に存在しない。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority </dd>
+<dd>
+<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。">FindAllCrudRepository</a> </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="aa341815218de53546ac66381aae7cada" name="aa341815218de53546ac66381aae7cada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa341815218de53546ac66381aae7cada">&#9670;&#160;</a></span>checkUnique()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.checkUnique </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;serial_num&quot;) Integer&#160;</td>
+          <td class="paramname"><em>serial_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;auth_id&quot;) String&#160;</td>
+          <td class="paramname"><em>auth_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した[権限番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。 </p>
+<ul>
+<li>特に使用する機会がないので、非同期処理は実装しない。</li>
+<li>このメソッドは、主にフォームバリデーションでの[権限番号]の重複チェックに用いられる。</li>
+<li>[権限番号]とペアになっている[シリアルナンバー]を一緒に指定するのは、対象の[権限番号]がすでに 保存されていてそれを更新したいといった場合に、その格納カラムまで判定してしまい重複と判定されてしまう のを防ぐためである。</li>
+<li>前項の対策によって「指定された[シリアルナンバー]を除外して[権限番号]を検索する」ことが可能になる。</li>
+<li>検索方法としては、[権限番号]は完全一致、[シリアルナンバー]は否定完全一致とする。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">serial_num</td><td>指定の[権限番号]とペアになっている[シリアルナンバー] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">auth_id</td><td>指定の[シリアルナンバー]とペアになっている[権限番号]</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索後の結果件数。重複ありの場合は「1」が返り、重複なしの場合は「0」が返る。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>[権限番号]は完全一致、[シリアルナンバー]は否定完全一致として検索し、結果件数を取得する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa341815218de53546ac66381aae7cada_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa341815218de53546ac66381aae7cada_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa341815218de53546ac66381aae7cada_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa341815218de53546ac66381aae7cada_icgraph">
+<area shape="rect" title="指定した[権限番号][シリアルナンバー]で更新しようとした際に、データベース内で重複しないこと を確認する。" alt="" coords="1224,49,1431,104"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#acfe211a63a5355dbd8faa84aa7c78a96" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="714,5,1037,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#ac60e212571fb32eac3c2c804f57272e0" title="リポジトリメソッド[checkUnique]を実行した際の検索結果を判定する。" alt="" coords="575,85,1176,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1bd3239af0b9eeec396f4e8c80f16548" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="297,5,527,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a15b1c02c61913452aee381488f7ed3c1" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,249,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8d97ad4a667f01fd561d50bbd863f022" name="a8d97ad4a667f01fd561d50bbd863f022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d97ad4a667f01fd561d50bbd863f022">&#9670;&#160;</a></span>findAllBranch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">default <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllBranch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html">FindAllParam</a>&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td> throws ExecutionException, InterruptedException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。 </p>
+<ul>
+<li>このインターフェース内に実装されているクエリ実装メソッドは、単体で使用されることはほとんどなく、 全てこの分岐メソッドを経由する。</li>
+<li>検索ワードは、要件上一つしか受け付けることができない。ただし、日付での期間検索の場合は例外的に 二つの検索ワードを受け取ることができる。</li>
+<li>データベース検索時の結果数を制限し、JVMのメモリ枯渇を防ぐため、オフセットを利用したページネーションを 設ける。</li>
+<li>検索種別に関しては列挙型を使用して厳密に受け入れる文字列を管理しており、違う文字列が引数で渡された場合は エラーとなる。</li>
+<li>クエリ実装メソッドは基本的に非同期処理が可能となっており、ページネーション機能に必要な「全検索結果数」と 「オフセットによる検索結果の一部分」を同時に取得する事が可能である。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">param</td><td>検索に必要な引数を格納したビルダーエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>「全検索結果数」と「オフセットによる検索結果の一部分」を格納した、このリポジトリで扱える専用の エンティティクラス</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>引数で渡された検索種別の文字列を検証し、所定の列挙型に対応している物か確認する。</li>
+<li>オフセット値や並び順指定など、クエリ実行に影響を及ぼす項目が「Null」で無い事を確認する。</li>
+<li>検索種別と、引数で渡された「検索結果の並び順指定」に応じて、クエリ実装メソッドを選定する。</li>
+<li>「全検索結果数取得」と「オフセットによる検索結果の一部分取得」を、非同期で同時実行する。</li>
+<li>前述の二つの結果を専用のエンティティクラスに格納し、戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>他のメソッドは抽象メソッドとなるが、このメソッドのみデフォルトメソッドでの実装となる。</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html" title="リポジトリの検索メソッドの検索結果と結果件数を格納し返却するエンティティクラス。">FindAllResult</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html" title="リポジトリの検索分岐メソッドに渡す引数を格納するエンティティ">FindAllParam</a> </dd>
+<dd>
+Usage_Authority_Subject</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c">com.springproject.dockerspring.Repository.FindAllCrudRepository&lt; T, ID &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_cgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_cgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_cgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_cgraph">
+<area shape="rect" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="5,941,212,996"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aa8fe201e02ae50a76367551778981b59" title="検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="283,5,494,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a49be9af0653fc91459b8d121d4c0351e" title="検索種別を[管理者権限]に指定し、全検索結果数をカウントする。" alt="" coords="267,84,511,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a46cafa88f7d28efb584562e5d0a8e546" title="検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="265,163,512,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#abe4f4497a3d742933f92326330ffce68" title="検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="280,241,497,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a4c32c5cfb205be2e9f02ae79f5c79e99" title="検索種別を[権限番号]に指定し、全検索結果数をカウントする。" alt="" coords="263,320,514,375"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#afbc957a9c5e9ac201872b9a5b32c3f85" title="検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="262,399,515,453"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ac6322948edf8ae64cf19972c4ee22495" title="検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="269,477,508,532"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad58effab2b0c6ccde656088220110e12" title="検索種別を[権限名]に指定し、全検索結果数をカウントする。" alt="" coords="285,557,492,626"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a2173671d860d70a037af6f7e80ba6145" title="検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="285,650,492,719"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a4911380358d2b87bba8d5832cb28114b" title="検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="281,744,496,799"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a7eed42fc49cfe48eac1e5439e3d305ac" title="検索種別を[設備管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="264,823,513,877"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a9a534a2227b0f795c509cb06d823054e" title="検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="263,901,514,956"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#afbd7e142b0c1dfbdc3bb918f7717abe5" title="検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="265,980,512,1035"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ab4760ed61b49e2bad2311855b2ccc0a8" title="検索種別を[団員管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="279,1059,499,1129"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a148b95ddc4e75c19b420aaf6caa046a4" title="検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="279,1153,499,1222"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af973cde3280b5224bbbccaaf702b97e0" title="検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="260,1247,517,1301"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad83f78c6cf41a6c11da77665762ef6b4" title="検索種別を[楽譜管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="279,1326,498,1395"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a6c8c1a311f65e0756e55b9d528663930" title="検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="279,1419,498,1489"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#ad18f4d1c5a8b963623df29a2b2c99ef6" title="検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="261,1513,517,1568"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af7d1daf5ace6ecbd34177278a1c3c8c4" title="検索種別を[音源管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="283,1593,494,1662"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#af66b5c359777c6c7da35b031651692cb" title="検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="283,1686,494,1755"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#aaf61795a9177a3036c54fe820a65259f" title="検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="285,1780,492,1835"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a5b92ae8cbb33050f38a7958d7847277d" title="検索種別を[全取得]に指定し、全検索結果数をカウントする。" alt="" coords="271,1859,506,1913"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a50b93eae11e4857e55eeb6d204824ef0" title="検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="270,1937,507,1992"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a8d97ad4a667f01fd561d50bbd863f022_icgraph">
+<area shape="rect" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="904,13,1111,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa8fe201e02ae50a76367551778981b59" name="aa8fe201e02ae50a76367551778981b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8fe201e02ae50a76367551778981b59">&#9670;&#160;</a></span>findAllByAdmin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAdmin </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;admin_bool&quot;) Boolean&#160;</td>
+          <td class="paramname"><em>admin_bool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、[権限番号]で行う。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">admin_bool</td><td>検索対象の[管理者権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[管理者権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa8fe201e02ae50a76367551778981b59_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa8fe201e02ae50a76367551778981b59_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa8fe201e02ae50a76367551778981b59_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aa8fe201e02ae50a76367551778981b59_icgraph">
+<area shape="rect" title="検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1575,57,1785,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1112,13,1319,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#acdd12486cf2b07274200190114dca4be" title="リポジトリメソッド[findAllByAdmin][findAllByAdminDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1527,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a49be9af0653fc91459b8d121d4c0351e" name="a49be9af0653fc91459b8d121d4c0351e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49be9af0653fc91459b8d121d4c0351e">&#9670;&#160;</a></span>findAllByAdminCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAdminCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;admin_bool&quot;) Boolean&#160;</td>
+          <td class="paramname"><em>admin_bool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[管理者権限]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">admin_bool</td><td>検索対象の[管理者権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[管理者権限]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a49be9af0653fc91459b8d121d4c0351e_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a49be9af0653fc91459b8d121d4c0351e_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a49be9af0653fc91459b8d121d4c0351e_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a49be9af0653fc91459b8d121d4c0351e_icgraph">
+<area shape="rect" title="検索種別を[管理者権限]に指定し、全検索結果数をカウントする。" alt="" coords="1609,57,1853,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1129,13,1336,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#a208009ef12ce323cbccbf371917a04af" title="リポジトリメソッド[findAllByAdminCount]に対してのテストを行う。" alt="" coords="904,92,1561,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a46cafa88f7d28efb584562e5d0a8e546" name="a46cafa88f7d28efb584562e5d0a8e546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46cafa88f7d28efb584562e5d0a8e546">&#9670;&#160;</a></span>findAllByAdminDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAdminDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;admin_bool&quot;) Boolean&#160;</td>
+          <td class="paramname"><em>admin_bool</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、[権限番号]で行う。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">admin_bool</td><td>検索対象の[管理者権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[管理者権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a46cafa88f7d28efb584562e5d0a8e546_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a46cafa88f7d28efb584562e5d0a8e546_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a46cafa88f7d28efb584562e5d0a8e546_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a46cafa88f7d28efb584562e5d0a8e546_icgraph">
+<area shape="rect" title="検索種別を[管理者権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1575,57,1821,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1112,13,1319,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#acdd12486cf2b07274200190114dca4be" title="リポジトリメソッド[findAllByAdmin][findAllByAdminDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1527,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abe4f4497a3d742933f92326330ffce68" name="abe4f4497a3d742933f92326330ffce68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe4f4497a3d742933f92326330ffce68">&#9670;&#160;</a></span>findAllByAuth_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAuth_id </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[権限番号]とする。</li>
+<li>検索方法としては、部分一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[権限番号] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[権限番号]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_abe4f4497a3d742933f92326330ffce68_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_abe4f4497a3d742933f92326330ffce68_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_abe4f4497a3d742933f92326330ffce68_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_abe4f4497a3d742933f92326330ffce68_icgraph">
+<area shape="rect" title="検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1553,57,1771,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1101,13,1308,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a4547865624ba8dbc31f1c83aa4594f9f" title="リポジトリメソッド[findAllByAuth_id][findAllByAuth_idDESC]を実行した際の検索結果を判定する。" alt="" coords="904,92,1505,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4c32c5cfb205be2e9f02ae79f5c79e99" name="a4c32c5cfb205be2e9f02ae79f5c79e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c32c5cfb205be2e9f02ae79f5c79e99">&#9670;&#160;</a></span>findAllByAuth_idCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAuth_idCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[権限番号]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、部分一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[権限番号] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[権限番号]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4c32c5cfb205be2e9f02ae79f5c79e99_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4c32c5cfb205be2e9f02ae79f5c79e99_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4c32c5cfb205be2e9f02ae79f5c79e99_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4c32c5cfb205be2e9f02ae79f5c79e99_icgraph">
+<area shape="rect" title="検索種別を[権限番号]に指定し、全検索結果数をカウントする。" alt="" coords="1588,57,1839,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1119,13,1325,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#ada458645abb5e4b1e70cf15a0cda67b1" title="リポジトリメソッド[findAllByAuth_idCount]に対してのテストを行う。" alt="" coords="904,92,1540,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afbc957a9c5e9ac201872b9a5b32c3f85" name="afbc957a9c5e9ac201872b9a5b32c3f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc957a9c5e9ac201872b9a5b32c3f85">&#9670;&#160;</a></span>findAllByAuth_idDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAuth_idDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[権限番号]とする。</li>
+<li>検索方法としては、部分一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[権限番号] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[権限番号]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbc957a9c5e9ac201872b9a5b32c3f85_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbc957a9c5e9ac201872b9a5b32c3f85_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbc957a9c5e9ac201872b9a5b32c3f85_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbc957a9c5e9ac201872b9a5b32c3f85_icgraph">
+<area shape="rect" title="検索種別を[権限番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1553,57,1807,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1101,13,1308,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a4547865624ba8dbc31f1c83aa4594f9f" title="リポジトリメソッド[findAllByAuth_id][findAllByAuth_idDESC]を実行した際の検索結果を判定する。" alt="" coords="904,92,1505,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac6322948edf8ae64cf19972c4ee22495" name="ac6322948edf8ae64cf19972c4ee22495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6322948edf8ae64cf19972c4ee22495">&#9670;&#160;</a></span>findAllByAuth_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAuth_name </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[権限名]で行い、その次に[権限番号]で行う。</li>
+<li>検索方法としては、部分一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[権限名] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[権限名]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ac6322948edf8ae64cf19972c4ee22495_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ac6322948edf8ae64cf19972c4ee22495_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ac6322948edf8ae64cf19972c4ee22495_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ac6322948edf8ae64cf19972c4ee22495_icgraph">
+<area shape="rect" title="検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1532,57,1771,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1091,13,1297,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a911313475710aa5461846501e70f2228" title="リポジトリメソッド[findAllByAuth_name][findAllByAuth_nameDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1484,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad58effab2b0c6ccde656088220110e12" name="ad58effab2b0c6ccde656088220110e12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad58effab2b0c6ccde656088220110e12">&#9670;&#160;</a></span>findAllByAuth_nameCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAuth_nameCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[権限名]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、部分一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[権限名] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[権限名]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad58effab2b0c6ccde656088220110e12_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad58effab2b0c6ccde656088220110e12_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad58effab2b0c6ccde656088220110e12_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad58effab2b0c6ccde656088220110e12_icgraph">
+<area shape="rect" title="検索種別を[権限名]に指定し、全検索結果数をカウントする。" alt="" coords="1567,49,1773,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1108,13,1315,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#a0a5e855259de227793ab5be198230d50" title="リポジトリメソッド[findAllByAuth_nameCount]に対してのテストを行う。" alt="" coords="904,92,1519,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2173671d860d70a037af6f7e80ba6145" name="a2173671d860d70a037af6f7e80ba6145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2173671d860d70a037af6f7e80ba6145">&#9670;&#160;</a></span>findAllByAuth_nameDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByAuth_nameDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[権限名]で行い、その次に[権限番号]で行う。</li>
+<li>検索方法としては、部分一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[権限名] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[権限名]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a2173671d860d70a037af6f7e80ba6145_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a2173671d860d70a037af6f7e80ba6145_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a2173671d860d70a037af6f7e80ba6145_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a2173671d860d70a037af6f7e80ba6145_icgraph">
+<area shape="rect" title="検索種別を[権限名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1532,49,1739,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1091,13,1297,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a911313475710aa5461846501e70f2228" title="リポジトリメソッド[findAllByAuth_name][findAllByAuth_nameDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1484,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4911380358d2b87bba8d5832cb28114b" name="a4911380358d2b87bba8d5832cb28114b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4911380358d2b87bba8d5832cb28114b">&#9670;&#160;</a></span>findAllByFacility()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByFacility </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[設備管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[設備管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[設備管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4911380358d2b87bba8d5832cb28114b_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4911380358d2b87bba8d5832cb28114b_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4911380358d2b87bba8d5832cb28114b_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a4911380358d2b87bba8d5832cb28114b_icgraph">
+<area shape="rect" title="検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1595,57,1809,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#ae47c48da56aea9e730c4caaaca07633e" title="リポジトリメソッド[findAllByUsage_Authority][findAllByUsage_AuthorityDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7eed42fc49cfe48eac1e5439e3d305ac" name="a7eed42fc49cfe48eac1e5439e3d305ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eed42fc49cfe48eac1e5439e3d305ac">&#9670;&#160;</a></span>findAllByFacilityCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByFacilityCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[設備管理権限]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[設備管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[設備管理権限]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a7eed42fc49cfe48eac1e5439e3d305ac_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a7eed42fc49cfe48eac1e5439e3d305ac_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a7eed42fc49cfe48eac1e5439e3d305ac_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a7eed42fc49cfe48eac1e5439e3d305ac_icgraph">
+<area shape="rect" title="検索種別を[設備管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="1631,57,1880,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1140,13,1347,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#acc9a91a985a1ebc6944e538257b814c7" title="リポジトリメソッド[findAllByFacilityCount]に対してのテストを行う。" alt="" coords="904,92,1583,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9a534a2227b0f795c509cb06d823054e" name="a9a534a2227b0f795c509cb06d823054e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a534a2227b0f795c509cb06d823054e">&#9670;&#160;</a></span>findAllByFacilityDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByFacilityDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[設備管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[設備管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[設備管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a9a534a2227b0f795c509cb06d823054e_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a9a534a2227b0f795c509cb06d823054e_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a9a534a2227b0f795c509cb06d823054e_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a9a534a2227b0f795c509cb06d823054e_icgraph">
+<area shape="rect" title="検索種別を[設備管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1595,57,1845,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#ae47c48da56aea9e730c4caaaca07633e" title="リポジトリメソッド[findAllByUsage_Authority][findAllByUsage_AuthorityDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afbd7e142b0c1dfbdc3bb918f7717abe5" name="afbd7e142b0c1dfbdc3bb918f7717abe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd7e142b0c1dfbdc3bb918f7717abe5">&#9670;&#160;</a></span>findAllByMember_info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByMember_info </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[団員管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[団員管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[団員管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbd7e142b0c1dfbdc3bb918f7717abe5_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbd7e142b0c1dfbdc3bb918f7717abe5_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbd7e142b0c1dfbdc3bb918f7717abe5_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_afbd7e142b0c1dfbdc3bb918f7717abe5_icgraph">
+<area shape="rect" title="検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1595,57,1841,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#ad02e674a727d6eb18ae01589671cae0f" title="リポジトリメソッド[findAllByMember_info][findAllByMember_infoDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab4760ed61b49e2bad2311855b2ccc0a8" name="ab4760ed61b49e2bad2311855b2ccc0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4760ed61b49e2bad2311855b2ccc0a8">&#9670;&#160;</a></span>findAllByMember_infoCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByMember_infoCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[団員管理権限]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[団員管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[団員管理権限]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ab4760ed61b49e2bad2311855b2ccc0a8_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ab4760ed61b49e2bad2311855b2ccc0a8_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ab4760ed61b49e2bad2311855b2ccc0a8_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ab4760ed61b49e2bad2311855b2ccc0a8_icgraph">
+<area shape="rect" title="検索種別を[団員管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="1631,49,1851,119"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#ac3ae20aa967e329a403dd36d9998cb37" title="リポジトリメソッド[findAllByMember_infoCount]に対してのテストを行う。" alt="" coords="904,5,1583,75"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1140,99,1347,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,92,856,161"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a148b95ddc4e75c19b420aaf6caa046a4" name="a148b95ddc4e75c19b420aaf6caa046a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148b95ddc4e75c19b420aaf6caa046a4">&#9670;&#160;</a></span>findAllByMember_infoDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByMember_infoDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[団員管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[団員管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[団員管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a148b95ddc4e75c19b420aaf6caa046a4_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a148b95ddc4e75c19b420aaf6caa046a4_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a148b95ddc4e75c19b420aaf6caa046a4_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a148b95ddc4e75c19b420aaf6caa046a4_icgraph">
+<area shape="rect" title="検索種別を[団員管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1595,49,1815,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#ad02e674a727d6eb18ae01589671cae0f" title="リポジトリメソッド[findAllByMember_info][findAllByMember_infoDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af973cde3280b5224bbbccaaf702b97e0" name="af973cde3280b5224bbbccaaf702b97e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af973cde3280b5224bbbccaaf702b97e0">&#9670;&#160;</a></span>findAllByMusical_score()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByMusical_score </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[楽譜管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[楽譜管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[楽譜管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af973cde3280b5224bbbccaaf702b97e0_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af973cde3280b5224bbbccaaf702b97e0_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af973cde3280b5224bbbccaaf702b97e0_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af973cde3280b5224bbbccaaf702b97e0_icgraph">
+<area shape="rect" title="検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1595,57,1852,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a81a03dc8e5803b064c4afa10e3ec4076" title="リポジトリメソッド[findAllByMusical_score][findAllByMusical_scoreDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad83f78c6cf41a6c11da77665762ef6b4" name="ad83f78c6cf41a6c11da77665762ef6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83f78c6cf41a6c11da77665762ef6b4">&#9670;&#160;</a></span>findAllByMusical_scoreCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByMusical_scoreCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[楽譜管理権限]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[楽譜管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[楽譜管理権限]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad83f78c6cf41a6c11da77665762ef6b4_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad83f78c6cf41a6c11da77665762ef6b4_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad83f78c6cf41a6c11da77665762ef6b4_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad83f78c6cf41a6c11da77665762ef6b4_icgraph">
+<area shape="rect" title="検索種別を[楽譜管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="1631,49,1849,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1140,13,1347,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#a16595c40148193c68db8268161a04cb9" title="リポジトリメソッド[findAllByMusical_scoreCount]に対してのテストを行う。" alt="" coords="904,92,1583,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6c8c1a311f65e0756e55b9d528663930" name="a6c8c1a311f65e0756e55b9d528663930"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8c1a311f65e0756e55b9d528663930">&#9670;&#160;</a></span>findAllByMusical_scoreDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllByMusical_scoreDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[楽譜管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[楽譜管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[楽譜管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a6c8c1a311f65e0756e55b9d528663930_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a6c8c1a311f65e0756e55b9d528663930_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a6c8c1a311f65e0756e55b9d528663930_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a6c8c1a311f65e0756e55b9d528663930_icgraph">
+<area shape="rect" title="検索種別を[楽譜管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1595,49,1813,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a81a03dc8e5803b064c4afa10e3ec4076" title="リポジトリメソッド[findAllByMusical_score][findAllByMusical_scoreDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad18f4d1c5a8b963623df29a2b2c99ef6" name="ad18f4d1c5a8b963623df29a2b2c99ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad18f4d1c5a8b963623df29a2b2c99ef6">&#9670;&#160;</a></span>findAllBySound_source()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllBySound_source </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[音源管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[音源管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[音源管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad18f4d1c5a8b963623df29a2b2c99ef6_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad18f4d1c5a8b963623df29a2b2c99ef6_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad18f4d1c5a8b963623df29a2b2c99ef6_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_ad18f4d1c5a8b963623df29a2b2c99ef6_icgraph">
+<area shape="rect" title="検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1595,57,1851,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a005f278016f1d48167060399dfe0ece6" title="リポジトリメソッド[findAllBySound_source][findAllBySound_sourceDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af7d1daf5ace6ecbd34177278a1c3c8c4" name="af7d1daf5ace6ecbd34177278a1c3c8c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d1daf5ace6ecbd34177278a1c3c8c4">&#9670;&#160;</a></span>findAllBySound_sourceCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllBySound_sourceCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[音源管理権限]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[音源管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[音源管理権限]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af7d1daf5ace6ecbd34177278a1c3c8c4_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af7d1daf5ace6ecbd34177278a1c3c8c4_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af7d1daf5ace6ecbd34177278a1c3c8c4_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af7d1daf5ace6ecbd34177278a1c3c8c4_icgraph">
+<area shape="rect" title="検索種別を[音源管理権限]に指定し、全検索結果数をカウントする。" alt="" coords="1631,49,1841,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1140,13,1347,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#a801d23124e9b716f81ab7d7cada6c4c3" title="リポジトリメソッド[findAllBySound_sourceCount]に対してのテストを行う。" alt="" coords="904,92,1583,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af66b5c359777c6c7da35b031651692cb" name="af66b5c359777c6c7da35b031651692cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66b5c359777c6c7da35b031651692cb">&#9670;&#160;</a></span>findAllBySound_sourceDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllBySound_sourceDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[音源管理権限]とする。</li>
+<li>検索方法としては、完全一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象の[音源管理権限] </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[音源管理権限]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af66b5c359777c6c7da35b031651692cb_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af66b5c359777c6c7da35b031651692cb_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af66b5c359777c6c7da35b031651692cb_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_af66b5c359777c6c7da35b031651692cb_icgraph">
+<area shape="rect" title="検索種別を[音源管理権限]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1595,49,1805,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a005f278016f1d48167060399dfe0ece6" title="リポジトリメソッド[findAllBySound_source][findAllBySound_sourceDESC]を実行した際の 検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aaf61795a9177a3036c54fe820a65259f" name="aaf61795a9177a3036c54fe820a65259f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf61795a9177a3036c54fe820a65259f">&#9670;&#160;</a></span>findAllOriginal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllOriginal </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[権限番号]とする。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>全データを対象に、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aaf61795a9177a3036c54fe820a65259f_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aaf61795a9177a3036c54fe820a65259f_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aaf61795a9177a3036c54fe820a65259f_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_aaf61795a9177a3036c54fe820a65259f_icgraph">
+<area shape="rect" title="検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1595,57,1801,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a2395c4ea1c8e2a97fce6cd0a6f1a2012" title="リポジトリメソッド[findAllOriginal][findAllOriginalDESC]を実行した際の検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5b92ae8cbb33050f38a7958d7847277d" name="a5b92ae8cbb33050f38a7958d7847277d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b92ae8cbb33050f38a7958d7847277d">&#9670;&#160;</a></span>findAllOriginalCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllOriginalCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[全取得]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、保存データすべてを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a5b92ae8cbb33050f38a7958d7847277d_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a5b92ae8cbb33050f38a7958d7847277d_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a5b92ae8cbb33050f38a7958d7847277d_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a5b92ae8cbb33050f38a7958d7847277d_icgraph">
+<area shape="rect" title="検索種別を[全取得]に指定し、全検索結果数をカウントする。" alt="" coords="1631,57,1865,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1140,13,1347,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us2c7de1f1fd74bfdc55ce217d2dd0c9cd.html#a41c6ab587225a02f388473a92058870e" title="リポジトリメソッド[findAllOriginalCount]に対してのテストを行う。" alt="" coords="904,92,1583,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a50b93eae11e4857e55eeb6d204824ef0" name="a50b93eae11e4857e55eeb6d204824ef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b93eae11e4857e55eeb6d204824ef0">&#9670;&#160;</a></span>findAllOriginalDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findAllOriginalDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは[権限番号]とする。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>全データを対象に、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a50b93eae11e4857e55eeb6d204824ef0_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a50b93eae11e4857e55eeb6d204824ef0_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a50b93eae11e4857e55eeb6d204824ef0_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a50b93eae11e4857e55eeb6d204824ef0_icgraph">
+<area shape="rect" title="検索種別を[全取得]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1595,57,1832,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a8d97ad4a667f01fd561d50bbd863f022" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1122,13,1329,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a2395c4ea1c8e2a97fce6cd0a6f1a2012" title="リポジトリメソッド[findAllOriginal][findAllOriginalDESC]を実行した際の検索結果を判定する。" alt="" coords="904,92,1547,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#a849e4e213290a876c1c11c3e2ec55aab" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,856,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a11f20ae51e6c4e87343d035f25b0d89c" name="a11f20ae51e6c4e87343d035f25b0d89c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f20ae51e6c4e87343d035f25b0d89c">&#9670;&#160;</a></span>findByAuth_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Optional&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; com.springproject.dockerspring.Repository.NormalRepo.Usage_Authority_Repo.findByAuth_id </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;auth_id&quot;) String&#160;</td>
+          <td class="paramname"><em>auth_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>[権限番号]に完全一致するデータを一件取得する。 </p>
+<ul>
+<li>このメソッドに関しては機会がないので、非同期実行は可能になっていない。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>この検索メソッドに関しては、メソッド[findAllBranch]を経由しない。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">auth_id</td><td>検索対象の[権限番号]</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>[権限番号]に合致したデータ一件</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>[権限番号]に完全一致するデータを一件まで取得し、出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a11f20ae51e6c4e87343d035f25b0d89c_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a11f20ae51e6c4e87343d035f25b0d89c_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a11f20ae51e6c4e87343d035f25b0d89c_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo_a11f20ae51e6c4e87343d035f25b0d89c_icgraph">
+<area shape="rect" title="[権限番号]に完全一致するデータを一件取得する。" alt="" coords="1336,365,1543,420"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us36b0c73d20634171497e80c2b47db4a9.html#aa17762b861225ec6337d096bef909faa" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 初期データを準備する。" alt="" coords="824,5,1067,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a80c8d3d7bfc2fc12277d6d88b3dd2495" title="指定された権限番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="842,113,1049,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#a3ad7a5a00d84ac11e3d0bbd722a4ca32" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="809,193,1082,262"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_se9b02b69ee104277b3e0eb8e7a704c7c.html#acfe211a63a5355dbd8faa84aa7c78a96" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="784,287,1107,341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_account_details_service.html#ad825b448aa647d2841483ab08cbd0d5a" title="データベースからアカウント情報を取得する。" alt="" coords="806,365,1085,420"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us690c28f36d61c0ca916a8777acf47b2f.html#a34259ba978825dfc78d5658a7e506282" title="データの削除時の動作の確認を行う。なお、これは失敗ケースである。" alt="" coords="827,444,1063,528"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy724d582ddb649272e97962523d257d04.html#a1f68dad23295c752905eebc40cffbdfd" title="参照元の管理番号を変更した際に、参照先の管理番号が追従して変更されることを確認する。" alt="" coords="695,553,1195,622"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a243400df66fa9ad75987e826b388a9a3" title="リポジトリメソッド[findByAuth_id]を実行した際の検索結果を判定する。" alt="" coords="603,646,1288,715"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a67dd8913c49cf363a8ef1ef6b084c6f4" title="指定された権限データ内のシリアルナンバーのデータを削除する。" alt="" coords="842,740,1049,795"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#abaec9954e4ba3af8088c43b5b035f9b4" title="指定されたテーブルに、指定した管理番号があることを確認する。" alt="" coords="325,200,555,255"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a3ccd51fb010f6cae5389e9c00c49fbcb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,200,277,255"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_aggregation_valid_1_1_inject_repo_valid.html#a1bd3239af0b9eeec396f4e8c80f16548" title="指定された管理番号を指定のテーブルに追加した際に、重複しないかを判定する。" alt="" coords="325,287,555,341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_inject_valids_1_1_inject_valid_method.html#a15b1c02c61913452aee381488f7ed3c1" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="19,287,263,341"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Repository/NormalRepo/<a class="el" href="_usage___authority___repo_8java.html">Usage_Authority_Repo.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_repository.html">Repository</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo.html">NormalRepo</a></li><li class="navelem"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html">Usage_Authority_Repo</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

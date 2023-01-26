@@ -1,0 +1,209 @@
+# /** 
+#  **************************************************************************************
+#  * @file score-pdf-database.yml
+#  * 
+#  * @brief 主に[楽譜データ情報]機能のテストにおいて、データベースが関連したテストの際に用いる、
+#  * データベースセットアップ用のデータを定義したファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、データベースへの格納が成功し、フォームバリデーションの通過が可能な20個のデータと
+#  * データベースへの格納に失敗するデータが存在する。
+#  * - 前項のデータを、データベースのテーブル定義の全てのカラムで用意している。
+#  * - 格納成功ケースのデータの文字数に関しては、フォームバリデーションの文字数限界値検査で成功する
+#  * テストケースを定義するため、ギリギリの文字数で定義している。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var score_id
+#  * 
+#  * @brief [楽譜番号]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型50文字]まで。[楽譜情報]の番号を参照している。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_foreign 参照元から値を参照できない為不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  * 
+#  * @note 使用の際には必要に応じて、参照元にあらかじめ番号を登録しておく必要がある。
+#  ************************************************************************************
+#  */
+score_id:
+  case_1: Center-001-properness-properne
+  case_2: Center-001-properness-properne
+  case_3: Center-001-properness-properne
+  case_4: Center-001-properness-properne
+  case_5: Center-001-properness-properne
+  case_6: Center-001-properness-properne
+  case_7: Contact-010-properness-propern
+  case_8: Contact-010-properness-propern
+  case_9: Contact-010-properness-propern
+  case_10: Contact-010-properness-propern
+  case_11: Contact-010-properness-propern
+  case_12: Deploy-102-properness-properne
+  case_13: Deploy-102-properness-properne
+  case_14: Deploy-102-properness-properne
+  case_15: Deploy-102-properness-properne
+  case_16: Deploy-102-properness-properne
+  case_17: Invite-115-properness-properne
+  case_18: Invite-115-properness-properne
+  case_19: Invite-115-properness-properne
+  case_20: Invite-115-properness-properne
+  ok_length: OBIcmcxzI-hDqivzq5N9ONoDqTzbEUyZ7oXnWstcatCUtauMpC
+  ng_overflow: bquUw-bj1mcr1AXnlqj6tp2wRfWsJjib8ewKjUlU2IfKGcr81BZ
+  ng_foreign: missing-999
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var score_name
+#  * 
+#  * @brief [楽譜データ名]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型70文字]まで。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+score_name:
+  case_1: ファイル「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_2: ファイル「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当
+  case_3: ファイル「ホゲホゲ」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文
+  case_4: バイナリ「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_5: バイナリ「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当
+  case_6: バイナリ「ホゲホゲ」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文
+  case_7: イメージ「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_8: イメージ「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当
+  case_9: イメージ「ホゲホゲ」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文
+  case_10: オーディオ「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字
+  case_11: オーディオ「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_12: ベクター「ホゲホゲ」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文
+  case_13: ベクター「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_14: ベクター「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当
+  case_15: ファイル「ホゲホゲ」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文
+  case_16: ファイル「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_17: バイナリ「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当
+  case_18: バイナリ「ホゲホゲ」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文
+  case_19: イメージ「ハローワールド」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適
+  case_20: イメージ「フーブーバー」＝適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当な文字適当
+  ok_length: んデ充エ富ゲえ祷捷新らて術の迫ち雪浸ごジ卜漣慧イ局楓じ彪モも玉めじ暖娠え晶狛バぺぽ蓋著ヲ悼罵はソゆ活幼くソ橡ン依閲か傷宅六双擬験謡は双さし朔
+  ng_overflow: 碑柁闘容妓傘こ洪沫ピ楊狼蛭筏ヌ香氾わの騰鴻じ症傑尊氾栽壌ぷべザ諭某え鞘属潔杢みブぇ逢ネ田あ幸往歓べ聾矧ぅ蘇脚炎化洗ぉ傘朝件蜘購淫ぶ種ごふ声愉ツ
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var pdf_hash
+#  * 
+#  * @brief [楽譜データハッシュ値]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型300文字]まで。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  * 
+#  * @note なお、ここのハッシュ値は、適当なランダム文字列で、他の機能と全く関係ない。
+#  ************************************************************************************
+#  */
+pdf_hash:
+  case_1: nO9JUbr8sBvqaheQ7pyHDDQtmQYxm6zeOWb6jT10iM9tkYCSqWbT81c4cXkI3vB0I4ROu1UFA1TqVuE94yvjjNqhYyrdGEc2hsu8q2cSppbCHixauxUhSr2RJeo687GerobnRG3nICAuOAb83hcmP5jDNCbxanePgz9wDEVcNR2iJdo3jXCXFWfbnuSl1Loui2KKzEuMVAyq923ejzQJdr0rL1IxD8EEd5zmO0MXOPSpWh9nCEWODd9yhIoUfNye
+  case_2: bfk24Y7zF96mG6CYWGrOS8eeWXhpFUZB5oYXUZ8ItBuNBDgrdrn7UXwwOYU0rqi7QxJ7Rtq7oX8K8Ej5J19v878sHMm18t7q4h8GEsgOFjcNqP8MDFEWJ6up6SAzziHGsbzzhUNe7Ll3k0P8NnAPi4UPjKkwdojscEZa9IwxPYaZenxGBWOpWpvJhFab3ccx8uQLanWC4RgYBrMKv595ram1o0ACgRVA1EhqTEwccn1GzuGPmMOI9TLenE6uKhrG
+  case_3: QnG2mdG4jETcHJXgz0lFOBv7gg5MmDRe8jA1C1HzyjQllomYK5zJvEffA6XvcdQGoFyZI9DOuoHFqxcfiGdN06z312Zfy6SyEmusEp3aAuZC83NToOkh8LeSZebR8rXUOsNQWAPTtqopYpzs6i0GLhVwFUFErq8ZAm1FZDoadpppnNAW8sE8XExlmmm0XOILbK5V8jJK0SLk4UQmpJ55Ra2Mw3pUOFtHcLJY6TVewN6Bk4JImPDaJihG2gfILZGa
+  case_4: htDn30gPDVEGRgbLXYiViKoJf1son6o5CPjS0PIJmhnQXjQCaEGIU1NkvdyZwTXJi2va927tKJ6KcY4xlRW14KEKgxXvqeonv6g3o9HvFPNBJOPbNtRgcYeMGsyMEMZ0pa5R6xeYRj2c5PZnlek4rTkwScjrq3u2Mzordxax8r7J3LRseceq4w2aUhBzTowJSgGLOIZEItygqOMQSOBZOnIcTjKS74Ai2DWy4Y9Aq7i8zvXCMHpaDFvlYKbnbi3t
+  case_5: xeL7ho2pWld9efdD5Dwswhx6LZI6MY1z5SWGQrw5TqSxYke2xGoJix7x4ypp6pTibSH6xwgOU6LgPSGzXQTPWWKd7JbIz7zsgdSEfIP9ehQ76AnSWLCPGt2j4zF8d9PQVqNFvr4tswl5rEd7GIF9LRL755PGqgok0Y88vqqnLCMiVnpyEGcUeR8RrurIO09AH86HN5dmsHnhVtVslQQBpckzERuDcRaBwSuvYYP9yAMCqz4YbOtRXnqkNDZ9iUIX
+  case_6: DJhUc8cNZ41OFtoT1KQex2JMjqWmsmuRiHyo4wzJdD0JBJpEgDMFC8RcMIUU0PP6vTEbpTeYRxHfZMWdexpdpJfgofsQVQE3j7Jc8beV2VYSLaQ7nDWQX3Hbz6iVpFAppyFNUVjkFd308Lo4Zo0OlQnxNEGA3sbqooXNHmLcTvDcuOlKblSXpARHjnf2Ukd1LNr3RqJY5pHQ9yHBcQ1U4GZ08bq7T4cg9rW5I4VvAJoZkeStZBStKcwmpOPjA2sA
+  case_7: 9RfIIQoo4739xcSVmwT8ljzVVRoWIg97LabRdsceqcFSRF530xpzUUUIzhKibPNWC7oKnsFtmKN9DpIfaXZmmG3jx6LSKgRCSEQ40C08gEBN5X03HO75ekc0Nh8xv8REYqESfNDo5WSTPYuOmIvS3KRBxyBRBz58NqMeyFurVhKuGmZqfbfx6NlT1keBoAd9WKJuwmZSaVcPIqO9tDOOPc8Gg8xgVDtSOipY6P9kU9lugD6ep6tDkLN9u4Wt5lRU
+  case_8: 7BmynDI4bC1bxGsmDaJAcNnDC4ik1f1umLPanGKGuDpxsjT4EWsDAbKNPbokEJkDfL7ho46meTFScLDVMcsffGVwmhepHQDsJljpMscQEgjx3CFt0kqPoCpIyPJPnmgIR20hh8kksx8xOFUDi0rW2WcTNioD2sapuy6owKoUciE52bHxOFff6FhiUyOjLX4jq2Ec3DDSUE9DSRMU9w3jf9bWRNXHRDQ7brfDX9Q2c7i2miGMPvJ88KyLtgjze0gv
+  case_9: OTVuNBKWPkPZF3DnGACl8GuriF6ctdUZeiuxhdw3oP9WtoeFbAvRtVu2MsashytA9q5lTxTClKDAmjNAEFMk4ZfemkKNhjnwepTXuFGHJOAUoFo7YSmh7Gmi79pMj79uVoENpwlbR3TrvhMyPscxwzzDJuX6uVBcD3w8po4MHa4q3crfChkBQWbYuA0ch7RtG2bZHKOVj5DP2sZq2e0xpGX6j1ZdnScO3daIhStWSChKUOY1h6UtMuV5YoZeqrnM
+  case_10: yGpT4Q5ivcWDL6puPur3oeD0d4e77gaFNda5vxPqXKk0HLIEhrVnUqpjV9DLB803EBxsCJGSQAkyYcwjJ8mwTN9JXPcmz8hdOaTQpK8CnD76CY6YW296ylnVwdyWCqkVvNKV3qAIbGLYHYgY822J00EklB5PDhKDhERe48FQo4MNUiyBuVJ1JoYLPCwHMny4o5Pg3QkyMoVkSBy6wA18A6iwHmP25mpM2YX064X7pWVdIVOVqzKWkbwXtG2pyPfL
+  case_11: JX7ZpZi4GtkxfUxAQkMf1q0mNIgzwdssI9qjDjcomtmfudefWrMBy3cdjALSe8cMXKfv4UWRw7kpq4IWvbzQMy3kyqljhGPtXaEa7WVtATWXp3Wkcw5Hxo5OZfGfjrWrxVSQj9TIRbpo1GVkNLnuQNNmTH531KFBy7ItEABN5polmw4bXEom5iRf1LBtRfGgO57ts5z7Y0gmxMRs53GRqW9XKGme3eLqvKn2eEHaFbGNCCaEc9ZuZHRP7Mfixhws
+  case_12: o7cUOyHJ9k7Rcr1c4zoBNRA2UMcHOmDd3SClSKtCQcOHoYyqpcbozKJejUAYqhvfc3ydX6ecktoNxi5Iv9JEjxsyqkle96sDqnxLTPln0hOeUHTW0pevGv4fEkffXY9G2BbdAYPU4K7POtfypQLeqmobEgUtVpkZlXpLT0FzU2s2gDlA3iAoZNqnywN9olqxqvGfSx6DUOBqb3uhFqSKkczZnfVB0eAj6Fx0kqGNIBQ0YbxqNWiSX4ikbCOxJ1fi
+  case_13: ugmN2kBYE7bdkuojLu8DgM2m2E6WdmrezZKL7tXhStpmuLPYOaS8VbSrlbSq3apoJXKV4qdgBKfcW9mbyPttkEUgGUQaC847WKgTM3RvMGCuyTYZJMwpxOYJma25Rt1mkPhoVwfDABY0hmhsZUfOYGg5rUpYNeCNAKJ0LmYGp3NIi04XhUuWG02iH767nNsxErYepzI3YbT9kMHUJfbBzdXfm70HDiEyybRjn2LmWukHgohXReFQiFWwUJeceae0
+  case_14: kz3Yx4H1AnpOfYrui56eqhhMMzGQXNp7AW0cAyNl94EFpkWU0lTPaC7ADClh2KImyXVgYdLmCAykWtiFvrCVFO1c55nFBGg8qnzcIpGeU3PbBqqaSWmKATcs6cEwT1T9gZ1Mh0mBcKRoY7URCitDRfVawJEedkdxWhWMqVlwmGXTstWF8QZd4WkjcBdQTTsrgYROimC1B85jiYjrwD0hL6Stjuce54COuemWD8LhLgeTpvuxKzSn66ecuRVQo6pA
+  case_15: WBjFVh3WsM9T8O9Cq9CJNfiNJlG2XFgGdeOMzinlr0hEQDCqpSECmQiGRI0N2MBGcLNHl9idx65X595oOW9cF3irGQR4DRl7YdoZjk3de6Bzo79mxPF6nVRalsqMDT39QOl1d4jIUdIMybJIUACF4XPPKxVgY1qpFlsrqmt58qNz0TDHVahRmL6y20Ka9ucaDeNHlJGD9d0zbBeLqJ8sLjE3Fda65er9y8QcpW8pK5Uz0AhVR5BPkuQ48s3Din9f
+  case_16: gsBmWO2IYJgOIBA1bbeN0eq7oarINJ4LnWFUmGAs1Ja74GWvu2vjDktuf9imr13kWnIaw0stDm6e24B8Q58HmGUzlQA4SWBzOrm2GGXgQKKixFc18yzx8OVbLo1nf6zg1Y0dRGuIwbxe5zPzVqqmWOF4wWvPK4hfIAmDK0gJBiDsTQmQQThMVtJSBT5OTCwnkUdVFaptJE42RmL0PBbw17arp4uDpo0VXNL87zcJVimDE558pnM9rCLUzqsPqvPG
+  case_17: PsmpGnCnFlIHZsN30eeZQecQnRhSG4EzpvGyWy5ULcZtHE8nnXWgox4Rgd9BCDsgFVKvqsj4QR8PZOQWj2wBowtaGbBS9a1brubAoJCf98m94iCVdajSTXl1sxf59lpjXZjN62XzE890rmjG8DgNxQ12t0h25l7l4HksbRpx5nVsiRcuTed20OuApwvYXxAohgnxpVlQpuDq7G1PDP8tvH4RNnnF4lU8a3N4gG2Q2Yl9853fzPMN2N3UKUUeuirr
+  case_18: zdEnaCbr8SCXJAMtptwqQG9XJonpTnQgs5SuM2lvYrpeOWEzx0sLJlipsRUBsXPKpQISeTLTDksRoprw5tWvlNX4q4HJu7TN7ir5ekcE2DnTdGYMMz4QWnL4lawDrEamoRktG6FcHUXsLD9va6jSHdw3NyS8gUQ9KMTuXFbXars5Z8h0Crvjz6vxjulejTvEWo2z5YxylKnho6SnydLjIQ4zXJgb62VCy6wBJBMTG43v5u4NYkhDle3nIx0KlmcQ
+  case_19: 411DI5k2K456TYPfXdVB888u0lUhIsXWpxk7N1tzsN5jDGaUGtnCzjumyunKWYjIGbBXCfa5yLA2w5ObgtNWhyQoLr0Yz0UQY45Kc5WKFLjOZT9eJPFRcNGrzUVE6HG6DRQFy0GkmObOJH97ADS5db2ih3hdeqduJZ0jVMTbE9xyR3ESz7x6IUYaTKtQe5dDIih9823OktKt85WAX3TjMAwWFmhn3N3wWvbAQEP8PTquqxRrhxuiAGaMJH3sPAyp
+  case_20: RtgkbTCZy4JxkhAtImP2TyHYx91dManvSV3Thh8wh4Tpib0fUb8DuF9IsOYumnLxZzBBfTxd4DFqamAoQVLrVL7gzzw1M6qcYYCT9csfJYHEuITwUMdb8tzJw0b3GpXKY4oqc3XY2Ha33W5FTUut2kgCmPFubzw2oWsCNVz3ovqmAvNrbSZvRXvJZH3C30fAWSkCO3qGcs0eVRVPBoOin1xPMtg8xpxWUj6pjnq8Hh76moxzXZFJemeMjNgBgH32
+  ok_length: lmA0loQR8X7o2LZxmbmOMpgPm7ObgMRdOn7h6BfyLlYX7r3LjAUdAR3YXypHOjbjiroNgTbK5ssbvIjhtE8Z4Z52Q7ZfSjYlIMnjNjVnMXgARzXcKhED7n3EZfN4PFk96B5QWcIwLOfrRvFg0BYaJasZXomKFD3kzIGB2S704xZvwUTbKDhpgsOXG7FuUiBVX6L65f8Fzuq9ZuvfpfkmC0vNwLlaUg1FvvWnsOh5jp7Gjhdgl47QjtopyPhlJ9HivD4c1SviVGYXIpa2EDrSLs4nI3l79aIZqVShFWv8Nlq8
+  ng_overflow: jfkCWY7m8zQYFRe20xVFK39YQ9KaD4JtCqO1SgpvFcyV6AbukCAJM286yvYODh9z5glsEV6h3jwKqsLP48wROKr5HtTveRoVAGlnXrGvn1ApLMDTvBBJPTmRzHXzCiKK3zn2HBTCYU6i4Nl48thD7Er9Gn9OxaJx1E7OOdYmz54Znv1VNIp1AM4vM0OzJK6Ea1UT0QcTt0cn0gQ9OJFaNvQSTfVMGoxpDkwo7Bx14dyHzSpzcAA7Isz9zbb4I0x0QxJeu7s3Lrl1Sz5SPnBUfI9LdvcLUnQ1dmPEAmugyeDSP
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var pdf_data
+#  * 
+#  * @brief [楽譜データファイル名]
+#  * 
+#  * @details ファイルサーバーに初期データを投入する際に使用する。データベースとは関係ない。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なバイナリデータのファイルパス。
+#  ************************************************************************************
+#  */
+pdf_data:
+  case_1: setup-1.pdf
+  case_2: setup-2.pdf
+  case_3: setup-3.pdf
+  case_4: setup-4.pdf
+  case_5: setup-5.pdf
+  case_6: setup-6.pdf
+  case_7: setup-7.pdf
+  case_8: setup-8.pdf
+  case_9: setup-9.pdf
+  case_10: setup-10.pdf
+  case_11: setup-11.pdf
+  case_12: setup-12.pdf
+  case_13: setup-13.pdf
+  case_14: setup-14.pdf
+  case_15: setup-15.pdf
+  case_16: setup-16.pdf
+  case_17: setup-17.pdf
+  case_18: setup-18.pdf
+  case_19: setup-19.pdf
+  case_20: setup-20.pdf

@@ -1,0 +1,4 @@
+var _usage___authority___repo___find_all_branch___test_8java =
+[
+    [ "com.springproject.dockerspring.SingleTests.Repository.NormalRepo.Usage_Authority_Repo_Test.Usage_Authority_Repo_FindAllBranch_Test", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8" ]
+];

@@ -1,0 +1,27 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252 =
+[
+    [ "Usage_Authority_RepoForm_TestCase", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#ac4f267a49fad99dfb90f71a4d3ba04cf", null ],
+    [ "allRepoForm", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a9fdc6aab40295995af918c54658019e4", null ],
+    [ "otherRepoForm", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a76968f2781e6939ee806f2d64b4eb8ac", null ],
+    [ "subjectRepoForm", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a2424329a7379857053d79b67084006b3", null ],
+    [ "ADMIN", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a72e06c0bb55bda6f277d72216f54e449", null ],
+    [ "ALL", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a755e9a80fe590e2c965dc84677877ca4", null ],
+    [ "ALL_ANSWER", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a9dfd12c12327ec986b57bf774b4d3d5a", null ],
+    [ "ALL_MAX", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a7edcb3798cf7b90391644d74135be76e", null ],
+    [ "ALL_OFFSET", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a0dd989d34aafd5f23b8a4fab38e4e63d", null ],
+    [ "ANSWER_COUNT", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#af5595dcf4197956cd32e6fc07b6dc256", null ],
+    [ "AUTH_ID", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a70efcd254c528f8d6661f394a40627e7", null ],
+    [ "AUTH_NAME", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a02790c6fc03e6b7b1330f230a11eea94", null ],
+    [ "FACILITY", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a59973c258ed4142219be315c0d77ef77", null ],
+    [ "LIMIT", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a8725211a874490fc8e245cd8ebe35c6a", null ],
+    [ "LIMIT_ANSWER", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a308e41619ad508944cf6bc1097643479", null ],
+    [ "LIMIT_MAX", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#aefeb6a551b6550170e1e142896ca21e0", null ],
+    [ "LIMIT_OFFSET", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#aae0dfa3b22b95bae52ae30e76694ee4a", null ],
+    [ "MEMBER_INFO", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#ad43900a8b5c88e2489115564234d88ac", null ],
+    [ "MISSING", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a1c69a98ce00432fbcca80f4ba9b94655", null ],
+    [ "MUSICAL_SCORE", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a2a22a4f6bba93420f1e12af495c7fe50", null ],
+    [ "OFFSET", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a5491f9f76e6f78bc7da6636d8bd75a6d", null ],
+    [ "repoform_yml", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a64e452344a02d290f954933305f07691", null ],
+    [ "SOUND_SOURCE", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#a4913cada688b8eef75da17f3edb11634", null ],
+    [ "WORD", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_rep08b9f3ad408e0211702f789e6a7ab252.html#adc6422a6006749633d1a9268d21f2503", null ]
+];

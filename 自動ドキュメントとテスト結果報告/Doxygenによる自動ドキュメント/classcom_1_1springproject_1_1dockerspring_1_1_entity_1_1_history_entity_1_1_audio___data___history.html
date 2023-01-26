@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[音源データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_entity_8_history_entity_8_audio___data___history_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_audio___data___history_inherit__map" id="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_audio___data___history_inherit__map">
+<area shape="rect" title="主に[音源データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。" alt="" coords="5,93,212,148"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html" title="全てのデータベース保存やデータのやり取りに使用するエンティティにおいて、共通で使用する メソッドを提供するインターフェースである。" alt="" coords="5,5,212,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_entity_8_history_entity_8_audio___data___history_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_audio___data___history_coll__map" id="acom_8springproject_8dockerspring_8_entity_8_history_entity_8_audio___data___history_coll__map">
+<area shape="rect" title="主に[音源データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。" alt="" coords="81,108,288,163"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html" title="全てのデータベース保存やデータのやり取りに使用するエンティティにおいて、共通で使用する メソッドを提供するインターフェースである。" alt="" coords="5,5,212,45"/>
+<area shape="rect" title=" " alt="" coords="236,13,285,38"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a916e77e2034e778edf31845415407991"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a916e77e2034e778edf31845415407991">makeMap</a> ()</td></tr>
+<tr class="memdesc:a916e77e2034e778edf31845415407991"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a916e77e2034e778edf31845415407991">[詳解]</a><br /></td></tr>
+<tr class="separator:a916e77e2034e778edf31845415407991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa500e502a0ff48d925ba5e5c21fbf525"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#aa500e502a0ff48d925ba5e5c21fbf525">stringSetNull</a> ()</td></tr>
+<tr class="memdesc:aa500e502a0ff48d925ba5e5c21fbf525"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#aa500e502a0ff48d925ba5e5c21fbf525">[詳解]</a><br /></td></tr>
+<tr class="separator:aa500e502a0ff48d925ba5e5c21fbf525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a9ee08500b9b2ebe507037e3d0ca8d"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#aa4a9ee08500b9b2ebe507037e3d0ca8d">makeMap</a> ()  throws IOException</td></tr>
+<tr class="memdesc:aa4a9ee08500b9b2ebe507037e3d0ca8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#aa4a9ee08500b9b2ebe507037e3d0ca8d">[詳解]</a><br /></td></tr>
+<tr class="separator:aa4a9ee08500b9b2ebe507037e3d0ca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d450566621b48915289ac45798abaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#a13d450566621b48915289ac45798abaa">stringSetNull</a> ()</td></tr>
+<tr class="memdesc:a13d450566621b48915289ac45798abaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#a13d450566621b48915289ac45798abaa">[詳解]</a><br /></td></tr>
+<tr class="separator:a13d450566621b48915289ac45798abaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:adeb295c5a47dc26994b929e7adee0426"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#adeb295c5a47dc26994b929e7adee0426">audio_hash</a></td></tr>
+<tr class="memdesc:adeb295c5a47dc26994b929e7adee0426"><td class="mdescLeft">&#160;</td><td class="mdescRight">音源ハッシュ値  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#adeb295c5a47dc26994b929e7adee0426">[詳解]</a><br /></td></tr>
+<tr class="separator:adeb295c5a47dc26994b929e7adee0426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a401d7f94f3cb04de5d66ec2a7997de"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a1a401d7f94f3cb04de5d66ec2a7997de">change_datetime</a></td></tr>
+<tr class="memdesc:a1a401d7f94f3cb04de5d66ec2a7997de"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴記録日時  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a1a401d7f94f3cb04de5d66ec2a7997de">[詳解]</a><br /></td></tr>
+<tr class="separator:a1a401d7f94f3cb04de5d66ec2a7997de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69cdb840ef123833b413ebe73085527"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#ac69cdb840ef123833b413ebe73085527">change_kinds</a></td></tr>
+<tr class="memdesc:ac69cdb840ef123833b413ebe73085527"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴種別  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#ac69cdb840ef123833b413ebe73085527">[詳解]</a><br /></td></tr>
+<tr class="separator:ac69cdb840ef123833b413ebe73085527"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f6b1e812edd846a4ca2cb276fb123f"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a69f6b1e812edd846a4ca2cb276fb123f">history_id</a></td></tr>
+<tr class="memdesc:a69f6b1e812edd846a4ca2cb276fb123f"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴番号(プライマリ)  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a69f6b1e812edd846a4ca2cb276fb123f">[詳解]</a><br /></td></tr>
+<tr class="separator:a69f6b1e812edd846a4ca2cb276fb123f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82bfb4fd4a44d1b28fa6760d931a9872"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a82bfb4fd4a44d1b28fa6760d931a9872">operation_user</a></td></tr>
+<tr class="memdesc:a82bfb4fd4a44d1b28fa6760d931a9872"><td class="mdescLeft">&#160;</td><td class="mdescRight">操作ユーザー名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a82bfb4fd4a44d1b28fa6760d931a9872">[詳解]</a><br /></td></tr>
+<tr class="separator:a82bfb4fd4a44d1b28fa6760d931a9872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f20759f8d355dfa97015e8671db6fa"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a99f20759f8d355dfa97015e8671db6fa">serial_num</a></td></tr>
+<tr class="memdesc:a99f20759f8d355dfa97015e8671db6fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">シリアルナンバー  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a99f20759f8d355dfa97015e8671db6fa">[詳解]</a><br /></td></tr>
+<tr class="separator:a99f20759f8d355dfa97015e8671db6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81484dd9225777e11875870aada47924"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a81484dd9225777e11875870aada47924">sound_id</a></td></tr>
+<tr class="memdesc:a81484dd9225777e11875870aada47924"><td class="mdescLeft">&#160;</td><td class="mdescRight">音源番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#a81484dd9225777e11875870aada47924">[詳解]</a><br /></td></tr>
+<tr class="separator:a81484dd9225777e11875870aada47924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa264f29fecc68da0d30650abd6b88d78"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#aa264f29fecc68da0d30650abd6b88d78">sound_name</a></td></tr>
+<tr class="memdesc:aa264f29fecc68da0d30650abd6b88d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">音源名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html#aa264f29fecc68da0d30650abd6b88d78">[詳解]</a><br /></td></tr>
+<tr class="separator:aa264f29fecc68da0d30650abd6b88d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[音源データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。 </p>
+<ul>
+<li>このエンティティが対応するデータベース内のテーブルの名称は[<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html" title="主に[音源データ変更履歴]機能のデータの、データベース保存やデータのやり取りに使用する エンティティである。">Audio_Data_History</a>]である。</li>
+<li>定義しているフィールド変数に関しては、対応するデータベース内のテーブルに対応した名称である。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@AllArgsConstructor</li>
+<li>@Data</li>
+<li>@NoArgsConstructor</li>
+<li>@Table("Audio_Data_History")</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html" title="全てのデータベース保存やデータのやり取りに使用するエンティティにおいて、共通で使用する メソッドを提供するインターフェースである。">EntitySetUp</a> </dd>
+<dd>
+DateFormat_Enum </dd>
+<dd>
+History_Common_Enum </dd>
+<dd>
+Audio_Data_Enum </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a916e77e2034e778edf31845415407991" name="a916e77e2034e778edf31845415407991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a916e77e2034e778edf31845415407991">&#9670;&#160;</a></span>makeMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.makeMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。 </p>
+<ul>
+<li>主に、フロント側の画面への出力の際に用いるデータを作成する目的として、このメソッドを使用する。</li>
+<li>「Null」が入っているデータは、全て「空文字」に変換される。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列に変換が終わり、キー名を項目の英語名としたマップリスト。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>格納済みのデータを全てNull初期化する。</li>
+<li>フィールドに格納されているデータが「Null」であれば、例外なく「空文字」をマップリストに登録。</li>
+<li>文字列型データはそのままマップリストに登録し、それ以外のデータ型は文字列型に変換して登録。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>DateFormat_Enum </dd>
+<dd>
+History_Common_Enum </dd>
+<dd>
+Audio_Data_Enum </dd></dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#aa4a9ee08500b9b2ebe507037e3d0ca8d">com.springproject.dockerspring.Entity.EntitySetUp</a>を実装しています。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_a916e77e2034e778edf31845415407991_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_a916e77e2034e778edf31845415407991_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_a916e77e2034e778edf31845415407991_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_a916e77e2034e778edf31845415407991_icgraph">
+<area shape="rect" title="エンティティ内に格納されているデータを全て文字列型に変換し、マップリストへ格納して返却する。" alt="" coords="637,59,844,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_aud764997fad124b7789ff6a5ad5a05cd07.html#a16ab154434479201043786bcfe9d602e" title="エンティティ内にNull初期化対象のデータだけを入れた検査対象エンティティを生成する。 生成後は、そのままテストを行う。" alt="" coords="170,5,425,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_aud764997fad124b7789ff6a5ad5a05cd07.html#a672d277206f16d04b6f1e30e5f696d56" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="5,99,589,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa500e502a0ff48d925ba5e5c21fbf525" name="aa500e502a0ff48d925ba5e5c21fbf525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa500e502a0ff48d925ba5e5c21fbf525">&#9670;&#160;</a></span>stringSetNull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.stringSetNull </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。 </p>
+<p >このメソッドは以下の理由で設けた。</p><ul>
+<li>空文字や空白のままデータベースに保存されると、他のテーブルとの参照制約に悪影響を及ぼすため。</li>
+</ul>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>各フィールド変数のうち、文字列型の物のみを対象とする。</li>
+<li>フィールド内に格納されている文字列が「空白」又は「空文字」か判別する。</li>
+<li>該当すれば、内容を「Null」に置き換える。 </li>
+</ol>
+</dd></dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html#a13d450566621b48915289ac45798abaa">com.springproject.dockerspring.Entity.EntitySetUp</a>を実装しています。</p>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_aa500e502a0ff48d925ba5e5c21fbf525_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_aa500e502a0ff48d925ba5e5c21fbf525_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_aa500e502a0ff48d925ba5e5c21fbf525_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history_aa500e502a0ff48d925ba5e5c21fbf525_icgraph">
+<area shape="rect" title="エンティティ内に格納されているデータのうち、文字列型かつ空文字や空白のデータをNullに初期化する。" alt="" coords="795,59,1001,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_audc9e130c61e27ff4bf75ee02101715b3a.html#a6c0fd314b3a6f021935b31d16e93e7a4" title="エンティティ内にNull初期化対象のデータだけを入れた検査対象エンティティを生成する。 生成後は、そのままテストを行う。" alt="" coords="492,52,747,121"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_audc9e130c61e27ff4bf75ee02101715b3a.html#a44d0c899ac8b741b6312c2bc6ae34e37" title="エンティティ内部のデータに初期化対象文字が含まれていた場合、入力後に取り出した該当データが Nullに初期化されていることを確認する。" alt="" coords="23,5,426,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_audc9e130c61e27ff4bf75ee02101715b3a.html#a54d69d36005fb38bcb17b2841a268c5e" title="エンティティ内部のデータに[Null]が含まれていた場合でも、処理中に[NullPointerException]が 発生して処理が止まらないことを確認する。" alt="" coords="5,99,444,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="adeb295c5a47dc26994b929e7adee0426" name="adeb295c5a47dc26994b929e7adee0426"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeb295c5a47dc26994b929e7adee0426">&#9670;&#160;</a></span>audio_hash</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.audio_hash</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音源ハッシュ値 </p>
+
+</div>
+</div>
+<a id="a1a401d7f94f3cb04de5d66ec2a7997de" name="a1a401d7f94f3cb04de5d66ec2a7997de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a401d7f94f3cb04de5d66ec2a7997de">&#9670;&#160;</a></span>change_datetime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.change_datetime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴記録日時 </p>
+
+</div>
+</div>
+<a id="ac69cdb840ef123833b413ebe73085527" name="ac69cdb840ef123833b413ebe73085527"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac69cdb840ef123833b413ebe73085527">&#9670;&#160;</a></span>change_kinds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.change_kinds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴種別 </p>
+
+</div>
+</div>
+<a id="a69f6b1e812edd846a4ca2cb276fb123f" name="a69f6b1e812edd846a4ca2cb276fb123f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f6b1e812edd846a4ca2cb276fb123f">&#9670;&#160;</a></span>history_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.history_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴番号(プライマリ) </p>
+
+</div>
+</div>
+<a id="a82bfb4fd4a44d1b28fa6760d931a9872" name="a82bfb4fd4a44d1b28fa6760d931a9872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82bfb4fd4a44d1b28fa6760d931a9872">&#9670;&#160;</a></span>operation_user</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.operation_user</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>操作ユーザー名 </p>
+
+</div>
+</div>
+<a id="a99f20759f8d355dfa97015e8671db6fa" name="a99f20759f8d355dfa97015e8671db6fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99f20759f8d355dfa97015e8671db6fa">&#9670;&#160;</a></span>serial_num</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.serial_num</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シリアルナンバー </p>
+
+</div>
+</div>
+<a id="a81484dd9225777e11875870aada47924" name="a81484dd9225777e11875870aada47924"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81484dd9225777e11875870aada47924">&#9670;&#160;</a></span>sound_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.sound_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音源番号 </p>
+
+</div>
+</div>
+<a id="aa264f29fecc68da0d30650abd6b88d78" name="aa264f29fecc68da0d30650abd6b88d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa264f29fecc68da0d30650abd6b88d78">&#9670;&#160;</a></span>sound_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.Entity.HistoryEntity.Audio_Data_History.sound_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>音源名 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Entity/HistoryEntity/<a class="el" href="_audio___data___history_8java.html">Audio_Data_History.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_entity.html">Entity</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity.html">HistoryEntity</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+var _join_tests_2_entity_2_test_interface_2_entity___normal_entity_input___test_8java =
+[
+    [ "com.springproject.dockerspring.JoinTests.Entity.TestInterface.Entity_NormalEntityInput_Test", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_entity_1_1_test_interface_1_1_e784d96b37257ee7d187aa05f954355be.html", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_entity_1_1_test_interface_1_1_e784d96b37257ee7d187aa05f954355be" ]
+];

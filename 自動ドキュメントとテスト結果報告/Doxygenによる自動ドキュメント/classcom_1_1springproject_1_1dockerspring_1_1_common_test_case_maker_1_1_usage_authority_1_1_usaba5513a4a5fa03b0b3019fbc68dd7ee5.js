@@ -1,0 +1,26 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5 =
+[
+    [ "Usage_Authority_TestKeys", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369.html", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usag4d9a524619adcfa35764faeb7d8ba369" ],
+    [ "allRepoForm", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a3cc6a5f85503a9697465d835bab24050", null ],
+    [ "compareEntityMake", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#af95c481f83547d5991c3cef41c606591", null ],
+    [ "databaseReset", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a387fe6672314a4f247d438e2b68e5796", null ],
+    [ "databaseSetup", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a3ba4efb696256038391042df5a0db13d", null ],
+    [ "failDatabaseReset", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#af3d993eea7332943054cd6f1db80e737", null ],
+    [ "failDatabaseSetup", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a8608bd889bc39771a7dca6e89494d867", null ],
+    [ "failedEntityMake", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a42308c4762cf9007fa25a40eda593d49", null ],
+    [ "getAuthIdFailedData", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#af0ba7f72b7294d681a8c62cab9779de4", null ],
+    [ "getAuthKindFailedData", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#aaa0d69af8f227fc96c3c81b042ac95de", null ],
+    [ "getAuthNameFailedData", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a5a31e0c213d37df2e8a3236d3a3e2e4c", null ],
+    [ "getNormalData", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#abac8da0ed2b728055f3bdde8c574f82d", null ],
+    [ "getOkData", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a6b7b510ba1fd67c6b1b250d21541ef6a", null ],
+    [ "getSerialNumFailedData", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a24d4882d3500d17494c9088b30dd28fc", null ],
+    [ "justInTimeEntityMake", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a6f2d588c09e4ee39090771a0ffe79c0a", null ],
+    [ "otherRepoForm", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#aad2f6a663d8fb9ec0988d7fb2909a644", null ],
+    [ "subjectRepoForm", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a1d8905f3b81a7d844fcce8efdfcada87", null ],
+    [ "UniqueMissEntityMake", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a393134f6a9244ad41594709d48185fa3", null ],
+    [ "UpdateAfterEntityMake", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#aaf5df7c8f6a8ea160f0a4fbe43dba4d3", null ],
+    [ "database_clazz", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a6930778374b7c69dc282f51ff24d4f58", null ],
+    [ "fail_database_clazz", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#ad5095a78f12af8cb9921ae1b56ee5e41", null ],
+    [ "form_clazz", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#a6a79ef7256cfec14e7e3289e90adecad", null ],
+    [ "repoform_clazz", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_usaba5513a4a5fa03b0b3019fbc68dd7ee5.html#aaba5cfef7bcaf060b5097aafa7b6ef47", null ]
+];

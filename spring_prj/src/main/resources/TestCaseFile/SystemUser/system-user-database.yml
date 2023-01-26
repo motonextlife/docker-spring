@@ -1,0 +1,281 @@
+# /** 
+#  **************************************************************************************
+#  * @file system-user-database.yml
+#  * 
+#  * @brief 主に[システム利用者管理機能]機能のテストにおいて、データベースが関連したテストの際に
+#  * 用いる、データベースセットアップ用のデータを定義したファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、データベースへの格納が成功し、フォームバリデーションの通過が可能な20個のデータと
+#  * データベースへの格納に失敗するデータが存在する。
+#  * - 前項のデータを、データベースのテーブル定義の全てのカラムで用意している。
+#  * - 格納成功ケースのデータの文字数に関しては、フォームバリデーションの文字数限界値検査で成功する
+#  * テストケースを定義するため、ギリギリの文字数で定義している。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */ 
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var member_id
+#  * 
+#  * @brief [団員番号]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型50文字]まで。[団員情報]の番号を参照している。
+#  * 値の重複は不可能である。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_unique 値が重複しており不合格。
+#  * @param[in] ng_foreign 参照元から値を参照できない為不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  * 
+#  * @note 使用の際には必要に応じて、参照元にあらかじめ番号を登録しておく必要がある。
+#  ************************************************************************************
+#  */
+member_id:
+  case_1: Center-001-properness-properne
+  case_2: Center-002-properness-properne
+  case_3: Center-003-properness-properne
+  case_4: Center-004-properness-properne
+  case_5: Center-005-properness-properne
+  case_6: Contact-010-properness-propern
+  case_7: Contact-011-properness-propern
+  case_8: Contact-012-properness-propern
+  case_9: Contact-013-properness-propern
+  case_10: Contact-014-properness-propern
+  ok_length: OBIcmcxzI-hDqivzq5N9ONoDqTzbEUyZ7oXnWstcatCUtauMpC
+  ng_overflow: bquUw-bj1mcr1AXnlqj6tp2wRfWsJjib8ewKjUlU2IfKGcr81BZ
+  ng_unique: Center-001-properness-properne
+  ng_foreign: missing-999
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var username
+#  * 
+#  * @brief [ユーザー名]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型40文字]まで。値の重複は不可である。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_unique 値が重複しており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+username:     
+  case_1: Systemuser1propernes
+  case_2: Local2propernessprop
+  case_3: Admin3propernessprop
+  case_4: Creater4propernesspr
+  case_5: Template5propernessp
+  case_6: Systemuser6propernes
+  case_7: Local7propernessprop
+  case_8: Admin8propernessprop
+  case_9: Creater9propernesspr
+  case_10: Template10properness
+  ok_length: OBIcmcxzIohDqivzq5N9ONoDqTzbEUyZ7oXnWstc
+  ng_overflow: bquUwfbj1mcr1AXnlqj6tp2wRfWsJjib8ewKjUlU2
+  ng_unique: Systemuser6propernes
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var password
+#  * 
+#  * @brief [パスワードハッシュ値]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型300文字]まで。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+password:
+  case_1: nO9JUbr8sBvqaheQ7pyHDDQtmQYxm6zeOWb6jT10iM9tkYCSqWbT81c4cXkI3vB0I4ROu1UFA1TqVuE94yvjjNqhYyrdGEc2hsu8q2cSppbCHixauxUhSr2RJeo687GerobnRG3nICAuOAb83hcmP5jDNCbxanePgz9wDEVcNR2iJdo3jXCXFWfbnuSl1Loui2KKzEuMVAyq923ejzQJdr0rL1IxD8EEd5zmO0MXOPSpWh9nCEWODd9yhIoUfNye
+  case_2: bfk24Y7zF96mG6CYWGrOS8eeWXhpFUZB5oYXUZ8ItBuNBDgrdrn7UXwwOYU0rqi7QxJ7Rtq7oX8K8Ej5J19v878sHMm18t7q4h8GEsgOFjcNqP8MDFEWJ6up6SAzziHGsbzzhUNe7Ll3k0P8NnAPi4UPjKkwdojscEZa9IwxPYaZenxGBWOpWpvJhFab3ccx8uQLanWC4RgYBrMKv595ram1o0ACgRVA1EhqTEwccn1GzuGPmMOI9TLenE6uKhrG
+  case_3: QnG2mdG4jETcHJXgz0lFOBv7gg5MmDRe8jA1C1HzyjQllomYK5zJvEffA6XvcdQGoFyZI9DOuoHFqxcfiGdN06z312Zfy6SyEmusEp3aAuZC83NToOkh8LeSZebR8rXUOsNQWAPTtqopYpzs6i0GLhVwFUFErq8ZAm1FZDoadpppnNAW8sE8XExlmmm0XOILbK5V8jJK0SLk4UQmpJ55Ra2Mw3pUOFtHcLJY6TVewN6Bk4JImPDaJihG2gfILZGa
+  case_4: htDn30gPDVEGRgbLXYiViKoJf1son6o5CPjS0PIJmhnQXjQCaEGIU1NkvdyZwTXJi2va927tKJ6KcY4xlRW14KEKgxXvqeonv6g3o9HvFPNBJOPbNtRgcYeMGsyMEMZ0pa5R6xeYRj2c5PZnlek4rTkwScjrq3u2Mzordxax8r7J3LRseceq4w2aUhBzTowJSgGLOIZEItygqOMQSOBZOnIcTjKS74Ai2DWy4Y9Aq7i8zvXCMHpaDFvlYKbnbi3t
+  case_5: xeL7ho2pWld9efdD5Dwswhx6LZI6MY1z5SWGQrw5TqSxYke2xGoJix7x4ypp6pTibSH6xwgOU6LgPSGzXQTPWWKd7JbIz7zsgdSEfIP9ehQ76AnSWLCPGt2j4zF8d9PQVqNFvr4tswl5rEd7GIF9LRL755PGqgok0Y88vqqnLCMiVnpyEGcUeR8RrurIO09AH86HN5dmsHnhVtVslQQBpckzERuDcRaBwSuvYYP9yAMCqz4YbOtRXnqkNDZ9iUIX
+  case_6: DJhUc8cNZ41OFtoT1KQex2JMjqWmsmuRiHyo4wzJdD0JBJpEgDMFC8RcMIUU0PP6vTEbpTeYRxHfZMWdexpdpJfgofsQVQE3j7Jc8beV2VYSLaQ7nDWQX3Hbz6iVpFAppyFNUVjkFd308Lo4Zo0OlQnxNEGA3sbqooXNHmLcTvDcuOlKblSXpARHjnf2Ukd1LNr3RqJY5pHQ9yHBcQ1U4GZ08bq7T4cg9rW5I4VvAJoZkeStZBStKcwmpOPjA2sA
+  case_7: 9RfIIQoo4739xcSVmwT8ljzVVRoWIg97LabRdsceqcFSRF530xpzUUUIzhKibPNWC7oKnsFtmKN9DpIfaXZmmG3jx6LSKgRCSEQ40C08gEBN5X03HO75ekc0Nh8xv8REYqESfNDo5WSTPYuOmIvS3KRBxyBRBz58NqMeyFurVhKuGmZqfbfx6NlT1keBoAd9WKJuwmZSaVcPIqO9tDOOPc8Gg8xgVDtSOipY6P9kU9lugD6ep6tDkLN9u4Wt5lRU
+  case_8: 7BmynDI4bC1bxGsmDaJAcNnDC4ik1f1umLPanGKGuDpxsjT4EWsDAbKNPbokEJkDfL7ho46meTFScLDVMcsffGVwmhepHQDsJljpMscQEgjx3CFt0kqPoCpIyPJPnmgIR20hh8kksx8xOFUDi0rW2WcTNioD2sapuy6owKoUciE52bHxOFff6FhiUyOjLX4jq2Ec3DDSUE9DSRMU9w3jf9bWRNXHRDQ7brfDX9Q2c7i2miGMPvJ88KyLtgjze0gv
+  case_9: OTVuNBKWPkPZF3DnGACl8GuriF6ctdUZeiuxhdw3oP9WtoeFbAvRtVu2MsashytA9q5lTxTClKDAmjNAEFMk4ZfemkKNhjnwepTXuFGHJOAUoFo7YSmh7Gmi79pMj79uVoENpwlbR3TrvhMyPscxwzzDJuX6uVBcD3w8po4MHa4q3crfChkBQWbYuA0ch7RtG2bZHKOVj5DP2sZq2e0xpGX6j1ZdnScO3daIhStWSChKUOY1h6UtMuV5YoZeqrnM
+  case_10: yGpT4Q5ivcWDL6puPur3oeD0d4e77gaFNda5vxPqXKk0HLIEhrVnUqpjV9DLB803EBxsCJGSQAkyYcwjJ8mwTN9JXPcmz8hdOaTQpK8CnD76CY6YW296ylnVwdyWCqkVvNKV3qAIbGLYHYgY822J00EklB5PDhKDhERe48FQo4MNUiyBuVJ1JoYLPCwHMny4o5Pg3QkyMoVkSBy6wA18A6iwHmP25mpM2YX064X7pWVdIVOVqzKWkbwXtG2pyPfL
+  ok_length: lmA0loQR8X7o2LZxmbmOMpgPm7ObgMRdOn7h6BfyLlYX7r3LjAUdAR3YXypHOjbjiroNgTbK5ssbvIjhtE8Z4Z52Q7ZfSjYlIMnjNjVnMXgARzXcKhED7n3EZfN4PFk96B5QWcIwLOfrRvFg0BYaJasZXomKFD3kzIGB2S704xZvwUTbKDhpgsOXG7FuUiBVX6L65f8Fzuq9ZuvfpfkmC0vNwLlaUg1FvvWnsOh5jp7Gjhdgl47QjtopyPhlJ9HivD4c1SviVGYXIpa2EDrSLs4nI3l79aIZqVShFWv8Nlq8
+  ng_overflow: jfkCWY7m8zQYFRe20xVFK39YQ9KaD4JtCqO1SgpvFcyV6AbukCAJM286yvYODh9z5glsEV6h3jwKqsLP48wROKr5HtTveRoVAGlnXrGvn1ApLMDTvBBJPTmRzHXzCiKK3zn2HBTCYU6i4Nl48thD7Er9Gn9OxaJx1E7OOdYmz54Znv1VNIp1AM4vM0OzJK6Ea1UT0QcTt0cn0gQ9OJFaNvQSTfVMGoxpDkwo7Bx14dyHzSpzcAA7Isz9zbb4I0x0QxJeu7s3Lrl1Sz5SPnBUfI9LdvcLUnQ1dmPEAmugyeDSP
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var auth_id
+#  * 
+#  * @brief [権限番号]のテストケース
+#  * 
+#  * @details Nullは許さず、[文字列型50文字]まで。[権限情報]の番号を参照している。
+#  * 
+#  * @param[in] case_? 実際にデータベースに格納する正常なデータ
+#  * @param[in] ok_length 文字数が規定値以内に収まっており合格。
+#  * @param[in] ng_overflow 文字数が規定値を超えており不合格。
+#  * @param[in] ng_foreign 参照元から値を参照できない為不合格。
+#  * @param[in] ng_null NUllの為、不合格。
+#  * 
+#  * @note 使用の際には必要に応じて、参照元にあらかじめ番号を登録しておく必要がある。
+#  ************************************************************************************
+#  */
+auth_id:
+  case_1: Center-001-properness-properne
+  case_2: Center-001-properness-properne
+  case_3: Center-001-properness-properne
+  case_4: Center-001-properness-properne
+  case_5: Center-001-properness-properne
+  case_6: Center-001-properness-properne
+  case_7: Contact-010-properness-propern
+  case_8: Contact-010-properness-propern
+  case_9: Contact-010-properness-propern
+  case_10: Contact-010-properness-propern
+  ok_length: OBIcmcxzI-hDqivzq5N9ONoDqTzbEUyZ7oXnWstcatCUtauMpC
+  ng_overflow: bquUw-bj1mcr1AXnlqj6tp2wRfWsJjib8ewKjUlU2IfKGcr81BZ
+  ng_foreign: missing-999
+  ng_null: null
+
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var fail_count
+#  * 
+#  * @brief [ログイン失敗回数]のテストケース
+#  * 
+#  * @details Nullは許さず、数値は[255]まで可能。
+#  * 
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+fail_count:
+  case_1: 1
+  case_2: 10
+  case_3: 5
+  case_4: 3
+  case_5: 1
+  case_6: 10
+  case_7: 5
+  case_8: 3
+  case_9: 1
+  case_10: 10
+  ng_null: null
+
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var locking
+#  * 
+#  * @brief [ロック有無]のテストケース
+#  * 
+#  * @details Nullを許さず真偽値のみ受け付ける
+#  * 
+#  * @param[in] ng_null NUllの為、不合格。
+#  ************************************************************************************
+#  */
+locking:
+  case_1: true
+  case_2: false
+  case_3: true
+  case_4: false
+  case_5: true
+  case_6: false
+  case_7: true
+  case_8: false
+  case_9: true
+  case_10: false
+  ng_null: null
+
+
+
+
+
+
+
+
+# /** 
+#  ************************************************************************************
+#  * @var certification
+#  * 
+#  * @brief セキュリティ関係のテストをする際に用いる。配列の構成としては以下のようになる。
+#  * [ハッシュ化前パスワード(ユーザー名を兼ねる), ハッシュ値]
+#  * 
+#  * @details このテストケースを用いる場としては、SpringSecurityのログインテストの際に
+#  * あらかじめデータベースにユーザー名と、有効なパスワードハッシュ値を保存しておき、正常に
+#  * 認証動作をすることを確認するためである。
+#  * 
+#  * @note ハッシュ値は[BCrypt]で作成。今後のSpringFrameworkの仕様の変更によっては
+#  * テストケースを修正する必要がある。
+#  ************************************************************************************
+#  */
+certification:
+  case_1: ["123456", "$2a$10$5DWJQ/P/l24VSji3jbMee.gXMurbt6Dyzwc6L8UnhCd5eRoE1ZWg2"]
+  case_2: ["qwerty", "$2a$10$OUuQky4v2iVWDKBe4INaROhh6fW411X1TApdjZi0vIBD6dXW79VKu"]
+  case_3: ["password", "$2a$10$EtrBDAJQFyB5JW5uhyFi/.7FjvsDRH9P0jW.mNnp5wATm9t6NAeoy"]
+  case_4: ["mynoob", "$2a$10$XDj/w5vTjl92mCVyTLcefO2TOLdVOD5PZVLukM4d3F26AIBG69zPW"]
+  case_5: ["google", "$2a$10$SkkSQeqLKoWp1ZnD/5BqT.Cm7bvCRxZov75glH8IzMO8lYG5kIK4O"]
+  case_6: ["zxcvbnm", "$2a$10$VY4Ol6.a2jquL0oztqv7POQr/gvIMc1dZlApevR8mpR3tJ2XOQBmq"]
+  case_7: ["123456789", "$2a$10$kSY9EVH5a2NOKfrSpFEiMeNUZvgllD/HhRF6g8Jut7ZFkOt4Rchbe"]
+  case_8: ["1q2w3e4r", "$2a$10$li20s2fjd2TNhwSzij2to.sRhBOKlTM8vA55.mt2cBrLV.Rk3RtyO"]
+  case_9: ["123qwe", "$2a$10$f0LtRlJKBBVW4s00edTvC.W74RrW6WLNwV.MDtaVpIcoJPrDlMjcS"]
+  case_10: ["111111", "$2a$10$8DcJsBwKMLDpqmUnI.8aAe3E.BGENdk1u9hqkG67zA79aLT955qCC"]

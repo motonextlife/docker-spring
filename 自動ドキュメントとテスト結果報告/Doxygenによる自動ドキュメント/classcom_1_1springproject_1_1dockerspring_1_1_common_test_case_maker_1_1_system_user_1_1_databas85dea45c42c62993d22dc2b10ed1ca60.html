@@ -1,0 +1,713 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas031e27dd5e8cbd05d343b724fbf28078.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[システムユーザー管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas7b9d2aefb9f64948a779e22e45164b22.png" border="0" usemap="#acom_8springproject_8dockerspring_8_common_test_case_maker_8_system_user_8_database_8_system___user___database___test_case_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_common_test_case_maker_8_system_user_8_database_8_system___user___database___test_case_coll__map" id="acom_8springproject_8dockerspring_8_common_test_case_maker_8_system_user_8_database_8_system___user___database___test_case_coll__map">
+<area shape="rect" title="主に[システムユーザー管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="1191,259,1495,314"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas41014b682aa253e4daa780adb57a3842.html" title="主に[システムユーザー管理]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="676,111,980,166"/>
+<area shape="rect" title=" " alt="" coords="303,27,450,53"/>
+<area shape="rect" title=" " alt="" coords="301,77,453,102"/>
+<area shape="rect" title=" " alt="" coords="297,126,457,151"/>
+<area shape="rect" title=" " alt="" coords="301,175,452,201"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="687,225,969,279"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="251,225,503,279"/>
+<area shape="rect" title=" " alt="" coords="10,239,97,265"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="251,303,503,358"/>
+<area shape="rect" title=" " alt="" coords="5,318,101,343"/>
+<area shape="rect" title=" " alt="" coords="779,303,877,329"/>
+<area shape="rect" title=" " alt="" coords="792,353,864,378"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1d4b5696772f34073d042ae97d1b7b48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a1d4b5696772f34073d042ae97d1b7b48">System_User_Database_TestCase</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a4146914b4b5849031da00d0b7b06da24">config_factory</a>)  throws IOException</td></tr>
+<tr class="memdesc:a1d4b5696772f34073d042ae97d1b7b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用するテストケースクラスのDIのほか、YMLファイルからデータを読み取って専用エンティティへの マッピングを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a1d4b5696772f34073d042ae97d1b7b48">[詳解]</a><br /></td></tr>
+<tr class="separator:a1d4b5696772f34073d042ae97d1b7b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2127f4828bf26e80473dc9b4e0ee4d64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a2127f4828bf26e80473dc9b4e0ee4d64">compareEntityMake</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:a2127f4828bf26e80473dc9b4e0ee4d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いるモックの エンティティを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a2127f4828bf26e80473dc9b4e0ee4d64">[詳解]</a><br /></td></tr>
+<tr class="separator:a2127f4828bf26e80473dc9b4e0ee4d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a20c08515e1225272288b68e5150eaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a1a20c08515e1225272288b68e5150eaa">databaseReset</a> ()</td></tr>
+<tr class="memdesc:a1a20c08515e1225272288b68e5150eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a1a20c08515e1225272288b68e5150eaa">[詳解]</a><br /></td></tr>
+<tr class="separator:a1a20c08515e1225272288b68e5150eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07a7a2347ce40071b5140157371b6d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#af07a7a2347ce40071b5140157371b6d8">databaseSetup</a> ()</td></tr>
+<tr class="memdesc:af07a7a2347ce40071b5140157371b6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#af07a7a2347ce40071b5140157371b6d8">[詳解]</a><br /></td></tr>
+<tr class="separator:af07a7a2347ce40071b5140157371b6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c36869f6d9f870d4308c40b7840079f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a6c36869f6d9f870d4308c40b7840079f">failedEntityMake</a> ()</td></tr>
+<tr class="memdesc:a6c36869f6d9f870d4308c40b7840079f"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモックエンティティを作成。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a6c36869f6d9f870d4308c40b7840079f">[詳解]</a><br /></td></tr>
+<tr class="separator:a6c36869f6d9f870d4308c40b7840079f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8816fa481d79a95a9879ca4fe222578d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a8816fa481d79a95a9879ca4fe222578d">justInTimeEntityMake</a> ()</td></tr>
+<tr class="memdesc:a8816fa481d79a95a9879ca4fe222578d"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を格納した モックエンティティを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a8816fa481d79a95a9879ca4fe222578d">[詳解]</a><br /></td></tr>
+<tr class="separator:a8816fa481d79a95a9879ca4fe222578d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a769db0a32374c058a0167752dab08789"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a769db0a32374c058a0167752dab08789">UniqueMissEntityMake</a> ()</td></tr>
+<tr class="memdesc:a769db0a32374c058a0167752dab08789"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリでの更新＆追加処理の際に使用する、一意制約違反により失敗するテストケースを作成。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a769db0a32374c058a0167752dab08789">[詳解]</a><br /></td></tr>
+<tr class="separator:a769db0a32374c058a0167752dab08789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3afacdfbcde0b6a2e0b19537f22f56ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a3afacdfbcde0b6a2e0b19537f22f56ae">UpdateAfterEntityMake</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:a3afacdfbcde0b6a2e0b19537f22f56ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリでの更新処理の際に使用する、更新後のデータのモックエンティティを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a3afacdfbcde0b6a2e0b19537f22f56ae">[詳解]</a><br /></td></tr>
+<tr class="separator:a3afacdfbcde0b6a2e0b19537f22f56ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a4146914b4b5849031da00d0b7b06da24"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a4146914b4b5849031da00d0b7b06da24">config_factory</a></td></tr>
+<tr class="separator:a4146914b4b5849031da00d0b7b06da24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a6a55dc308e1096f6eb735b28b83df3"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas41014b682aa253e4daa780adb57a3842.html">System_User_Database_Yaml</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a7a6a55dc308e1096f6eb735b28b83df3">database_yml</a></td></tr>
+<tr class="separator:a7a6a55dc308e1096f6eb735b28b83df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c5e6b9bfc044572820e25c9873e937"><td class="memItemLeft" align="right" valign="top">final SqlOperation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a11c5e6b9bfc044572820e25c9873e937">FOREIGN_KEY_CHECK_0</a> = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 0&quot;)</td></tr>
+<tr class="separator:a11c5e6b9bfc044572820e25c9873e937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae7128578505a4a81b4e60b689dabd3"><td class="memItemLeft" align="right" valign="top">final SqlOperation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a1ae7128578505a4a81b4e60b689dabd3">FOREIGN_KEY_CHECK_1</a> = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 1&quot;)</td></tr>
+<tr class="separator:a1ae7128578505a4a81b4e60b689dabd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b9dcbbc0d053c442e917629da4927ad"><td class="memItemLeft" align="right" valign="top">final Truncate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a0b9dcbbc0d053c442e917629da4927ad">TABLE</a> = Truncate.table(<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a9424298b4b8b682d5d62a99c0dbcbec8">TABLE_NAME</a>)</td></tr>
+<tr class="separator:a0b9dcbbc0d053c442e917629da4927ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9424298b4b8b682d5d62a99c0dbcbec8"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a9424298b4b8b682d5d62a99c0dbcbec8">TABLE_NAME</a> = &quot;System_User&quot;</td></tr>
+<tr class="separator:a9424298b4b8b682d5d62a99c0dbcbec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[システムユーザー管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。 </p>
+<ul>
+<li>このクラスでは、データベースの初期化のほか、初期化時に使用したデータをテスト時の比較用として モックのエンティティに格納して返却が可能。</li>
+<li>データベースへの保存に失敗するテストケースを、モックのエンティティに格納して返却が可能。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@Import(ConfigureFactory.class)</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas41014b682aa253e4daa780adb57a3842.html" title="主に[システムユーザー管理]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。">System_User_Database_Yaml</a> </dd>
+<dd>
+ConfigureFactory </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a1d4b5696772f34073d042ae97d1b7b48" name="a1d4b5696772f34073d042ae97d1b7b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d4b5696772f34073d042ae97d1b7b48">&#9670;&#160;</a></span>System_User_Database_TestCase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.System_User_Database_TestCase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a>&#160;</td>
+          <td class="paramname"><em>config_factory</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用するテストケースクラスのDIのほか、YMLファイルからデータを読み取って専用エンティティへの マッピングを行う。 </p>
+<ul>
+<li>データベースやファイルサーバーのセットアップに必要なクラスを、インジェクションする。</li>
+<li>データベースに格納するテストケースが記述されたYMLファイルを読み込んで、専用のエンティティに マッピングする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">config_factory</td><td>テスト設定ファイルの総合クラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>引数で渡されたクラスを、コンストラクタインジェクションする。</li>
+<li>指定されたYMLファイルのテストケースを読み込む。</li>
+<li>読み込んだYMLファイルを専用のエンティティにマッピングする。</li>
+<li>インジェクションしたクラスを、フィールド変数に格納する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas41014b682aa253e4daa780adb57a3842.html" title="主に[システムユーザー管理]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。">System_User_Database_Yaml</a> </dd>
+<dd>
+ConfigureFactory</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a2127f4828bf26e80473dc9b4e0ee4d64" name="a2127f4828bf26e80473dc9b4e0ee4d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2127f4828bf26e80473dc9b4e0ee4d64">&#9670;&#160;</a></span>compareEntityMake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.compareEntityMake </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いるモックの エンティティを作成する。 </p>
+<ul>
+<li>データベースの初期化データと内容が同じなので、検索メソッドテストの際の結果の比較などに幅広く用いる 事が可能である。</li>
+<li>範囲外の数字が来たときは処理を続行できないのでエラーを投げる。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase_num</td><td>指定するテストケースの番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>データが格納されているモックエンティティ</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定した番号のテストケースデータを、マッピングエンティティから取り出す。</li>
+<li>取り出したデータを、作成したモックオブジェクトに格納する。</li>
+<li>格納が終わったモックを、戻り値とする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a2127f4828bf26e80473dc9b4e0ee4d64_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a2127f4828bf26e80473dc9b4e0ee4d64_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a2127f4828bf26e80473dc9b4e0ee4d64_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a2127f4828bf26e80473dc9b4e0ee4d64_icgraph">
+<area shape="rect" title="データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いるモックの エンティティを作成する。" alt="" coords="675,323,1020,377"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#a6d7b5df64f133fb67be4661afbc4ba2a" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="336,323,627,377"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7f8e602a5c1f9b0dd5e160a310585961.html#a1897d32425c667be2f90909978cb217b" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="15,5,278,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syc304b174b7bc083d2a98bf9dd7803768.html#ad2b1c58bcc3dea025904bd9c5f64baff" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="17,113,276,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me32ccddb1ea5e829b7f316d618a1d0bd5.html#a4b9376bc1cd8c7ac6760bb00b76a5056" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="25,222,268,291"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy84a41225b59c2b044fd81e407d104b1f.html#a4df11deadab5fc5d6bbf57dea60e227c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="20,315,273,385"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy0e73a07fd6b7eb717bafae5279fa703f.html#a986ae594a7a08547a77539123f0cf8d0" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="20,409,273,478"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7a03e5c0d0fc7f1cdffcb3675cf78fa1.html#ae05e34c9275b4f41f0b04a6a88c7c038" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="20,502,273,571"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7eb3333ec376076223b119480e0eaac7.html#ae77197647a88724bfc7a38b88dec96f4" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,595,288,665"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1a20c08515e1225272288b68e5150eaa" name="a1a20c08515e1225272288b68e5150eaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a20c08515e1225272288b68e5150eaa">&#9670;&#160;</a></span>databaseReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.databaseReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。 </p>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>対象のデータベースのテーブルを初期化するクエリを組み立てる。</li>
+<li>組み上げたクエリを実行する。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_cgraph">
+<area shape="rect" title="リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="5,5,321,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="369,5,651,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="699,5,951,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a1a20c08515e1225272288b68e5150eaa_icgraph">
+<area shape="rect" title="リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="751,713,1067,767"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#aa4f30a6a7837c97db26146d10e360414" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="412,713,703,767"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy2b7a4042050cef79607065cc60723aa1.html#aecf6fe29157f583113882847b10ab485" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、参照元のテーブルへの データのセットアップを行う。" alt="" coords="41,5,328,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#ad60a140a411b90a29eef7016f6e808b2" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、参照元のテーブルへの データのセットアップを行う。" alt="" coords="25,99,344,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_mea871d811746d9956cc84318a7bc46ece.html#a0ed501f9b0fc0eb3737a8d5637d4756d" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="31,192,338,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy11bc12f232d118bbec8b87e84ed7e8d9.html#a29410ea51e2ca329ad81f345bf17f32a" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="58,285,311,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syd49cb342b8901f8571bea83edf8d6884.html#aa15d96254c041f458948d73e4e8cd17c" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="23,379,346,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7f8e602a5c1f9b0dd5e160a310585961.html#a3e08b61a5cd60013ce7af374a82ba7c4" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="51,472,318,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#a2f7ef2cfe20dfc61e9f8b812b4fc8dbb" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="29,565,341,635"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy2b7a4042050cef79607065cc60723aa1.html#a71dc64fa84f2f1e7a2573ebd190aee13" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="37,659,333,728"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syfbe377795a0eaf9e15d938bf55d97799.html#ad25db09535c645e6c53a48d8e3e51d4b" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="33,752,337,821"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syc304b174b7bc083d2a98bf9dd7803768.html#a3a32d54ff87c950b689d1fda18e1c307" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="58,845,311,915"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sya4c19179ee7a8e3a13d32ca4c2977872.html#a9cb211f660de50d8ea03f5c84e9d36df" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="19,939,350,1008"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy3df05c53604af083be0268c4b73c9171.html#abccb5ed0b8d8c5b1a6d5286291743b2c" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="5,1032,364,1101"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy3476d1c815107fca8527e310f1bd41c6.html#a928b40738cb2d9ce476ee724dbae5912" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="27,1125,342,1195"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syb372c9d9a9f4f5c0f21ab3ba5e203759.html#a20eb0a1db273d238b733fba2411dd5d4" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="28,1219,341,1288"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy724d582ddb649272e97962523d257d04.html#a378af7e41cd79443061cee0cf3cdf640" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="19,1312,351,1381"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us690c28f36d61c0ca916a8777acf47b2f.html#ab1489cbab47cd39c20387b63b7fda78f" title="テスト終了後に、テストケースとして利用したデータを、データベースから削除する。" alt="" coords="67,1406,302,1490"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af07a7a2347ce40071b5140157371b6d8" name="af07a7a2347ce40071b5140157371b6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07a7a2347ce40071b5140157371b6d8">&#9670;&#160;</a></span>databaseSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.databaseSetup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。 </p>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>保存前に保存対象のテーブルを初期化するクエリを組み立てる。</li>
+<li>組み上げたクエリを実行する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_cgraph">
+<area shape="rect" title="リポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="5,5,321,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="369,5,651,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="699,5,951,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_af07a7a2347ce40071b5140157371b6d8_icgraph">
+<area shape="rect" title="リポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="741,573,1057,627"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#a5243a59f662bb5040f7f4b33ba2d38c6" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="403,573,693,627"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_mea871d811746d9956cc84318a7bc46ece.html#a0c66687472e10d87754c10df779b234b" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。" alt="" coords="29,5,331,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us690c28f36d61c0ca916a8777acf47b2f.html#a85978e160ca0fce75addf8d9b3709ee7" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。" alt="" coords="63,99,297,183"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syd49cb342b8901f8571bea83edf8d6884.html#ac8d5397c449ff322a652cf5fbae92207" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。" alt="" coords="13,208,347,277"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy724d582ddb649272e97962523d257d04.html#ae1fc1961785a88a0d5f8ea7f50241265" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、参照元のテーブルへの データのセットアップを行う。" alt="" coords="5,301,355,371"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy11bc12f232d118bbec8b87e84ed7e8d9.html#a6349d4683ce4f1cb4524fc9bcfcb7db7" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="53,395,307,479"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7f8e602a5c1f9b0dd5e160a310585961.html#a1897d32425c667be2f90909978cb217b" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="49,503,311,587"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syc304b174b7bc083d2a98bf9dd7803768.html#ad2b1c58bcc3dea025904bd9c5f64baff" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="51,611,309,695"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syfbe377795a0eaf9e15d938bf55d97799.html#a178f54ebd308da3fcfa839677e7ee5c1" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 初期データを準備する。" alt="" coords="29,720,331,789"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syb372c9d9a9f4f5c0f21ab3ba5e203759.html#aae5bf2b6128b7806627ab84392a9c158" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 初期データを準備する。" alt="" coords="25,813,335,883"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy3476d1c815107fca8527e310f1bd41c6.html#af4c0b781a2b6b1ab86d99c84eee573cb" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 更新対象データの格納を行う。" alt="" coords="23,907,337,976"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sya4c19179ee7a8e3a13d32ca4c2977872.html#a40c2dd7db79904215b51ee30af5bdc65" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 更新対象データの格納を行う。" alt="" coords="7,1000,353,1069"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy3df05c53604af083be0268c4b73c9171.html#a9277087250525975751fb94c8505704d" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 更新対象データの格納を行う。" alt="" coords="23,1094,337,1178"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6c36869f6d9f870d4308c40b7840079f" name="a6c36869f6d9f870d4308c40b7840079f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c36869f6d9f870d4308c40b7840079f">&#9670;&#160;</a></span>failedEntityMake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt; com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.failedEntityMake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモックエンティティを作成。 </p>
+<ul>
+<li>ベースとなる成功ケースのモックエンティティを上書きすることで、実現する。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>データが格納されているモックエンティティのリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>ベースとなる成功ケースのモックエンティティを取得。</li>
+<li>取り出したデータを、作成したモックオブジェクトに上書きする。</li>
+<li>格納が終わったモックを、リストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a6c36869f6d9f870d4308c40b7840079f_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a6c36869f6d9f870d4308c40b7840079f_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a6c36869f6d9f870d4308c40b7840079f_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a6c36869f6d9f870d4308c40b7840079f_icgraph">
+<area shape="rect" title="リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモックエンティティを作成。" alt="" coords="645,59,971,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#a2fe174afba50df5b5eb350d08ca795b2" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="307,59,597,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy0e73a07fd6b7eb717bafae5279fa703f.html#a986ae594a7a08547a77539123f0cf8d0" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,5,259,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7a03e5c0d0fc7f1cdffcb3675cf78fa1.html#ae05e34c9275b4f41f0b04a6a88c7c038" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,99,259,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8816fa481d79a95a9879ca4fe222578d" name="a8816fa481d79a95a9879ca4fe222578d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8816fa481d79a95a9879ca4fe222578d">&#9670;&#160;</a></span>justInTimeEntityMake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.justInTimeEntityMake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を格納した モックエンティティを作成する。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>データが格納されているモックエンティティ</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定した番号のテストケースデータを、マッピングエンティティから取り出す。</li>
+<li>取り出したデータを、作成したモックオブジェクトに格納する。</li>
+<li>格納が終わったモックを、戻り値とする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a8816fa481d79a95a9879ca4fe222578d_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a8816fa481d79a95a9879ca4fe222578d_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a8816fa481d79a95a9879ca4fe222578d_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a8816fa481d79a95a9879ca4fe222578d_icgraph">
+<area shape="rect" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を格納した モックエンティティを作成する。" alt="" coords="645,59,1000,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#aa18b0cb68402a09a97d3949d9737d0d4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="307,59,597,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy0e73a07fd6b7eb717bafae5279fa703f.html#a986ae594a7a08547a77539123f0cf8d0" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,5,259,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7a03e5c0d0fc7f1cdffcb3675cf78fa1.html#ae05e34c9275b4f41f0b04a6a88c7c038" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,99,259,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a769db0a32374c058a0167752dab08789" name="a769db0a32374c058a0167752dab08789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a769db0a32374c058a0167752dab08789">&#9670;&#160;</a></span>UniqueMissEntityMake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt; com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.UniqueMissEntityMake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリでの更新＆追加処理の際に使用する、一意制約違反により失敗するテストケースを作成。 </p>
+<ul>
+<li>ベースとなる成功ケースのモックエンティティを上書きすることで、実現する。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>データが格納されているモックエンティティのリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>ベースとなる成功ケースのモックエンティティを取得。</li>
+<li>取り出したデータを、作成したモックオブジェクトに上書きする。</li>
+<li>格納が終わったモックを、リストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a769db0a32374c058a0167752dab08789_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a769db0a32374c058a0167752dab08789_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a769db0a32374c058a0167752dab08789_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a769db0a32374c058a0167752dab08789_icgraph">
+<area shape="rect" title="リポジトリでの更新＆追加処理の際に使用する、一意制約違反により失敗するテストケースを作成。" alt="" coords="649,59,1012,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#afa23b2ae370d6f7fc54cd2dd77a7e8d0" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="307,59,601,114"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy0e73a07fd6b7eb717bafae5279fa703f.html#a986ae594a7a08547a77539123f0cf8d0" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,5,259,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7a03e5c0d0fc7f1cdffcb3675cf78fa1.html#ae05e34c9275b4f41f0b04a6a88c7c038" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,99,259,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3afacdfbcde0b6a2e0b19537f22f56ae" name="a3afacdfbcde0b6a2e0b19537f22f56ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3afacdfbcde0b6a2e0b19537f22f56ae">&#9670;&#160;</a></span>UpdateAfterEntityMake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.UpdateAfterEntityMake </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリでの更新処理の際に使用する、更新後のデータのモックエンティティを作成する。 </p>
+<ul>
+<li>更新後のデータの内容としては、明らかに既存のテストケースの値とは被らないような適当な値を用いている。</li>
+<li>ただし権限番号に関しては参照制約があり、適当な値が入れれないので、若干既存のテストケースと被る。</li>
+<li>団員番号に関しては参照制約かつ一意制約があるので、そのままの値として変更しない。</li>
+<li>範囲外の数字が来たときは処理を続行できないのでエラーを投げる。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase_num</td><td>指定するテストケースの番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>データが格納されているモックエンティティ</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>適当な被らない値を、作成したモックオブジェクトに格納する。</li>
+<li>格納が終わったモックを、戻り値とする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a3afacdfbcde0b6a2e0b19537f22f56ae_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a3afacdfbcde0b6a2e0b19537f22f56ae_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a3afacdfbcde0b6a2e0b19537f22f56ae_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60_a3afacdfbcde0b6a2e0b19537f22f56ae_icgraph">
+<area shape="rect" title="リポジトリでの更新処理の際に使用する、更新後のデータのモックエンティティを作成する。" alt="" coords="649,13,1012,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_system___user___test_case___make.html#a62363b273bd0ea352c5236861f972d1c" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="307,13,601,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7a03e5c0d0fc7f1cdffcb3675cf78fa1.html#ae05e34c9275b4f41f0b04a6a88c7c038" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,5,259,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a4146914b4b5849031da00d0b7b06da24" name="a4146914b4b5849031da00d0b7b06da24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4146914b4b5849031da00d0b7b06da24">&#9670;&#160;</a></span>config_factory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a> com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.config_factory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a6a55dc308e1096f6eb735b28b83df3" name="a7a6a55dc308e1096f6eb735b28b83df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6a55dc308e1096f6eb735b28b83df3">&#9670;&#160;</a></span>database_yml</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas41014b682aa253e4daa780adb57a3842.html">System_User_Database_Yaml</a> com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.database_yml</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a11c5e6b9bfc044572820e25c9873e937" name="a11c5e6b9bfc044572820e25c9873e937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11c5e6b9bfc044572820e25c9873e937">&#9670;&#160;</a></span>FOREIGN_KEY_CHECK_0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SqlOperation com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.FOREIGN_KEY_CHECK_0 = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 0&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ae7128578505a4a81b4e60b689dabd3" name="a1ae7128578505a4a81b4e60b689dabd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae7128578505a4a81b4e60b689dabd3">&#9670;&#160;</a></span>FOREIGN_KEY_CHECK_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SqlOperation com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.FOREIGN_KEY_CHECK_1 = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 1&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0b9dcbbc0d053c442e917629da4927ad" name="a0b9dcbbc0d053c442e917629da4927ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b9dcbbc0d053c442e917629da4927ad">&#9670;&#160;</a></span>TABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Truncate com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.TABLE = Truncate.table(<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html#a9424298b4b8b682d5d62a99c0dbcbec8">TABLE_NAME</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9424298b4b8b682d5d62a99c0dbcbec8" name="a9424298b4b8b682d5d62a99c0dbcbec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9424298b4b8b682d5d62a99c0dbcbec8">&#9670;&#160;</a></span>TABLE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.CommonTestCaseMaker.SystemUser.Database.System_User_Database_TestCase.TABLE_NAME = &quot;System_User&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/CommonTestCaseMaker/SystemUser/Database/<a class="el" href="_system___user___database___test_case_8java.html">System_User_Database_TestCase.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker.html">CommonTestCaseMaker</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user.html">SystemUser</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_database.html">Database</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_system_user_1_1_databas85dea45c42c62993d22dc2b10ed1ca60.html">System_User_Database_TestCase</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

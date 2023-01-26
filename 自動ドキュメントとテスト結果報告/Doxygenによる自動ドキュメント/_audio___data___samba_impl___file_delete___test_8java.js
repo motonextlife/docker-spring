@@ -1,0 +1,4 @@
+var _audio___data___samba_impl___file_delete___test_8java =
+[
+    [ "com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Audio_Data_SambaImpl_Test.Audio_Data_SambaImpl_FileDelete_Test", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testa0aef28fc9a2ff251d23875614f04afe.html", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testa0aef28fc9a2ff251d23875614f04afe" ]
+];

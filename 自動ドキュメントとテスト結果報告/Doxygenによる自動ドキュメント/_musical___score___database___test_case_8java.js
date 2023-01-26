@@ -1,0 +1,4 @@
+var _musical___score___database___test_case_8java =
+[
+    [ "com.springproject.dockerspring.CommonTestCaseMaker.MusicalScore.Database.Musical_Score_Database_TestCase", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf" ]
+];

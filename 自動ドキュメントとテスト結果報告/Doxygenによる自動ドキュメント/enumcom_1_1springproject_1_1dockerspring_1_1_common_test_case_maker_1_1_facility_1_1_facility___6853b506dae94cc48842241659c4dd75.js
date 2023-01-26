@@ -1,0 +1,11 @@
+var enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75 =
+[
+    [ "Buy_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a36a98c363731ca7e94a76cb6d61a5cad", null ],
+    [ "Disp_Date", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a9743809e307511152379fd66bcf2fcbc", null ],
+    [ "Faci_Id", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#abe09df25b71fb6c5a0a73084b544be82", null ],
+    [ "Faci_Name", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a8d706a28ea5d2382dc6e2bc1edb6460d", null ],
+    [ "Other_Comment", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a4a82e22febbb6a27977f89eeb96a2f01", null ],
+    [ "Producer", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a075eddfc2fbe67cc601e0a8545d78950", null ],
+    [ "Serial_Num", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a4cedc08d73cb3c673253697794f3bd9f", null ],
+    [ "Storage_Loc", "enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___6853b506dae94cc48842241659c4dd75.html#a58472b91ee16e6d2b6d9f3755d3ac3cd", null ]
+];

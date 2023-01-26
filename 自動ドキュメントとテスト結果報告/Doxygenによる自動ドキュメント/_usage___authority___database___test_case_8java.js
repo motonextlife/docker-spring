@@ -1,0 +1,4 @@
+var _usage___authority___database___test_case_8java =
+[
+    [ "com.springproject.dockerspring.CommonTestCaseMaker.UsageAuthority.Database.Usage_Authority_Database_TestCase", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_datc921c4912875966cb0e5af6cb76aa611.html", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_usage_authority_1_1_datc921c4912875966cb0e5af6cb76aa611" ]
+];

@@ -1,0 +1,4 @@
+var _samba_process___compress___test_8java =
+[
+    [ "com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.TestInterface.SambaProcess_Compress_Test", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___cdd52f1b5f1040d41eb5d3cfbdaac8f0.html", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___cdd52f1b5f1040d41eb5d3cfbdaac8f0" ]
+];

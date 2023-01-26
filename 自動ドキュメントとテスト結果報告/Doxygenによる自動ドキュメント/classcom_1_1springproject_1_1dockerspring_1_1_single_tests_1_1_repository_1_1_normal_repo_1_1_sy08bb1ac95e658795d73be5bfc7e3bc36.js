@@ -1,0 +1,10 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36 =
+[
+    [ "Insert_Success", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#ad60a140a411b90a29eef7016f6e808b2", null ],
+    [ "新規追加の成功ケース", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#a1d56f1dfb711b33798f1f616903cfd10", null ],
+    [ "testcaseReset", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#a2f7ef2cfe20dfc61e9f8b812b4fc8dbb", null ],
+    [ "compare_entity", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#a758e83bb56d756b06257854a813a485f", null ],
+    [ "just_entity", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#a9fb762f51cb7e346be40321b6a934a3a", null ],
+    [ "softly", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#ad65d527a4188ad3892ecc5f0707ba8a6", null ],
+    [ "test_repo", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#aa9e07441c404694b9805c5a34c77763c", null ]
+];

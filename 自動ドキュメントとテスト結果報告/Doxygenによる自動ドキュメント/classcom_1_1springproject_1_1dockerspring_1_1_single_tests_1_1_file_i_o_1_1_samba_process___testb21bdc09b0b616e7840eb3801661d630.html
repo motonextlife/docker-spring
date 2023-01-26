@@ -1,0 +1,975 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="#pri-static-attribs">静的非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb3548b5fdfc2a6f349a60b42a522994e.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[設備写真データ管理]のファイルサーバーのデータ出力機能のテストを行うクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb7602fc1fd51b887a71a0c9876ae8704.png" border="0" usemap="#acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_samba_process___test_8_facility___photo___samba_impl___test_8_facility___photo___samba_impl___file_output___test_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_samba_process___test_8_facility___photo___samba_impl___test_8_facility___photo___samba_impl___file_output___test_inherit__map" id="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_samba_process___test_8_facility___photo___samba_impl___test_8_facility___photo___samba_impl___file_output___test_inherit__map">
+<area shape="rect" title="主に[設備写真データ管理]のファイルサーバーのデータ出力機能のテストを行うクラス" alt="" coords="279,5,500,89"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html" title="ファイルサーバーからのバイナリデータの出力機能のテストにおいて、共通で使用する メソッドを提供するインターフェース" alt="" coords="5,13,231,82"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testd1ee977a47d999111e2c4c3932eaa65e.png" border="0" usemap="#acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_samba_process___test_8_facility___photo___samba_impl___test_8_facility___photo___samba_impl___file_output___test_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_samba_process___test_8_facility___photo___samba_impl___test_8_facility___photo___samba_impl___file_output___test_coll__map" id="acom_8springproject_8dockerspring_8_single_tests_8_file_i_o_8_samba_process___test_8_facility___photo___samba_impl___test_8_facility___photo___samba_impl___file_output___test_coll__map">
+<area shape="rect" title="主に[設備写真データ管理]のファイルサーバーのデータ出力機能のテストを行うクラス" alt="" coords="2989,721,3211,805"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html" title="ファイルサーバーからのバイナリデータの出力機能のテストにおいて、共通で使用する メソッドを提供するインターフェース" alt="" coords="2601,373,2826,443"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html" title="主に[設備写真データ管理]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="2589,467,2838,522"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formefe0aca6bd0568b36a5b80ec38b7a276.html" title="主に[設備写真データ機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="2151,339,2401,394"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formd9ccd6a7aefa63ffa233831ec642e2ec.html" title="主に[設備写真データ情報]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="1573,526,1822,581"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail9e487233dff97aacae7663497fbe5f94.html" title="主に[設備写真データ情報]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="2151,608,2401,677"/>
+<area shape="rect" title=" " alt="" coords="7,314,154,339"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_repo3e08599711d783f72bad3dd72709a95d.html" title="主に[設備写真データ情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="321,30,595,85"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_4ba3dee93fd0d8c520fae6d740684b39.html" title="主に[設備写真データ情報]機能のテストにおいて、ZIPファイルの入出力のテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="333,165,583,219"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data9bd6822b6af9e6efcf110fd4c05e98a1.html" title="主に[設備写真データ情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="632,235,895,290"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="321,503,595,558"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="308,389,608,443"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="319,305,597,359"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_repoc9562a484c484d822635a5b1dbbec4b7.html" title="主に[設備写真データ管理]機能のテストにおいて、リポジトリの検索のテストを行う際の検索 ワードのテストケースを読み取るクラス。" alt="" coords="1237,93,1536,147"/>
+<area shape="rect" title=" " alt="" coords="5,67,156,93"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_ed5c1bce6869fbe8d95b8898bd79f805.html" title="主に[設備写真データ機能]機能のテストにおいて、ZIPの入出力の機能において使用するテスト ケースを読み取るクラス。" alt="" coords="1859,175,2108,230"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html" title="主に[設備写真データ情報]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="2132,529,2420,583"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1570,441,1825,495"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="929,527,1203,582"/>
+<area shape="rect" title=" " alt="" coords="11,523,151,549"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="919,370,1213,425"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="921,449,1211,503"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="927,291,1205,346"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3e5289380462e9bf466fd2dfb931646c.html" title="主に[設備写真データ情報]機能のテストにおいて、ファイルサーバーとの通信テストの際に ファイルサーバーに初期データをセットアップするクラス。" alt="" coords="1560,605,1835,659"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="925,778,1207,833"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail632503e6f3c95fcdc159008c95471296.html" title="主に[設備写真データ情報]機能のテストにおいて、ファイルサーバーとの通信テストの際に ファイルサーバーににエラーとなる初期データをセットアップするクラス。" alt="" coords="1573,852,1822,921"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="332,739,584,794"/>
+<area shape="rect" title=" " alt="" coords="37,754,124,779"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="332,818,584,873"/>
+<area shape="rect" title=" " alt="" coords="33,833,129,858"/>
+<area shape="rect" title=" " alt="" coords="1649,749,1746,774"/>
+<area shape="rect" title=" " alt="" coords="1661,799,1733,825"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___samba.html" title="主に[設備写真データ管理]機能で使用する、ファイルサーバーとの通信を行うクラスに 機能を提供するインターフェース。" alt="" coords="2610,654,2817,709"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html" title="バイナリデータのファイルサーバーとの通信で使用する機能を提供したインターフェース" alt="" coords="2167,701,2385,741"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html" title="すべてのファイルサーバー通信機能で使用する共通処理を定義するクラス。" alt="" coords="2587,811,2840,851"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="2163,765,2389,805"/>
+<area shape="rect" title=" " alt="" coords="2251,830,2301,855"/>
+<area shape="rect" title=" " alt="" coords="2187,880,2365,920"/>
+<area shape="rect" title=" " alt="" coords="2660,875,2767,901"/>
+<area shape="rect" title=" " alt="" coords="2692,945,2735,970"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a8b2b5d1b516f89ab4c89a702919279fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a8b2b5d1b516f89ab4c89a702919279fc">Facility_Photo_SambaImpl_FileOutput_Test</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a4f5332286de59fc46d8a44f80ea7434a">testcase</a>, <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___samba.html">Facility_Photo_Samba</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a2b46fbdfbf89172e06cc0b257ea2d15f">faci_samba</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html">Common_Samba</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a021b6523bc112a8363d21c287aee11f0">common_samba</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a97c93ff2a007a69ccd401ecca3f5c8a9">config</a>)  throws IOException</td></tr>
+<tr class="memdesc:a8b2b5d1b516f89ab4c89a702919279fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">必要なクラスをDIした後に、ファイルサーバー内に必要なテストケースのファイルを事前に保存する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a8b2b5d1b516f89ab4c89a702919279fc">[詳解]</a><br /></td></tr>
+<tr class="separator:a8b2b5d1b516f89ab4c89a702919279fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7daeed9cf03155e5e56db36110e13ef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a7daeed9cf03155e5e56db36110e13ef5">共通クラス側のファイルサーバーからのデータ出力機能の動作確認</a> ()  throws IOException</td></tr>
+<tr class="memdesc:a7daeed9cf03155e5e56db36110e13ef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">共通クラス側のファイルサーバー内のファイル取得機能のメソッドの検査を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a7daeed9cf03155e5e56db36110e13ef5">[詳解]</a><br /></td></tr>
+<tr class="separator:a7daeed9cf03155e5e56db36110e13ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46949489838e0a5a2a825e1d27fc890"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#ad46949489838e0a5a2a825e1d27fc890">集約クラス側のファイルサーバーからの通常データ出力機能の動作確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ad46949489838e0a5a2a825e1d27fc890"><td class="mdescLeft">&#160;</td><td class="mdescRight">集約クラス側のファイルサーバー内の通常データファイル取得機能のメソッドの検査を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#ad46949489838e0a5a2a825e1d27fc890">[詳解]</a><br /></td></tr>
+<tr class="separator:ad46949489838e0a5a2a825e1d27fc890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476b88cf9a3ded688acb56f6c94ff3ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a476b88cf9a3ded688acb56f6c94ff3ca">集約クラス側のファイルサーバーからの履歴データ出力機能の動作確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a476b88cf9a3ded688acb56f6c94ff3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">集約クラス側のファイルサーバー内の履歴データファイル取得機能のメソッドの検査を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a476b88cf9a3ded688acb56f6c94ff3ca">[詳解]</a><br /></td></tr>
+<tr class="separator:a476b88cf9a3ded688acb56f6c94ff3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32994c8fb5a4d42585b5b66c2c4f4af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#a32994c8fb5a4d42585b5b66c2c4f4af1">共通クラス側のファイルサーバーからのデータ出力機能の動作確認</a> ()  throws IOException</td></tr>
+<tr class="memdesc:a32994c8fb5a4d42585b5b66c2c4f4af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーからのバイナリデータ出力処理において共通の部分を提供する共通クラスの メソッドの検査を行う。ファイルの同一性はハッシュ化して確認し、作成した一時ファイルは使用後必ず 削除する。なお、このテストは、通常用データと履歴用データで共用である。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#a32994c8fb5a4d42585b5b66c2c4f4af1">[詳解]</a><br /></td></tr>
+<tr class="separator:a32994c8fb5a4d42585b5b66c2c4f4af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61cc9b5f4b0947ff67c2e932e082b835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#a61cc9b5f4b0947ff67c2e932e082b835">集約クラス側のファイルサーバーからの通常データ出力機能の動作確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a61cc9b5f4b0947ff67c2e932e082b835"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーからのバイナリデータ出力処理において共通クラスをDIした集約クラス側の メソッドの検査を行う。ファイルの同一性はハッシュ化して確認し、作成した一時ファイルは使用後必ず 削除する。なお、このテストは通常データ用のメソッドのテストである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#a61cc9b5f4b0947ff67c2e932e082b835">[詳解]</a><br /></td></tr>
+<tr class="separator:a61cc9b5f4b0947ff67c2e932e082b835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad44cc5bc65a567d171af8be8385d0e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#aad44cc5bc65a567d171af8be8385d0e1">集約クラス側のファイルサーバーからの履歴データ出力機能の動作確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:aad44cc5bc65a567d171af8be8385d0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">ファイルサーバーからのバイナリデータ出力処理において共通クラスをDIした集約クラス側の メソッドの検査を行う。ファイルの同一性はハッシュ化して確認し、作成した一時ファイルは使用後必ず 削除する。なお、このテストは履歴データ用のメソッドのテストである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#aad44cc5bc65a567d171af8be8385d0e1">[詳解]</a><br /></td></tr>
+<tr class="separator:aad44cc5bc65a567d171af8be8385d0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a577037447464014ebed445e59004674f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a577037447464014ebed445e59004674f">ファイルサーバーと一時ファイルディレクトリの初期化確認</a> ()  throws InterruptedException, IOException</td></tr>
+<tr class="memdesc:a577037447464014ebed445e59004674f"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト終了後に、一時ファイル用のディレクトリと、ファイルサーバー内が空っぽであることを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a577037447464014ebed445e59004674f">[詳解]</a><br /></td></tr>
+<tr class="separator:a577037447464014ebed445e59004674f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:a5025e754b9bd162e5532689c777545f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a5025e754b9bd162e5532689c777545f1">configStaticSet</a> ()</td></tr>
+<tr class="memdesc:a5025e754b9bd162e5532689c777545f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">DIした環境変数を、静的変数でも使えるようにする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a5025e754b9bd162e5532689c777545f1">[詳解]</a><br /></td></tr>
+<tr class="separator:a5025e754b9bd162e5532689c777545f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a0488b5c41c5cca79d55e758ce2af9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#ae2a0488b5c41c5cca79d55e758ce2af9">fileCheck</a> (File compare_file, File get_file)  throws CIFSException, IOException</td></tr>
+<tr class="memdesc:ae2a0488b5c41c5cca79d55e758ce2af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">取得したファイルの同一性確認を行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#ae2a0488b5c41c5cca79d55e758ce2af9">[詳解]</a><br /></td></tr>
+<tr class="separator:ae2a0488b5c41c5cca79d55e758ce2af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a021b6523bc112a8363d21c287aee11f0"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html">Common_Samba</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a021b6523bc112a8363d21c287aee11f0">common_samba</a></td></tr>
+<tr class="separator:a021b6523bc112a8363d21c287aee11f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c93ff2a007a69ccd401ecca3f5c8a9"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a97c93ff2a007a69ccd401ecca3f5c8a9">config</a></td></tr>
+<tr class="separator:a97c93ff2a007a69ccd401ecca3f5c8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b40f75931b17f6cb5f8d7a088e1fb74"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a6b40f75931b17f6cb5f8d7a088e1fb74">ext</a> = &quot;png&quot;</td></tr>
+<tr class="separator:a6b40f75931b17f6cb5f8d7a088e1fb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b46fbdfbf89172e06cc0b257ea2d15f"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___samba.html">Facility_Photo_Samba</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a2b46fbdfbf89172e06cc0b257ea2d15f">faci_samba</a></td></tr>
+<tr class="separator:a2b46fbdfbf89172e06cc0b257ea2d15f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef4ed5d45011d57dfaa5e1d41975b29"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#adef4ed5d45011d57dfaa5e1d41975b29">hist_ext</a> = &quot;gz&quot;</td></tr>
+<tr class="separator:adef4ed5d45011d57dfaa5e1d41975b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9263fb26d18fc91e6f4c8b04d528297f"><td class="memItemLeft" align="right" valign="top">final File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a9263fb26d18fc91e6f4c8b04d528297f">hist_file</a></td></tr>
+<tr class="separator:a9263fb26d18fc91e6f4c8b04d528297f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af1ada9aa79c1610082301c5b453a8b"><td class="memItemLeft" align="right" valign="top">final File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a1af1ada9aa79c1610082301c5b453a8b">hist_other_file</a></td></tr>
+<tr class="separator:a1af1ada9aa79c1610082301c5b453a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dcaa80f22b404fcad4d25561a9eee7a"><td class="memItemLeft" align="right" valign="top">final File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a4dcaa80f22b404fcad4d25561a9eee7a">normal_file</a></td></tr>
+<tr class="separator:a4dcaa80f22b404fcad4d25561a9eee7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a899415a74100ad8db4336f0475648c3e"><td class="memItemLeft" align="right" valign="top">final File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a899415a74100ad8db4336f0475648c3e">other_file</a></td></tr>
+<tr class="separator:a899415a74100ad8db4336f0475648c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0971178c64e47417f5af02c867b336"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#aff0971178c64e47417f5af02c867b336">prefix</a> = &quot;FacilityPhotoSambaImplFileOutputTest&quot;</td></tr>
+<tr class="separator:aff0971178c64e47417f5af02c867b336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92d9f00ce062a5ec31902655b83f064"><td class="memItemLeft" align="right" valign="top">final SoftAssertions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#af92d9f00ce062a5ec31902655b83f064">softly</a> = new SoftAssertions()</td></tr>
+<tr class="separator:af92d9f00ce062a5ec31902655b83f064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4167ac5fffd70ef40eed684afaacfb7b"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a4167ac5fffd70ef40eed684afaacfb7b">target_dir</a> = &quot;form&quot;</td></tr>
+<tr class="separator:a4167ac5fffd70ef40eed684afaacfb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b8d8ca7aba31c3d8e9dd1b7a15bacca"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a4b8d8ca7aba31c3d8e9dd1b7a15bacca">target_func</a> = &quot;FacilityPhoto&quot;</td></tr>
+<tr class="separator:a4b8d8ca7aba31c3d8e9dd1b7a15bacca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f5332286de59fc46d8a44f80ea7434a"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#a4f5332286de59fc46d8a44f80ea7434a">testcase</a></td></tr>
+<tr class="separator:a4f5332286de59fc46d8a44f80ea7434a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+静的非公開変数類</h2></td></tr>
+<tr class="memitem:adf6cae7267ff016f7cc243816814fe36"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html#adf6cae7267ff016f7cc243816814fe36">config_static</a></td></tr>
+<tr class="separator:adf6cae7267ff016f7cc243816814fe36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[設備写真データ管理]のファイルサーバーのデータ出力機能のテストを行うクラス </p>
+<ul>
+<li>このテストで対象となるクラスは、[Common_Samba]と[Facility_Photo_SambaImpl]である。</li>
+<li>主に、共通クラス側のファイルサーバー上のデータ出力機能と、集約クラス側のファイルサーバー上 のデータ出力をテストする。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html" title="主に[設備写真データ管理]のファイルサーバーのデータ出力機能のテストを行うクラス">Facility_Photo_SambaImpl_FileOutput_Test</a> </dd>
+<dd>
+Facility_Photo_SambaImpl </dd>
+<dd>
+Facility_Photo_Samba </dd>
+<dd>
+Common_Samba </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a8b2b5d1b516f89ab4c89a702919279fc" name="a8b2b5d1b516f89ab4c89a702919279fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2b5d1b516f89ab4c89a702919279fc">&#9670;&#160;</a></span>Facility_Photo_SambaImpl_FileOutput_Test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.Facility_Photo_SambaImpl_FileOutput_Test </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>testcase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___samba.html">Facility_Photo_Samba</a>&#160;</td>
+          <td class="paramname"><em>faci_samba</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html">Common_Samba</a>&#160;</td>
+          <td class="paramname"><em>common_samba</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td>
+          <td class="paramname"><em>config</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>必要なクラスをDIした後に、ファイルサーバー内に必要なテストケースのファイルを事前に保存する。 </p>
+<ul>
+<li>ファイルサーバー内には、違う種類のテストケースファイルのほか、空のディレクトリを保存する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase</td><td>テストケースクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">faci_samba</td><td>テスト対象の集約クラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">common_samba</td><td>テスト対象の共通クラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">config</td><td>環境変数のインスタンス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Photo_Samba </dd>
+<dd>
+Common_Samba</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a8b2b5d1b516f89ab4c89a702919279fc_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a8b2b5d1b516f89ab4c89a702919279fc_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a8b2b5d1b516f89ab4c89a702919279fc_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a8b2b5d1b516f89ab4c89a702919279fc_cgraph">
+<area shape="rect" title="必要なクラスをDIした後に、ファイルサーバー内に必要なテストケースのファイルを事前に保存する。" alt="" coords="5,149,227,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#aa5bf23c71b2fedaa9cb294e9873dd817" title="指定されたファイルをGZIP圧縮する。" alt="" coords="319,5,526,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#ae1dc47a4e0782d9747c298861a6234b6" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="275,84,571,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#aa8e86fe59eb0beb8703070d5a9aade0f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="278,163,567,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#adec824956da25e1409e15c526ee471fc" title="ファイルサーバー内に、テストケースとなるデータを準備する。なお、フラグを立てれば、通常のファイル としてではなく、空のディレクトリを作成する。" alt="" coords="299,257,546,326"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#a7fdc8f9fce11dc9cf8fa237f7b97127f" title="ファイルサーバーへのアクセスの際のファイルパス文字列を作成する。" alt="" coords="299,350,546,419"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formefe0aca6bd0568b36a5b80ec38b7a276.html#aa7f38bddbe94d8d609ffe780f7a41606" title="バリデーションにおいて特に問題ないテストケースを読み込んで、マップリストを作成する。" alt="" coords="619,84,947,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formefe0aca6bd0568b36a5b80ec38b7a276.html#a882479e00d263a03f2293b95d5d92094" title="項目[設備写真データ]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="635,163,930,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#af173224d71d35a5d2790801676f2f840" title="テスト対象となるファイルサーバーの接続のセットアップを行う。" alt="" coords="659,257,906,326"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a5025e754b9bd162e5532689c777545f1" name="a5025e754b9bd162e5532689c777545f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5025e754b9bd162e5532689c777545f1">&#9670;&#160;</a></span>configStaticSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.configStaticSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DIした環境変数を、静的変数でも使えるようにする。 </p>
+<ul>
+<li>設けた理由としては、テスト後のファイルサーバーのリセット確認の際に環境変数を用いる必要があるが、AfterAll は静的メソッドでしか実装できない為、通常のフィールド変数にDIされている環境変数が使えない。</li>
+<li>そのため、新たに静的フィールド変数を作成して、その中にDIした環境変数の参照を入れておくことで、テスト後の ファイルサーバーリセット確認にも環境変数を使用できるようにしている。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@PostConstruct</li>
+</ul>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、セットアップのための非公開メソッドであり、外部に出さない。 </dd></dl>
+
+</div>
+</div>
+<a id="ae2a0488b5c41c5cca79d55e758ce2af9" name="ae2a0488b5c41c5cca79d55e758ce2af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a0488b5c41c5cca79d55e758ce2af9">&#9670;&#160;</a></span>fileCheck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.fileCheck </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>compare_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>get_file</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws CIFSException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>取得したファイルの同一性確認を行う。 </p>
+<ul>
+<li>あらかじめ用意してあるテストケースのファイルと、テスト対象クラスから取得してきたファイルをハッシュ化し 同一性を確認する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">compare_file</td><td>比較対象となるファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">get_file</td><td>テスト対象クラスから取得してきたファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、アサーションのための非公開メソッドであり、外部に出さない。</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">CIFSException</td><td></td></tr>
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ae2a0488b5c41c5cca79d55e758ce2af9_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ae2a0488b5c41c5cca79d55e758ce2af9_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ae2a0488b5c41c5cca79d55e758ce2af9_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ae2a0488b5c41c5cca79d55e758ce2af9_cgraph">
+<area shape="rect" title="取得したファイルの同一性確認を行う。" alt="" coords="5,5,227,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#aaf56ce1b0c1450137b0f2fcb4996578e" title="指定された二つのファイルのストリームでハッシュ計算を行い、その値を利用して二つのファイルの一致 確認を行う。" alt="" coords="275,13,521,82"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7daeed9cf03155e5e56db36110e13ef5" name="a7daeed9cf03155e5e56db36110e13ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7daeed9cf03155e5e56db36110e13ef5">&#9670;&#160;</a></span>共通クラス側のファイルサーバーからのデータ出力機能の動作確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.共通クラス側のファイルサーバーからのデータ出力機能の動作確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>共通クラス側のファイルサーバー内のファイル取得機能のメソッドの検査を行う。 </p>
+<ul>
+<li>検査方法としては、テスト対象メソッドを利用してファイルサーバーからファイルを取得する。 その後、テストケースファイルと取得したファイルの同一性を確認する。</li>
+<li>なお、このテストは通常用データと履歴用データの両方を行う。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>ファイルサーバーからテスト対象メソッドを用いてファイルを取得する。</li>
+<li>取得したファイルが、テストケースファイルと同一であることを、ハッシュ化して確認する。</li>
+<li>取得しようとしたファイルが、ディレクトリだった場合にエラーになることを確認する。</li>
+<li>取得しようとしたファイルが、ファイルサーバー内に存在しなければエラーになることを確認する。</li>
+<li>全てのテストの終了後に、一時ファイルディレクトリとファイルサーバーをリセットする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#a32994c8fb5a4d42585b5b66c2c4f4af1">com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.TestInterface.SambaProcess_FileOutput_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a7daeed9cf03155e5e56db36110e13ef5_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a7daeed9cf03155e5e56db36110e13ef5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a7daeed9cf03155e5e56db36110e13ef5_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a7daeed9cf03155e5e56db36110e13ef5_cgraph">
+<area shape="rect" title="共通クラス側のファイルサーバー内のファイル取得機能のメソッドの検査を行う。" alt="" coords="5,5,760,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html#a6a29311583bb8a45224c5a51025c1232" title="ファイルサーバーから指定したファイルを読み込む。" alt="" coords="808,20,1015,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad46949489838e0a5a2a825e1d27fc890" name="ad46949489838e0a5a2a825e1d27fc890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad46949489838e0a5a2a825e1d27fc890">&#9670;&#160;</a></span>集約クラス側のファイルサーバーからの通常データ出力機能の動作確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.集約クラス側のファイルサーバーからの通常データ出力機能の動作確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>集約クラス側のファイルサーバー内の通常データファイル取得機能のメソッドの検査を行う。 </p>
+<ul>
+<li>検査方法としては、テスト対象メソッドを利用してファイルサーバーからファイルを取得する。 その後、テストケースファイルと取得したファイルの同一性を確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>ファイルサーバーからテスト対象メソッドを用いてファイルを取得する。</li>
+<li>取得したファイルが、テストケースファイルと同一であることを、ハッシュ化して確認する。</li>
+<li>引数で渡したハッシュ値と、取得してきたファイルのハッシュ値が一致しなかったらエラーになることを 確認する。</li>
+<li>取得しようとしたファイルが、ディレクトリだった場合にエラーになることを確認する。</li>
+<li>取得しようとしたファイルが、ファイルサーバー内に存在しなければエラーになることを確認する。</li>
+<li>全てのテストの終了後に、一時ファイルディレクトリとファイルサーバーをリセットする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#a61cc9b5f4b0947ff67c2e932e082b835">com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.TestInterface.SambaProcess_FileOutput_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ad46949489838e0a5a2a825e1d27fc890_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ad46949489838e0a5a2a825e1d27fc890_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ad46949489838e0a5a2a825e1d27fc890_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_ad46949489838e0a5a2a825e1d27fc890_cgraph">
+<area shape="rect" title="集約クラス側のファイルサーバー内の通常データファイル取得機能のメソッドの検査を行う。" alt="" coords="5,15,803,99"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html#a04d24ff1dccf98d82ca35b80a01c130a" title="指定されたシリアルナンバーの、ファイルサーバー内のファイルを取得し、事前に取得しておいた ファイルのハッシュ値を照合して、合致した場合のみ返す。" alt="" coords="854,5,1133,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html#a033f5deadc83c1d89a658bbbf5a45924" title="指定されたファイルのハッシュ値を計算し、ハッシュ文字を返す。" alt="" coords="851,69,1136,109"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a476b88cf9a3ded688acb56f6c94ff3ca" name="a476b88cf9a3ded688acb56f6c94ff3ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476b88cf9a3ded688acb56f6c94ff3ca">&#9670;&#160;</a></span>集約クラス側のファイルサーバーからの履歴データ出力機能の動作確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.集約クラス側のファイルサーバーからの履歴データ出力機能の動作確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>集約クラス側のファイルサーバー内の履歴データファイル取得機能のメソッドの検査を行う。 </p>
+<ul>
+<li>検査方法としては、テスト対象メソッドを利用してファイルサーバーからファイルを取得する。 その後、テストケースファイルと取得したファイルの同一性を確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>ファイルサーバーからテスト対象メソッドを用いてファイルを取得する。</li>
+<li>取得したファイルが、テストケースファイルと同一であることを、ハッシュ化して確認する。</li>
+<li>引数で渡したハッシュ値と、取得してきたファイルのハッシュ値が一致しなかったらエラーになることを 確認する。</li>
+<li>取得しようとしたファイルが、ディレクトリだった場合にエラーになることを確認する。</li>
+<li>取得しようとしたファイルが、ファイルサーバー内に存在しなければエラーになることを確認する。</li>
+<li>全てのテストの終了後に、一時ファイルディレクトリとファイルサーバーをリセットする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___4c3c7edd86cab61d04d88682fecdef29.html#aad44cc5bc65a567d171af8be8385d0e1">com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.TestInterface.SambaProcess_FileOutput_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a476b88cf9a3ded688acb56f6c94ff3ca_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a476b88cf9a3ded688acb56f6c94ff3ca_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a476b88cf9a3ded688acb56f6c94ff3ca_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a476b88cf9a3ded688acb56f6c94ff3ca_cgraph">
+<area shape="rect" title="集約クラス側のファイルサーバー内の履歴データファイル取得機能のメソッドの検査を行う。" alt="" coords="5,27,803,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html#ad8aeff3632ce95c8b42c50babb374af9" title="指定された履歴番号の、ファイルサーバー内のファイルを取得し解凍後、事前に取得しておいた ファイルのハッシュ値を照合して、合致した場合のみ返す。" alt="" coords="862,5,1125,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html#a033f5deadc83c1d89a658bbbf5a45924" title="指定されたファイルのハッシュ値を計算し、ハッシュ文字を返す。" alt="" coords="851,85,1136,125"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a577037447464014ebed445e59004674f" name="a577037447464014ebed445e59004674f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a577037447464014ebed445e59004674f">&#9670;&#160;</a></span>ファイルサーバーと一時ファイルディレクトリの初期化確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.ファイルサーバーと一時ファイルディレクトリの初期化確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト終了後に、一時ファイル用のディレクトリと、ファイルサーバー内が空っぽであることを確認する。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a577037447464014ebed445e59004674f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a577037447464014ebed445e59004674f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a577037447464014ebed445e59004674f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630_a577037447464014ebed445e59004674f_cgraph">
+<area shape="rect" title="テスト終了後に、一時ファイル用のディレクトリと、ファイルサーバー内が空っぽであることを確認する。" alt="" coords="5,91,697,175"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#a35b9e0f2eb9154731c79c52705a48cdf" title="テスト終了後に、ファイルサーバーが空っぽであることを確認する。" alt="" coords="745,5,992,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#a85a167e6e4cfd0de3833555cafe1a6e9" title="テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。" alt="" coords="745,99,992,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#afe5e6657cbd91365fbfb148f1b142f98" title="テスト後にファイルサーバーと一時ファイルディレクトリをリセットする。" alt="" coords="745,192,992,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_component___test_uti4683e35e324abebe1876bb96baf4b190.html#af173224d71d35a5d2790801676f2f840" title="テスト対象となるファイルサーバーの接続のセットアップを行う。" alt="" coords="1040,99,1287,168"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a021b6523bc112a8363d21c287aee11f0" name="a021b6523bc112a8363d21c287aee11f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a021b6523bc112a8363d21c287aee11f0">&#9670;&#160;</a></span>common_samba</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_samba_process_1_1_common___samba.html">Common_Samba</a> com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.common_samba</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97c93ff2a007a69ccd401ecca3f5c8a9" name="a97c93ff2a007a69ccd401ecca3f5c8a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c93ff2a007a69ccd401ecca3f5c8a9">&#9670;&#160;</a></span>config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.config</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf6cae7267ff016f7cc243816814fe36" name="adf6cae7267ff016f7cc243816814fe36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6cae7267ff016f7cc243816814fe36">&#9670;&#160;</a></span>config_static</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.config_static</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b40f75931b17f6cb5f8d7a088e1fb74" name="a6b40f75931b17f6cb5f8d7a088e1fb74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b40f75931b17f6cb5f8d7a088e1fb74">&#9670;&#160;</a></span>ext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.ext = &quot;png&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b46fbdfbf89172e06cc0b257ea2d15f" name="a2b46fbdfbf89172e06cc0b257ea2d15f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b46fbdfbf89172e06cc0b257ea2d15f">&#9670;&#160;</a></span>faci_samba</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___samba.html">Facility_Photo_Samba</a> com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.faci_samba</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adef4ed5d45011d57dfaa5e1d41975b29" name="adef4ed5d45011d57dfaa5e1d41975b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef4ed5d45011d57dfaa5e1d41975b29">&#9670;&#160;</a></span>hist_ext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.hist_ext = &quot;gz&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9263fb26d18fc91e6f4c8b04d528297f" name="a9263fb26d18fc91e6f4c8b04d528297f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9263fb26d18fc91e6f4c8b04d528297f">&#9670;&#160;</a></span>hist_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final File com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.hist_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1af1ada9aa79c1610082301c5b453a8b" name="a1af1ada9aa79c1610082301c5b453a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af1ada9aa79c1610082301c5b453a8b">&#9670;&#160;</a></span>hist_other_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final File com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.hist_other_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4dcaa80f22b404fcad4d25561a9eee7a" name="a4dcaa80f22b404fcad4d25561a9eee7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dcaa80f22b404fcad4d25561a9eee7a">&#9670;&#160;</a></span>normal_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final File com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.normal_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a899415a74100ad8db4336f0475648c3e" name="a899415a74100ad8db4336f0475648c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899415a74100ad8db4336f0475648c3e">&#9670;&#160;</a></span>other_file</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final File com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.other_file</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff0971178c64e47417f5af02c867b336" name="aff0971178c64e47417f5af02c867b336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0971178c64e47417f5af02c867b336">&#9670;&#160;</a></span>prefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.prefix = &quot;FacilityPhotoSambaImplFileOutputTest&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af92d9f00ce062a5ec31902655b83f064" name="af92d9f00ce062a5ec31902655b83f064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af92d9f00ce062a5ec31902655b83f064">&#9670;&#160;</a></span>softly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SoftAssertions com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.softly = new SoftAssertions()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4167ac5fffd70ef40eed684afaacfb7b" name="a4167ac5fffd70ef40eed684afaacfb7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4167ac5fffd70ef40eed684afaacfb7b">&#9670;&#160;</a></span>target_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.target_dir = &quot;form&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b8d8ca7aba31c3d8e9dd1b7a15bacca" name="a4b8d8ca7aba31c3d8e9dd1b7a15bacca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b8d8ca7aba31c3d8e9dd1b7a15bacca">&#9670;&#160;</a></span>target_func</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.target_func = &quot;FacilityPhoto&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f5332286de59fc46d8a44f80ea7434a" name="a4f5332286de59fc46d8a44f80ea7434a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f5332286de59fc46d8a44f80ea7434a">&#9670;&#160;</a></span>testcase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a> com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Facility_Photo_SambaImpl_Test.Facility_Photo_SambaImpl_FileOutput_Test.testcase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/SingleTests/FileIO/SambaProcess_Test/Facility_Photo_SambaImpl_Test/<a class="el" href="_facility___photo___samba_impl___file_output___test_8java.html">Facility_Photo_SambaImpl_FileOutput_Test.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests.html">SingleTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___test.html">SambaProcess_Test</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___745dad8e7e09d25c84a4eec9573d5632.html">Facility_Photo_SambaImpl_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testb21bdc09b0b616e7840eb3801661d630.html">Facility_Photo_SambaImpl_FileOutput_Test</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

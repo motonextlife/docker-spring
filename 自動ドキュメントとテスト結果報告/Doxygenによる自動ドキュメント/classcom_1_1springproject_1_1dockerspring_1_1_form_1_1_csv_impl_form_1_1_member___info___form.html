@@ -1,0 +1,913 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[団員管理]の入力時バリデーションで用いるフォームを実装したクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_member___info___form_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_member___info___form_coll__map" id="acom_8springproject_8dockerspring_8_form_8_csv_impl_form_8_member___info___form_coll__map">
+<area shape="rect" title="主に[団員管理]の入力時バリデーションで用いるフォームを実装したクラス" alt="" coords="5,167,252,207"/>
+<area shape="rect" title=" " alt="" coords="52,5,101,31"/>
+<area shape="rect" title=" " alt="" coords="135,5,229,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a26a4b24bd4cea437f7f0b97d7455f596"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a26a4b24bd4cea437f7f0b97d7455f596">addr</a></td></tr>
+<tr class="memdesc:a26a4b24bd4cea437f7f0b97d7455f596"><td class="mdescLeft">&#160;</td><td class="mdescRight">現住所  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a26a4b24bd4cea437f7f0b97d7455f596">[詳解]</a><br /></td></tr>
+<tr class="separator:a26a4b24bd4cea437f7f0b97d7455f596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb20602695c1a44033b37e16bc58e79"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a7fb20602695c1a44033b37e16bc58e79">addr_postcode</a></td></tr>
+<tr class="memdesc:a7fb20602695c1a44033b37e16bc58e79"><td class="mdescLeft">&#160;</td><td class="mdescRight">現住所郵便番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a7fb20602695c1a44033b37e16bc58e79">[詳解]</a><br /></td></tr>
+<tr class="separator:a7fb20602695c1a44033b37e16bc58e79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2040c199bb04473428a4358c040104"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a6f2040c199bb04473428a4358c040104">assign_date</a></td></tr>
+<tr class="memdesc:a6f2040c199bb04473428a4358c040104"><td class="mdescLeft">&#160;</td><td class="mdescRight">配属日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a6f2040c199bb04473428a4358c040104">[詳解]</a><br /></td></tr>
+<tr class="separator:a6f2040c199bb04473428a4358c040104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd0cd208476130d5d66a6771dc9e99e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aadd0cd208476130d5d66a6771dc9e99e">assign_dept</a></td></tr>
+<tr class="memdesc:aadd0cd208476130d5d66a6771dc9e99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">配属部署  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aadd0cd208476130d5d66a6771dc9e99e">[詳解]</a><br /></td></tr>
+<tr class="separator:aadd0cd208476130d5d66a6771dc9e99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02847c6b2d3b58017cf816026b6776f"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#ab02847c6b2d3b58017cf816026b6776f">birthday</a></td></tr>
+<tr class="memdesc:ab02847c6b2d3b58017cf816026b6776f"><td class="mdescLeft">&#160;</td><td class="mdescRight">誕生日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#ab02847c6b2d3b58017cf816026b6776f">[詳解]</a><br /></td></tr>
+<tr class="separator:ab02847c6b2d3b58017cf816026b6776f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e">email_1</a></td></tr>
+<tr class="memdesc:a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">メールアドレス1  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e">[詳解]</a><br /></td></tr>
+<tr class="separator:a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b256d1daf78b05cf083a12e1eefe235"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a1b256d1daf78b05cf083a12e1eefe235">email_2</a></td></tr>
+<tr class="memdesc:a1b256d1daf78b05cf083a12e1eefe235"><td class="mdescLeft">&#160;</td><td class="mdescRight">メールアドレス2  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a1b256d1daf78b05cf083a12e1eefe235">[詳解]</a><br /></td></tr>
+<tr class="separator:a1b256d1daf78b05cf083a12e1eefe235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81254224b6e14f2a1770eee3b80456df"><td class="memItemLeft" align="right" valign="top">MultipartFile&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a81254224b6e14f2a1770eee3b80456df">face_photo</a></td></tr>
+<tr class="memdesc:a81254224b6e14f2a1770eee3b80456df"><td class="mdescLeft">&#160;</td><td class="mdescRight">顔写真  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a81254224b6e14f2a1770eee3b80456df">[詳解]</a><br /></td></tr>
+<tr class="separator:a81254224b6e14f2a1770eee3b80456df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf39ad42776b293e571503496fa7aec"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aacf39ad42776b293e571503496fa7aec">inst_charge</a></td></tr>
+<tr class="memdesc:aacf39ad42776b293e571503496fa7aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">担当楽器  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aacf39ad42776b293e571503496fa7aec">[詳解]</a><br /></td></tr>
+<tr class="separator:aacf39ad42776b293e571503496fa7aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae460c9d1f203354e88e8a3c92e1427f4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#ae460c9d1f203354e88e8a3c92e1427f4">job</a></td></tr>
+<tr class="memdesc:ae460c9d1f203354e88e8a3c92e1427f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">職種名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#ae460c9d1f203354e88e8a3c92e1427f4">[詳解]</a><br /></td></tr>
+<tr class="separator:ae460c9d1f203354e88e8a3c92e1427f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174c7fede05e5a61ab0aff519d4caf87"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a174c7fede05e5a61ab0aff519d4caf87">join_date</a></td></tr>
+<tr class="memdesc:a174c7fede05e5a61ab0aff519d4caf87"><td class="mdescLeft">&#160;</td><td class="mdescRight">入団日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a174c7fede05e5a61ab0aff519d4caf87">[詳解]</a><br /></td></tr>
+<tr class="separator:a174c7fede05e5a61ab0aff519d4caf87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a0d460c34d955475d8e3ee4af163a3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a74a0d460c34d955475d8e3ee4af163a3">member_id</a></td></tr>
+<tr class="memdesc:a74a0d460c34d955475d8e3ee4af163a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">団員番号  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a74a0d460c34d955475d8e3ee4af163a3">[詳解]</a><br /></td></tr>
+<tr class="separator:a74a0d460c34d955475d8e3ee4af163a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7f23794d9462634e387eeb67dbe4572"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#ad7f23794d9462634e387eeb67dbe4572">name</a></td></tr>
+<tr class="memdesc:ad7f23794d9462634e387eeb67dbe4572"><td class="mdescLeft">&#160;</td><td class="mdescRight">名前  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#ad7f23794d9462634e387eeb67dbe4572">[詳解]</a><br /></td></tr>
+<tr class="separator:ad7f23794d9462634e387eeb67dbe4572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72edad31b8e377e5ab101da1bb7e5a6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#af72edad31b8e377e5ab101da1bb7e5a6">name_pronu</a></td></tr>
+<tr class="memdesc:af72edad31b8e377e5ab101da1bb7e5a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ふりがな  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#af72edad31b8e377e5ab101da1bb7e5a6">[詳解]</a><br /></td></tr>
+<tr class="separator:af72edad31b8e377e5ab101da1bb7e5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a301a62df057a6615228502cd624cd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a52a301a62df057a6615228502cd624cd">other_comment</a></td></tr>
+<tr class="memdesc:a52a301a62df057a6615228502cd624cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">その他コメント  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a52a301a62df057a6615228502cd624cd">[詳解]</a><br /></td></tr>
+<tr class="separator:a52a301a62df057a6615228502cd624cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb96ebcf7f8ba1d25a172789d0646fed"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#afb96ebcf7f8ba1d25a172789d0646fed">photo_change_flag</a></td></tr>
+<tr class="memdesc:afb96ebcf7f8ba1d25a172789d0646fed"><td class="mdescLeft">&#160;</td><td class="mdescRight">顔写真変更可否フラグ  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#afb96ebcf7f8ba1d25a172789d0646fed">[詳解]</a><br /></td></tr>
+<tr class="separator:afb96ebcf7f8ba1d25a172789d0646fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf70626f2a9205462fb9a540bbfb3b2f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aaf70626f2a9205462fb9a540bbfb3b2f">position</a></td></tr>
+<tr class="memdesc:aaf70626f2a9205462fb9a540bbfb3b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">役職名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aaf70626f2a9205462fb9a540bbfb3b2f">[詳解]</a><br /></td></tr>
+<tr class="separator:aaf70626f2a9205462fb9a540bbfb3b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a918fada2829608e56dd3adc818d9bb19"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a918fada2829608e56dd3adc818d9bb19">position_arri_date</a></td></tr>
+<tr class="memdesc:a918fada2829608e56dd3adc818d9bb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">現役職着任日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a918fada2829608e56dd3adc818d9bb19">[詳解]</a><br /></td></tr>
+<tr class="separator:a918fada2829608e56dd3adc818d9bb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb42324204a51612a4bcb34a13211f6a"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#acb42324204a51612a4bcb34a13211f6a">ret_date</a></td></tr>
+<tr class="memdesc:acb42324204a51612a4bcb34a13211f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">退団日  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#acb42324204a51612a4bcb34a13211f6a">[詳解]</a><br /></td></tr>
+<tr class="separator:acb42324204a51612a4bcb34a13211f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423d0b4059cef72d97cb0f44879ae95c"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a423d0b4059cef72d97cb0f44879ae95c">serial_num</a></td></tr>
+<tr class="memdesc:a423d0b4059cef72d97cb0f44879ae95c"><td class="mdescLeft">&#160;</td><td class="mdescRight">シリアルナンバー  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a423d0b4059cef72d97cb0f44879ae95c">[詳解]</a><br /></td></tr>
+<tr class="separator:a423d0b4059cef72d97cb0f44879ae95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad3f68b03dd57f602ae89eb2c349793"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a9ad3f68b03dd57f602ae89eb2c349793">sex</a></td></tr>
+<tr class="memdesc:a9ad3f68b03dd57f602ae89eb2c349793"><td class="mdescLeft">&#160;</td><td class="mdescRight">性別  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a9ad3f68b03dd57f602ae89eb2c349793">[詳解]</a><br /></td></tr>
+<tr class="separator:a9ad3f68b03dd57f602ae89eb2c349793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a94f6a216a52b3e04bf8da4c87f85e8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a3a94f6a216a52b3e04bf8da4c87f85e8">tel_1</a></td></tr>
+<tr class="memdesc:a3a94f6a216a52b3e04bf8da4c87f85e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">電話番号1  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#a3a94f6a216a52b3e04bf8da4c87f85e8">[詳解]</a><br /></td></tr>
+<tr class="separator:a3a94f6a216a52b3e04bf8da4c87f85e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff9e26a011b50411daf66a276b1daff1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aff9e26a011b50411daf66a276b1daff1">tel_2</a></td></tr>
+<tr class="memdesc:aff9e26a011b50411daf66a276b1daff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">電話番号2  <a href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html#aff9e26a011b50411daf66a276b1daff1">[詳解]</a><br /></td></tr>
+<tr class="separator:aff9e26a011b50411daf66a276b1daff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[団員管理]の入力時バリデーションで用いるフォームを実装したクラス </p>
+<ul>
+<li>フォーム入力時に受け取る値としては、団員管理に必要なデータ全般である。詳しい説明は、各変数の 説明に記載する。</li>
+<li>なお、このフォームクラスは出力時バリデーションに使いまわせない為、入力時のみの使用になる。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Data</li>
+<li>@DateCorrCheck(start={"join_date", "join_date", "join_date", "birthday"}, end={"ret_date", "position_arri_date", "assign_date", "join_date"}, groups = Order_3.class)</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>DateCorrCheck </dd>
+<dd>
+SerialNumCheck </dd>
+<dd>
+StrLength_30 </dd>
+<dd>
+AlnumHyphen </dd>
+<dd>
+StrLength_50 </dd>
+<dd>
+StrLength_100 </dd>
+<dd>
+Zenkaku </dd>
+<dd>
+FileNameCheck </dd>
+<dd>
+StrLength_20 </dd>
+<dd>
+DigitHyphen </dd>
+<dd>
+StrLength_400 </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_order.html" title="フォームバリデーションの実行順番の定義を行うためのインターフェースを複数格納する クラス">Order</a> </dd></dl>
+</div><h2 class="groupheader">メンバ詳解</h2>
+<a id="a26a4b24bd4cea437f7f0b97d7455f596" name="a26a4b24bd4cea437f7f0b97d7455f596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a4b24bd4cea437f7f0b97d7455f596">&#9670;&#160;</a></span>addr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.addr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現住所 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[200文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="a7fb20602695c1a44033b37e16bc58e79" name="a7fb20602695c1a44033b37e16bc58e79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fb20602695c1a44033b37e16bc58e79">&#9670;&#160;</a></span>addr_postcode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.addr_postcode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現住所郵便番号 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[15文字以内]であること。</li>
+<li>[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>DigitHyphen </dd></dl>
+
+</div>
+</div>
+<a id="a6f2040c199bb04473428a4358c040104" name="a6f2040c199bb04473428a4358c040104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2040c199bb04473428a4358c040104">&#9670;&#160;</a></span>assign_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.assign_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>配属日 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値を[yyyy-MM-dd]のフォーマットに変換できること。</li>
+<li>「入団日」以前の日付でないこと。 </li>
+</ol>
+
+</div>
+</div>
+<a id="aadd0cd208476130d5d66a6771dc9e99e" name="aadd0cd208476130d5d66a6771dc9e99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd0cd208476130d5d66a6771dc9e99e">&#9670;&#160;</a></span>assign_dept</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.assign_dept</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>配属部署 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_50 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="ab02847c6b2d3b58017cf816026b6776f" name="ab02847c6b2d3b58017cf816026b6776f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02847c6b2d3b58017cf816026b6776f">&#9670;&#160;</a></span>birthday</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.birthday</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>誕生日 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値が空でない事。</li>
+<li>値を[yyyy-MM-dd]のフォーマットに変換できること。 </li>
+</ol>
+
+</div>
+</div>
+<a id="a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e" name="a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8a6d0afd6b7b4ba8e1f0ee470bfd7e">&#9670;&#160;</a></span>email_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.email_1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>メールアドレス1 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>[Eメール形式]として成立する文字列であること。</li>
+<li>[半角英数字＆メールアドレスで使用する記号]のみで構成されている事。 </li>
+</ol>
+
+</div>
+</div>
+<a id="a1b256d1daf78b05cf083a12e1eefe235" name="a1b256d1daf78b05cf083a12e1eefe235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b256d1daf78b05cf083a12e1eefe235">&#9670;&#160;</a></span>email_2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.email_2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>メールアドレス2 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>[Eメール形式]として成立する文字列であること。</li>
+<li>[半角英数字＆メールアドレスで使用する記号]のみで構成されている事。 </li>
+</ol>
+
+</div>
+</div>
+<a id="a81254224b6e14f2a1770eee3b80456df" name="a81254224b6e14f2a1770eee3b80456df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81254224b6e14f2a1770eee3b80456df">&#9670;&#160;</a></span>face_photo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.face_photo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>顔写真 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>ファイル名が、要件を満たすこと。（厳密な条件はアノテーション ファイルを参照の事）</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>FileNameCheck </dd></dl>
+
+</div>
+</div>
+<a id="aacf39ad42776b293e571503496fa7aec" name="aacf39ad42776b293e571503496fa7aec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf39ad42776b293e571503496fa7aec">&#9670;&#160;</a></span>inst_charge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.inst_charge</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>担当楽器 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_50 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="ae460c9d1f203354e88e8a3c92e1427f4" name="ae460c9d1f203354e88e8a3c92e1427f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae460c9d1f203354e88e8a3c92e1427f4">&#9670;&#160;</a></span>job</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.job</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>職種名 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_50 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="a174c7fede05e5a61ab0aff519d4caf87" name="a174c7fede05e5a61ab0aff519d4caf87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a174c7fede05e5a61ab0aff519d4caf87">&#9670;&#160;</a></span>join_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.join_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>入団日 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値が空でない事。</li>
+<li>値を[yyyy-MM-dd]のフォーマットに変換できること。</li>
+<li>「誕生日」以前の日付でないこと。 </li>
+</ol>
+
+</div>
+</div>
+<a id="a74a0d460c34d955475d8e3ee4af163a3" name="a74a0d460c34d955475d8e3ee4af163a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a0d460c34d955475d8e3ee4af163a3">&#9670;&#160;</a></span>member_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.member_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>団員番号 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[30文字以内]であること。</li>
+<li>文字列が[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_30 </dd>
+<dd>
+AlnumHyphen </dd></dl>
+
+</div>
+</div>
+<a id="ad7f23794d9462634e387eeb67dbe4572" name="ad7f23794d9462634e387eeb67dbe4572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7f23794d9462634e387eeb67dbe4572">&#9670;&#160;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>名前 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_50 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="af72edad31b8e377e5ab101da1bb7e5a6" name="af72edad31b8e377e5ab101da1bb7e5a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af72edad31b8e377e5ab101da1bb7e5a6">&#9670;&#160;</a></span>name_pronu</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.name_pronu</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ふりがな </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>文字数が[100文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_100 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="a52a301a62df057a6615228502cd624cd" name="a52a301a62df057a6615228502cd624cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a301a62df057a6615228502cd624cd">&#9670;&#160;</a></span>other_comment</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.other_comment</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>その他コメント </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[400文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_400 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="afb96ebcf7f8ba1d25a172789d0646fed" name="afb96ebcf7f8ba1d25a172789d0646fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb96ebcf7f8ba1d25a172789d0646fed">&#9670;&#160;</a></span>photo_change_flag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.photo_change_flag</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>顔写真変更可否フラグ </p>
+<ul>
+<li><p class="startli">値が空でない事。</p>
+<p class="startli">この値はバリデーション対象の物ではなく、この値を指定する 事で、顔写真を新規のデータで変更するか指定する。「False」であれば 顔写真データが無くても、Nullにデータを上書きしない。 </p>
+</li>
+</ul>
+
+</div>
+</div>
+<a id="aaf70626f2a9205462fb9a540bbfb3b2f" name="aaf70626f2a9205462fb9a540bbfb3b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf70626f2a9205462fb9a540bbfb3b2f">&#9670;&#160;</a></span>position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>役職名 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[50文字以内]であること。</li>
+<li>文字列が[全角文字]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_50 </dd>
+<dd>
+Zenkaku </dd></dl>
+
+</div>
+</div>
+<a id="a918fada2829608e56dd3adc818d9bb19" name="a918fada2829608e56dd3adc818d9bb19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a918fada2829608e56dd3adc818d9bb19">&#9670;&#160;</a></span>position_arri_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.position_arri_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>現役職着任日 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値を[yyyy-MM-dd]のフォーマットに変換できること。</li>
+<li>「入団日」以前の日付でないこと。 </li>
+</ol>
+
+</div>
+</div>
+<a id="acb42324204a51612a4bcb34a13211f6a" name="acb42324204a51612a4bcb34a13211f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb42324204a51612a4bcb34a13211f6a">&#9670;&#160;</a></span>ret_date</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.ret_date</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>退団日 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値を[yyyy-MM-dd]のフォーマットに変換できること。</li>
+<li>「入団日」以前の日付でないこと。 </li>
+</ol>
+
+</div>
+</div>
+<a id="a423d0b4059cef72d97cb0f44879ae95c" name="a423d0b4059cef72d97cb0f44879ae95c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a423d0b4059cef72d97cb0f44879ae95c">&#9670;&#160;</a></span>serial_num</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.serial_num</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>シリアルナンバー </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>符号なしで[9桁]までの数値であり、浮動小数点でない事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>SerialNumCheck </dd></dl>
+
+</div>
+</div>
+<a id="a9ad3f68b03dd57f602ae89eb2c349793" name="a9ad3f68b03dd57f602ae89eb2c349793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ad3f68b03dd57f602ae89eb2c349793">&#9670;&#160;</a></span>sex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.sex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>性別 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>値が空文字や空白でない事。</li>
+<li>指定文字列のみで構成されている事。 (male, female) </li>
+</ol>
+
+</div>
+</div>
+<a id="a3a94f6a216a52b3e04bf8da4c87f85e8" name="a3a94f6a216a52b3e04bf8da4c87f85e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a94f6a216a52b3e04bf8da4c87f85e8">&#9670;&#160;</a></span>tel_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.tel_1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>電話番号1 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[20文字以内]であること。</li>
+<li>[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_20 </dd>
+<dd>
+DigitHyphen </dd></dl>
+
+</div>
+</div>
+<a id="aff9e26a011b50411daf66a276b1daff1" name="aff9e26a011b50411daf66a276b1daff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff9e26a011b50411daf66a276b1daff1">&#9670;&#160;</a></span>tel_2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.Form.CsvImplForm.Member_Info_Form.tel_2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>電話番号2 </p>
+<p >記述してある順番に検査を実施</p><ol type="1">
+<li>文字数が[20文字以内]であること。</li>
+<li>[半角英数字＆ハイフン]のみで構成されている事。</li>
+</ol>
+<dl class="section see"><dt>参照</dt><dd>StrLength_20 </dd>
+<dd>
+DigitHyphen </dd></dl>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Form/CsvImplForm/<a class="el" href="_member___info___form_8java.html">Member_Info_Form.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form.html">Form</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form.html">CsvImplForm</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_csv_impl_form_1_1_member___info___form.html">Member_Info_Form</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

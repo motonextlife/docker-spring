@@ -1,0 +1,5 @@
+var interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20 =
+[
+    [ "圧縮ファイルからのデータ抽出機能の成功パターンの確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#a613cbff8226c5d0c61015bff82586e3b", null ],
+    [ "圧縮ファイルからのデータ抽出機能の失敗パターンの確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#ac3c0fdf195fff94e6338d8a5bc302178", null ]
+];

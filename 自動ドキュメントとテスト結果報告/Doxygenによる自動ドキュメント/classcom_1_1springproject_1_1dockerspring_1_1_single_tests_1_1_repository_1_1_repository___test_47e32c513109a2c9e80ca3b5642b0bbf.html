@@ -1,0 +1,639 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_a1dbf17d8e21ff089fbe4e5d647c0edd.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[団員管理][団員情報変更履歴][システムユーザー管理][権限管理]、機能のリポジトリのテスト で用いる、テスト全般に用いることができるユーティリティクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a7434df90a05d8d3b3c517f5886377785"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a7434df90a05d8d3b3c517f5886377785">assertAllEquals</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a> compare, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a> result, SoftAssertions softly, Boolean fixed)</td></tr>
+<tr class="memdesc:a7434df90a05d8d3b3c517f5886377785"><td class="mdescLeft">&#160;</td><td class="mdescRight">比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a7434df90a05d8d3b3c517f5886377785">[詳解]</a><br /></td></tr>
+<tr class="separator:a7434df90a05d8d3b3c517f5886377785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec844563c91f74865654e9bd9c1f067"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a6ec844563c91f74865654e9bd9c1f067">assertAllEquals</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a> compare, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a> result, SoftAssertions softly, Boolean fixed)</td></tr>
+<tr class="memdesc:a6ec844563c91f74865654e9bd9c1f067"><td class="mdescLeft">&#160;</td><td class="mdescRight">比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a6ec844563c91f74865654e9bd9c1f067">[詳解]</a><br /></td></tr>
+<tr class="separator:a6ec844563c91f74865654e9bd9c1f067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23aef3bece29fc66b3d55da927236762"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a23aef3bece29fc66b3d55da927236762">assertAllEquals</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> compare, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> result, SoftAssertions softly, Boolean fixed)</td></tr>
+<tr class="memdesc:a23aef3bece29fc66b3d55da927236762"><td class="mdescLeft">&#160;</td><td class="mdescRight">比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a23aef3bece29fc66b3d55da927236762">[詳解]</a><br /></td></tr>
+<tr class="separator:a23aef3bece29fc66b3d55da927236762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb97ccfe9055e5e730f1edd4d99a3523"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#abb97ccfe9055e5e730f1edd4d99a3523">assertAllEquals</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> compare, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> result, SoftAssertions softly, Boolean fixed)</td></tr>
+<tr class="memdesc:abb97ccfe9055e5e730f1edd4d99a3523"><td class="mdescLeft">&#160;</td><td class="mdescRight">比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#abb97ccfe9055e5e730f1edd4d99a3523">[詳解]</a><br /></td></tr>
+<tr class="separator:abb97ccfe9055e5e730f1edd4d99a3523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c136fbf87c942d1eee3fae1ba9296dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a7c136fbf87c942d1eee3fae1ba9296dd">MockToReal</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a> mock)</td></tr>
+<tr class="memdesc:a7c136fbf87c942d1eee3fae1ba9296dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a7c136fbf87c942d1eee3fae1ba9296dd">[詳解]</a><br /></td></tr>
+<tr class="separator:a7c136fbf87c942d1eee3fae1ba9296dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a391f57c021fceef0602b91f8eba7e7fe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a391f57c021fceef0602b91f8eba7e7fe">MockToReal</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a> mock)</td></tr>
+<tr class="memdesc:a391f57c021fceef0602b91f8eba7e7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a391f57c021fceef0602b91f8eba7e7fe">[詳解]</a><br /></td></tr>
+<tr class="separator:a391f57c021fceef0602b91f8eba7e7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe8f2ca10f108e8e491613bf7429b21"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#abfe8f2ca10f108e8e491613bf7429b21">MockToReal</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> mock)</td></tr>
+<tr class="memdesc:abfe8f2ca10f108e8e491613bf7429b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#abfe8f2ca10f108e8e491613bf7429b21">[詳解]</a><br /></td></tr>
+<tr class="separator:abfe8f2ca10f108e8e491613bf7429b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bae25041f597a002f42c805d613f1bc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a7bae25041f597a002f42c805d613f1bc">MockToReal</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> mock)</td></tr>
+<tr class="memdesc:a7bae25041f597a002f42c805d613f1bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#a7bae25041f597a002f42c805d613f1bc">[詳解]</a><br /></td></tr>
+<tr class="separator:a7bae25041f597a002f42c805d613f1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:aecd0f2a25be44ac06d59b93d54edc0eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html#aecd0f2a25be44ac06d59b93d54edc0eb">Member_Quad_Repository_TestUtils</a> ()</td></tr>
+<tr class="separator:aecd0f2a25be44ac06d59b93d54edc0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[団員管理][団員情報変更履歴][システムユーザー管理][権限管理]、機能のリポジトリのテスト で用いる、テスト全般に用いることができるユーティリティクラス </p>
+<ul>
+<li>必要性がないため、インスタンス化を禁止する。</li>
+<li>生成する全ての一時ファイルは、実行権限を剥奪しておく。 </li>
+</ul>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="aecd0f2a25be44ac06d59b93d54edc0eb" name="aecd0f2a25be44ac06d59b93d54edc0eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd0f2a25be44ac06d59b93d54edc0eb">&#9670;&#160;</a></span>Member_Quad_Repository_TestUtils()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.Member_Quad_Repository_TestUtils </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a7434df90a05d8d3b3c517f5886377785" name="a7434df90a05d8d3b3c517f5886377785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7434df90a05d8d3b3c517f5886377785">&#9670;&#160;</a></span>assertAllEquals() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.assertAllEquals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a>&#160;</td>
+          <td class="paramname"><em>compare</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SoftAssertions&#160;</td>
+          <td class="paramname"><em>softly</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>fixed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。 </p>
+<ul>
+<li>遅延アサーションのインスタンスは、このメソッドを呼び出したクラス側の物を使用する。また、アサーションの 最終実行も呼び出し側のクラスで行う。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">compare</td><td>比較用エンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>テスト出力結果エンティティ </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">softly</td><td>遅延アサーション用のインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fixed</td><td>シリアルナンバーが定まっている場合は「True」、新規追加などで番号が定まってない場合は 「False」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Member_Info</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主に団員管理に用いる。 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7434df90a05d8d3b3c517f5886377785_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7434df90a05d8d3b3c517f5886377785_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7434df90a05d8d3b3c517f5886377785_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7434df90a05d8d3b3c517f5886377785_icgraph">
+<area shape="rect" title="比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。" alt="" coords="873,1170,1112,1239"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m3bb87535ea534530ca6125e719d16608.html#af177c3302212f6ef07043cdf337f54ae" title="データの削除時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="283,5,547,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_me7205b2a9b7ccadaf36e8d7fc17596b9.html#a0fd315d042fc6488df3fad6d231e67cf" title="データの新規追加時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="268,113,563,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m2f6358580cb7f494f939fb9265270db8.html#ad57dbd7f745e664df7cee0e436d140db" title="履歴データの期間削除時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="183,221,647,305"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#aa1cc8238cd73dceab7b4c6862ce920ac" title="リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。" alt="" coords="230,330,601,399"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_medfd1da00c122b7abc41f93a38d8b5a14.html#adb63ba81075dfc5ceb5eff7a3dbacd30" title="データの削除時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="212,423,619,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me24251df0ff1a38f1289a4cae2aa8809d.html#a7f794d5816418406fec45f26a6cd49bf" title="リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。" alt="" coords="267,517,563,586"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m87fb5a85c056be64a04d26b82169ff0d.html#aa93998b51482b05280aeb0a30fa70dcf" title="リポジトリの検索メソッドを実行し、返された結果の判定を行う。" alt="" coords="233,610,598,679"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me7f33c2809a6472a18a58f9eb8558e8e1.html#a1e9c3a38fca47114d1be02779b6fe885" title="データの新規追加時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="196,703,635,773"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7f8e602a5c1f9b0dd5e160a310585961.html#ae43fbf3ae5713a2c75d97adc510f014d" title="リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。" alt="" coords="267,797,563,866"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_mef2fd6f7d67b2c5cd80e58fbd88e3b21e.html#ab7530ed6fee3e995d44d1b7880674b8d" title="リポジトリの検索メソッドを実行し、返された結果の判定を行う。" alt="" coords="287,890,543,959"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_mef2fd6f7d67b2c5cd80e58fbd88e3b21e.html#a4e79b564df7c65340885a4dbcfd5a498" title="リポジトリメソッド[findByMember_id]を実行した際の検索結果を判定する。" alt="" coords="102,983,729,1053"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me3bb1602097a3c10b821296fc9a59913d.html#a296a04d008ad63c7ddd9062273e8b7be" title="データの更新時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="208,1077,623,1146"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syd49cb342b8901f8571bea83edf8d6884.html#a23c0aff32680f3fc958fc3ea0132e403" title="データの削除時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="212,1170,619,1239"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#a1d56f1dfb711b33798f1f616903cfd10" title="データの新規追加時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="196,1263,635,1333"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syc304b174b7bc083d2a98bf9dd7803768.html#abe0400a25af88cf53fdef3e186d43fa2" title="リポジトリの検索メソッドを実行し、返された結果の判定を行う。" alt="" coords="287,1357,543,1426"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syc304b174b7bc083d2a98bf9dd7803768.html#a681c41a2aebc18f682c3512028f0123c" title="リポジトリメソッド[findByMember_id]を実行した際の検索結果を判定する。" alt="" coords="102,1450,729,1519"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_syc304b174b7bc083d2a98bf9dd7803768.html#ac7d080084db7993960d653aff395d4bf" title="リポジトリメソッド[sysSecurity]を実行した際の検索結果を判定する。" alt="" coords="123,1543,707,1613"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sya4c19179ee7a8e3a13d32ca4c2977872.html#aba6190f3f7a1919c4c05beee16e30347" title="データの更新時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="208,1637,623,1706"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usd889cc2a400ba8c58df4cf24e62590d4.html#a696b874a04ccbdb0f2252493c987fcdc" title="データの更新時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="289,1731,541,1815"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy3df05c53604af083be0268c4b73c9171.html#adb98ce579465fb2f65b7689d381a5ddc" title="データのログイン失敗回数とロック有無を更新時の動作の確認を行う。" alt="" coords="5,1839,825,1909"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usb63ee9a9801e79fef104f553e9d0f67f.html#a007676b503a39ce4a063f9bdf0ae9929" title="データの削除時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="289,1933,541,2017"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_usa956c1fb297a4b919081b023e9478fd8.html#ad021d63c49c09e163e1fadb4e70c71d6" title="リポジトリの検索メソッドの分岐と実行メソッドを実行し、返された結果の判定を行う。" alt="" coords="277,2041,554,2125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#af4c80795365dc6590c2943763b722741" title="リポジトリの検索メソッドを実行し、返された結果の判定を行う。" alt="" coords="258,2150,573,2219"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us20e8e4cf0e53b0ff20f60a9e1065be8b.html#a696c8e47904313ffeb437b0e691edb5a" title="データの新規追加時の動作の確認を行う。なお、これは成功ケースである。" alt="" coords="268,2244,563,2328"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7efa29c44123e1ca0f4591c06c024e2d.html#a243400df66fa9ad75987e826b388a9a3" title="リポジトリメソッド[findByAuth_id]を実行した際の検索結果を判定する。" alt="" coords="73,2353,758,2422"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6ec844563c91f74865654e9bd9c1f067" name="a6ec844563c91f74865654e9bd9c1f067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ec844563c91f74865654e9bd9c1f067">&#9670;&#160;</a></span>assertAllEquals() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.assertAllEquals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a>&#160;</td>
+          <td class="paramname"><em>compare</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SoftAssertions&#160;</td>
+          <td class="paramname"><em>softly</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>fixed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。 </p>
+<ul>
+<li>遅延アサーションのインスタンスは、このメソッドを呼び出したクラス側の物を使用する。また、アサーションの 最終実行も呼び出し側のクラスで行う。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">compare</td><td>比較用エンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>テスト出力結果エンティティ </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">softly</td><td>遅延アサーション用のインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fixed</td><td>履歴番号が定まっている場合は「True」、新規追加などで番号が定まってない場合は「False」 とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Member_Info_History</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主に団員情報変更履歴に用いる。 </dd></dl>
+
+</div>
+</div>
+<a id="a23aef3bece29fc66b3d55da927236762" name="a23aef3bece29fc66b3d55da927236762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23aef3bece29fc66b3d55da927236762">&#9670;&#160;</a></span>assertAllEquals() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.assertAllEquals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td>
+          <td class="paramname"><em>compare</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SoftAssertions&#160;</td>
+          <td class="paramname"><em>softly</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>fixed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。 </p>
+<ul>
+<li>遅延アサーションのインスタンスは、このメソッドを呼び出したクラス側の物を使用する。また、アサーションの 最終実行も呼び出し側のクラスで行う。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">compare</td><td>比較用エンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>テスト出力結果エンティティ </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">softly</td><td>遅延アサーション用のインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fixed</td><td>シリアルナンバーが定まっている場合は「True」、新規追加などで番号が定まってない場合は 「False」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>System_User</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主にシステムユーザー管理に用いる。 </dd></dl>
+
+</div>
+</div>
+<a id="abb97ccfe9055e5e730f1edd4d99a3523" name="abb97ccfe9055e5e730f1edd4d99a3523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb97ccfe9055e5e730f1edd4d99a3523">&#9670;&#160;</a></span>assertAllEquals() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.assertAllEquals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>compare</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SoftAssertions&#160;</td>
+          <td class="paramname"><em>softly</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>fixed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>比較用の基準エンティティと、テスト結果として出力されたエンティティを比較する。 </p>
+<ul>
+<li>遅延アサーションのインスタンスは、このメソッドを呼び出したクラス側の物を使用する。また、アサーションの 最終実行も呼び出し側のクラスで行う。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">compare</td><td>比較用エンティティ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>テスト出力結果エンティティ </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">softly</td><td>遅延アサーション用のインスタンス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">fixed</td><td>シリアルナンバーが定まっている場合は「True」、新規追加などで番号が定まってない場合は 「False」とする。</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主に権限管理に用いる。 </dd></dl>
+
+</div>
+</div>
+<a id="a7c136fbf87c942d1eee3fae1ba9296dd" name="a7c136fbf87c942d1eee3fae1ba9296dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c136fbf87c942d1eee3fae1ba9296dd">&#9670;&#160;</a></span>MockToReal() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a> com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.MockToReal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_member___info.html">Member_Info</a>&#160;</td>
+          <td class="paramname"><em>mock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>移し替えた本物のエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mock</td><td>移し替えの対象になるモック</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Member_Info</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主に団員管理に用いる。 </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7c136fbf87c942d1eee3fae1ba9296dd_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7c136fbf87c942d1eee3fae1ba9296dd_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7c136fbf87c942d1eee3fae1ba9296dd_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf_a7c136fbf87c942d1eee3fae1ba9296dd_icgraph">
+<area shape="rect" title="テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。" alt="" coords="399,565,637,635"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy08bb1ac95e658795d73be5bfc7e3bc36.html#ad60a140a411b90a29eef7016f6e808b2" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、参照元のテーブルへの データのセットアップを行う。" alt="" coords="19,5,337,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sya4c19179ee7a8e3a13d32ca4c2977872.html#a40c2dd7db79904215b51ee30af5bdc65" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 更新対象データの格納を行う。" alt="" coords="5,99,351,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mad725ffea9a216ea38cee08a41928715.html#a70a493ab4324f78786f1fed425a3c2c4" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,192,327,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="31,285,325,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me7e3df04074d57af929bce720680cfec8.html#a6d21e0a7f96120f17b8c059bc7a120c2" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="57,379,299,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me9b21d306b152db11f7729f1288f47aa0.html#a018d0a0cb4c19fba50217f5f6e3f78cb" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="57,472,299,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_me32ccddb1ea5e829b7f316d618a1d0bd5.html#a4b9376bc1cd8c7ac6760bb00b76a5056" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="57,565,299,635"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy84a41225b59c2b044fd81e407d104b1f.html#a4df11deadab5fc5d6bbf57dea60e227c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="51,659,305,728"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy0e73a07fd6b7eb717bafae5279fa703f.html#a986ae594a7a08547a77539123f0cf8d0" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="51,752,305,821"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_sy7a03e5c0d0fc7f1cdffcb3675cf78fa1.html#ae05e34c9275b4f41f0b04a6a88c7c038" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="51,845,305,915"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us7eb3333ec376076223b119480e0eaac7.html#ae77197647a88724bfc7a38b88dec96f4" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="37,939,319,1008"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us615f0595f3ff30547a192dcd861e9e52.html#a1d4e72877fcf7e695c60ef7ec09c58f2" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="39,1032,317,1101"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_normal_repo_1_1_us39875f92f7a20d5d173409ed694b00aa.html#a20d4304b0cf9160801c407c0b189931a" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="35,1125,321,1195"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a391f57c021fceef0602b91f8eba7e7fe" name="a391f57c021fceef0602b91f8eba7e7fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a391f57c021fceef0602b91f8eba7e7fe">&#9670;&#160;</a></span>MockToReal() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a> com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.MockToReal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_member___info___history.html">Member_Info_History</a>&#160;</td>
+          <td class="paramname"><em>mock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>移し替えた本物のエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mock</td><td>移し替えの対象になるモック</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Member_Info_History</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主に団員情報変更履歴に用いる。 </dd></dl>
+
+</div>
+</div>
+<a id="abfe8f2ca10f108e8e491613bf7429b21" name="abfe8f2ca10f108e8e491613bf7429b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe8f2ca10f108e8e491613bf7429b21">&#9670;&#160;</a></span>MockToReal() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.MockToReal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td>
+          <td class="paramname"><em>mock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>移し替えた本物のエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mock</td><td>移し替えの対象になるモック</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>System_User</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主にシステムユーザー管理に用いる。 </dd></dl>
+
+</div>
+</div>
+<a id="a7bae25041f597a002f42c805d613f1bc" name="a7bae25041f597a002f42c805d613f1bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bae25041f597a002f42c805d613f1bc">&#9670;&#160;</a></span>MockToReal() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> com.springproject.dockerspring.SingleTests.Repository.Repository_TestUtils.Member_Quad_Repository_TestUtils.MockToReal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td>
+          <td class="paramname"><em>mock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テストケースから取得してきたモックエンティティのデータを、リポジトリで使用する本物のエンティティに 格納しなおす。 </p>
+<dl class="section return"><dt>戻り値</dt><dd>移し替えた本物のエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mock</td><td>移し替えの対象になるモック</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>同名のメソッドが複数があるが、こちらは主に権限管理に用いる。 </dd></dl>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/SingleTests/Repository/Repository_TestUtils/<a class="el" href="_member___quad___repository___test_utils_8java.html">Member_Quad_Repository_TestUtils.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests.html">SingleTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository.html">Repository</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_utils.html">Repository_TestUtils</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_repository___test_47e32c513109a2c9e80ca3b5642b0bbf.html">Member_Quad_Repository_TestUtils</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

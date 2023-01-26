@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Security.EventHandler.AccountAuthEvents クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Security.EventHandler.AccountAuthEvents クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>認証処理時の成功と失敗のイベントに応じて、処理を行うイベントハンドラクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Security.EventHandler.AccountAuthEvents 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_security_8_event_handler_8_account_auth_events_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_security_8_event_handler_8_account_auth_events_coll__map" id="acom_8springproject_8dockerspring_8_security_8_event_handler_8_account_auth_events_coll__map">
+<area shape="rect" title="認証処理時の成功と失敗のイベントに応じて、処理を行うイベントハンドラクラス" alt="" coords="5,301,273,341"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html" title="主に[システムユーザー管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="35,184,243,239"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="31,80,248,135"/>
+<area shape="rect" title=" " alt="" coords="58,5,221,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a70b10c5487ec7732615e31d44ced0382"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html#a70b10c5487ec7732615e31d44ced0382">failedProcess</a> (AbstractAuthenticationFailureEvent fail)</td></tr>
+<tr class="memdesc:a70b10c5487ec7732615e31d44ced0382"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログイン処理が失敗した際に行う処理を定義する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html#a70b10c5487ec7732615e31d44ced0382">[詳解]</a><br /></td></tr>
+<tr class="separator:a70b10c5487ec7732615e31d44ced0382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2b2cac3278ada9f7eccdbc00b12ac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html#a5b2b2cac3278ada9f7eccdbc00b12ac4">successProcess</a> (AuthenticationSuccessEvent success)</td></tr>
+<tr class="memdesc:a5b2b2cac3278ada9f7eccdbc00b12ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">ログイン処理が成功した際に行う処理を定義する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html#a5b2b2cac3278ada9f7eccdbc00b12ac4">[詳解]</a><br /></td></tr>
+<tr class="separator:a5b2b2cac3278ada9f7eccdbc00b12ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:ac28a21e3155dbd1384bfc15be2d1f646"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html">System_User_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html#ac28a21e3155dbd1384bfc15be2d1f646">sys_user_repo</a></td></tr>
+<tr class="separator:ac28a21e3155dbd1384bfc15be2d1f646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >認証処理時の成功と失敗のイベントに応じて、処理を行うイベントハンドラクラス </p>
+<ul>
+<li>認証の成功と失敗に応じた処理はいくつもあるが、データベースが関係する複雑な処理に関しては イベントハンドラに記載する。あまり通常のハンドラに複雑な処理を書くのはよろしくないためである。</li>
+<li>リポジトリのDIは、Lombokを用いたコンストラクタインジェクションにより実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired))</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>System_User_Repo </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a70b10c5487ec7732615e31d44ced0382" name="a70b10c5487ec7732615e31d44ced0382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b10c5487ec7732615e31d44ced0382">&#9670;&#160;</a></span>failedProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Security.EventHandler.AccountAuthEvents.failedProcess </td>
+          <td>(</td>
+          <td class="paramtype">AbstractAuthenticationFailureEvent&#160;</td>
+          <td class="paramname"><em>fail</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ログイン処理が失敗した際に行う処理を定義する。 </p>
+<ul>
+<li>内容としては、ログインに失敗したユーザーのアカウントのログイン失敗回数をカウントしていく。</li>
+<li>カウントが上限に達したら、アカウントをロックする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fail</td><td>検知する認証失敗イベント</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@EventListener</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>認証中のアカウントの認証コンテキストを取得し、認証情報を抜き取る。</li>
+<li>認証情報内のユーザー名を利用してデータベースを検索し、団員番号を取得する。 なお、ユーザーが存在しなければ、例外などは出さず結果をNullとする。</li>
+<li>検索結果がなかったり、ログイン失敗回数がすでに上限に達している場合は、処理を続行しない。</li>
+<li>団員番号を利用して、該当団員のログイン失敗回数を一回ずつ増やす。</li>
+<li>カウントを増やした際に上限値に達した場合は、アカウントをロックする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a70b10c5487ec7732615e31d44ced0382_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a70b10c5487ec7732615e31d44ced0382_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a70b10c5487ec7732615e31d44ced0382_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a70b10c5487ec7732615e31d44ced0382_cgraph">
+<area shape="rect" title="ログイン処理が失敗した際に行う処理を定義する。" alt="" coords="5,84,308,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_entity_1_1_account_details.html#ae96cfbb30c2ad13843dbaef7f9e5bedc" title="格納済みのパスワードを取得する。" alt="" coords="356,5,579,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#ac93bacb61099e0b93ecf2532a1f1a271" title="ログインを行う際に、[ユーザー名]で検索してユーザー情報をすべて取得する。" alt="" coords="363,84,571,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a2a8f43cdf8f53926fa8da5b2744c1654" title="ログイン時に失敗した場合、該当[団員番号]のデータベース上に[ログイン失敗回数]と [ロックの有無]を記録する。" alt="" coords="363,163,571,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5b2b2cac3278ada9f7eccdbc00b12ac4" name="a5b2b2cac3278ada9f7eccdbc00b12ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b2b2cac3278ada9f7eccdbc00b12ac4">&#9670;&#160;</a></span>successProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Security.EventHandler.AccountAuthEvents.successProcess </td>
+          <td>(</td>
+          <td class="paramtype">AuthenticationSuccessEvent&#160;</td>
+          <td class="paramname"><em>success</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ログイン処理が成功した際に行う処理を定義する。 </p>
+<ul>
+<li>内容としては、ログインに成功したアカウントの、ロック回数とロックの有無をリセットする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">success</td><td>検知する認証成功イベント</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@EventListener</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>認証中のアカウントの認証コンテキストを取得し、認証情報を抜き取る。</li>
+<li>認証情報内のユーザー名を利用してデータベースを検索し、団員番号を取得する。</li>
+<li>団員番号を利用して、該当団員のログイン失敗回数をリセットし、ロックがあれば解除する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a5b2b2cac3278ada9f7eccdbc00b12ac4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a5b2b2cac3278ada9f7eccdbc00b12ac4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a5b2b2cac3278ada9f7eccdbc00b12ac4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events_a5b2b2cac3278ada9f7eccdbc00b12ac4_cgraph">
+<area shape="rect" title="ログイン処理が成功した際に行う処理を定義する。" alt="" coords="5,84,327,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_entity_1_1_account_details.html#ae96cfbb30c2ad13843dbaef7f9e5bedc" title="格納済みのパスワードを取得する。" alt="" coords="375,5,597,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#ac93bacb61099e0b93ecf2532a1f1a271" title="ログインを行う際に、[ユーザー名]で検索してユーザー情報をすべて取得する。" alt="" coords="382,84,590,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a2a8f43cdf8f53926fa8da5b2744c1654" title="ログイン時に失敗した場合、該当[団員番号]のデータベース上に[ログイン失敗回数]と [ロックの有無]を記録する。" alt="" coords="382,163,590,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ac28a21e3155dbd1384bfc15be2d1f646" name="ac28a21e3155dbd1384bfc15be2d1f646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28a21e3155dbd1384bfc15be2d1f646">&#9670;&#160;</a></span>sys_user_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html">System_User_Repo</a> com.springproject.dockerspring.Security.EventHandler.AccountAuthEvents.sys_user_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Security/EventHandler/<a class="el" href="_account_auth_events_8java.html">AccountAuthEvents.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_security.html">Security</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler.html">EventHandler</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_auth_events.html">AccountAuthEvents</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

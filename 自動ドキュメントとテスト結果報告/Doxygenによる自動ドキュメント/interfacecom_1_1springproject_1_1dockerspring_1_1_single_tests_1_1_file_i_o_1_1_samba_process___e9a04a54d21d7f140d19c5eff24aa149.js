@@ -1,0 +1,6 @@
+var interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___e9a04a54d21d7f140d19c5eff24aa149 =
+[
+    [ "共通クラス側のファイルサーバーへのデータ入力機能の動作確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___e9a04a54d21d7f140d19c5eff24aa149.html#afa33caf33d74c4f1373c14cc6a5a333b", null ],
+    [ "集約クラス側のファイルサーバーへの通常データ入力機能の動作確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___e9a04a54d21d7f140d19c5eff24aa149.html#ac45937cb5948b5ad78bc54c9588daf80", null ],
+    [ "集約クラス側のファイルサーバーへの履歴データ入力機能の動作確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___e9a04a54d21d7f140d19c5eff24aa149.html#a49b7f733c743ef833e813c0773cd82af", null ]
+];

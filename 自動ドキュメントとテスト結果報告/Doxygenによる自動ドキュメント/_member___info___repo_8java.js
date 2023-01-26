@@ -1,0 +1,4 @@
+var _member___info___repo_8java =
+[
+    [ "com.springproject.dockerspring.Repository.NormalRepo.Member_Info_Repo", "interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_member___info___repo.html", "interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_member___info___repo" ]
+];

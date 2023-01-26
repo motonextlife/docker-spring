@@ -1,0 +1,10 @@
+var classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml =
+[
+    [ "buy_date", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#a564395655568eb6486499c697db05f3f", null ],
+    [ "disp_date", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#a4aaba4b96aac0dc41cc0ffa7aa0ece13", null ],
+    [ "faci_id", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#a8e3650c4f71472c20ca8fa51ad4cb6f5", null ],
+    [ "faci_name", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#a0f6530e90fd08d04975beff53c8c2542", null ],
+    [ "other_comment", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#a7edbcf0581aa83f63a8ccceb03320a27", null ],
+    [ "producer", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#afb2802b5c21cec9325e2d7439f28aeb8", null ],
+    [ "storage_loc", "classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_1_1_facility___database___yaml.html#a3211d563173c7e40d080243e79049622", null ]
+];

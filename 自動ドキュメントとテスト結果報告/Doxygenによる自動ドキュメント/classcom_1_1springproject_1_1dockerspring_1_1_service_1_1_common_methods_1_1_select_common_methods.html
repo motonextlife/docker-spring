@@ -1,0 +1,826 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pac-methods">関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>サービスクラスでの共通処理において、データの検索と取得関連の処理を 実装したクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_service_8_common_methods_8_select_common_methods_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_service_8_common_methods_8_select_common_methods_coll__map" id="acom_8springproject_8dockerspring_8_service_8_common_methods_8_select_common_methods_coll__map">
+<area shape="rect" title="サービスクラスでの共通処理において、データの検索と取得関連の処理を 実装したクラス" alt="" coords="460,70,723,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="128,5,355,45"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_history___form___validator.html" title="主に[共通の履歴管理]機能で使用する、出力時のバリデーションに関する機能を提供する インターフェース" alt="" coords="138,70,345,125"/>
+<area shape="rect" title=" " alt="" coords="5,85,79,110"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html" title="システムの処理中に、認証情報を取得するクラス" alt="" coords="138,149,345,189"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ab47efa0bc3819a1f5afa491cdf9dd0a1"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ab47efa0bc3819a1f5afa491cdf9dd0a1">mapPackingCom</a> (List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt; data_list)</td></tr>
+<tr class="memdesc:ab47efa0bc3819a1f5afa491cdf9dd0a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたエンティティリスト内のデータを文字列に変換し、マップデータのリストとして返却する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ab47efa0bc3819a1f5afa491cdf9dd0a1">[詳解]</a><br /></td></tr>
+<tr class="separator:ab47efa0bc3819a1f5afa491cdf9dd0a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019bf688a5271e28ef173e4fccf77652"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a019bf688a5271e28ef173e4fccf77652">outputValidHistInfoCom</a> (Integer history_id, Date change_datetime, String change_kinds, String operation_user)</td></tr>
+<tr class="memdesc:a019bf688a5271e28ef173e4fccf77652"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存されているデータのうち、履歴情報に関する内容を出力する際のバリデーションを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a019bf688a5271e28ef173e4fccf77652">[詳解]</a><br /></td></tr>
+<tr class="separator:a019bf688a5271e28ef173e4fccf77652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352faffc062c00e727cd52ab71814bc0"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a352faffc062c00e727cd52ab71814bc0">parseStringCom</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> entity)  throws IOException </td></tr>
+<tr class="memdesc:a352faffc062c00e727cd52ab71814bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたエンティティ内のデータを文字列に変換し、マップデータとして返却する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a352faffc062c00e727cd52ab71814bc0">[詳解]</a><br /></td></tr>
+<tr class="separator:a352faffc062c00e727cd52ab71814bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf4f760621cd96e16b4e4c02f9eaadec"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#adf4f760621cd96e16b4e4c02f9eaadec">selectBlobDataCom</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html">InOutSamba</a> samba_comp, Integer num_id, Boolean hist, String hash)  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:adf4f760621cd96e16b4e4c02f9eaadec"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された番号のバイナリデータを、ファイルサーバーから取得する。なお、このメソッドは、通常データと 履歴用データで共用である。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#adf4f760621cd96e16b4e4c02f9eaadec">[詳解]</a><br /></td></tr>
+<tr class="separator:adf4f760621cd96e16b4e4c02f9eaadec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+関数</h2></td></tr>
+<tr class="memitem:ac5c61ebb7f47d3dd96578690ac8df433"><td class="memItemLeft" align="right" valign="top">public&lt; T, E &gt; Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433">outputValidCom</a> (T form, Validator validator, Predicate&lt; E &gt; append_func, E entity)</td></tr>
+<tr class="memdesc:ac5c61ebb7f47d3dd96578690ac8df433"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存されているデータを出力する際のバリデーションを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433">[詳解]</a><br /></td></tr>
+<tr class="separator:ac5c61ebb7f47d3dd96578690ac8df433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6755a871907a3165c20d33c30ab3498"><td class="memItemLeft" align="right" valign="top">public&lt; T &gt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ad6755a871907a3165c20d33c30ab3498">selectAllDataCom</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html">FindAllCrudRepository</a>&lt; T, Integer &gt; repository, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws ExecutionException, DataEmptyException, InterruptedException, ParseException</td></tr>
+<tr class="memdesc:ad6755a871907a3165c20d33c30ab3498"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ad6755a871907a3165c20d33c30ab3498">[詳解]</a><br /></td></tr>
+<tr class="separator:ad6755a871907a3165c20d33c30ab3498"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e321879c697fe4633bbcf0d84b499f"><td class="memItemLeft" align="right" valign="top">public&lt; T &gt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a92e321879c697fe4633bbcf0d84b499f">selectHistCom</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html">FindAllCrudRepository</a>&lt; T, Integer &gt; repository, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___hist___get___form.html">Com_Hist_Get_Form</a> form)  throws ExecutionException, DataEmptyException, InterruptedException, ParseException</td></tr>
+<tr class="memdesc:a92e321879c697fe4633bbcf0d84b499f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された検索ワードと検索種別、並び順を指定して、条件に合致した履歴情報をデータベースから 検索する。なお、履歴検索に関しては、同時に検索期間を指定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a92e321879c697fe4633bbcf0d84b499f">[詳解]</a><br /></td></tr>
+<tr class="separator:a92e321879c697fe4633bbcf0d84b499f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a6e44ec0dd5c3ed919383052f56d03775"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a6e44ec0dd5c3ed919383052f56d03775">config</a></td></tr>
+<tr class="separator:a6e44ec0dd5c3ed919383052f56d03775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a4446db25fed07261eb889d107ef50"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html">GetLoginUser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a51a4446db25fed07261eb889d107ef50">get_login</a></td></tr>
+<tr class="separator:a51a4446db25fed07261eb889d107ef50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19512d685b3a14584566083fc1c3a56a"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_history___form___validator.html">History_Form_Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a19512d685b3a14584566083fc1c3a56a">hist_valid</a></td></tr>
+<tr class="separator:a19512d685b3a14584566083fc1c3a56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >サービスクラスでの共通処理において、データの検索と取得関連の処理を 実装したクラス </p>
+<ul>
+<li>この共通処理では、サービスクラスで用いる集約が可能な機能を集めることで、メンテナンス性を 向上させるために実装。</li>
+<li>ただし、特定の機能に依存してしまう処理に関しては、ここでは実装せずに関数型インターフェースで 渡すなどして分離を行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired))</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>History_Form_Validator </dd>
+<dd>
+GetLoginUser </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="ab47efa0bc3819a1f5afa491cdf9dd0a1" name="ab47efa0bc3819a1f5afa491cdf9dd0a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab47efa0bc3819a1f5afa491cdf9dd0a1">&#9670;&#160;</a></span>mapPackingCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; String, String &gt; &gt; com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.mapPackingCom </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt;&#160;</td>
+          <td class="paramname"><em>data_list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたエンティティリスト内のデータを文字列に変換し、マップデータのリストとして返却する。 </p>
+<ul>
+<li>内部処理としては、このクラスの[parseStringCom]を繰り返し行っているだけである。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_list</td><td>変換対象のデータが入ったエンティティリスト</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp </dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ab47efa0bc3819a1f5afa491cdf9dd0a1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ab47efa0bc3819a1f5afa491cdf9dd0a1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ab47efa0bc3819a1f5afa491cdf9dd0a1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ab47efa0bc3819a1f5afa491cdf9dd0a1_icgraph">
+<area shape="rect" title="指定されたエンティティリスト内のデータを文字列に変換し、マップデータのリストとして返却する。" alt="" coords="643,439,905,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#ae856cbf02814242f12474731ca69f42a" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="272,439,595,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a66f0e8c527beb7189a6051bf2055fb1a" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="11,5,218,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#afd758219d4f57fce72fea2dceb1321b0" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="11,84,218,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a387881374016f7ba735e93bea1493aec" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="9,163,221,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#af11b4870d6d0c822c914b1c24b6b9452" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="11,241,218,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a15aa9fb69c72b12c77695511cbdf747f" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="11,320,218,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a07bbc7b9fa677ef1170c27f960beacd5" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="9,399,221,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ae72a485c6e0264ef99d9b8c32cdcd778" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="11,477,218,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#ad6fe7dda319faedfd9165e30d296d918" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="5,556,224,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a1783e2a551755c2897beeb182dab20ee" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="11,635,218,689"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a76142f43069a005c3b4cd13c40d83eab" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="11,713,218,768"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a176e42b58c78acae2f17364bf4966732" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="11,792,218,847"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#ab8acabeff246851d43e263e17a62ff5f" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="11,871,218,925"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac5c61ebb7f47d3dd96578690ac8df433" name="ac5c61ebb7f47d3dd96578690ac8df433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c61ebb7f47d3dd96578690ac8df433">&#9670;&#160;</a></span>outputValidCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public&lt; T, E &gt; Boolean com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.outputValidCom </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>form</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Validator&#160;</td>
+          <td class="paramname"><em>validator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Predicate&lt; E &gt;&#160;</td>
+          <td class="paramname"><em>append_func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">E&#160;</td>
+          <td class="paramname"><em>entity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保存されているデータを出力する際のバリデーションを行う。 </p>
+<ul>
+<li>処理を行うコンポーネントクラスは特定のクラスに依存するため、使用するコンポーネントを引数で受け取る。</li>
+<li>一つでも不正なデータがあれば、直ちに例外を発し、処理を中断する。</li>
+<li>なお、メインの出力バリデーションに追加で行いたい処理があれば、関数型インターフェースを渡して追加する 事ができる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>判定結果の真偽値</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検査対象のデータが格納されたフォームクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">validator</td><td>対象の出力データを判定するバリデータクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">append_func</td><td>追加でバリデーションを実行したい際に指定する関数型インターフェース </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>追加でバリデーションを実行する際に指定する検査対象のデータが入ったエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>フォームクラスがNullで無ければ、エラー情報格納インスタンスを生成し、バリデータを実行する。</li>
+<li>バリデーションの実行後、エラー格納インスタンス内に一つでもエラー情報があればエラーとする。</li>
+<li>追加で行う関数型インターフェースが指定されていれば実行し、一つでもエラー情報があればエラーとする。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ac5c61ebb7f47d3dd96578690ac8df433_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ac5c61ebb7f47d3dd96578690ac8df433_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ac5c61ebb7f47d3dd96578690ac8df433_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ac5c61ebb7f47d3dd96578690ac8df433_icgraph">
+<area shape="rect" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="660,1421,923,1476"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="277,1421,612,1476"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aa4247e4dd97eb3c984a81a115b6099b5" title="指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。" alt="" coords="14,5,221,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a55b5ba612a131b5d44f7288a0fab2c2f" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。" alt="" coords="14,84,221,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a79c692f04625808e49f643c807312d1f" title="指定された団員番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="14,163,221,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a80c8d3d7bfc2fc12277d6d88b3dd2495" title="指定された権限番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="14,241,221,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a1783e2a551755c2897beeb182dab20ee" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="14,320,221,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a76142f43069a005c3b4cd13c40d83eab" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="14,399,221,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a176e42b58c78acae2f17364bf4966732" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="14,477,221,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#ab8acabeff246851d43e263e17a62ff5f" title="データベース内に保存されている指定されたデータを、一覧としてCSVファイルに書き込み出力する。" alt="" coords="14,556,221,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a792c86194381429c2b62375790253a12" title="指定された管理番号に対応する情報を、PDFシートとして出力する。" alt="" coords="14,635,221,689"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a57973fcec00240fcd0c093ddbb26839e" title="指定された管理番号に対応する情報を、PDFシートとして出力する。" alt="" coords="14,713,221,768"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#ae53732c90016d57c3e925fcd3759d475" title="指定された管理番号に対応する情報を、PDFシートとして出力する。" alt="" coords="14,792,221,847"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#a1e6368da89ac5f299e70650b00bde489" title="指定された管理番号に対応する情報を、PDFシートとして出力する。" alt="" coords="14,871,221,925"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7d9e5d6b681e54e664902891f336c201" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="14,949,221,1004"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a0b5e5d86c6b019d149a2e191f1919d86" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,1028,223,1083"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a4d030399db19a95a95305e789a155884" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="14,1107,221,1161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#ae6d96c6e8adaea4d277dab41f25b85cb" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="14,1185,221,1240"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a6f12c5d1668cfe8959badb66505841f0" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,1264,223,1319"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ab488f128c21f052f5616a8841804bf27" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="14,1343,221,1397"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#aab650abd07c5d92b34fdce2f46aeccee" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="8,1421,227,1476"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7fd4795c0a25918e04e925ddf15d0dcd" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="12,1500,223,1555"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a81bd404de8ea3ab6d9c077589339191e" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="9,1579,226,1633"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#ac43b764cc27f43562e19f7cb2c3e20ca" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="14,1657,221,1712"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a9c925e5af871c3470cc1713055ca0ff9" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="14,1736,221,1791"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a65bf1280b98b818191edee4240ad23bf" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="9,1815,226,1869"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a17dde43bc7170025dddaa6cdd8afe9a2" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="14,1893,221,1948"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#ae62b3ba4e520e1fb7c131f3e87c5602d" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="5,1972,229,2027"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#aa640fcb4e864665783fa0a572bdd4d5f" title="指定された管理番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="14,2051,221,2105"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a8c4f17adda8e7abd07cb00c33e78aeb5" title="指定された管理番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="14,2129,221,2184"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#ae75a276842435d78cd086746690af69a" title="指定された管理番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="14,2208,221,2263"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#a8ac42db25af811a5a3a9ff6848763729" title="指定された管理番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="13,2287,222,2341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#aad3c9d7ab45f576612372521ed42e947" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="14,2365,221,2420"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#ad2a13fc3acad87970df009350ec50a78" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="14,2444,221,2499"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#ad41529cc22cabbe3fb5a854dd22f2140" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="14,2523,221,2577"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a9aa78b4724cc135931764811e68f7a12" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="14,2601,221,2656"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a23d8baa6f72b8425a5250350292a4cf7" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="14,2680,221,2735"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ae5756ca9032559690643b1d89a63d687" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="14,2759,221,2813"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#adce33e53b2c0bdbb93830d56a6291f49" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="14,2837,221,2892"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a019bf688a5271e28ef173e4fccf77652" name="a019bf688a5271e28ef173e4fccf77652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019bf688a5271e28ef173e4fccf77652">&#9670;&#160;</a></span>outputValidHistInfoCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Boolean com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.outputValidHistInfoCom </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>history_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>change_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>change_kinds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>operation_user</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>保存されているデータのうち、履歴情報に関する内容を出力する際のバリデーションを行う。 </p>
+<ul>
+<li>この処理は、全ての履歴機能で共通の為、履歴データ用エンティティから共通の履歴情報のみ抽出して バリデーションを行う。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>判定結果の真偽値</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">history_id</td><td>履歴番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">change_datetime</td><td>履歴日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">change_kinds</td><td>履歴種別 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">operation_user</td><td>操作ユーザー名 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a019bf688a5271e28ef173e4fccf77652_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a019bf688a5271e28ef173e4fccf77652_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a019bf688a5271e28ef173e4fccf77652_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a019bf688a5271e28ef173e4fccf77652_icgraph">
+<area shape="rect" title="保存されているデータのうち、履歴情報に関する内容を出力する際のバリデーションを行う。" alt="" coords="655,517,917,572"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#af76ba0e9ce5c646e105674589b43240f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="272,517,607,572"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7d9e5d6b681e54e664902891f336c201" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,5,218,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a0b5e5d86c6b019d149a2e191f1919d86" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="9,84,221,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#a4d030399db19a95a95305e789a155884" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,163,218,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#ae6d96c6e8adaea4d277dab41f25b85cb" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,241,218,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a6f12c5d1668cfe8959badb66505841f0" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="9,320,221,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ab488f128c21f052f5616a8841804bf27" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="11,399,218,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#aab650abd07c5d92b34fdce2f46aeccee" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="5,477,224,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#aad3c9d7ab45f576612372521ed42e947" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="11,556,218,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#ad2a13fc3acad87970df009350ec50a78" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="11,635,218,689"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#ad41529cc22cabbe3fb5a854dd22f2140" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="11,713,218,768"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a9aa78b4724cc135931764811e68f7a12" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="11,792,218,847"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a23d8baa6f72b8425a5250350292a4cf7" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="11,871,218,925"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ae5756ca9032559690643b1d89a63d687" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="11,949,218,1004"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#adce33e53b2c0bdbb93830d56a6291f49" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="11,1028,218,1083"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a352faffc062c00e727cd52ab71814bc0" name="a352faffc062c00e727cd52ab71814bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352faffc062c00e727cd52ab71814bc0">&#9670;&#160;</a></span>parseStringCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.parseStringCom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたエンティティ内のデータを文字列に変換し、マップデータとして返却する。 </p>
+<ul>
+<li>指定されたエンティティが履歴情報の物の場合で、現在ログイン中のユーザーに管理者権限がない場合は、 履歴情報の操作ユーザー名を削除したうえで出力する。削除する理由としては、個人ユーザー名は、他のユーザーに 漏らしてしまうとプライバシーの侵害に当てはまるため、管理者権限を持つ人間のみ閲覧できるようにするため。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>変換対象のデータが入ったエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定されたエンティティ内の文字列変換メソッドを実行し、マップリストを取得する。</li>
+<li>現在ログイン中のユーザーに管理者権限がない場合、履歴情報の「操作ユーザー名」を、空文字で上書きして 削除する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_cgraph">
+<area shape="rect" title="指定されたエンティティ内のデータを文字列に変換し、マップデータとして返却する。" alt="" coords="5,5,268,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html#a2565a1f39f5aeb2572bcea5297b93345" title="現在ログイン中のユーザーが、管理者権限を持っているか確認する。" alt="" coords="316,5,547,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_entity_1_1_account_details.html#a7b33c495cc73c8b8115a3b4e87ee1483" title="格納済みの権限情報のリストを取得する。" alt="" coords="595,5,817,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a352faffc062c00e727cd52ab71814bc0_icgraph">
+<area shape="rect" title="指定されたエンティティ内のデータを文字列に変換し、マップデータとして返却する。" alt="" coords="645,281,908,336"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#ab1786abf56a37c258d137053b528c8db" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="267,281,597,336"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#abffdac39c857f9fa80c6257157d88f0e" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,5,215,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a431320832edc90a878d6b690cba78fcf" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,84,215,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a83d031c6aca1adc8758f54f84d45d6b8" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,163,215,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#ab51dad21d8ace3a77db4f8ae8bc7e64c" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,241,215,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a631a9125283205f836daf3f294eb6cd7" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,320,215,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a7d7d42fc24e4742331dcd23914855f1d" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,399,215,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a36d13019ee2aa3d90242417218460883" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="9,477,215,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#a0c590753166078a636766d7782f509d3" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="5,556,219,611"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad6755a871907a3165c20d33c30ab3498" name="ad6755a871907a3165c20d33c30ab3498"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6755a871907a3165c20d33c30ab3498">&#9670;&#160;</a></span>selectAllDataCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public&lt; T &gt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt; com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.selectAllDataCom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html">FindAllCrudRepository</a>&lt; T, Integer &gt;&#160;</td>
+          <td class="paramname"><em>repository</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ExecutionException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, InterruptedException, ParseException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。 </p>
+<ul>
+<li>処理を行うリポジトリクラスは、特定のクラスに依存するため、引数として渡されたものを使用する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">repository</td><td>検索処理を行うリポジトリクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時に必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>環境変数に指定されている1ページ当たりの出力結果件数と、フォームで渡されたページ指定を用いて、 検索時のオフセット値を計算する。</li>
+<li>検索メソッドを実行し、検索結果を専用のエンティティに格納する。</li>
+<li>検索結果が全くなければ、データが無い事を示す専用の例外を発する。結果があれば、そのまま戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>FindAllCrudRepository </dd>
+<dd>
+Com_Search_Form </dd>
+<dd>
+FindAllParam </dd>
+<dd>
+FindAllResult</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ad6755a871907a3165c20d33c30ab3498_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ad6755a871907a3165c20d33c30ab3498_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ad6755a871907a3165c20d33c30ab3498_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_ad6755a871907a3165c20d33c30ab3498_icgraph">
+<area shape="rect" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。" alt="" coords="659,439,921,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a9bcba2deb2891f7355fbd8b1f7fbda47" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="277,439,611,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aa4247e4dd97eb3c984a81a115b6099b5" title="指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。" alt="" coords="14,5,221,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a55b5ba612a131b5d44f7288a0fab2c2f" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。" alt="" coords="14,84,221,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae5bea9ab4e5245c044ed32e407dc2c22" title="指定の管理番号で保存されているバイナリデータをすべて削除する。" alt="" coords="12,163,223,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#ae2b7197e0ca9bc1760762450d168cf5d" title="指定の管理番号で保存されているバイナリデータをすべて削除する。" alt="" coords="9,241,226,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a407e8690658e9d693b186b397c802f3f" title="指定の管理番号で保存されているバイナリデータをすべて削除する。" alt="" coords="14,320,221,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7fd4795c0a25918e04e925ddf15d0dcd" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="12,399,223,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a81bd404de8ea3ab6d9c077589339191e" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="9,477,226,532"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#ac43b764cc27f43562e19f7cb2c3e20ca" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="14,556,221,611"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a9c925e5af871c3470cc1713055ca0ff9" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="14,635,221,689"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a65bf1280b98b818191edee4240ad23bf" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="9,713,226,768"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a17dde43bc7170025dddaa6cdd8afe9a2" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="14,792,221,847"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#ae62b3ba4e520e1fb7c131f3e87c5602d" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。" alt="" coords="5,871,229,925"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adf4f760621cd96e16b4e4c02f9eaadec" name="adf4f760621cd96e16b4e4c02f9eaadec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf4f760621cd96e16b4e4c02f9eaadec">&#9670;&#160;</a></span>selectBlobDataCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.selectBlobDataCom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html">InOutSamba</a>&#160;</td>
+          <td class="paramname"><em>samba_comp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>num_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>hist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>hash</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された番号のバイナリデータを、ファイルサーバーから取得する。なお、このメソッドは、通常データと 履歴用データで共用である。 </p>
+<ul>
+<li>処理を行うコンポーネントクラスは特定のクラスに依存するため、使用するコンポーネントを引数で受け取る。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">samba_comp</td><td>取得処理を行うコンポーネントクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">num_id</td><td>指定するシリアルナンバーや履歴番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist</td><td>通常データの指定なら「False」、履歴データの指定なら「True」と指定する。 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hash</td><td>データ取得時に照合する、データベースに保存されているバイナリデータのハッシュ値</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>取得対象の番号のバイナリデータを指定し、取得の際にハッシュ値の照合を行う。</li>
+<li>照合が合格すれば、取得したデータのファイルを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>InOutSamba</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_adf4f760621cd96e16b4e4c02f9eaadec_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_adf4f760621cd96e16b4e4c02f9eaadec_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_adf4f760621cd96e16b4e4c02f9eaadec_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_adf4f760621cd96e16b4e4c02f9eaadec_icgraph">
+<area shape="rect" title="指定された番号のバイナリデータを、ファイルサーバーから取得する。なお、このメソッドは、通常データと 履歴用データで共用である。" alt="" coords="663,203,925,257"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a957b245bb0ca00d6e84ae392ce4ea727" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="281,203,615,257"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae22c9cac6e1677d8adc5e72bfad8ef87" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="16,5,223,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#a2b249c9b3e2a3ecbcf7169ae5dcc676a" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="16,84,223,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a3306109242a750f43bb8e557996b61e8" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="16,163,223,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a83ab0f9490b0a1a289ecc0015c9a2773" title="指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。" alt="" coords="9,241,230,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#ad4f38b81f71af69ceaa55512fb9dc275" title="指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。" alt="" coords="5,320,233,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#a8005e6059189ef0e269e0687ad7ab486" title="指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。" alt="" coords="13,399,226,453"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a92e321879c697fe4633bbcf0d84b499f" name="a92e321879c697fe4633bbcf0d84b499f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e321879c697fe4633bbcf0d84b499f">&#9670;&#160;</a></span>selectHistCom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public&lt; T &gt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt; com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.selectHistCom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html">FindAllCrudRepository</a>&lt; T, Integer &gt;&#160;</td>
+          <td class="paramname"><em>repository</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___hist___get___form.html">Com_Hist_Get_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ExecutionException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, InterruptedException, ParseException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>指定された検索ワードと検索種別、並び順を指定して、条件に合致した履歴情報をデータベースから 検索する。なお、履歴検索に関しては、同時に検索期間を指定する。 </p>
+<ul>
+<li>処理を行うリポジトリクラスは、特定のクラスに依存するため、引数として渡されたものを使用する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">repository</td><td>検索処理を行うリポジトリクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時に必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>環境変数に指定されている1ページ当たりの出力結果件数と、フォームで渡されたページ指定を用いて、 検索時のオフセット値を計算する。</li>
+<li>検索メソッドを実行し、検索結果を専用のエンティティに格納する。</li>
+<li>検索結果が全くなければ、データが無い事を示す専用の例外を発する。結果があれば、そのまま戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>FindAllCrudRepository </dd>
+<dd>
+Com_Hist_Get_Form </dd>
+<dd>
+FindAllParam </dd>
+<dd>
+FindAllResult</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a92e321879c697fe4633bbcf0d84b499f_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a92e321879c697fe4633bbcf0d84b499f_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a92e321879c697fe4633bbcf0d84b499f_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods_a92e321879c697fe4633bbcf0d84b499f_icgraph">
+<area shape="rect" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した履歴情報をデータベースから 検索する。なお、履歴検索に関しては、同時に検索期間を指定する。" alt="" coords="641,241,904,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a356eb95ceece16309f00df68b4e8b596" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,241,593,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#aad3c9d7ab45f576612372521ed42e947" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___photo___service_impl.html#ad2a13fc3acad87970df009350ec50a78" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_facility___service_impl.html#ad41529cc22cabbe3fb5a854dd22f2140" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="5,163,212,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_member___info___service_impl.html#a9aa78b4724cc135931764811e68f7a12" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="5,241,212,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_musical___score___service_impl.html#a23d8baa6f72b8425a5250350292a4cf7" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="5,320,212,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_score___pdf___service_impl.html#ae5756ca9032559690643b1d89a63d687" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="5,399,212,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_sound___source___service_impl.html#adce33e53b2c0bdbb93830d56a6291f49" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。" alt="" coords="5,477,212,532"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a6e44ec0dd5c3ed919383052f56d03775" name="a6e44ec0dd5c3ed919383052f56d03775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e44ec0dd5c3ed919383052f56d03775">&#9670;&#160;</a></span>config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.config</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51a4446db25fed07261eb889d107ef50" name="a51a4446db25fed07261eb889d107ef50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a4446db25fed07261eb889d107ef50">&#9670;&#160;</a></span>get_login</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html">GetLoginUser</a> com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.get_login</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19512d685b3a14584566083fc1c3a56a" name="a19512d685b3a14584566083fc1c3a56a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19512d685b3a14584566083fc1c3a56a">&#9670;&#160;</a></span>hist_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_history___form___validator.html">History_Form_Validator</a> com.springproject.dockerspring.Service.CommonMethods.SelectCommonMethods.hist_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Service/CommonMethods/<a class="el" href="_select_common_methods_8java.html">SelectCommonMethods.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service.html">Service</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods.html">CommonMethods</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html">SelectCommonMethods</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

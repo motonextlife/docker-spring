@@ -1,0 +1,1226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[管理者]が使用するサービスの機能を実装するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_service_8_service_impl_8_admin___service_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_service_8_service_impl_8_admin___service_impl_inherit__map" id="acom_8springproject_8dockerspring_8_service_8_service_impl_8_admin___service_impl_inherit__map">
+<area shape="rect" title="主に[管理者]が使用するサービスの機能を実装するクラス" alt="" coords="27,93,233,148"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html" title="主に[管理者]が使用するサービスに機能を提供するインターフェース" alt="" coords="5,5,255,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_service_8_service_impl_8_admin___service_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_service_8_service_impl_8_admin___service_impl_coll__map" id="acom_8springproject_8dockerspring_8_service_8_service_impl_8_admin___service_impl_coll__map">
+<area shape="rect" title="主に[管理者]が使用するサービスの機能を実装するクラス" alt="" coords="1608,728,1815,783"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html" title="主に[管理者]が使用するサービスに機能を提供するインターフェース" alt="" coords="1197,239,1447,279"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html" title="サービスクラスでの共通処理において、各集約メソッドに中継を行うクラス" alt="" coords="1175,303,1469,343"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_change_common_methods.html" title="サービスクラスでの共通処理において、データのCRUD処理に関する処理を実装したクラス" alt="" coords="643,48,914,103"/>
+<area shape="rect" title=" " alt="" coords="217,5,266,31"/>
+<area shape="rect" title=" " alt="" coords="153,55,330,95"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_csv_zip_pdf_common_methods.html" title="サービスクラスでの共通処理において、主にCSVやPDF、ZIPのファイルを取り扱う処理を 実装したクラス" alt="" coords="637,127,920,181"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="128,119,355,159"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html" title="サービスクラスでの共通処理において、データの検索と取得関連の処理を 実装したクラス" alt="" coords="647,205,910,260"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_history___form___validator.html" title="主に[共通の履歴管理]機能で使用する、出力時のバリデーションに関する機能を提供する インターフェース" alt="" coords="138,192,345,247"/>
+<area shape="rect" title=" " alt="" coords="5,1089,79,1115"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_system___user___form___output___validator.html" title="主に[システムユーザー管理]機能で使用する、出力時のバリデーションの機能を提供する インターフェース" alt="" coords="944,1075,1151,1129"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_usage___authority___form___output___validator.html" title="主に[権限管理]機能で使用する、出力時のバリデーションの機能を提供するインターフェース" alt="" coords="379,1133,613,1188"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html" title="システムの処理中に、認証情報を取得するクラス" alt="" coords="138,277,345,317"/>
+<area shape="rect" title=" " alt="" coords="685,348,872,373"/>
+<area shape="rect" title=" " alt="" coords="707,397,850,423"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_audio___data___service.html" title="主に[音源データ情報]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1219,379,1425,433"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html" title="バイナリデータが関わり、ファイルサーバーへの通信が必要なサービスクラスへの機能を提供する インターフェース" alt="" coords="675,447,882,487"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html" title="全てのサービスクラスで共通の機能を提供するインターフェース" alt="" coords="136,639,347,679"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_normal_service.html" title="バイナリデータが関わらないデータを扱うサービスクラスにおいて、共通で使用する機能を 提供するインターフェース" alt="" coords="671,511,886,551"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_normal_service.html" title="バイナリデータが関わらないデータを扱うサービスクラスにおいて、共通で使用する機能を 提供するインターフェース" alt="" coords="671,575,886,615"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html" title="バイナリデータが関わり、ファイルサーバーへの通信が必要なサービスクラスへの機能を提供する インターフェース" alt="" coords="675,639,882,679"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_normal_service.html" title="バイナリデータが関わらないデータを扱うサービスクラスにおいて、共通で使用する機能を 提供するインターフェース" alt="" coords="671,703,886,743"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_normal_service.html" title="バイナリデータが関わらないデータを扱うサービスクラスにおいて、共通で使用する機能を 提供するインターフェース" alt="" coords="671,774,886,814"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html" title="バイナリデータが関わり、ファイルサーバーへの通信が必要なサービスクラスへの機能を提供する インターフェース" alt="" coords="675,845,882,885"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_sound___source___service.html" title="主に[音源管理]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1219,457,1425,512"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_facility___service.html" title="主に[設備管理]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1216,536,1428,591"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_facility___photo___service.html" title="主に[設備写真データ情報]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1219,615,1425,669"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_member___info___service.html" title="主に[団員管理]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1217,693,1427,748"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_musical___score___service.html" title="主に[楽譜管理]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1218,772,1426,827"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_score___pdf___service.html" title="主に[楽譜データ情報]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1219,851,1425,905"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html" title="主に[システムユーザー管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="1218,929,1426,984"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="670,929,887,984"/>
+<area shape="rect" title=" " alt="" coords="160,1003,323,1028"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="670,1008,887,1063"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html" title="主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="1219,1008,1425,1063"/>
+<area shape="rect" title=" " alt="" coords="1239,1201,1405,1227"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:aa4247e4dd97eb3c984a81a115b6099b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aa4247e4dd97eb3c984a81a115b6099b5">accountList</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:aa4247e4dd97eb3c984a81a115b6099b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aa4247e4dd97eb3c984a81a115b6099b5">[詳解]</a><br /></td></tr>
+<tr class="separator:aa4247e4dd97eb3c984a81a115b6099b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b5ba612a131b5d44f7288a0fab2c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a55b5ba612a131b5d44f7288a0fab2c2f">authList</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a55b5ba612a131b5d44f7288a0fab2c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a55b5ba612a131b5d44f7288a0fab2c2f">[詳解]</a><br /></td></tr>
+<tr class="separator:a55b5ba612a131b5d44f7288a0fab2c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f17aea015f4ea7f0df5cdd24e99f2a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a3f17aea015f4ea7f0df5cdd24e99f2a6">changeAccount</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_system___user___form.html">System_User_Form</a> form)  throws Exception </td></tr>
+<tr class="memdesc:a3f17aea015f4ea7f0df5cdd24e99f2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡されたシステムユーザー情報をデータベース内に格納する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a3f17aea015f4ea7f0df5cdd24e99f2a6">[詳解]</a><br /></td></tr>
+<tr class="separator:a3f17aea015f4ea7f0df5cdd24e99f2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f8bbcab84067204bea7705fc64cce3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a91f8bbcab84067204bea7705fc64cce3">changeAuth</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form.html">Usage_Authority_Form</a> form)  throws Exception </td></tr>
+<tr class="memdesc:a91f8bbcab84067204bea7705fc64cce3"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡された権限情報をデータベース内に格納する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a91f8bbcab84067204bea7705fc64cce3">[詳解]</a><br /></td></tr>
+<tr class="separator:a91f8bbcab84067204bea7705fc64cce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c692f04625808e49f643c807312d1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a79c692f04625808e49f643c807312d1f">checkAccount</a> (String member_id)  throws Exception, DataEmptyException, OutputDataFailedException </td></tr>
+<tr class="memdesc:a79c692f04625808e49f643c807312d1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された団員番号に対応する情報を、個別にデータベースから取得する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a79c692f04625808e49f643c807312d1f">[詳解]</a><br /></td></tr>
+<tr class="separator:a79c692f04625808e49f643c807312d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c8d3d7bfc2fc12277d6d88b3dd2495"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a80c8d3d7bfc2fc12277d6d88b3dd2495">checkAuth</a> (String auth_id)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a80c8d3d7bfc2fc12277d6d88b3dd2495"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された権限番号に対応する情報を、個別にデータベースから取得する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a80c8d3d7bfc2fc12277d6d88b3dd2495">[詳解]</a><br /></td></tr>
+<tr class="separator:a80c8d3d7bfc2fc12277d6d88b3dd2495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ccb00359b7fb96687cc10d78f4800f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a61ccb00359b7fb96687cc10d78f4800f">deleteAccount</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException </td></tr>
+<tr class="memdesc:a61ccb00359b7fb96687cc10d78f4800f"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたシステムユーザーデータ内のシリアルナンバーのデータを削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a61ccb00359b7fb96687cc10d78f4800f">[詳解]</a><br /></td></tr>
+<tr class="separator:a61ccb00359b7fb96687cc10d78f4800f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67dd8913c49cf363a8ef1ef6b084c6f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a67dd8913c49cf363a8ef1ef6b084c6f4">deleteAuth</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException </td></tr>
+<tr class="memdesc:a67dd8913c49cf363a8ef1ef6b084c6f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された権限データ内のシリアルナンバーのデータを削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a67dd8913c49cf363a8ef1ef6b084c6f4">[詳解]</a><br /></td></tr>
+<tr class="separator:a67dd8913c49cf363a8ef1ef6b084c6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7c949a28374abd48373263c7e027e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#ace7c949a28374abd48373263c7e027e5">deleteHistory</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a> form)  throws Exception </td></tr>
+<tr class="memdesc:ace7c949a28374abd48373263c7e027e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたテーブルの、指定された期間内の履歴データを削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#ace7c949a28374abd48373263c7e027e5">[詳解]</a><br /></td></tr>
+<tr class="separator:ace7c949a28374abd48373263c7e027e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f0e8c527beb7189a6051bf2055fb1a"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a66f0e8c527beb7189a6051bf2055fb1a">mapPacking</a> (List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt; data_list)  throws Exception</td></tr>
+<tr class="memdesc:a66f0e8c527beb7189a6051bf2055fb1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a66f0e8c527beb7189a6051bf2055fb1a">[詳解]</a><br /></td></tr>
+<tr class="separator:a66f0e8c527beb7189a6051bf2055fb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abffdac39c857f9fa80c6257157d88f0e"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#abffdac39c857f9fa80c6257157d88f0e">parseString</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> entity)  throws Exception </td></tr>
+<tr class="memdesc:abffdac39c857f9fa80c6257157d88f0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#abffdac39c857f9fa80c6257157d88f0e">[詳解]</a><br /></td></tr>
+<tr class="separator:abffdac39c857f9fa80c6257157d88f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a624d6f339c1dfa7708b9029ae0ff6dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a624d6f339c1dfa7708b9029ae0ff6dc0">accountList</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a624d6f339c1dfa7708b9029ae0ff6dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a624d6f339c1dfa7708b9029ae0ff6dc0">[詳解]</a><br /></td></tr>
+<tr class="separator:a624d6f339c1dfa7708b9029ae0ff6dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9947803fc0776265f9c29127e7116522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a9947803fc0776265f9c29127e7116522">authList</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a9947803fc0776265f9c29127e7116522"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a9947803fc0776265f9c29127e7116522">[詳解]</a><br /></td></tr>
+<tr class="separator:a9947803fc0776265f9c29127e7116522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc59511554e24833ab384d8d4899482"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#acfc59511554e24833ab384d8d4899482">changeAccount</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_system___user___form.html">System_User_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:acfc59511554e24833ab384d8d4899482"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡されたシステムユーザー情報をデータベース内に格納する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#acfc59511554e24833ab384d8d4899482">[詳解]</a><br /></td></tr>
+<tr class="separator:acfc59511554e24833ab384d8d4899482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0b180c0cd8dcb45019f32837cd0f98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a6a0b180c0cd8dcb45019f32837cd0f98">changeAuth</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form.html">Usage_Authority_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:a6a0b180c0cd8dcb45019f32837cd0f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡された権限情報をデータベース内に格納する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a6a0b180c0cd8dcb45019f32837cd0f98">[詳解]</a><br /></td></tr>
+<tr class="separator:a6a0b180c0cd8dcb45019f32837cd0f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2b91fd6c2fbc7eda6914d7f201ef4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#aac2b91fd6c2fbc7eda6914d7f201ef4b">checkAccount</a> (String member_id)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:aac2b91fd6c2fbc7eda6914d7f201ef4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された団員番号に対応する情報を、個別にデータベースから取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#aac2b91fd6c2fbc7eda6914d7f201ef4b">[詳解]</a><br /></td></tr>
+<tr class="separator:aac2b91fd6c2fbc7eda6914d7f201ef4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3786eabb484adfc2faa691b8187a0131"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a3786eabb484adfc2faa691b8187a0131">checkAuth</a> (String auth_id)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a3786eabb484adfc2faa691b8187a0131"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された権限番号に対応する情報を、個別にデータベースから取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a3786eabb484adfc2faa691b8187a0131">[詳解]</a><br /></td></tr>
+<tr class="separator:a3786eabb484adfc2faa691b8187a0131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d0ab7d39bc348f9925c3e4be71c4b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a33d0ab7d39bc348f9925c3e4be71c4b0">deleteAccount</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:a33d0ab7d39bc348f9925c3e4be71c4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたシステムユーザーデータ内のシリアルナンバーのデータを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a33d0ab7d39bc348f9925c3e4be71c4b0">[詳解]</a><br /></td></tr>
+<tr class="separator:a33d0ab7d39bc348f9925c3e4be71c4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e7428e79a84b07c429ef5051274521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ac1e7428e79a84b07c429ef5051274521">deleteAuth</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:ac1e7428e79a84b07c429ef5051274521"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された権限データ内のシリアルナンバーのデータを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ac1e7428e79a84b07c429ef5051274521">[詳解]</a><br /></td></tr>
+<tr class="separator:ac1e7428e79a84b07c429ef5051274521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30050625ae202e1463f4dbec51e05dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad30050625ae202e1463f4dbec51e05dd">deleteHistory</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:ad30050625ae202e1463f4dbec51e05dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたテーブルの、指定された期間内の履歴データを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad30050625ae202e1463f4dbec51e05dd">[詳解]</a><br /></td></tr>
+<tr class="separator:ad30050625ae202e1463f4dbec51e05dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9d5d208631af3711dc9714b436f0fb"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a2d9d5d208631af3711dc9714b436f0fb">mapPacking</a> (List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt; data_list)  throws Exception</td></tr>
+<tr class="memdesc:a2d9d5d208631af3711dc9714b436f0fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a2d9d5d208631af3711dc9714b436f0fb">[詳解]</a><br /></td></tr>
+<tr class="separator:a2d9d5d208631af3711dc9714b436f0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5e46972b593d15e56c13aa0acbef5a8"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad5e46972b593d15e56c13aa0acbef5a8">parseString</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> entity)  throws Exception</td></tr>
+<tr class="memdesc:ad5e46972b593d15e56c13aa0acbef5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad5e46972b593d15e56c13aa0acbef5a8">[詳解]</a><br /></td></tr>
+<tr class="separator:ad5e46972b593d15e56c13aa0acbef5a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:aded7ec1f7e035c9569692ddef7f36f9b"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_audio___data___service.html">Audio_Data_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aded7ec1f7e035c9569692ddef7f36f9b">audio_serv</a></td></tr>
+<tr class="separator:aded7ec1f7e035c9569692ddef7f36f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab420786fde96650e36c0bfc6fd5ffeaa"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html">CommonUtilsService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#ab420786fde96650e36c0bfc6fd5ffeaa">common_utils</a></td></tr>
+<tr class="separator:ab420786fde96650e36c0bfc6fd5ffeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a504d6641dde7bc0b96ae78d1e8ea8717"><td class="memItemLeft" align="right" valign="top">final BCryptPasswordEncoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a504d6641dde7bc0b96ae78d1e8ea8717">encoder</a></td></tr>
+<tr class="separator:a504d6641dde7bc0b96ae78d1e8ea8717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd80a83a1504fd79c89a0e68e94f0587"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_facility___service.html">Facility_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#abd80a83a1504fd79c89a0e68e94f0587">faci_serv</a></td></tr>
+<tr class="separator:abd80a83a1504fd79c89a0e68e94f0587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac0f26af032f26eff0d0a2b9c2aad61"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_facility___photo___service.html">Facility_Photo_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aaac0f26af032f26eff0d0a2b9c2aad61">faciphoto_serv</a></td></tr>
+<tr class="separator:aaac0f26af032f26eff0d0a2b9c2aad61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09a06abceb6088735e08bc4b3406a36e"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_member___info___service.html">Member_Info_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a09a06abceb6088735e08bc4b3406a36e">membinfo_serv</a></td></tr>
+<tr class="separator:a09a06abceb6088735e08bc4b3406a36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5b90604858730fb391afe1fde03d34"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_score___pdf___service.html">Score_Pdf_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#aec5b90604858730fb391afe1fde03d34">pdf_serv</a></td></tr>
+<tr class="separator:aec5b90604858730fb391afe1fde03d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93124015b9f2cc7bffa5575412ac1a9b"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_musical___score___service.html">Musical_Score_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a93124015b9f2cc7bffa5575412ac1a9b">score_serv</a></td></tr>
+<tr class="separator:a93124015b9f2cc7bffa5575412ac1a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41044de80b3a2a38648e6b00f021a318"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_sound___source___service.html">Sound_Source_Service</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a41044de80b3a2a38648e6b00f021a318">sound_serv</a></td></tr>
+<tr class="separator:a41044de80b3a2a38648e6b00f021a318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b5567f32b710214e246e2a2cc2bd35"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html">System_User_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a33b5567f32b710214e246e2a2cc2bd35">sysuser_repo</a></td></tr>
+<tr class="separator:a33b5567f32b710214e246e2a2cc2bd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae340a18ef775bdf12355dd5f58e81f6f"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_system___user___form___output___validator.html">System_User_Form_Output_Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#ae340a18ef775bdf12355dd5f58e81f6f">sysuser_valid</a></td></tr>
+<tr class="separator:ae340a18ef775bdf12355dd5f58e81f6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccb5bc9873ffa442190c5968fafbf4b"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html">Usage_Authority_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a8ccb5bc9873ffa442190c5968fafbf4b">usaauth_repo</a></td></tr>
+<tr class="separator:a8ccb5bc9873ffa442190c5968fafbf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36cae1d601cafd7adebda5ee152fb206"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_usage___authority___form___output___validator.html">Usage_Authority_Form_Output_Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html#a36cae1d601cafd7adebda5ee152fb206">usaauth_valid</a></td></tr>
+<tr class="separator:a36cae1d601cafd7adebda5ee152fb206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[管理者]が使用するサービスの機能を実装するクラス </p>
+<ul>
+<li>このクラスでは、コントローラーの直下で実行する処理をサービスクラスとして定義する。</li>
+<li>内容としては、このシステム内に実装されている各機能を集約し、コントローラー側からすぐに 使用できる為にする実装である。</li>
+<li>なお、このクラスは多くのクラスをDIしており、このクラス自体の責務が大きいことになっているが 、サービスクラスの特性上、致し方ないものとする。ここである程度集約しておかないと、コントローラー 側の処理が膨大になってしまうからである。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>AdminService </dd>
+<dd>
+CommonUtilsService </dd>
+<dd>
+Audio_Data_Service </dd>
+<dd>
+Sound_Source_Service </dd>
+<dd>
+Facility_Service </dd>
+<dd>
+Facility_Photo_Service </dd>
+<dd>
+Member_Info_Service </dd>
+<dd>
+Musical_Score_Service </dd>
+<dd>
+Score_Pdf_Service </dd>
+<dd>
+System_User_Repo </dd>
+<dd>
+Usage_Authority_Repo </dd>
+<dd>
+System_User_Form_Output_Validator </dd>
+<dd>
+Usage_Authority_Form_Output_Validator </dd>
+<dd>
+BCryptPasswordEncoder</dd></dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Service</li>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired)) </li>
+</ul>
+</dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="aa4247e4dd97eb3c984a81a115b6099b5" name="aa4247e4dd97eb3c984a81a115b6099b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4247e4dd97eb3c984a81a115b6099b5">&#9670;&#160;</a></span>accountList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> &gt; com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.accountList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。 </p>
+<ul>
+<li>検索した結果、結果が存在しなかった場合と、検索結果を出力する際にデータに不正があって出力できない 場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時の必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>引数で渡ってきたフォームクラスを、共通の検索メソッドにわたし、検索した結果のリストを取得する。</li>
+<li>取得した結果のリストを、出力時バリデーションに投入し検査を行う。もし不正があった場合は、直ちに 処理を終了する。</li>
+<li>検査が正常に終了すれば、そのリストを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Search_Form </dd>
+<dd>
+FindAllResult </dd>
+<dd>
+System_User</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a624d6f339c1dfa7708b9029ae0ff6dc0">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_aa4247e4dd97eb3c984a81a115b6099b5_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_aa4247e4dd97eb3c984a81a115b6099b5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_aa4247e4dd97eb3c984a81a115b6099b5_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_aa4247e4dd97eb3c984a81a115b6099b5_cgraph">
+<area shape="rect" title="指定した検索ワードと検索ジャンルを用いて、条件に合致したシステムユーザーデータを全て取得する。" alt="" coords="5,45,212,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,595,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a9bcba2deb2891f7355fbd8b1f7fbda47" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="261,84,594,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="643,5,905,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ad6755a871907a3165c20d33c30ab3498" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。" alt="" coords="643,84,905,139"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a55b5ba612a131b5d44f7288a0fab2c2f" name="a55b5ba612a131b5d44f7288a0fab2c2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b5ba612a131b5d44f7288a0fab2c2f">&#9670;&#160;</a></span>authList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> &gt; com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.authList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。 </p>
+<ul>
+<li>検索した結果、結果が存在しなかった場合と、検索結果を出力する際にデータに不正があって出力できない 場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時の必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>引数で渡ってきたフォームクラスを、共通の検索メソッドにわたし、検索した結果のリストを取得する。</li>
+<li>取得した結果のリストを、出力時バリデーションに投入し検査を行う。もし不正があった場合は、直ちに 処理を終了する。</li>
+<li>検査が正常に終了すれば、そのリストを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Search_Form </dd>
+<dd>
+FindAllResult </dd>
+<dd>
+Usage_Authority</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a9947803fc0776265f9c29127e7116522">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a55b5ba612a131b5d44f7288a0fab2c2f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a55b5ba612a131b5d44f7288a0fab2c2f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a55b5ba612a131b5d44f7288a0fab2c2f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a55b5ba612a131b5d44f7288a0fab2c2f_cgraph">
+<area shape="rect" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した権限情報データを全て取得する。" alt="" coords="5,45,212,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,595,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a9bcba2deb2891f7355fbd8b1f7fbda47" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="261,84,594,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="643,5,905,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ad6755a871907a3165c20d33c30ab3498" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。" alt="" coords="643,84,905,139"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3f17aea015f4ea7f0df5cdd24e99f2a6" name="a3f17aea015f4ea7f0df5cdd24e99f2a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f17aea015f4ea7f0df5cdd24e99f2a6">&#9670;&#160;</a></span>changeAccount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.changeAccount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_system___user___form.html">System_User_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フォームから渡されたシステムユーザー情報をデータベース内に格納する。 </p>
+<ul>
+<li>このメソッドは、新規追加と更新で共用できる。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>データベースに格納する情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>引数で渡ってきたフォームクラスの「パスワード文字列」を取り出し、ハッシュ化した文字列で上書きする。</li>
+<li>データ保存の共通処理にフォームクラスをわたし、データの保存を行う。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>System_User_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#acfc59511554e24833ab384d8d4899482">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a3f17aea015f4ea7f0df5cdd24e99f2a6_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a3f17aea015f4ea7f0df5cdd24e99f2a6_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a3f17aea015f4ea7f0df5cdd24e99f2a6_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a3f17aea015f4ea7f0df5cdd24e99f2a6_cgraph">
+<area shape="rect" title="フォームから渡されたシステムユーザー情報をデータベース内に格納する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a1b32c895227fa3d6d6034be79b91aca4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,600,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_change_common_methods.html#af78b4294a701f64ea6e535b621ed1b3a" title="渡された情報をデータベースに格納する。なお、新規追加と更新で共用である。" alt="" coords="648,5,919,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a91f8bbcab84067204bea7705fc64cce3" name="a91f8bbcab84067204bea7705fc64cce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f8bbcab84067204bea7705fc64cce3">&#9670;&#160;</a></span>changeAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.changeAuth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_usage___authority___form.html">Usage_Authority_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フォームから渡された権限情報をデータベース内に格納する。 </p>
+<ul>
+<li>このメソッドは、新規追加と更新で共用できる。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>データベースに格納する情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>データ保存の共通処理にフォームクラスをわたし、データの保存を行う。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority_Form </dd>
+<dd>
+Usage_Authority</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a6a0b180c0cd8dcb45019f32837cd0f98">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a91f8bbcab84067204bea7705fc64cce3_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a91f8bbcab84067204bea7705fc64cce3_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a91f8bbcab84067204bea7705fc64cce3_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a91f8bbcab84067204bea7705fc64cce3_cgraph">
+<area shape="rect" title="フォームから渡された権限情報をデータベース内に格納する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a1b32c895227fa3d6d6034be79b91aca4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,600,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_change_common_methods.html#af78b4294a701f64ea6e535b621ed1b3a" title="渡された情報をデータベースに格納する。なお、新規追加と更新で共用である。" alt="" coords="648,5,919,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a79c692f04625808e49f643c807312d1f" name="a79c692f04625808e49f643c807312d1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c692f04625808e49f643c807312d1f">&#9670;&#160;</a></span>checkAccount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_system___user.html">System_User</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.checkAccount </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>member_id</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された団員番号に対応する情報を、個別にデータベースから取得する。 </p>
+<ul>
+<li>このメソッドは、単体情報の検索時に用いられる。</li>
+<li>指定した団員番号の情報が見つからなかったり、取得したデータに不正があって出力できない場合は、特定の例外を 出し、別として扱う。</li>
+<li>その他の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>取得したデータのエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">member_id</td><td>指定する団員番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>引数で渡ってきた団員番号を用いて個別情報の検索を行い、検索した結果のエンティティを取得する。 検索した結果がなければ、専用の例外を投げる。</li>
+<li>取得したデータを出力時バリデーションに投入し検査を行う。不正があった場合は、直ちに処理を終了。</li>
+<li>検査が正常に終了すれば、そのエンティティを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>System_User</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#aac2b91fd6c2fbc7eda6914d7f201ef4b">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a79c692f04625808e49f643c807312d1f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a79c692f04625808e49f643c807312d1f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a79c692f04625808e49f643c807312d1f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a79c692f04625808e49f643c807312d1f_cgraph">
+<area shape="rect" title="指定された団員番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="5,45,212,100"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a6a5a718c5239baf7616cdfcb7a74fd8c" title="[団員番号]に完全一致するデータを一件取得する。" alt="" coords="323,5,531,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,84,595,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="643,84,905,139"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a80c8d3d7bfc2fc12277d6d88b3dd2495" name="a80c8d3d7bfc2fc12277d6d88b3dd2495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c8d3d7bfc2fc12277d6d88b3dd2495">&#9670;&#160;</a></span>checkAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_usage___authority.html">Usage_Authority</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.checkAuth </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>auth_id</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された権限番号に対応する情報を、個別にデータベースから取得する。 </p>
+<ul>
+<li>このメソッドは、単体情報の検索時に用いられる。</li>
+<li>指定した権限番号の情報が見つからなかったり、取得したデータに不正があって出力できない場合は、特定の例外を 出し、別として扱う。</li>
+<li>その他の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>取得したデータのエンティティ</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">auth_id</td><td>指定する権限番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>引数で渡ってきた権限番号を用いて個別情報の検索を行い、検索した結果のエンティティを取得する。 検索した結果がなければ、専用の例外を投げる。</li>
+<li>取得したデータを出力時バリデーションに投入し検査を行う。不正があった場合は、直ちに処理を終了。</li>
+<li>検査が正常に終了すれば、そのエンティティを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Usage_Authority</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a3786eabb484adfc2faa691b8187a0131">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a80c8d3d7bfc2fc12277d6d88b3dd2495_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a80c8d3d7bfc2fc12277d6d88b3dd2495_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a80c8d3d7bfc2fc12277d6d88b3dd2495_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a80c8d3d7bfc2fc12277d6d88b3dd2495_cgraph">
+<area shape="rect" title="指定された権限番号に対応する情報を、個別にデータベースから取得する。" alt="" coords="5,45,212,100"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a11f20ae51e6c4e87343d035f25b0d89c" title="[権限番号]に完全一致するデータを一件取得する。" alt="" coords="324,5,531,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,84,595,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="643,84,905,139"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a61ccb00359b7fb96687cc10d78f4800f" name="a61ccb00359b7fb96687cc10d78f4800f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ccb00359b7fb96687cc10d78f4800f">&#9670;&#160;</a></span>deleteAccount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.deleteAccount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたシステムユーザーデータ内のシリアルナンバーのデータを削除する。 </p>
+<ul>
+<li>削除しようとしたデータが見つからなかった場合は、特定の例外を投げ、別として対応する。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定された団員番号のデータを取得する。データが存在しなければ専用の例外を投げる。</li>
+<li>データ削除の共通処理に削除対象のデータのエンティティをわたし、データの削除を行う。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Delete_Form </dd>
+<dd>
+System_User</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a33d0ab7d39bc348f9925c3e4be71c4b0">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a61ccb00359b7fb96687cc10d78f4800f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a61ccb00359b7fb96687cc10d78f4800f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a61ccb00359b7fb96687cc10d78f4800f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a61ccb00359b7fb96687cc10d78f4800f_cgraph">
+<area shape="rect" title="指定されたシステムユーザーデータ内のシリアルナンバーのデータを削除する。" alt="" coords="5,45,212,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#abbd623dd60b6235713b9e116506c0ddb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,593,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html#a6a5a718c5239baf7616cdfcb7a74fd8c" title="[団員番号]に完全一致するデータを一件取得する。" alt="" coords="323,84,531,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_change_common_methods.html#a98cc475fc3dc7198c99b026ffb4bfb47" title="指定されたデータベース内のデータを削除する。" alt="" coords="641,5,912,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a67dd8913c49cf363a8ef1ef6b084c6f4" name="a67dd8913c49cf363a8ef1ef6b084c6f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67dd8913c49cf363a8ef1ef6b084c6f4">&#9670;&#160;</a></span>deleteAuth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.deleteAuth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された権限データ内のシリアルナンバーのデータを削除する。 </p>
+<ul>
+<li>削除しようとしたデータが見つからなかった場合は、特定の例外を投げ、別として対応する。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定された権限番号のデータを取得する。データが存在しなければ専用の例外を投げる。</li>
+<li>データ削除の共通処理に削除対象のデータのエンティティをわたし、データの削除を行う。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Delete_Form </dd>
+<dd>
+Usage_Authority</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ac1e7428e79a84b07c429ef5051274521">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a67dd8913c49cf363a8ef1ef6b084c6f4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a67dd8913c49cf363a8ef1ef6b084c6f4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a67dd8913c49cf363a8ef1ef6b084c6f4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a67dd8913c49cf363a8ef1ef6b084c6f4_cgraph">
+<area shape="rect" title="指定された権限データ内のシリアルナンバーのデータを削除する。" alt="" coords="5,45,212,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#abbd623dd60b6235713b9e116506c0ddb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,593,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html#a11f20ae51e6c4e87343d035f25b0d89c" title="[権限番号]に完全一致するデータを一件取得する。" alt="" coords="323,84,530,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_change_common_methods.html#a98cc475fc3dc7198c99b026ffb4bfb47" title="指定されたデータベース内のデータを削除する。" alt="" coords="641,5,912,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ace7c949a28374abd48373263c7e027e5" name="ace7c949a28374abd48373263c7e027e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace7c949a28374abd48373263c7e027e5">&#9670;&#160;</a></span>deleteHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.deleteHistory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたテーブルの、指定された期間内の履歴データを削除する。 </p>
+<ul>
+<li>複数のテーブルの履歴情報をまとめて削除する際に、並列処理ができるようにする。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>フォームから指定されたテーブルの名前を抜き出し、削除処理を行う機能を指定する。</li>
+<li>指定された期間の履歴情報を指定し、その期間の履歴情報を削除する。</li>
+<li>全機能を履歴の削除を指定された場合は、すべての削除処理を並列で実行する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Del_Indivi_Hist_Form</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad30050625ae202e1463f4dbec51e05dd">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_ace7c949a28374abd48373263c7e027e5_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_ace7c949a28374abd48373263c7e027e5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_ace7c949a28374abd48373263c7e027e5_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_ace7c949a28374abd48373263c7e027e5_cgraph">
+<area shape="rect" title="指定されたテーブルの、指定された期間内の履歴データを削除する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad69937ec3d92c32f3b359dc779f0b2c5" title="指定された期間内の履歴データを削除する。" alt="" coords="260,13,503,53"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a66f0e8c527beb7189a6051bf2055fb1a" name="a66f0e8c527beb7189a6051bf2055fb1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f0e8c527beb7189a6051bf2055fb1a">&#9670;&#160;</a></span>mapPacking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; String, String &gt; &gt; com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.mapPacking </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt;&#160;</td>
+          <td class="paramname"><em>data_list</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。 </p>
+<ul>
+<li>このメソッドは、データの画面出力時は文字列である必要があることから、フロント側にデータを渡す直前に 行う。</li>
+<li>処理内容としては、ただ単にエンティティ内に備わっている文字列変換出力メソッドを実行するだけである。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列変換したデータのマップリストを格納したリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_list</td><td>変換対象となるデータが入ったエンティティのリスト</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#a2d9d5d208631af3711dc9714b436f0fb">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a66f0e8c527beb7189a6051bf2055fb1a_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a66f0e8c527beb7189a6051bf2055fb1a_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a66f0e8c527beb7189a6051bf2055fb1a_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_a66f0e8c527beb7189a6051bf2055fb1a_cgraph">
+<area shape="rect" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#ae856cbf02814242f12474731ca69f42a" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,583,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ab47efa0bc3819a1f5afa491cdf9dd0a1" title="指定されたエンティティリスト内のデータを文字列に変換し、マップデータのリストとして返却する。" alt="" coords="631,5,893,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abffdac39c857f9fa80c6257157d88f0e" name="abffdac39c857f9fa80c6257157d88f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abffdac39c857f9fa80c6257157d88f0e">&#9670;&#160;</a></span>parseString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.parseString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。 </p>
+<ul>
+<li>このメソッドは、データの画面出力時は文字列である必要があることから、フロント側にデータを渡す直前に 行う。</li>
+<li>処理内容としては、ただ単にエンティティ内に備わっている文字列変換出力メソッドを実行するだけである。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列変換したデータのマップリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>変換対象となるデータが入ったエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_admin___service.html#ad5e46972b593d15e56c13aa0acbef5a8">com.springproject.dockerspring.Service.ServiceInterface.Admin_Service</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_abffdac39c857f9fa80c6257157d88f0e_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_abffdac39c857f9fa80c6257157d88f0e_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_abffdac39c857f9fa80c6257157d88f0e_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl_abffdac39c857f9fa80c6257157d88f0e_cgraph">
+<area shape="rect" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#ab1786abf56a37c258d137053b528c8db" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,591,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a352faffc062c00e727cd52ab71814bc0" title="指定されたエンティティ内のデータを文字列に変換し、マップデータとして返却する。" alt="" coords="639,5,901,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html#a2565a1f39f5aeb2572bcea5297b93345" title="現在ログイン中のユーザーが、管理者権限を持っているか確認する。" alt="" coords="949,5,1180,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_entity_1_1_account_details.html#a7b33c495cc73c8b8115a3b4e87ee1483" title="格納済みの権限情報のリストを取得する。" alt="" coords="1228,5,1451,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="aded7ec1f7e035c9569692ddef7f36f9b" name="aded7ec1f7e035c9569692ddef7f36f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded7ec1f7e035c9569692ddef7f36f9b">&#9670;&#160;</a></span>audio_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_audio___data___service.html">Audio_Data_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.audio_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab420786fde96650e36c0bfc6fd5ffeaa" name="ab420786fde96650e36c0bfc6fd5ffeaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab420786fde96650e36c0bfc6fd5ffeaa">&#9670;&#160;</a></span>common_utils</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html">CommonUtilsService</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.common_utils</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a504d6641dde7bc0b96ae78d1e8ea8717" name="a504d6641dde7bc0b96ae78d1e8ea8717"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a504d6641dde7bc0b96ae78d1e8ea8717">&#9670;&#160;</a></span>encoder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final BCryptPasswordEncoder com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.encoder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd80a83a1504fd79c89a0e68e94f0587" name="abd80a83a1504fd79c89a0e68e94f0587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd80a83a1504fd79c89a0e68e94f0587">&#9670;&#160;</a></span>faci_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_facility___service.html">Facility_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.faci_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaac0f26af032f26eff0d0a2b9c2aad61" name="aaac0f26af032f26eff0d0a2b9c2aad61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac0f26af032f26eff0d0a2b9c2aad61">&#9670;&#160;</a></span>faciphoto_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_facility___photo___service.html">Facility_Photo_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.faciphoto_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a09a06abceb6088735e08bc4b3406a36e" name="a09a06abceb6088735e08bc4b3406a36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09a06abceb6088735e08bc4b3406a36e">&#9670;&#160;</a></span>membinfo_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_member___info___service.html">Member_Info_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.membinfo_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec5b90604858730fb391afe1fde03d34" name="aec5b90604858730fb391afe1fde03d34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5b90604858730fb391afe1fde03d34">&#9670;&#160;</a></span>pdf_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_score___pdf___service.html">Score_Pdf_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.pdf_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93124015b9f2cc7bffa5575412ac1a9b" name="a93124015b9f2cc7bffa5575412ac1a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93124015b9f2cc7bffa5575412ac1a9b">&#9670;&#160;</a></span>score_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_musical___score___service.html">Musical_Score_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.score_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41044de80b3a2a38648e6b00f021a318" name="a41044de80b3a2a38648e6b00f021a318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41044de80b3a2a38648e6b00f021a318">&#9670;&#160;</a></span>sound_serv</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_sound___source___service.html">Sound_Source_Service</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.sound_serv</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33b5567f32b710214e246e2a2cc2bd35" name="a33b5567f32b710214e246e2a2cc2bd35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b5567f32b710214e246e2a2cc2bd35">&#9670;&#160;</a></span>sysuser_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html">System_User_Repo</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.sysuser_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae340a18ef775bdf12355dd5f58e81f6f" name="ae340a18ef775bdf12355dd5f58e81f6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae340a18ef775bdf12355dd5f58e81f6f">&#9670;&#160;</a></span>sysuser_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_system___user___form___output___validator.html">System_User_Form_Output_Validator</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.sysuser_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8ccb5bc9873ffa442190c5968fafbf4b" name="a8ccb5bc9873ffa442190c5968fafbf4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ccb5bc9873ffa442190c5968fafbf4b">&#9670;&#160;</a></span>usaauth_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html">Usage_Authority_Repo</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.usaauth_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36cae1d601cafd7adebda5ee152fb206" name="a36cae1d601cafd7adebda5ee152fb206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36cae1d601cafd7adebda5ee152fb206">&#9670;&#160;</a></span>usaauth_valid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_usage___authority___form___output___validator.html">Usage_Authority_Form_Output_Validator</a> com.springproject.dockerspring.Service.ServiceImpl.Admin_ServiceImpl.usaauth_valid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Service/ServiceImpl/<a class="el" href="_admin___service_impl_8java.html">Admin_ServiceImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service.html">Service</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl.html">ServiceImpl</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_admin___service_impl.html">Admin_ServiceImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

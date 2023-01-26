@@ -1,0 +1,1382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[音源データ管理機能]が使用するサービスの機能を実装するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_service_8_service_impl_8_audio___data___service_impl_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_service_8_service_impl_8_audio___data___service_impl_inherit__map" id="acom_8springproject_8dockerspring_8_service_8_service_impl_8_audio___data___service_impl_inherit__map">
+<area shape="rect" title="主に[音源データ管理機能]が使用するサービスの機能を実装するクラス" alt="" coords="7,284,214,339"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_audio___data___service.html" title="主に[音源データ情報]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="7,181,214,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html" title="バイナリデータが関わり、ファイルサーバーへの通信が必要なサービスクラスへの機能を提供する インターフェース" alt="" coords="7,93,214,133"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html" title="全てのサービスクラスで共通の機能を提供するインターフェース" alt="" coords="5,5,216,45"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_service_8_service_impl_8_audio___data___service_impl_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_service_8_service_impl_8_audio___data___service_impl_coll__map" id="acom_8springproject_8dockerspring_8_service_8_service_impl_8_audio___data___service_impl_coll__map">
+<area shape="rect" title="主に[音源データ管理機能]が使用するサービスの機能を実装するクラス" alt="" coords="1445,591,1652,646"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_interface_1_1_audio___data___service.html" title="主に[音源データ情報]機能で使用する、全体の処理を総合的に実施するサービスに実装する機能を 提供するインターフェース" alt="" coords="1061,65,1268,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html" title="バイナリデータが関わり、ファイルサーバーへの通信が必要なサービスクラスへの機能を提供する インターフェース" alt="" coords="647,16,854,56"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html" title="全てのサービスクラスで共通の機能を提供するインターフェース" alt="" coords="136,5,347,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html" title="サービスクラスでの共通処理において、各集約メソッドに中継を行うクラス" alt="" coords="1017,357,1312,397"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_change_common_methods.html" title="サービスクラスでの共通処理において、データのCRUD処理に関する処理を実装したクラス" alt="" coords="615,91,886,146"/>
+<area shape="rect" title=" " alt="" coords="217,134,266,159"/>
+<area shape="rect" title=" " alt="" coords="153,69,330,109"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_csv_zip_pdf_common_methods.html" title="サービスクラスでの共通処理において、主にCSVやPDF、ZIPのファイルを取り扱う処理を 実装したクラス" alt="" coords="609,271,892,326"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="128,244,355,284"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html" title="サービスクラスでの共通処理において、データの検索と取得関連の処理を 実装したクラス" alt="" coords="619,350,882,405"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_history___form___validator.html" title="主に[共通の履歴管理]機能で使用する、出力時のバリデーションに関する機能を提供する インターフェース" alt="" coords="138,331,345,386"/>
+<area shape="rect" title=" " alt="" coords="5,645,79,670"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___name___form___validator.html" title="主に[出力時の共通のバイナリデータファイル名のバリデーション]機能で使用する、出力時に 指定されたバイナリデータのファイル名のバリデーション機能を提供するインターフェース" alt="" coords="379,787,585,842"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html" title="システムの処理中に、認証情報を取得するクラス" alt="" coords="138,419,345,459"/>
+<area shape="rect" title=" " alt="" coords="657,493,844,518"/>
+<area shape="rect" title=" " alt="" coords="679,222,822,247"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_audio___data___repo.html" title="主に[音源データ情報]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="1061,513,1268,567"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="642,542,859,597"/>
+<area shape="rect" title=" " alt="" coords="160,595,323,621"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="642,621,859,675"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html" title="主に[音源データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="1061,591,1268,646"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_audio___data___samba.html" title="主に[音源データ情報]機能で使用する、ファイルサーバーとの通信を行うクラスに 機能を提供するインターフェース。" alt="" coords="1061,670,1268,725"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html" title="バイナリデータのファイルサーバーとの通信で使用する機能を提供したインターフェース" alt="" coords="641,700,860,740"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_audio___data___zip.html" title="主に[音源データ情報]機能で使用する、バイナリデータの圧縮ファイルを入出力する 機能を提供するインターフェース" alt="" coords="1061,749,1268,803"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_zip.html" title="バイナリデータの圧縮ファイルを入出力する機能を提供するインターフェース" alt="" coords="647,764,854,804"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_audio___data___zip___form.html" title="主に[音源データ情報]機能で使用する、入力されたZIPファイルのバリデーションを行う 機能を提供するインターフェース" alt="" coords="1061,827,1268,882"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___validation.html" title="共通の入力時のバイナリデータのバリデーションの際に用いる機能を提供を行う インターフェース" alt="" coords="636,835,865,875"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:afd212acee20e0a7db4d17e1755decadb"><td class="memItemLeft" align="right" valign="top">Map&lt; Integer, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#afd212acee20e0a7db4d17e1755decadb">changeData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_blob___data___form.html">Blob_Data_Form</a> form, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_util_enum_1_1_history___kind___enum.html">History_Kind_Enum</a> hist_kind)  throws Exception</td></tr>
+<tr class="memdesc:afd212acee20e0a7db4d17e1755decadb"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡された情報をデータベースとファイルサーバーでペアにして格納する。なお、この メソッドには、複数のバイナリデータをまとめて保存することが可能である。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#afd212acee20e0a7db4d17e1755decadb">[詳解]</a><br /></td></tr>
+<tr class="separator:afd212acee20e0a7db4d17e1755decadb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ed76b26e89deb20a60f68b414ca31b"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a48ed76b26e89deb20a60f68b414ca31b">checkMaxLimitData</a> (String sound_id, int input_count)  throws Exception </td></tr>
+<tr class="memdesc:a48ed76b26e89deb20a60f68b414ca31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定の音源番号で、指定した個数のバイナリデータを追加保存しようとした際に、環境変数で 定められている一つの音源番号当たりの保存制限数を超えないか判定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a48ed76b26e89deb20a60f68b414ca31b">[詳解]</a><br /></td></tr>
+<tr class="separator:a48ed76b26e89deb20a60f68b414ca31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5bea9ab4e5245c044ed32e407dc2c22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae5bea9ab4e5245c044ed32e407dc2c22">deleteAllData</a> (String id)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:ae5bea9ab4e5245c044ed32e407dc2c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定の管理番号で保存されているバイナリデータをすべて削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae5bea9ab4e5245c044ed32e407dc2c22">[詳解]</a><br /></td></tr>
+<tr class="separator:ae5bea9ab4e5245c044ed32e407dc2c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e41bf78cde0e7e13de60c03f2606c0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a0e41bf78cde0e7e13de60c03f2606c0b">deleteData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException </td></tr>
+<tr class="memdesc:a0e41bf78cde0e7e13de60c03f2606c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された通常データ内のシリアルナンバーのデータを削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a0e41bf78cde0e7e13de60c03f2606c0b">[詳解]</a><br /></td></tr>
+<tr class="separator:a0e41bf78cde0e7e13de60c03f2606c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11adb9bdf0266dca41b19b12fd9e542c"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a11adb9bdf0266dca41b19b12fd9e542c">deleteHistory</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a> form)  throws DataEmptyException, Exception </td></tr>
+<tr class="memdesc:a11adb9bdf0266dca41b19b12fd9e542c"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された期間内の履歴データを削除する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a11adb9bdf0266dca41b19b12fd9e542c">[詳解]</a><br /></td></tr>
+<tr class="separator:a11adb9bdf0266dca41b19b12fd9e542c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af809813b88e11375f676755cc3028675"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#af809813b88e11375f676755cc3028675">inputZip</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_zip___form.html">Zip_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:af809813b88e11375f676755cc3028675"><td class="mdescLeft">&#160;</td><td class="mdescRight">入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#af809813b88e11375f676755cc3028675">[詳解]</a><br /></td></tr>
+<tr class="separator:af809813b88e11375f676755cc3028675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd758219d4f57fce72fea2dceb1321b0"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#afd758219d4f57fce72fea2dceb1321b0">mapPacking</a> (List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt; data_list)  throws Exception </td></tr>
+<tr class="memdesc:afd758219d4f57fce72fea2dceb1321b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#afd758219d4f57fce72fea2dceb1321b0">[詳解]</a><br /></td></tr>
+<tr class="separator:afd758219d4f57fce72fea2dceb1321b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae22c9cac6e1677d8adc5e72bfad8ef87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae22c9cac6e1677d8adc5e72bfad8ef87">outputZip</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_zip___output___form.html">Zip_Output_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:ae22c9cac6e1677d8adc5e72bfad8ef87"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#ae22c9cac6e1677d8adc5e72bfad8ef87">[詳解]</a><br /></td></tr>
+<tr class="separator:ae22c9cac6e1677d8adc5e72bfad8ef87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a431320832edc90a878d6b690cba78fcf"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a431320832edc90a878d6b690cba78fcf">parseString</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> entity)  throws Exception </td></tr>
+<tr class="memdesc:a431320832edc90a878d6b690cba78fcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a431320832edc90a878d6b690cba78fcf">[詳解]</a><br /></td></tr>
+<tr class="separator:a431320832edc90a878d6b690cba78fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9e5d6b681e54e664902891f336c201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7d9e5d6b681e54e664902891f336c201">rollbackData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_rollback___form.html">Rollback_Form</a> form)  throws Exception, DataEmptyException, OverCountException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a7d9e5d6b681e54e664902891f336c201"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された履歴番号の履歴情報を、通常データにロールバックして復元する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7d9e5d6b681e54e664902891f336c201">[詳解]</a><br /></td></tr>
+<tr class="separator:a7d9e5d6b681e54e664902891f336c201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd4795c0a25918e04e925ddf15d0dcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_audio___data.html">Audio_Data</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7fd4795c0a25918e04e925ddf15d0dcd">selectAllData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a7fd4795c0a25918e04e925ddf15d0dcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7fd4795c0a25918e04e925ddf15d0dcd">[詳解]</a><br /></td></tr>
+<tr class="separator:a7fd4795c0a25918e04e925ddf15d0dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ab0f9490b0a1a289ecc0015c9a2773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a83ab0f9490b0a1a289ecc0015c9a2773">selectBlobData</a> (Integer num_id, Boolean hist)  throws DataEmptyException, OutputDataFailedException, Exception </td></tr>
+<tr class="memdesc:a83ab0f9490b0a1a289ecc0015c9a2773"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a83ab0f9490b0a1a289ecc0015c9a2773">[詳解]</a><br /></td></tr>
+<tr class="separator:a83ab0f9490b0a1a289ecc0015c9a2773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad3c9d7ab45f576612372521ed42e947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#aad3c9d7ab45f576612372521ed42e947">selectHist</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___hist___get___form.html">Com_Hist_Get_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:aad3c9d7ab45f576612372521ed42e947"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#aad3c9d7ab45f576612372521ed42e947">[詳解]</a><br /></td></tr>
+<tr class="separator:aad3c9d7ab45f576612372521ed42e947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e17d5fd0b14725a7fba84a47276fc9"><td class="memItemLeft" align="right" valign="top">Map&lt; Integer, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#ad6e17d5fd0b14725a7fba84a47276fc9">changeData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_blob___data___form.html">Blob_Data_Form</a> form, <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_util_enum_1_1_history___kind___enum.html">History_Kind_Enum</a> hist_kind)  throws Exception</td></tr>
+<tr class="memdesc:ad6e17d5fd0b14725a7fba84a47276fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">フォームから渡された情報をデータベースとファイルサーバーでペアにして格納する。なお、この メソッドには、複数のバイナリデータをまとめて保存することが可能である。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#ad6e17d5fd0b14725a7fba84a47276fc9">[詳解]</a><br /></td></tr>
+<tr class="separator:ad6e17d5fd0b14725a7fba84a47276fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0844ddeca11d2e5378e60db78dc2e4"><td class="memItemLeft" align="right" valign="top">Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a7a0844ddeca11d2e5378e60db78dc2e4">checkMaxLimitData</a> (String id, int input_count)  throws Exception</td></tr>
+<tr class="memdesc:a7a0844ddeca11d2e5378e60db78dc2e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定の管理番号で、指定した個数のバイナリデータを追加保存しようとした際に、環境変数で定められている 一つの管理番号当たりの保存制限数を超えないか判定する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a7a0844ddeca11d2e5378e60db78dc2e4">[詳解]</a><br /></td></tr>
+<tr class="separator:a7a0844ddeca11d2e5378e60db78dc2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07a8d27275a0399421780fac8c4c3dc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a07a8d27275a0399421780fac8c4c3dc6">deleteAllData</a> (String id)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:a07a8d27275a0399421780fac8c4c3dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定の管理番号で保存されているバイナリデータをすべて削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a07a8d27275a0399421780fac8c4c3dc6">[詳解]</a><br /></td></tr>
+<tr class="separator:a07a8d27275a0399421780fac8c4c3dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec412d3b0fe5baa23642afa856827fd1"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#aec412d3b0fe5baa23642afa856827fd1">inputZip</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_zip___form.html">Zip_Form</a> form)  throws Exception</td></tr>
+<tr class="memdesc:aec412d3b0fe5baa23642afa856827fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#aec412d3b0fe5baa23642afa856827fd1">[詳解]</a><br /></td></tr>
+<tr class="separator:aec412d3b0fe5baa23642afa856827fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60cc331dc9802533b708eb6290ffdbe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a60cc331dc9802533b708eb6290ffdbe5">outputZip</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_zip___output___form.html">Zip_Output_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a60cc331dc9802533b708eb6290ffdbe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a60cc331dc9802533b708eb6290ffdbe5">[詳解]</a><br /></td></tr>
+<tr class="separator:a60cc331dc9802533b708eb6290ffdbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49410cdbb39a786ba293d77aaac7f9a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a49410cdbb39a786ba293d77aaac7f9a9">selectBlobData</a> (Integer num_id, Boolean hist)  throws DataEmptyException, OutputDataFailedException, Exception</td></tr>
+<tr class="memdesc:a49410cdbb39a786ba293d77aaac7f9a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a49410cdbb39a786ba293d77aaac7f9a9">[詳解]</a><br /></td></tr>
+<tr class="separator:a49410cdbb39a786ba293d77aaac7f9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28117feb80e96aeb61ba5405226279ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a28117feb80e96aeb61ba5405226279ea">deleteData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a> form)  throws Exception, DataEmptyException</td></tr>
+<tr class="memdesc:a28117feb80e96aeb61ba5405226279ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された通常データ内のシリアルナンバーのデータを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a28117feb80e96aeb61ba5405226279ea">[詳解]</a><br /></td></tr>
+<tr class="separator:a28117feb80e96aeb61ba5405226279ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69937ec3d92c32f3b359dc779f0b2c5"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad69937ec3d92c32f3b359dc779f0b2c5">deleteHistory</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a> form)  throws DataEmptyException, Exception</td></tr>
+<tr class="memdesc:ad69937ec3d92c32f3b359dc779f0b2c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された期間内の履歴データを削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad69937ec3d92c32f3b359dc779f0b2c5">[詳解]</a><br /></td></tr>
+<tr class="separator:ad69937ec3d92c32f3b359dc779f0b2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a282c85dc2fdb199c53b50830b7b887fc"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a282c85dc2fdb199c53b50830b7b887fc">mapPacking</a> (List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt; data_list)  throws Exception</td></tr>
+<tr class="memdesc:a282c85dc2fdb199c53b50830b7b887fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a282c85dc2fdb199c53b50830b7b887fc">[詳解]</a><br /></td></tr>
+<tr class="separator:a282c85dc2fdb199c53b50830b7b887fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5c7eb783af1d05e0d4933cb700ebe59"><td class="memItemLeft" align="right" valign="top">Map&lt; String, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad5c7eb783af1d05e0d4933cb700ebe59">parseString</a> (<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> entity)  throws Exception</td></tr>
+<tr class="memdesc:ad5c7eb783af1d05e0d4933cb700ebe59"><td class="mdescLeft">&#160;</td><td class="mdescRight">引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad5c7eb783af1d05e0d4933cb700ebe59">[詳解]</a><br /></td></tr>
+<tr class="separator:ad5c7eb783af1d05e0d4933cb700ebe59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a945fda090f490f5d1ec9944a4a18f408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a945fda090f490f5d1ec9944a4a18f408">rollbackData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_rollback___form.html">Rollback_Form</a> form)  throws Exception, DataEmptyException, OverCountException</td></tr>
+<tr class="memdesc:a945fda090f490f5d1ec9944a4a18f408"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定された履歴番号の履歴情報を、通常データにロールバックして復元する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a945fda090f490f5d1ec9944a4a18f408">[詳解]</a><br /></td></tr>
+<tr class="separator:a945fda090f490f5d1ec9944a4a18f408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ef86f98b9b57d0b9cf4a51144f3411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a07ef86f98b9b57d0b9cf4a51144f3411">selectAllData</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:a07ef86f98b9b57d0b9cf4a51144f3411"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a07ef86f98b9b57d0b9cf4a51144f3411">[詳解]</a><br /></td></tr>
+<tr class="separator:a07ef86f98b9b57d0b9cf4a51144f3411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4b2d4a3a95f3243c13a3ee620a2e70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; H &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ade4b2d4a3a95f3243c13a3ee620a2e70">selectHist</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___hist___get___form.html">Com_Hist_Get_Form</a> form)  throws Exception, DataEmptyException, OutputDataFailedException</td></tr>
+<tr class="memdesc:ade4b2d4a3a95f3243c13a3ee620a2e70"><td class="mdescLeft">&#160;</td><td class="mdescRight">指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ade4b2d4a3a95f3243c13a3ee620a2e70">[詳解]</a><br /></td></tr>
+<tr class="separator:ade4b2d4a3a95f3243c13a3ee620a2e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a7923ece1fac81fbf9078252701bae98a"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html">CommonUtilsService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a7923ece1fac81fbf9078252701bae98a">common_utils</a></td></tr>
+<tr class="separator:a7923ece1fac81fbf9078252701bae98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1022c8d8d25a56eeb2ccf415eab83cdf"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a1022c8d8d25a56eeb2ccf415eab83cdf">config</a></td></tr>
+<tr class="separator:a1022c8d8d25a56eeb2ccf415eab83cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53720350383141488b0600d70b04b6b6"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html">Audio_Data_History_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a53720350383141488b0600d70b04b6b6">hist_repo</a></td></tr>
+<tr class="separator:a53720350383141488b0600d70b04b6b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdc5263655d9cbb310cafc0a9c1d903"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_audio___data___repo.html">Audio_Data_Repo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#adbdc5263655d9cbb310cafc0a9c1d903">normal_repo</a></td></tr>
+<tr class="separator:adbdc5263655d9cbb310cafc0a9c1d903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b02b03d08dba6531789b30ae829936c"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_audio___data___samba.html">Audio_Data_Samba</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a5b02b03d08dba6531789b30ae829936c">samba_comp</a></td></tr>
+<tr class="separator:a5b02b03d08dba6531789b30ae829936c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3b1a0d64ac364194ad36bc67f32537"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___name___form___validator.html">Blob_Name_Form_Validator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#aff3b1a0d64ac364194ad36bc67f32537">validator</a></td></tr>
+<tr class="separator:aff3b1a0d64ac364194ad36bc67f32537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b2528e195a9683b2ba77a230fdc317"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_audio___data___zip.html">Audio_Data_Zip</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a72b2528e195a9683b2ba77a230fdc317">zip_comp</a></td></tr>
+<tr class="separator:a72b2528e195a9683b2ba77a230fdc317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3147e88a3a9f0af010e9b04d1928a6a9"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_audio___data___zip___form.html">Audio_Data_Zip_Form</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html#a3147e88a3a9f0af010e9b04d1928a6a9">zip_form</a></td></tr>
+<tr class="separator:a3147e88a3a9f0af010e9b04d1928a6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[音源データ管理機能]が使用するサービスの機能を実装するクラス </p>
+<ul>
+<li>このクラスでは、コントローラーの直下で実行する処理をサービスクラスとして定義する。</li>
+<li>内容としては、このシステム内に実装されている各機能を集約し、コントローラー側からすぐに 使用できる為にする実装である。</li>
+<li>なお、このクラスは多くのクラスをDIしており、このクラス自体の責務が大きいことになっているが 、サービスクラスの特性上、致し方ないものとする。ここである程度集約しておかないと、コントローラー 側の処理が膨大になってしまうからである。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Audio_Data_Service </dd>
+<dd>
+CommonUtilsService </dd>
+<dd>
+Audio_Data_Repo </dd>
+<dd>
+Audio_Data_History_Repo </dd>
+<dd>
+Audio_Data_Samba </dd>
+<dd>
+Audio_Data_Zip </dd>
+<dd>
+Audio_Data_Zip_Form </dd>
+<dd>
+Environment_Config </dd>
+<dd>
+Blob_Name_Form_Validator</dd></dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Service</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired)) </li>
+</ul>
+</dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="afd212acee20e0a7db4d17e1755decadb" name="afd212acee20e0a7db4d17e1755decadb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd212acee20e0a7db4d17e1755decadb">&#9670;&#160;</a></span>changeData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; Integer, String &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.changeData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_blob___data___form.html">Blob_Data_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_util_enum_1_1_history___kind___enum.html">History_Kind_Enum</a>&#160;</td>
+          <td class="paramname"><em>hist_kind</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フォームから渡された情報をデータベースとファイルサーバーでペアにして格納する。なお、この メソッドには、複数のバイナリデータをまとめて保存することが可能である。 </p>
+<ul>
+<li>このメソッドは、新規追加と更新で共用できる。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+<li>戻り値であるマップリストは、バイナリデータのファイルサーバーへの保存に失敗した際に、保存に失敗した バイナリデータのファイル名を返却し、ユーザーに知らせるためにある。</li>
+<li>ファイルサーバーとデータベースとの整合性を極力保つため、トランザクションを一つのファイルごとに実施して、 コミットしている。</li>
+<li>ファイルサーバーとデータベースの整合性は、エラーが発生した場合に取ることが難しくなるため、多少の不整合は 要件上許容をしている。</li>
+<li>許容するパターンとしては、「ファイルサーバー上にはデータが存在しているが、データベース側にはペアとなる データが存在しない」である。</li>
+<li>逆に、「データベース上にはデータが存在するが、ファイルサーバー上にはペアが存在しない」のは、許容しない。</li>
+<li>これは、ファイルサーバー上のデータはデータベース上のデータを元に検索するためであり、データベース上に データが無ければ、そもそもファイルサーバー上を検索すら行わない為、ファイルサーバー上にデータが残ってしまう 分には問題ないからである。</li>
+<li>逆のパターンは、ファイルサーバー上にないデータを検索してしまうことになり、エラーが頻発する恐れがあるため 防ぐようにしている。</li>
+<li>ただ、ファイルサーバー上に余計なデータが残ってしまうのはよろしくないので、定期的なバッチ処理で削除する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>データベースとファイルサーバーに格納するデータを格納したフォームクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist_kind</td><td>履歴情報を登録する際の指定する履歴種別</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>保存に失敗したファイル名</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡されたフォームの情報や、このクラスにDIされているクラス、使用する関数型インターフェースを定義した パラメータ用のビルダークラスを作成する。</li>
+<li>作成したビルダークラスを、共通の保存メソッドに渡して処理を実行する。</li>
+<li>戻ってきたエラーリストを、戻り値として返す。ただし、正常に終了した際は、Nullとなる。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>注意点として、このメソッドは例外を内部で処理してしまい、外部に例外を出さないのでエラーハンドラで キャッチできない。コントローラー側で、戻り値の値に従い、適切に処理する必要がある。</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Blob_Data_Form </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_many_param.html" title="主に、ファイルサーバーへの保存時の個別トランザクションを実行する共通メソッドに値を渡す際の 引数のエンティティのクラス。">ManyParam</a> </dd>
+<dd>
+Audio_Data </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#ad6e17d5fd0b14725a7fba84a47276fc9">com.springproject.dockerspring.Service.BlobService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd212acee20e0a7db4d17e1755decadb_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd212acee20e0a7db4d17e1755decadb_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd212acee20e0a7db4d17e1755decadb_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd212acee20e0a7db4d17e1755decadb_cgraph">
+<area shape="rect" title="フォームから渡された情報をデータベースとファイルサーバーでペアにして格納する。なお、この メソッドには、複数のバイナリデータをまとめて保存することが可能である。" alt="" coords="5,41,212,96"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a77ab59f0a6d7f6465a0447ee42c35960" title="指定されたバイナリデータを、データベースとファイルサーバーで紐付けて保存する。" alt="" coords="260,41,583,96"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service_1_1_blob_entity_function.html#ae0adeef49d3844b84ff98357849a6df1" title=" " alt="" coords="631,5,929,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html#a033f5deadc83c1d89a658bbbf5a45924" title="指定されたファイルのハッシュ値を計算し、ハッシュ文字を返す。" alt="" coords="637,85,923,125"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a48ed76b26e89deb20a60f68b414ca31b" name="a48ed76b26e89deb20a60f68b414ca31b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ed76b26e89deb20a60f68b414ca31b">&#9670;&#160;</a></span>checkMaxLimitData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Boolean com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.checkMaxLimitData </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>sound_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>input_count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定の音源番号で、指定した個数のバイナリデータを追加保存しようとした際に、環境変数で 定められている一つの音源番号当たりの保存制限数を超えないか判定する。 </p>
+<ul>
+<li>このメソッドは、データの新規追加や、ロールバックの際にバイナリデータの保存制限数を超えてしまわないかを 判定する。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>判定結果の真偽値（合格なら「True」である）</dd></dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡された音源番号で現状のバイナリデータの検索結果件数を取得する。</li>
+<li>以下の計算で判定を行い、環境変数の設定個数を超過していないことを確認する。<ul>
+<li>環境変数設定値 &gt;= (現状の個数 + 追加しようとしている個数)</li>
+</ul>
+</li>
+</ol>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sound_id</td><td>指定する音源番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">input_count</td><td>追加するファイルの個数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a7a0844ddeca11d2e5378e60db78dc2e4">com.springproject.dockerspring.Service.BlobService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a48ed76b26e89deb20a60f68b414ca31b_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a48ed76b26e89deb20a60f68b414ca31b_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a48ed76b26e89deb20a60f68b414ca31b_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a48ed76b26e89deb20a60f68b414ca31b_cgraph">
+<area shape="rect" title="指定の音源番号で、指定した個数のバイナリデータを追加保存しようとした際に、環境変数で 定められている一つの音源番号当たりの保存制限数を超えないか判定する。" alt="" coords="5,5,253,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_audio___data___repo.html#af455fa36250fc66d5418555ec39c06b0" title="検索種別を[完全一致の音源番号]に指定し、全検索結果数をカウントする。" alt="" coords="301,5,523,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae5bea9ab4e5245c044ed32e407dc2c22" name="ae5bea9ab4e5245c044ed32e407dc2c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5bea9ab4e5245c044ed32e407dc2c22">&#9670;&#160;</a></span>deleteAllData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.deleteAllData </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定の管理番号で保存されているバイナリデータをすべて削除する。 </p>
+<ul>
+<li>参照元の管理番号のデータそのものが消えた場合は、連動して保管されているバイナリデータもすべて削除 しなければならない。</li>
+<li>削除しようとしたバイナリデータが存在しなかったり場合は、特定の例外を投げ、別として扱う。</li>
+<li>その他例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+<li>このメソッドに関しても、データベースとファイルサーバーの整合性を保つための配慮を行っている。詳しくは、 同インターフェース内のメソッド[changeData]の説明を参照する事。</li>
+<li>このメソッドで削除処理を行うわけではなく、同クラス内にある[deleteData]を繰り返し実行しているだけである。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>削除を指定する管理番号</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定された管理番号で現在データベースに保存中のデータを検索し、リストとして取得する。</li>
+<li>取得したデータを元に、同クラスにある[deleteData]を実行するために引数として渡すフォームクラスを作成 する。フォームクラスには、リストとして取得したデータのシリアルナンバーを格納する。</li>
+<li>組み立てたフォームクラスを削除実行メソッドに渡し、バイナリデータ一つずつにトランザクションを実行 しながら削除していく。</li>
+<li>この一連の処理を、指定した管理番号で検索した際の検索結果がすべてなくなるまで実行する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Search_Form </dd>
+<dd>
+Delete_Form </dd>
+<dd>
+Delete_Form_Child </dd>
+<dd>
+FindAllResult </dd>
+<dd>
+Audio_Data </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a07a8d27275a0399421780fac8c4c3dc6">com.springproject.dockerspring.Service.BlobService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae5bea9ab4e5245c044ed32e407dc2c22_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae5bea9ab4e5245c044ed32e407dc2c22_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae5bea9ab4e5245c044ed32e407dc2c22_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae5bea9ab4e5245c044ed32e407dc2c22_cgraph">
+<area shape="rect" title="指定の管理番号で保存されているバイナリデータをすべて削除する。" alt="" coords="5,5,216,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a9bcba2deb2891f7355fbd8b1f7fbda47" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="264,5,597,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ad6755a871907a3165c20d33c30ab3498" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。" alt="" coords="645,5,908,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0e41bf78cde0e7e13de60c03f2606c0b" name="a0e41bf78cde0e7e13de60c03f2606c0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e41bf78cde0e7e13de60c03f2606c0b">&#9670;&#160;</a></span>deleteData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.deleteData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_delete___form.html">Delete_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された通常データ内のシリアルナンバーのデータを削除する。 </p>
+<ul>
+<li>削除しようとしたデータが見つからなかった場合は、特定の例外を投げ、別として対応する。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+<li>このメソッドに関しても、データベースとファイルサーバーの整合性を保つための配慮を行っている。詳しくは、 同クラス内のメソッド[changeData]の説明を参照する事。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡されたフォームの情報や、このクラスにDIされているクラス、使用する関数型インターフェースを定義した パラメータ用のビルダークラスを作成する。</li>
+<li>作成したビルダークラスを、共通の削除メソッドに渡して処理を実行する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Delete_Form </dd>
+<dd>
+Audio_Data </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a28117feb80e96aeb61ba5405226279ea">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a0e41bf78cde0e7e13de60c03f2606c0b_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a0e41bf78cde0e7e13de60c03f2606c0b_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a0e41bf78cde0e7e13de60c03f2606c0b_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a0e41bf78cde0e7e13de60c03f2606c0b_cgraph">
+<area shape="rect" title="指定された通常データ内のシリアルナンバーのデータを削除する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a40b2c10056fd97bd25a1f1bc7cea5220" title="指定されたシリアルナンバーのバイナリデータを削除する。" alt="" coords="260,5,583,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a11adb9bdf0266dca41b19b12fd9e542c" name="a11adb9bdf0266dca41b19b12fd9e542c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11adb9bdf0266dca41b19b12fd9e542c">&#9670;&#160;</a></span>deleteHistory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Void &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.deleteHistory </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_del___indivi___hist___form.html">Del_Indivi_Hist_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された期間内の履歴データを削除する。 </p>
+<ul>
+<li>このメソッドに関しては、原則管理者ページからのアクセスからしか実行しない。</li>
+<li>他のテーブルの履歴情報をまとめて削除する場合があるので、並列処理ができるようにする。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+<li>このメソッドに関しても、データベースとファイルサーバーの整合性を保つための配慮を行っている。詳しくは、 同クラス内のメソッド[changeData]の説明を参照する事。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>並列処理のスレッドが入ったインスタンス(戻り値無し)</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>削除に必要なデータが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Service")</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡されたフォームの情報や、このクラスにDIされているクラス、使用する関数型インターフェースを定義した パラメータ用のビルダークラスを作成する。</li>
+<li>作成したビルダークラスを、共通の削除メソッドに渡して処理を実行する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Del_Indivi_Hist_Form </dd>
+<dd>
+Audio_Data </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad69937ec3d92c32f3b359dc779f0b2c5">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a11adb9bdf0266dca41b19b12fd9e542c_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a11adb9bdf0266dca41b19b12fd9e542c_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a11adb9bdf0266dca41b19b12fd9e542c_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a11adb9bdf0266dca41b19b12fd9e542c_cgraph">
+<area shape="rect" title="指定された期間内の履歴データを削除する。" alt="" coords="5,41,215,96"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#af9633be52655572cbd49f93cc8a7cac0" title="指定された検索期間で取得した履歴情報をすべて削除する。" alt="" coords="263,5,585,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#aee8910d2209d2f2368441c2b4f8fca8b" title="既存の関数型インターフェース[BiFunction]をラップする、静的メソッド。" alt="" coords="311,85,537,125"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_function.html#a335e7d4d698faee14b7aeb4289f86a78" title=" " alt="" coords="633,85,896,125"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af809813b88e11375f676755cc3028675" name="af809813b88e11375f676755cc3028675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af809813b88e11375f676755cc3028675">&#9670;&#160;</a></span>inputZip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.inputZip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_zip___form.html">Zip_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。 </p>
+<ul>
+<li>要件上、一つの管理番号に複数のバイナリデータ一括で格納する事が多々あるため、圧縮ファイルで送信する 事でまとめて保存ができるようになっている。</li>
+<li>戻り値となっているマップリストには、保存に失敗したバイナリファイルの名称と、発生した例外の名称が 格納されている。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+<li>このメソッドに関しても、データベースとファイルサーバーの整合性を保つための配慮を行っている。詳しくは、 同クラス内のメソッド[changeData]の説明を参照する事。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>保存に失敗したファイル名</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>渡された圧縮ファイルが格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>まず、渡された圧縮ファイルを解凍し、中のデータを抽出する。この段階で不正なファイルと判断されたものは エラーとする。</li>
+<li>渡されたフォームの情報や、このクラスにDIされているクラス、使用する関数型インターフェースを定義した パラメータ用のビルダークラスを作成する。</li>
+<li>作成したビルダークラスを、共通の保存メソッドに渡して処理を実行する。</li>
+<li>戻ってきたエラーリストを、戻り値として返す。ただし、正常に終了した際は、Nullとなる。</li>
+<li>エラーの有無に関係なく、生成した一時ファイルはすべて削除する。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd><ul>
+<li>注意点として、共通メソッドは例外を内部で処理してしまい、外部に例外を出さないのでエラーハンドラで キャッチできない。コントローラー側で、戻り値の値に従い、適切に処理する必要がある。</li>
+<li>ラムダ式内に例外キャッチ処理があり、検査例外を非検査例外に変換して外部に出しているが、このコーディングは 余り推奨されるものではない。だが今回のケースは、並列処理ではなく順次処理としており、影響は少ないと判断 した為、この方法を採用する。</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Zip_Form </dd>
+<dd>
+FileEntity </dd>
+<dd>
+Audio_Data </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#aec412d3b0fe5baa23642afa856827fd1">com.springproject.dockerspring.Service.BlobService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_af809813b88e11375f676755cc3028675_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_af809813b88e11375f676755cc3028675_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_af809813b88e11375f676755cc3028675_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_af809813b88e11375f676755cc3028675_cgraph">
+<area shape="rect" title="入力された圧縮ファイルを解凍し、中に入っているバイナリデータを、データベースとファイルサーバーに 新規追加する。" alt="" coords="5,77,212,132"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a3751a6f9b7e21ce99838c01cf48f7358" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,17,631,57"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#abddc13ddc10ab3a6977a19a57fbac3b7" title="既存の関数型インターフェース[BiPredicate]をラップする、静的メソッド。" alt="" coords="330,85,561,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#adb4d90f35b9811fb8d0bff3ee2597eeb" title="圧縮ファイルから抽出した複数のバイナリデータを、データベースとファイルサーバーで紐付けて保存する。" alt="" coords="288,149,603,204"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_csv_zip_pdf_common_methods.html#acecc1003199583346c1c72e8b0eea0d9" title="ZIPファイルに格納されているデータを解凍して抽出し、バリデーションを行った後、抽出したファイルの リストを返す。" alt="" coords="687,5,969,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html#afadaca3b64290ae319a91c61a5161706" title=" " alt="" coords="699,85,957,125"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service_1_1_blob_entity_function.html#ae0adeef49d3844b84ff98357849a6df1" title=" " alt="" coords="679,149,977,204"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afd758219d4f57fce72fea2dceb1321b0" name="afd758219d4f57fce72fea2dceb1321b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd758219d4f57fce72fea2dceb1321b0">&#9670;&#160;</a></span>mapPacking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; String, String &gt; &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.mapPacking </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a> &gt;&#160;</td>
+          <td class="paramname"><em>data_list</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。 </p>
+<ul>
+<li>このメソッドは、データの画面出力時は文字列である必要があることから、フロント側にデータを渡す直前に 行う。</li>
+<li>処理内容としては、ただ単にエンティティ内に備わっている文字列変換出力メソッドを実行するだけである。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列変換したデータのマップリストを格納したリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">data_list</td><td>変換対象となるデータが入ったエンティティのリスト</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a282c85dc2fdb199c53b50830b7b887fc">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd758219d4f57fce72fea2dceb1321b0_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd758219d4f57fce72fea2dceb1321b0_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd758219d4f57fce72fea2dceb1321b0_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_afd758219d4f57fce72fea2dceb1321b0_cgraph">
+<area shape="rect" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらはリストで渡された複数のエンティティをまとめて変換する。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#ae856cbf02814242f12474731ca69f42a" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,583,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ab47efa0bc3819a1f5afa491cdf9dd0a1" title="指定されたエンティティリスト内のデータを文字列に変換し、マップデータのリストとして返却する。" alt="" coords="631,5,893,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae22c9cac6e1677d8adc5e72bfad8ef87" name="ae22c9cac6e1677d8adc5e72bfad8ef87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae22c9cac6e1677d8adc5e72bfad8ef87">&#9670;&#160;</a></span>outputZip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.outputZip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_zip___output___form.html">Zip_Output_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。 </p>
+<ul>
+<li>要件上、保存しているバイナリデータをまとめてほしいといった事があるので、保存されているバイナリデータを まとめて圧縮ファイルに格納し、返却することができる。</li>
+<li>取得しようとしたバイナリデータが存在しなかったり、取得してきたデータに不正があり出力ができない場合は、 特定の例外を投げ、別として扱う。</li>
+<li>その他例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成した圧縮ファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>指定したバイナリデータのシリアルナンバーが複数格納されたフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>まず、ファイルサーバーからのデータの取得処理に関しては、圧縮処理を行う共通クラスで行う。そのため、 データベースアクセスとファイルサーバーのアクセスの処理を関数型インターフェースで定義する。</li>
+<li>フォームで渡された指定のファイルのシリアルナンバーを元に、データベースを検索した後ファイルサーバーを 検索し、バイナリデータを取得する。該当するデータが無かった場合は、特定の例外を出す。</li>
+<li>取得したバイナリデータの正当性を、出力時バリデーションで確認する。一つでも不正があれば、その時点で エラーとする。</li>
+<li>以上の処理の関数型インターフェースを、圧縮ファイル生成の共通クラスに渡し、処理を実行する。 実行後に生成された圧縮ファイルに、環境変数で指定された生成時のファイル名を付けて戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd><ul>
+<li>ラムダ式内に例外キャッチ処理があり、検査例外を非検査例外に変換して外部に出しているが、このコーディングは 余り推奨されるものではない。だが今回のケースは、並列処理ではなく順次処理としており、影響は少ないと判断 した為、この方法を採用する。</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Zip_Output_Form </dd>
+<dd>
+Zip_Output_Form_Child </dd>
+<dd>
+FileEntity </dd>
+<dd>
+Audio_Data</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a60cc331dc9802533b708eb6290ffdbe5">com.springproject.dockerspring.Service.BlobService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae22c9cac6e1677d8adc5e72bfad8ef87_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae22c9cac6e1677d8adc5e72bfad8ef87_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae22c9cac6e1677d8adc5e72bfad8ef87_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_ae22c9cac6e1677d8adc5e72bfad8ef87_cgraph">
+<area shape="rect" title="指定された複数のバイナリデータを、圧縮ファイルに格納してまとめて返却する。" alt="" coords="5,113,212,168"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___validation.html#a0c111b38c7e8d743987fed6f783835f5" title="受け取ったバイナリデータのファイルのリスト内の、データの正当性を確認する。" alt="" coords="321,5,578,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a1d480b4cf99a7740bcfa9717b27bc8be" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,85,639,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a957b245bb0ca00d6e84ae392ce4ea727" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="283,149,616,204"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#a8ae8a8ce23668e1f376870aba04c31f5" title="既存の関数型インターフェース[Supplier]をラップする、静的メソッド。" alt="" coords="344,229,555,269"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_csv_zip_pdf_common_methods.html#a6b94cb2bc4eb9416f70d9393f1571bfc" title="出力を指定されたバイナリデータを、ZIPファイルに書き込み圧縮して出力する。" alt="" coords="687,71,969,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#adf4f760621cd96e16b4e4c02f9eaadec" title="指定された番号のバイナリデータを、ファイルサーバーから取得する。なお、このメソッドは、通常データと 履歴用データで共用である。" alt="" coords="697,149,959,204"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_supplier.html#a50aab9c0330f72326ae89519655561d2" title=" " alt="" coords="711,229,945,269"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a431320832edc90a878d6b690cba78fcf" name="a431320832edc90a878d6b690cba78fcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a431320832edc90a878d6b690cba78fcf">&#9670;&#160;</a></span>parseString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; String, String &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.parseString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_entity_1_1_entity_set_up.html">EntitySetUp</a>&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。 </p>
+<ul>
+<li>このメソッドは、データの画面出力時は文字列である必要があることから、フロント側にデータを渡す直前に 行う。</li>
+<li>処理内容としては、ただ単にエンティティ内に備わっている文字列変換出力メソッドを実行するだけである。</li>
+<li>例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>文字列変換したデータのマップリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">entity</td><td>変換対象となるデータが入ったエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>EntitySetUp</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ad5c7eb783af1d05e0d4933cb700ebe59">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a431320832edc90a878d6b690cba78fcf_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a431320832edc90a878d6b690cba78fcf_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a431320832edc90a878d6b690cba78fcf_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a431320832edc90a878d6b690cba78fcf_cgraph">
+<area shape="rect" title="引数として渡されたデータが格納されているエンティティの情報を、文字列に変換してマップリストとして 返却する。こちらは単体のエンティティの変換である。" alt="" coords="5,5,212,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#ab1786abf56a37c258d137053b528c8db" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,591,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a352faffc062c00e727cd52ab71814bc0" title="指定されたエンティティ内のデータを文字列に変換し、マップデータとして返却する。" alt="" coords="639,5,901,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_get_login_user.html#a2565a1f39f5aeb2572bcea5297b93345" title="現在ログイン中のユーザーが、管理者権限を持っているか確認する。" alt="" coords="949,5,1180,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_entity_1_1_account_details.html#a7b33c495cc73c8b8115a3b4e87ee1483" title="格納済みの権限情報のリストを取得する。" alt="" coords="1228,5,1451,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7d9e5d6b681e54e664902891f336c201" name="a7d9e5d6b681e54e664902891f336c201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9e5d6b681e54e664902891f336c201">&#9670;&#160;</a></span>rollbackData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.rollbackData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_rollback___form.html">Rollback_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_over_count_exception.html">OverCountException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定された履歴番号の履歴情報を、通常データにロールバックして復元する。 </p>
+<ul>
+<li>このメソッドは、誤操作時などに以前の情報を履歴から復元し、ユーザビリティを高めるためにある。</li>
+<li>ロールバック処理を行った結果、該当の履歴情報が存在しなかった場合や、ロールバックした後に一つの管理番号 につき保持できる情報を制限数を超えてしまう場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+<li>このメソッドに関しても、データベースとファイルサーバーの整合性を保つための配慮を行っている。詳しくは、 同クラス内のメソッド[changeData]の説明を参照する事。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>ロールバック時に必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡されたフォームの情報や、このクラスにDIされているクラス、使用する関数型インターフェースを定義した パラメータ用のビルダークラスを作成する。</li>
+<li>作成したビルダークラスを、共通のロールバックメソッドに渡して処理を実行する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Rollback_Form </dd>
+<dd>
+Audio_Data </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OverCountException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a945fda090f490f5d1ec9944a4a18f408">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7d9e5d6b681e54e664902891f336c201_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7d9e5d6b681e54e664902891f336c201_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7d9e5d6b681e54e664902891f336c201_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7d9e5d6b681e54e664902891f336c201_cgraph">
+<area shape="rect" title="指定された履歴番号の履歴情報を、通常データにロールバックして復元する。" alt="" coords="5,241,212,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a1c03d7115d94b1bfbfde1a02c44aa7d3" title="指定された履歴番号のバイナリデータを、通常データにロールバックする。" alt="" coords="266,5,589,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_audio___data___repo.html#af455fa36250fc66d5418555ec39c06b0" title="検索種別を[完全一致の音源番号]に指定し、全検索結果数をカウントする。" alt="" coords="317,84,538,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,163,595,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#af76ba0e9ce5c646e105674589b43240f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,241,595,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___validation.html#aa57caa04b17bba95c10a5c4b0f219580" title="実際にチェック処理を順次処理で行う。" alt="" coords="263,321,592,361"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#abddc13ddc10ab3a6977a19a57fbac3b7" title="既存の関数型インターフェース[BiPredicate]をラップする、静的メソッド。" alt="" coords="312,385,543,425"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap.html#ac1528b589a2f5c93ed503be4e2be92de" title="既存の関数型インターフェース[Predicate]をラップする、静的メソッド。" alt="" coords="318,449,537,489"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="643,163,905,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a019bf688a5271e28ef173e4fccf77652" title="保存されているデータのうち、履歴情報に関する内容を出力する際のバリデーションを行う。" alt="" coords="643,241,905,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_bi_predicate.html#afadaca3b64290ae319a91c61a5161706" title=" " alt="" coords="645,385,903,425"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_func_wrap_1_1_throw_predicate.html#a60f758c0502242470c4af8f494c74958" title=" " alt="" coords="651,449,897,489"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7fd4795c0a25918e04e925ddf15d0dcd" name="a7fd4795c0a25918e04e925ddf15d0dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fd4795c0a25918e04e925ddf15d0dcd">&#9670;&#160;</a></span>selectAllData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_normal_entity_1_1_audio___data.html">Audio_Data</a> &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.selectAllData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___search___form.html">Com_Search_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。 </p>
+<ul>
+<li>このメソッドは、通常データの検索時に使用する。履歴用データに関しては、また別のメソッドが存在する。</li>
+<li>検索した結果、結果が存在しなかった場合と、検索結果を出力する際にデータに不正があって出力できない 場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時の必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡されたフォームの検索ワードを元に、データベースの検索を行い結果リストを取得する。</li>
+<li>取得した結果を、出力時の専用フォームクラスに、並列処理で移し替える。</li>
+<li>結果をすべて出力時バリデーションに順次投入する。この時点で、一つでもエラーが発生した場合は処理を 中止する。</li>
+<li>正常だった場合は、結果リストを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Search_Form </dd>
+<dd>
+FindAllResult</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#a07ef86f98b9b57d0b9cf4a51144f3411">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7fd4795c0a25918e04e925ddf15d0dcd_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7fd4795c0a25918e04e925ddf15d0dcd_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7fd4795c0a25918e04e925ddf15d0dcd_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a7fd4795c0a25918e04e925ddf15d0dcd_cgraph">
+<area shape="rect" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した通常データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="5,45,216,100"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="264,5,599,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a9bcba2deb2891f7355fbd8b1f7fbda47" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="265,84,598,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="647,5,909,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ad6755a871907a3165c20d33c30ab3498" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した情報をデータベースから 検索する。" alt="" coords="647,84,909,139"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a83ab0f9490b0a1a289ecc0015c9a2773" name="a83ab0f9490b0a1a289ecc0015c9a2773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ab0f9490b0a1a289ecc0015c9a2773">&#9670;&#160;</a></span>selectBlobData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.selectBlobData </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>num_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>hist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a>, Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。 </p>
+<ul>
+<li>このメソッドは、通常データと履歴データで共用する。</li>
+<li>バイナリデータに関してはデータが大きすぎるため、データ一覧の検索時にまとめて取得してフロントに送信と いった処理は行わない。フロント側から個別のデータを指定されることで、その都度バイナリデータを取得する。</li>
+<li>指定した番号のバイナリデータが存在しなかったり、取得したデータに不正があり出力できない場合は、特定の 例外を出し、別として扱う。</li>
+<li>その他の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>取得してきたバイナリデータファイル</dd></dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>指定するシリアルナンバーや履歴番号 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist</td><td>「True」で履歴用の圧縮済みのデータ解凍して取得、「False」で通常データを取得</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>指定されたシリアルナンバーや履歴番号に従い、該当するバイナリデータをファイルサーバーから取得する。</li>
+<li>取得した結果を、出力時のバリデーション（ZIP抽出ファイルのバリデーションと共用）を利用し、出力時 バリデーションを実行する。この時点で、一つでもエラーが発生した場合は処理を中止する。</li>
+<li>正常だった場合は、専用のエンティティに格納し、戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>FileEntity </dd>
+<dd>
+Audio_Data_History </dd>
+<dd>
+Audio_Data</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_blob_service.html#a49410cdbb39a786ba293d77aaac7f9a9">com.springproject.dockerspring.Service.BlobService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a83ab0f9490b0a1a289ecc0015c9a2773_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a83ab0f9490b0a1a289ecc0015c9a2773_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a83ab0f9490b0a1a289ecc0015c9a2773_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_a83ab0f9490b0a1a289ecc0015c9a2773_cgraph">
+<area shape="rect" title="指定されたシリアルナンバーや履歴番号のバイナリデータを個別に取得する。" alt="" coords="5,41,227,96"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a957b245bb0ca00d6e84ae392ce4ea727" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="275,5,608,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___validation.html#aa57caa04b17bba95c10a5c4b0f219580" title="実際にチェック処理を順次処理で行う。" alt="" coords="277,85,606,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#adf4f760621cd96e16b4e4c02f9eaadec" title="指定された番号のバイナリデータを、ファイルサーバーから取得する。なお、このメソッドは、通常データと 履歴用データで共用である。" alt="" coords="656,5,919,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aad3c9d7ab45f576612372521ed42e947" name="aad3c9d7ab45f576612372521ed42e947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3c9d7ab45f576612372521ed42e947">&#9670;&#160;</a></span>selectHist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.selectHist </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_normal_form_1_1_com___hist___get___form.html">Com_Hist_Get_Form</a>&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td> throws Exception, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_data_empty_exception.html">DataEmptyException</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_original_exception_1_1_output_data_failed_exception.html">OutputDataFailedException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。 </p>
+<ul>
+<li>このメソッドは、履歴データの検索時に使用する。通常データに関しては、また別のメソッドが存在する。</li>
+<li>検索した結果、結果が存在しなかった場合と、検索結果を出力する際にデータに不正があって出力できない 場合は、特定の例外を投げ別として扱う。</li>
+<li>それ以外の例外に関しては、予期せぬ動作が発生してしまうのを防ぐため、すべてまとめてキャッチする。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果のリスト</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">form</td><td>検索時の必要な情報を格納したフォームクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Transactional(rollbackFor = Exception.class)</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>渡されたフォームの検索ワードを元に、データベースの検索を行い結果リストを取得する。</li>
+<li>取得した結果を、出力時の専用フォームクラスに、並列処理で移し替える。</li>
+<li>結果をすべて出力時バリデーションに順次投入する。この時点で、一つでもエラーが発生した場合は処理を 中止する。</li>
+<li>正常だった場合は、結果リストを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Com_Hist_Get_Form </dd>
+<dd>
+FindAllResult </dd>
+<dd>
+Audio_Data_History</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+    <tr><td class="paramname">DataEmptyException</td><td></td></tr>
+    <tr><td class="paramname">OutputDataFailedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_service.html#ade4b2d4a3a95f3243c13a3ee620a2e70">com.springproject.dockerspring.Service.CommonService&lt; T, H &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_aad3c9d7ab45f576612372521ed42e947_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_aad3c9d7ab45f576612372521ed42e947_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_aad3c9d7ab45f576612372521ed42e947_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl_aad3c9d7ab45f576612372521ed42e947_cgraph">
+<area shape="rect" title="指定した検索ワードと検索ジャンルを用いて、条件に合致した履歴データを全て取得する。 ただし、この段階ではファイルサーバーからはデータを取り出さない。" alt="" coords="5,84,212,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a06a391f9248af6d7039bc4df78169b48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,5,595,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#af76ba0e9ce5c646e105674589b43240f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="260,84,595,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html#a356eb95ceece16309f00df68b4e8b596" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="261,163,594,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#ac5c61ebb7f47d3dd96578690ac8df433" title="保存されているデータを出力する際のバリデーションを行う。" alt="" coords="643,5,905,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a019bf688a5271e28ef173e4fccf77652" title="保存されているデータのうち、履歴情報に関する内容を出力する際のバリデーションを行う。" alt="" coords="643,84,905,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_select_common_methods.html#a92e321879c697fe4633bbcf0d84b499f" title="指定された検索ワードと検索種別、並び順を指定して、条件に合致した履歴情報をデータベースから 検索する。なお、履歴検索に関しては、同時に検索期間を指定する。" alt="" coords="643,163,905,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a7923ece1fac81fbf9078252701bae98a" name="a7923ece1fac81fbf9078252701bae98a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7923ece1fac81fbf9078252701bae98a">&#9670;&#160;</a></span>common_utils</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_common_methods_1_1_common_utils_service.html">CommonUtilsService</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.common_utils</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1022c8d8d25a56eeb2ccf415eab83cdf" name="a1022c8d8d25a56eeb2ccf415eab83cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1022c8d8d25a56eeb2ccf415eab83cdf">&#9670;&#160;</a></span>config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.config</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53720350383141488b0600d70b04b6b6" name="a53720350383141488b0600d70b04b6b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53720350383141488b0600d70b04b6b6">&#9670;&#160;</a></span>hist_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html">Audio_Data_History_Repo</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.hist_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbdc5263655d9cbb310cafc0a9c1d903" name="adbdc5263655d9cbb310cafc0a9c1d903"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbdc5263655d9cbb310cafc0a9c1d903">&#9670;&#160;</a></span>normal_repo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_audio___data___repo.html">Audio_Data_Repo</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.normal_repo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b02b03d08dba6531789b30ae829936c" name="a5b02b03d08dba6531789b30ae829936c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b02b03d08dba6531789b30ae829936c">&#9670;&#160;</a></span>samba_comp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_audio___data___samba.html">Audio_Data_Samba</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.samba_comp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff3b1a0d64ac364194ad36bc67f32537" name="aff3b1a0d64ac364194ad36bc67f32537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3b1a0d64ac364194ad36bc67f32537">&#9670;&#160;</a></span>validator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_blob___name___form___validator.html">Blob_Name_Form_Validator</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.validator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72b2528e195a9683b2ba77a230fdc317" name="a72b2528e195a9683b2ba77a230fdc317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72b2528e195a9683b2ba77a230fdc317">&#9670;&#160;</a></span>zip_comp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_audio___data___zip.html">Audio_Data_Zip</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.zip_comp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3147e88a3a9f0af010e9b04d1928a6a9" name="a3147e88a3a9f0af010e9b04d1928a6a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3147e88a3a9f0af010e9b04d1928a6a9">&#9670;&#160;</a></span>zip_form</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_form_1_1_form_interface_1_1_audio___data___zip___form.html">Audio_Data_Zip_Form</a> com.springproject.dockerspring.Service.ServiceImpl.Audio_Data_ServiceImpl.zip_form</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Service/ServiceImpl/<a class="el" href="_audio___data___service_impl_8java.html">Audio_Data_ServiceImpl.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service.html">Service</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl.html">ServiceImpl</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_service_1_1_service_impl_1_1_audio___data___service_impl.html">Audio_Data_ServiceImpl</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

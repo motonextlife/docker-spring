@@ -1,0 +1,4 @@
+var _score___pdf___samba_impl___compress___test_8java =
+[
+    [ "com.springproject.dockerspring.SingleTests.FileIO.SambaProcess_Test.Score_Pdf_SambaImpl_Test.Score_Pdf_SambaImpl_Compress_Test", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testee02c2e16ff48914c8d8577916a0fbdc.html", "classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_samba_process___testee02c2e16ff48914c8d8577916a0fbdc" ]
+];

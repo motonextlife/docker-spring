@@ -1,0 +1,4 @@
+var _join_tests_2_file_i_o_2_csv_process___test_2_test_interface_2_csv_process___extract_csv___test_8java =
+[
+    [ "com.springproject.dockerspring.JoinTests.FileIO.CsvProcess_Test.TestInterface.CsvProcess_ExtractCsv_Test", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___testf117a9c2a8a07e66a2e793d49ae4a9e2.html", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___testf117a9c2a8a07e66a2e793d49ae4a9e2" ]
+];

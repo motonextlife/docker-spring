@@ -1,0 +1,1285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo インタフェース</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo インタフェース</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[音源データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。  
+ <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo__inherit__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_repository_8_history_repo_8_audio___data___history___repo_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_repository_8_history_repo_8_audio___data___history___repo_inherit__map" id="acom_8springproject_8dockerspring_8_repository_8_history_repo_8_audio___data___history___repo_inherit__map">
+<area shape="rect" title="主に[音源データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="11,181,217,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="5,79,223,133"/>
+<area shape="rect" title=" " alt="" coords="33,5,195,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_repository_8_history_repo_8_audio___data___history___repo_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_repository_8_history_repo_8_audio___data___history___repo_coll__map" id="acom_8springproject_8dockerspring_8_repository_8_history_repo_8_audio___data___history___repo_coll__map">
+<area shape="rect" title="主に[音源データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="11,181,217,236"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="5,79,223,133"/>
+<area shape="rect" title=" " alt="" coords="33,5,195,31"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ab6dbc7f4609355a9286a7b0741674702"><td class="memItemLeft" align="right" valign="top">default <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702">findAllBranch</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html">FindAllParam</a> param)  throws ExecutionException, InterruptedException</td></tr>
+<tr class="memdesc:ab6dbc7f4609355a9286a7b0741674702"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702">[詳解]</a><br /></td></tr>
+<tr class="separator:ab6dbc7f4609355a9286a7b0741674702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[履歴日時]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:ad34d741c2047e0f2e59b7081874af9ec"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ad34d741c2047e0f2e59b7081874af9ec">findAllByDateBetweenCount</a> (@Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:ad34d741c2047e0f2e59b7081874af9ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[履歴日時]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ad34d741c2047e0f2e59b7081874af9ec">[詳解]</a><br /></td></tr>
+<tr class="separator:ad34d741c2047e0f2e59b7081874af9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3bc505d3eabc73bd949f64fddf6601"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a1b3bc505d3eabc73bd949f64fddf6601">findAllByDateBetween</a> (@Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a1b3bc505d3eabc73bd949f64fddf6601"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a1b3bc505d3eabc73bd949f64fddf6601">[詳解]</a><br /></td></tr>
+<tr class="separator:a1b3bc505d3eabc73bd949f64fddf6601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea5bf8aba5e0db05a29f3e356ded132"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a6ea5bf8aba5e0db05a29f3e356ded132">findAllByDateBetweenDESC</a> (@Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a6ea5bf8aba5e0db05a29f3e356ded132"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a6ea5bf8aba5e0db05a29f3e356ded132">[詳解]</a><br /></td></tr>
+<tr class="separator:a6ea5bf8aba5e0db05a29f3e356ded132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[音源番号]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:a6ca0c4feeb08f99c1261f31fb239ea45"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a6ca0c4feeb08f99c1261f31fb239ea45">findBySound_idCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:a6ca0c4feeb08f99c1261f31fb239ea45"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[音源番号]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a6ca0c4feeb08f99c1261f31fb239ea45">[詳解]</a><br /></td></tr>
+<tr class="separator:a6ca0c4feeb08f99c1261f31fb239ea45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f9a8d7bf68f2aaf43947af767b06c9"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a53f9a8d7bf68f2aaf43947af767b06c9">findBySound_id</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a53f9a8d7bf68f2aaf43947af767b06c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a53f9a8d7bf68f2aaf43947af767b06c9">[詳解]</a><br /></td></tr>
+<tr class="separator:a53f9a8d7bf68f2aaf43947af767b06c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15627f1435d80e1cc30a05a4f4f9e48b"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a15627f1435d80e1cc30a05a4f4f9e48b">findBySound_idDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:a15627f1435d80e1cc30a05a4f4f9e48b"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a15627f1435d80e1cc30a05a4f4f9e48b">[詳解]</a><br /></td></tr>
+<tr class="separator:a15627f1435d80e1cc30a05a4f4f9e48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[履歴種別]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:ac2dec530e73b86ebcd7dfb2d59a2bcbf"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ac2dec530e73b86ebcd7dfb2d59a2bcbf">findByChange_kindsCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:ac2dec530e73b86ebcd7dfb2d59a2bcbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[履歴種別]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ac2dec530e73b86ebcd7dfb2d59a2bcbf">[詳解]</a><br /></td></tr>
+<tr class="separator:ac2dec530e73b86ebcd7dfb2d59a2bcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee535aefcbb054efef8fbcc23074f505"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aee535aefcbb054efef8fbcc23074f505">findByChange_kinds</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:aee535aefcbb054efef8fbcc23074f505"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aee535aefcbb054efef8fbcc23074f505">[詳解]</a><br /></td></tr>
+<tr class="separator:aee535aefcbb054efef8fbcc23074f505"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa686f4f0ea00f6e5630e36848acebe8f"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aa686f4f0ea00f6e5630e36848acebe8f">findByChange_kindsDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:aa686f4f0ea00f6e5630e36848acebe8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aa686f4f0ea00f6e5630e36848acebe8f">[詳解]</a><br /></td></tr>
+<tr class="separator:aa686f4f0ea00f6e5630e36848acebe8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">検索種別[操作ユーザー名]使用時のクエリ実行メソッド</div></td></tr>
+<tr class="memitem:a956bdc8e6348394d8a9fc9b0c5913020"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a956bdc8e6348394d8a9fc9b0c5913020">findByOperation_userCount</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;max&quot;) Integer max)</td></tr>
+<tr class="memdesc:a956bdc8e6348394d8a9fc9b0c5913020"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[操作ユーザー名]に指定し、全検索結果数をカウントする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a956bdc8e6348394d8a9fc9b0c5913020">[詳解]</a><br /></td></tr>
+<tr class="separator:a956bdc8e6348394d8a9fc9b0c5913020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96066d969a987a54bb475b30c2bc5d5"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#af96066d969a987a54bb475b30c2bc5d5">findByOperation_user</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:af96066d969a987a54bb475b30c2bc5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#af96066d969a987a54bb475b30c2bc5d5">[詳解]</a><br /></td></tr>
+<tr class="separator:af96066d969a987a54bb475b30c2bc5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4dbb88341c2a9b106771b1b30e99ef7"><td class="memItemLeft" align="right" valign="top">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aa4dbb88341c2a9b106771b1b30e99ef7">findByOperation_userDESC</a> (@Param(&quot;word&quot;) String word, @Param(&quot;start_datetime&quot;) Date start_datetime, @Param(&quot;end_datetime&quot;) Date end_datetime, @Param(&quot;limit&quot;) Integer limit, @Param(&quot;offset&quot;) Integer offset)</td></tr>
+<tr class="memdesc:aa4dbb88341c2a9b106771b1b30e99ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aa4dbb88341c2a9b106771b1b30e99ef7">[詳解]</a><br /></td></tr>
+<tr class="separator:aa4dbb88341c2a9b106771b1b30e99ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755fea38aee32c3f88dbb5d44070578c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c">findAllBranch</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html">FindAllParam</a> param)  throws ExecutionException, InterruptedException, ParseException</td></tr>
+<tr class="memdesc:a755fea38aee32c3f88dbb5d44070578c"><td class="mdescLeft">&#160;</td><td class="mdescRight">フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c">[詳解]</a><br /></td></tr>
+<tr class="separator:a755fea38aee32c3f88dbb5d44070578c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[音源データ変更履歴]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。 </p>
+<ul>
+<li>このリポジトリが対応するデータベース内のテーブルの名称は[Audio_Data_History]である。</li>
+<li>SpringDataJDBCを採用し、ネイティブなSQLの作成を行っている。</li>
+<li>なお、このインターフェースの実装クラスは使用時にSpringFrameworkによって自動的に作成される。 そのため、明示的に実装しているクラスはこのシステム上に存在しない。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Audio_Data_History </dd>
+<dd>
+<a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。">FindAllCrudRepository</a> </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="ab6dbc7f4609355a9286a7b0741674702" name="ab6dbc7f4609355a9286a7b0741674702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6dbc7f4609355a9286a7b0741674702">&#9670;&#160;</a></span>findAllBranch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">default <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html">FindAllResult</a>&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findAllBranch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html">FindAllParam</a>&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td> throws ExecutionException, InterruptedException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。 </p>
+<ul>
+<li>このインターフェース内に実装されているクエリ実装メソッドは、単体で使用されることはほとんどなく、 全てこの分岐メソッドを経由する。</li>
+<li>検索ワードは、要件上一つしか受け付けることができない。</li>
+<li>すべての検索で、変更履歴の期間を指定して検索を行う。</li>
+<li>データベース検索時の結果数を制限し、JVMのメモリ枯渇を防ぐため、オフセットを利用したページネーションを 設ける。</li>
+<li>検索種別に関しては列挙型を使用して厳密に受け入れる文字列を管理しており、違う文字列が引数で渡された場合は エラーとなる。</li>
+<li>クエリ実装メソッドは基本的に非同期処理が可能となっており、ページネーション機能に必要な「全検索結果数」と 「オフセットによる検索結果の一部分」を同時に取得する事が可能である。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">param</td><td>検索に必要な引数を格納したビルダーエンティティ</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>「全検索結果数」と「オフセットによる検索結果の一部分」を格納した、このリポジトリで扱える専用の エンティティクラス</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>引数で渡された検索種別の文字列を検証し、所定の列挙型に対応している物か確認する。</li>
+<li>オフセット値や並び順指定など、クエリ実行に影響を及ぼす項目が「Null」で無い事を確認する。</li>
+<li>検索種別と、引数で渡された「検索結果の並び順指定」に応じて、クエリ実装メソッドを選定する。</li>
+<li>「全検索結果数取得」と「オフセットによる検索結果の一部分取得」を、非同期で同時実行する。</li>
+<li>前述の二つの結果を専用のエンティティクラスに格納し、戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>他のメソッドは抽象メソッドとなるが、このメソッドのみデフォルトメソッドでの実装となる。</dd></dl>
+<dl class="section see"><dt>参照</dt><dd><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_result.html" title="リポジトリの検索メソッドの検索結果と結果件数を格納し返却するエンティティクラス。">FindAllResult</a> </dd>
+<dd>
+<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_param.html" title="リポジトリの検索分岐メソッドに渡す引数を格納するエンティティ">FindAllParam</a> </dd>
+<dd>
+Common_History_Subject</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ExecutionException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html#a755fea38aee32c3f88dbb5d44070578c">com.springproject.dockerspring.Repository.FindAllCrudRepository&lt; T, ID &gt;</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_cgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_cgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_cgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_cgraph">
+<area shape="rect" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="5,465,227,520"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a1b3bc505d3eabc73bd949f64fddf6601" title="検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="293,5,566,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ad34d741c2047e0f2e59b7081874af9ec" title="検索種別を[履歴日時]に指定し、全検索結果数をカウントする。" alt="" coords="276,84,583,139"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a6ea5bf8aba5e0db05a29f3e356ded132" title="検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="275,163,584,217"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aee535aefcbb054efef8fbcc23074f505" title="検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="298,241,561,296"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ac2dec530e73b86ebcd7dfb2d59a2bcbf" title="検索種別を[履歴種別]に指定し、全検索結果数をカウントする。" alt="" coords="317,321,542,390"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aa686f4f0ea00f6e5630e36848acebe8f" title="検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="317,414,542,483"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#af96066d969a987a54bb475b30c2bc5d5" title="検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="295,508,564,563"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a956bdc8e6348394d8a9fc9b0c5913020" title="検索種別を[操作ユーザー名]に指定し、全検索結果数をカウントする。" alt="" coords="311,587,548,657"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#aa4dbb88341c2a9b106771b1b30e99ef7" title="検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="311,681,548,750"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a53f9a8d7bf68f2aaf43947af767b06c9" title="検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="312,775,547,829"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a6ca0c4feeb08f99c1261f31fb239ea45" title="検索種別を[音源番号]に指定し、全検索結果数をカウントする。" alt="" coords="295,853,564,908"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#a15627f1435d80e1cc30a05a4f4f9e48b" title="検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="294,932,565,987"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ab6dbc7f4609355a9286a7b0741674702_icgraph">
+<area shape="rect" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="928,13,1149,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1b3bc505d3eabc73bd949f64fddf6601" name="a1b3bc505d3eabc73bd949f64fddf6601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b3bc505d3eabc73bd949f64fddf6601">&#9670;&#160;</a></span>findAllByDateBetween()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findAllByDateBetween </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、[履歴日時]で行う。</li>
+<li>検索方法としては、範囲一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a1b3bc505d3eabc73bd949f64fddf6601_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a1b3bc505d3eabc73bd949f64fddf6601_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a1b3bc505d3eabc73bd949f64fddf6601_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a1b3bc505d3eabc73bd949f64fddf6601_icgraph">
+<area shape="rect" title="検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1635,57,1908,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1147,13,1368,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a61f700007965d9a128eab76dafa8729f" title="リポジトリメソッド[findAllByDateBetween][findAllByDateBetweenDESC]を実行した際の検索結果を 判定する。" alt="" coords="928,92,1587,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad34d741c2047e0f2e59b7081874af9ec" name="ad34d741c2047e0f2e59b7081874af9ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34d741c2047e0f2e59b7081874af9ec">&#9670;&#160;</a></span>findAllByDateBetweenCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findAllByDateBetweenCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[履歴日時]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、範囲一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[履歴日時]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ad34d741c2047e0f2e59b7081874af9ec_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ad34d741c2047e0f2e59b7081874af9ec_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ad34d741c2047e0f2e59b7081874af9ec_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ad34d741c2047e0f2e59b7081874af9ec_icgraph">
+<area shape="rect" title="検索種別を[履歴日時]に指定し、全検索結果数をカウントする。" alt="" coords="1676,57,1983,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1167,13,1389,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a5e986db90273c4ba601363390a285b66" title="リポジトリメソッド[findAllByDateBetweenCount]に対してのテストを行う。" alt="" coords="928,92,1628,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6ea5bf8aba5e0db05a29f3e356ded132" name="a6ea5bf8aba5e0db05a29f3e356ded132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea5bf8aba5e0db05a29f3e356ded132">&#9670;&#160;</a></span>findAllByDateBetweenDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findAllByDateBetweenDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、[履歴日時]で行う。</li>
+<li>検索方法としては、範囲一致検索としている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ea5bf8aba5e0db05a29f3e356ded132_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ea5bf8aba5e0db05a29f3e356ded132_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ea5bf8aba5e0db05a29f3e356ded132_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ea5bf8aba5e0db05a29f3e356ded132_icgraph">
+<area shape="rect" title="検索種別を[履歴日時]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1635,57,1944,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1147,13,1368,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a61f700007965d9a128eab76dafa8729f" title="リポジトリメソッド[findAllByDateBetween][findAllByDateBetweenDESC]を実行した際の検索結果を 判定する。" alt="" coords="928,92,1587,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aee535aefcbb054efef8fbcc23074f505" name="aee535aefcbb054efef8fbcc23074f505"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee535aefcbb054efef8fbcc23074f505">&#9670;&#160;</a></span>findByChange_kinds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findByChange_kinds </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[履歴種別]で行い、その次に[履歴日時]で行う。</li>
+<li>検索方法としては、[履歴種別]は完全一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時][履歴種別]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aee535aefcbb054efef8fbcc23074f505_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aee535aefcbb054efef8fbcc23074f505_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aee535aefcbb054efef8fbcc23074f505_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aee535aefcbb054efef8fbcc23074f505_icgraph">
+<area shape="rect" title="検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1635,57,1897,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1147,13,1368,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a63a7c74caf4b83d34bf81ff86a83ff21" title="リポジトリメソッド[findByChange_kinds][findByChange_kindsDESC]を実行した際の 検索結果を判定する。" alt="" coords="928,92,1587,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac2dec530e73b86ebcd7dfb2d59a2bcbf" name="ac2dec530e73b86ebcd7dfb2d59a2bcbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2dec530e73b86ebcd7dfb2d59a2bcbf">&#9670;&#160;</a></span>findByChange_kindsCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findByChange_kindsCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[履歴種別]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、[履歴種別]は完全一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[履歴日時][履歴種別]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ac2dec530e73b86ebcd7dfb2d59a2bcbf_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ac2dec530e73b86ebcd7dfb2d59a2bcbf_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ac2dec530e73b86ebcd7dfb2d59a2bcbf_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_ac2dec530e73b86ebcd7dfb2d59a2bcbf_icgraph">
+<area shape="rect" title="検索種別を[履歴種別]に指定し、全検索結果数をカウントする。" alt="" coords="1676,49,1901,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1167,13,1389,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#ada45d655ff93f7554a9347009b22d2fc" title="リポジトリメソッド[findByChange_kindsCount]に対してのテストを行う。" alt="" coords="928,92,1628,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa686f4f0ea00f6e5630e36848acebe8f" name="aa686f4f0ea00f6e5630e36848acebe8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa686f4f0ea00f6e5630e36848acebe8f">&#9670;&#160;</a></span>findByChange_kindsDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findByChange_kindsDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[履歴種別]で行い、その次に[履歴日時]で行う。</li>
+<li>検索方法としては、[履歴種別]は完全一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時][履歴種別]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa686f4f0ea00f6e5630e36848acebe8f_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa686f4f0ea00f6e5630e36848acebe8f_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa686f4f0ea00f6e5630e36848acebe8f_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa686f4f0ea00f6e5630e36848acebe8f_icgraph">
+<area shape="rect" title="検索種別を[履歴種別]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1635,49,1860,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1147,13,1368,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a63a7c74caf4b83d34bf81ff86a83ff21" title="リポジトリメソッド[findByChange_kinds][findByChange_kindsDESC]を実行した際の 検索結果を判定する。" alt="" coords="928,92,1587,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af96066d969a987a54bb475b30c2bc5d5" name="af96066d969a987a54bb475b30c2bc5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af96066d969a987a54bb475b30c2bc5d5">&#9670;&#160;</a></span>findByOperation_user()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findByOperation_user </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[操作ユーザー名]で行い、その次に[履歴日時]で行う。</li>
+<li>検索方法としては、[操作ユーザー名]は部分一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時][操作ユーザー名]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_af96066d969a987a54bb475b30c2bc5d5_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_af96066d969a987a54bb475b30c2bc5d5_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_af96066d969a987a54bb475b30c2bc5d5_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_af96066d969a987a54bb475b30c2bc5d5_icgraph">
+<area shape="rect" title="検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1697,57,1967,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1178,13,1399,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a59d49cbacd51956ea8172b35101bcad9" title="リポジトリメソッド[findByOperation_user][findByOperation_userDESC]を実行した際の 検索結果を判定する。" alt="" coords="928,92,1649,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a956bdc8e6348394d8a9fc9b0c5913020" name="a956bdc8e6348394d8a9fc9b0c5913020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956bdc8e6348394d8a9fc9b0c5913020">&#9670;&#160;</a></span>findByOperation_userCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findByOperation_userCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[操作ユーザー名]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、[操作ユーザー名]は部分一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[履歴日時][操作ユーザー名]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a956bdc8e6348394d8a9fc9b0c5913020_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a956bdc8e6348394d8a9fc9b0c5913020_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a956bdc8e6348394d8a9fc9b0c5913020_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a956bdc8e6348394d8a9fc9b0c5913020_icgraph">
+<area shape="rect" title="検索種別を[操作ユーザー名]に指定し、全検索結果数をカウントする。" alt="" coords="1739,49,1976,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1199,13,1420,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a04a4eac9f82aad95ee3d72d96dc501ad" title="リポジトリメソッド[findByOperation_userCount]に対してのテストを行う。" alt="" coords="928,92,1691,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa4dbb88341c2a9b106771b1b30e99ef7" name="aa4dbb88341c2a9b106771b1b30e99ef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4dbb88341c2a9b106771b1b30e99ef7">&#9670;&#160;</a></span>findByOperation_userDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findByOperation_userDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[操作ユーザー名]で行い、その次に[履歴日時]で行う。</li>
+<li>検索方法としては、[操作ユーザー名]は部分一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時][操作ユーザー名]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa4dbb88341c2a9b106771b1b30e99ef7_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa4dbb88341c2a9b106771b1b30e99ef7_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa4dbb88341c2a9b106771b1b30e99ef7_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_aa4dbb88341c2a9b106771b1b30e99ef7_icgraph">
+<area shape="rect" title="検索種別を[操作ユーザー名]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1697,49,1935,119"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1178,13,1399,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a59d49cbacd51956ea8172b35101bcad9" title="リポジトリメソッド[findByOperation_user][findByOperation_userDESC]を実行した際の 検索結果を判定する。" alt="" coords="928,92,1649,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a53f9a8d7bf68f2aaf43947af767b06c9" name="a53f9a8d7bf68f2aaf43947af767b06c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53f9a8d7bf68f2aaf43947af767b06c9">&#9670;&#160;</a></span>findBySound_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findBySound_id </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[音源番号]で行い、その次に[履歴日時]で行う。</li>
+<li>検索方法としては、[音源番号]は部分一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時][音源番号]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a53f9a8d7bf68f2aaf43947af767b06c9_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a53f9a8d7bf68f2aaf43947af767b06c9_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a53f9a8d7bf68f2aaf43947af767b06c9_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a53f9a8d7bf68f2aaf43947af767b06c9_icgraph">
+<area shape="rect" title="検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[昇順]に取得。" alt="" coords="1635,57,1869,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1147,13,1368,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#af9b79b84fcd53714918794c451bbda4b" title="リポジトリメソッド[findBySound_id][findBySound_idDESC]を実行した際の 検索結果を判定する。" alt="" coords="928,92,1587,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6ca0c4feeb08f99c1261f31fb239ea45" name="a6ca0c4feeb08f99c1261f31fb239ea45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ca0c4feeb08f99c1261f31fb239ea45">&#9670;&#160;</a></span>findBySound_idCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; Integer &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findBySound_idCount </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;max&quot;) Integer&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[音源番号]に指定し、全検索結果数をカウントする。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡された検索結果最大値以上はカウントできないようになっている。</li>
+<li>検索方法としては、[音源番号]は部分一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日時 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">max</td><td>検索結果をカウント可能な最大数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>全検索結果カウント処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>副問問い合わせにより、指定の[履歴日時][音源番号]のデータを検索結果最大数まで選択。</li>
+<li>副問問い合わせの取得結果をカウントしたものを最終結果として出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ca0c4feeb08f99c1261f31fb239ea45_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ca0c4feeb08f99c1261f31fb239ea45_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ca0c4feeb08f99c1261f31fb239ea45_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a6ca0c4feeb08f99c1261f31fb239ea45_icgraph">
+<area shape="rect" title="検索種別を[音源番号]に指定し、全検索結果数をカウントする。" alt="" coords="1676,57,1945,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1167,13,1389,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a8fb8b94b2a48b26a7b95390fc2ae89d8" title="リポジトリメソッド[findBySound_idCount]に対してのテストを行う。" alt="" coords="928,92,1628,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a15627f1435d80e1cc30a05a4f4f9e48b" name="a15627f1435d80e1cc30a05a4f4f9e48b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15627f1435d80e1cc30a05a4f4f9e48b">&#9670;&#160;</a></span>findBySound_idDESC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CompletableFuture&lt; List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_entity_1_1_history_entity_1_1_audio___data___history.html">Audio_Data_History</a> &gt; &gt; com.springproject.dockerspring.Repository.HistoryRepo.Audio_Data_History_Repo.findBySound_idDESC </td>
+          <td>(</td>
+          <td class="paramtype">@Param(&quot;word&quot;) String&#160;</td>
+          <td class="paramname"><em>word</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;start_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>start_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;end_datetime&quot;) Date&#160;</td>
+          <td class="paramname"><em>end_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;limit&quot;) Integer&#160;</td>
+          <td class="paramname"><em>limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">@Param(&quot;offset&quot;) Integer&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。 </p>
+<ul>
+<li>非同期実行を可能とする。</li>
+<li>引数として渡されたオフセット値の位置からデータ取得を行い、制限数に至ったら取得を中断する。</li>
+<li>並び替え対象のカラムは、優先的に[音源番号]で行い、その次に[履歴日時]で行う。</li>
+<li>検索方法としては、[音源番号]は部分一致検索、[履歴日時]は範囲一致検索で行っている。</li>
+<li>実際の処理は、アノテーションに記載したクエリ文字列によってデータベースに問い合わせを行うことで実現する。</li>
+<li>最後に必ず[履歴番号]でソートを行う。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Async("Repo")</li>
+<li>@Query(...) ※...内にクエリ文字列を記載</li>
+<li>@Param(...) ※...内にプリペアードステートメント名を記載</li>
+</ul>
+</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">word</td><td>検索対象のフリーワード </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">start_datetime</td><td>検索対象の[履歴日時]の検索対象期間の開始日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end_datetime</td><td>検索対象の[履歴日時]の検索対象期間の終了日 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">limit</td><td>一回の検索で取得可能な検索結果数 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>結果取得を開始するデータの位置</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>検索結果取得処理を、非同期実行クラスに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>指定の[履歴日時][音源番号]で、オフセットの範囲内のデータを出力する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a15627f1435d80e1cc30a05a4f4f9e48b_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a15627f1435d80e1cc30a05a4f4f9e48b_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a15627f1435d80e1cc30a05a4f4f9e48b_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo_a15627f1435d80e1cc30a05a4f4f9e48b_icgraph">
+<area shape="rect" title="検索種別を[音源番号]に指定し、オフセット制限値の範囲内で検索結果データを[降順]に取得。" alt="" coords="1635,57,1905,111"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html#ab6dbc7f4609355a9286a7b0741674702" title="フリーワードを指定したデータベースの検索時において、検索種別に応じて処理を分岐し、適切な クエリ実装メソッドを非同期で実行する。" alt="" coords="1147,13,1368,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#af9b79b84fcd53714918794c451bbda4b" title="リポジトリメソッド[findBySound_id][findBySound_idDESC]を実行した際の 検索結果を判定する。" alt="" coords="928,92,1587,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="5,5,880,75"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Repository/HistoryRepo/<a class="el" href="_audio___data___history___repo_8java.html">Audio_Data_History_Repo.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_repository.html">Repository</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo.html">HistoryRepo</a></li><li class="navelem"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_history_repo_1_1_audio___data___history___repo.html">Audio_Data_History_Repo</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

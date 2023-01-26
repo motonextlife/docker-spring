@@ -1,0 +1,136 @@
+# /** 
+#  **************************************************************************************
+#  * @file docker-compose.yml
+#  * 
+#  * @brief このシステムで用いるインフラ関係のセットアップを行う。仮想コンテナとして[Docker]を
+#  * 用いるための設定ファイルである。
+#  * 
+#  * @details 
+#  * - 構成としては、このシステムで使用するソフトウェアの仮想コンテナを使用するための、環境変数の
+#  * 指定や、通信ポートの設定、永続化ボリュームなどの設定を行う。
+#  * - なおコメントに関しては、Javaファイルのコメントと統一し、Doxygen&Javadocの書式で記述する。
+#  * だが、YMLファイルはドキュメントコンパイルの対象外の為、あくまで見た目の統一である。
+#  **************************************************************************************
+#  */
+version: "3.8"
+
+
+
+
+
+
+
+
+services:
+
+  # /** 
+  #  **************************************************************************************
+  #  * @brief 使用する本番環境のデータベース[MySQL]を仮想コンテナとして用意する。
+  #  * 
+  #  * @details 
+  #  * - このコンテナは、数あるコンテナの中で最初に起動する。
+  #  **************************************************************************************
+  #  */
+  mysql:
+    container_name: mysql
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: spring_schema
+      MYSQL_USER: spring_user
+      MYSQL_PASSWORD: spring_pass
+      MYSQL_ROOT_PASSWORD: spring_rootpass
+    expose:
+      - 3306
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql/sql_init:/docker-entrypoint-initdb.d
+      - ./mysql/config:/etc/mysql/conf.d
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/log:/var/log/mysql
+
+
+
+
+  # /** 
+  #  **************************************************************************************
+  #  * @brief 使用する本番環境のファイルサーバー[Samba]を仮想コンテナとして用意する。
+  #  * 
+  #  * @details 
+  #  * - このコンテナは、他の仮想コンテナである[MySQL]の後に起動される。
+  #  * - 接続ポートに関して、当初[445]を使用しようと思ったが、現状の開発環境ではWindowsシステムが
+  #  * 使用しており空きがないため、暫定で[446]を使用する。
+  #  **************************************************************************************
+  #  */
+  samba:
+    container_name: samba
+    image: dperson/samba:latest
+    ports:
+      - 139:139
+      - 446:445
+    environment:
+      - TZ=Asia/Tokyo
+    volumes:
+      - ./samba/filesystem/AudioData/normal:/filesystem/AudioData/normal
+      - ./samba/filesystem/AudioData/history:/filesystem/AudioData/history
+      - ./samba/filesystem/FacilityPhoto/normal:/filesystem/FacilityPhoto/normal
+      - ./samba/filesystem/FacilityPhoto/history:/filesystem/FacilityPhoto/history
+      - ./samba/filesystem/ScorePdf/normal:/filesystem/ScorePdf/normal
+      - ./samba/filesystem/ScorePdf/history:/filesystem/ScorePdf/history
+    tty: true
+    stdin_open: true
+    restart: always
+    depends_on:
+      - mysql
+    command: '-s "filesystem;/filesystem;yes;no;no;spring_user" -u "spring_user;spring_pass" '
+
+
+
+
+  # /** 
+  #  **************************************************************************************
+  #  * @brief 使用するデータベース開発ツール[phpMyAdmin]を仮想コンテナとして用意する。
+  #  * 
+  #  * @details 
+  #  * - このコンテナは、他の仮想コンテナである[MySQL]の後に起動される。
+  #  * - このコンテナは、あくまで開発時に使用するものとなるため、本番環境ではこのコンテナは除外する。
+  #  **************************************************************************************
+  #  */
+  dbclient:
+    container_name: dbclient
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
+    ports:
+      - 4040:80
+    volumes:
+      - ./dbclient/sessions:/sessions
+    links:
+      - mysql
+    depends_on:
+      - mysql
+
+
+
+
+  # /** 
+  #  **************************************************************************************
+  #  * @brief 使用するJavaの稼働環境を仮想コンテナとして用意する。
+  #  * 
+  #  * @details 
+  #  * - このコンテナは、他の仮想コンテナである[Samba]の後に起動される。
+  #  **************************************************************************************
+  #  */
+  java:
+    container_name: java
+    image: openjdk:18
+    depends_on:
+      - samba
+    ports:
+      - "8080:8080"
+      - "5050:5050"
+    volumes:
+      - ./spring_prj:/app
+    tty: true
+    working_dir: /app

@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_1c015e217152a0ae4d3c606760208086a.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[設備写真データ管理]の圧縮ファイルの解凍抽出機能のテストを行うクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_1ae01beb10148c20e35b0059c3cf73de9.png" border="0" usemap="#acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_facility___photo___zip_impl___test_8_facility___photo___zip_impl___extract_zip___test_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_facility___photo___zip_impl___test_8_facility___photo___zip_impl___extract_zip___test_inherit__map" id="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_facility___photo___zip_impl___test_8_facility___photo___zip_impl___extract_zip___test_inherit__map">
+<area shape="rect" title="主に[設備写真データ管理]の圧縮ファイルの解凍抽出機能のテストを行うクラス" alt="" coords="260,5,467,89"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html" title="入力された圧縮ファイルの解凍とデータの抽出機能のテストにおいて、共通で使用するメソッドの 提供を行うインターフェース" alt="" coords="5,13,212,82"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_18754d2426815d8fbe5fd704be817d7b6.png" border="0" usemap="#acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_facility___photo___zip_impl___test_8_facility___photo___zip_impl___extract_zip___test_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_facility___photo___zip_impl___test_8_facility___photo___zip_impl___extract_zip___test_coll__map" id="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_facility___photo___zip_impl___test_8_facility___photo___zip_impl___extract_zip___test_coll__map">
+<area shape="rect" title="主に[設備写真データ管理]の圧縮ファイルの解凍抽出機能のテストを行うクラス" alt="" coords="2939,395,3145,479"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html" title="入力された圧縮ファイルの解凍とデータの抽出機能のテストにおいて、共通で使用するメソッドの 提供を行うインターフェース" alt="" coords="2608,269,2815,339"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html" title="主に[設備写真データ管理]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="2587,363,2836,418"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formefe0aca6bd0568b36a5b80ec38b7a276.html" title="主に[設備写真データ機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="2151,142,2401,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formd9ccd6a7aefa63ffa233831ec642e2ec.html" title="主に[設備写真データ情報]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="1523,143,1773,198"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail9e487233dff97aacae7663497fbe5f94.html" title="主に[設備写真データ情報]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="2151,356,2401,425"/>
+<area shape="rect" title=" " alt="" coords="7,357,154,382"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_repo3e08599711d783f72bad3dd72709a95d.html" title="主に[設備写真データ情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="321,65,595,119"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_4ba3dee93fd0d8c520fae6d740684b39.html" title="主に[設備写真データ情報]機能のテストにおいて、ZIPファイルの入出力のテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="333,609,583,663"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data9bd6822b6af9e6efcf110fd4c05e98a1.html" title="主に[設備写真データ情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="632,521,895,575"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="321,209,595,263"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="308,431,608,486"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="319,287,597,342"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_repoc9562a484c484d822635a5b1dbbec4b7.html" title="主に[設備写真データ管理]機能のテストにおいて、リポジトリの検索のテストを行う際の検索 ワードのテストケースを読み取るクラス。" alt="" coords="1809,65,2108,119"/>
+<area shape="rect" title=" " alt="" coords="5,153,156,178"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_ed5c1bce6869fbe8d95b8898bd79f805.html" title="主に[設備写真データ機能]機能のテストにおいて、ZIPの入出力の機能において使用するテスト ケースを読み取るクラス。" alt="" coords="1237,761,1487,815"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html" title="主に[設備写真データ情報]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="2132,591,2420,646"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1521,269,1775,323"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="929,209,1203,263"/>
+<area shape="rect" title=" " alt="" coords="11,9,151,34"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="919,366,1213,421"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="921,445,1211,499"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="927,287,1205,342"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3e5289380462e9bf466fd2dfb931646c.html" title="主に[設備写真データ情報]機能のテストにおいて、ファイルサーバーとの通信テストの際に ファイルサーバーに初期データをセットアップするクラス。" alt="" coords="1511,719,1785,774"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="925,626,1207,681"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail632503e6f3c95fcdc159008c95471296.html" title="主に[設備写真データ情報]機能のテストにおいて、ファイルサーバーとの通信テストの際に ファイルサーバーににエラーとなる初期データをセットアップするクラス。" alt="" coords="1523,348,1773,417"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="332,727,584,782"/>
+<area shape="rect" title=" " alt="" coords="37,742,124,767"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="332,806,584,861"/>
+<area shape="rect" title=" " alt="" coords="33,821,129,846"/>
+<area shape="rect" title=" " alt="" coords="1599,606,1697,631"/>
+<area shape="rect" title=" " alt="" coords="1612,442,1684,467"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___zip.html" title="主に[設備写真データ管理]機能で使用する、バイナリデータの圧縮ファイルを入出力する 機能を提供するインターフェース" alt="" coords="2608,442,2815,497"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_zip.html" title="バイナリデータの圧縮ファイルを入出力する機能を提供するインターフェース" alt="" coords="2173,849,2379,889"/>
+<area shape="rect" title=" " alt="" coords="2658,521,2765,546"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a4208c17bd3962a80f1a07bbe06f93ec4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a4208c17bd3962a80f1a07bbe06f93ec4">Facility_Photo_ZipImpl_ExtractZip_Test</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a159d5826a123cc14d5bd1af78b6e4190">testcase</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html">Common_Zip</a> common_zip)</td></tr>
+<tr class="memdesc:a4208c17bd3962a80f1a07bbe06f93ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a4208c17bd3962a80f1a07bbe06f93ec4">[詳解]</a><br /></td></tr>
+<tr class="separator:a4208c17bd3962a80f1a07bbe06f93ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0aa583c7ebf791ab0274bca3562ec09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#af0aa583c7ebf791ab0274bca3562ec09">圧縮ファイルからのデータ抽出機能の成功パターンの確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:af0aa583c7ebf791ab0274bca3562ec09"><td class="mdescLeft">&#160;</td><td class="mdescRight">集約クラス側の圧縮ファイル解凍抽出メソッドの成功パターンのテストを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#af0aa583c7ebf791ab0274bca3562ec09">[詳解]</a><br /></td></tr>
+<tr class="separator:af0aa583c7ebf791ab0274bca3562ec09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04db081b8869245371e42caf256c2ab5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a04db081b8869245371e42caf256c2ab5">圧縮ファイルからのデータ抽出機能の失敗パターンの確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a04db081b8869245371e42caf256c2ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">集約クラス側の圧縮ファイル解凍抽出メソッドの失敗パターンのテストを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a04db081b8869245371e42caf256c2ab5">[詳解]</a><br /></td></tr>
+<tr class="separator:a04db081b8869245371e42caf256c2ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a613cbff8226c5d0c61015bff82586e3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#a613cbff8226c5d0c61015bff82586e3b">圧縮ファイルからのデータ抽出機能の成功パターンの確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a613cbff8226c5d0c61015bff82586e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">入力された圧縮ファイルの解凍とデータの抽出処理において共通クラスをDIした集約クラス側の メソッドの検査を行う。ファイルの同一性はハッシュ化して確認し、作成した一時ファイルは使用後必ず 削除する。なお、このテストは解凍＆抽出処理の成功ケースである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#a613cbff8226c5d0c61015bff82586e3b">[詳解]</a><br /></td></tr>
+<tr class="separator:a613cbff8226c5d0c61015bff82586e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c0fdf195fff94e6338d8a5bc302178"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#ac3c0fdf195fff94e6338d8a5bc302178">圧縮ファイルからのデータ抽出機能の失敗パターンの確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ac3c0fdf195fff94e6338d8a5bc302178"><td class="mdescLeft">&#160;</td><td class="mdescRight">入力された圧縮ファイルの解凍とデータの抽出処理において共通クラスをDIした集約クラス側の メソッドの検査を行う。ファイルの同一性はハッシュ化して確認し、作成した一時ファイルは使用後必ず 削除する。なお、このテストは解凍＆抽出処理の失敗ケースである。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#ac3c0fdf195fff94e6338d8a5bc302178">[詳解]</a><br /></td></tr>
+<tr class="separator:ac3c0fdf195fff94e6338d8a5bc302178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a34ec7792d1823f3b02739398f46d61ac"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a34ec7792d1823f3b02739398f46d61ac">一時ファイルディレクトリの初期化確認</a> ()  throws InterruptedException</td></tr>
+<tr class="memdesc:a34ec7792d1823f3b02739398f46d61ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a34ec7792d1823f3b02739398f46d61ac">[詳解]</a><br /></td></tr>
+<tr class="separator:a34ec7792d1823f3b02739398f46d61ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:a65f1c107beffe661631ffbf3d01a071f"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___zip.html">Facility_Photo_Zip</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a65f1c107beffe661631ffbf3d01a071f">faci_zip</a></td></tr>
+<tr class="separator:a65f1c107beffe661631ffbf3d01a071f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148623c7c25dd6794a1379d413e217be"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a148623c7c25dd6794a1379d413e217be">prefix</a> = &quot;FacilityPhotoZipImplExtractZipTest&quot;</td></tr>
+<tr class="separator:a148623c7c25dd6794a1379d413e217be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43207b2a243e0b659dd956359a35cfd"><td class="memItemLeft" align="right" valign="top">final SoftAssertions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#ab43207b2a243e0b659dd956359a35cfd">softly</a> = new SoftAssertions()</td></tr>
+<tr class="separator:ab43207b2a243e0b659dd956359a35cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3a8f1e64b56fdb86316d37a24f965b7"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#af3a8f1e64b56fdb86316d37a24f965b7">target_func</a> = &quot;FacilityPhoto&quot;</td></tr>
+<tr class="separator:af3a8f1e64b56fdb86316d37a24f965b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159d5826a123cc14d5bd1af78b6e4190"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html#a159d5826a123cc14d5bd1af78b6e4190">testcase</a></td></tr>
+<tr class="separator:a159d5826a123cc14d5bd1af78b6e4190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[設備写真データ管理]の圧縮ファイルの解凍抽出機能のテストを行うクラス </p>
+<ul>
+<li>このテストで対象となるクラスは、[Facility_Photo_ZipImpl]である。</li>
+<li>主に、集約クラス側の圧縮ファイルの解凍抽出機能をテストする。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils </dd>
+<dd>
+ZipProcess_ExtractZip_Test </dd>
+<dd>
+Facility_Photo_ZipImpl </dd>
+<dd>
+Facility_Photo_Zip </dd>
+<dd>
+Common_Zip </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a4208c17bd3962a80f1a07bbe06f93ec4" name="a4208c17bd3962a80f1a07bbe06f93ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4208c17bd3962a80f1a07bbe06f93ec4">&#9670;&#160;</a></span>Facility_Photo_ZipImpl_ExtractZip_Test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.Facility_Photo_ZipImpl_ExtractZip_Test </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>testcase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html">Common_Zip</a>&#160;</td>
+          <td class="paramname"><em>common_zip</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。 </p>
+<ul>
+<li>環境変数に関しては、不定値の為、モックとしてインジェクションを行う。</li>
+<li>モックの環境変数において、[画像データ受付可能数]は[5]として設定したうえでテストを行う。</li>
+<li>モックの環境変数において、[画像データ量制限値]は[512000]として設定したうえでテストを行う。</li>
+<li>テスト対象クラスに関してはDIでインジェクションせず、手動でインスタンス化する際にモックの環境変数を 渡すことで、モックの環境変数が有効なテスト対象クラスを作成する。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase</td><td>テストケースクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">common_zip</td><td>共通クラス側</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Zip </dd>
+<dd>
+Facility_Photo_ZipImpl </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="af0aa583c7ebf791ab0274bca3562ec09" name="af0aa583c7ebf791ab0274bca3562ec09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0aa583c7ebf791ab0274bca3562ec09">&#9670;&#160;</a></span>圧縮ファイルからのデータ抽出機能の成功パターンの確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.圧縮ファイルからのデータ抽出機能の成功パターンの確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>集約クラス側の圧縮ファイル解凍抽出メソッドの成功パターンのテストを行う。 </p>
+<ul>
+<li>検査方法としては、抽出したデータをテストケースのファイルを、ハッシュ化して同一性確認を行う。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースから抽出テスト用の圧縮ファイルと、その圧縮ファイルの中に入っているファイルと 同一のテストケースファイルを準備する。</li>
+<li>テスト用の圧縮ファイルをテスト対象メソッドに投入し、結果のファイルリストを受け取る。</li>
+<li>ファイルリストの中のファイルと、テストケースファイルとの同一性をハッシュ化して確認し、同一の ファイルが含まれているか確認する。</li>
+<li>テストの終了後に、抽出によって作成された一時ファイルを削除する。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>本来であれば、集約クラスのテストを行う前に共通クラス側を先に単体テストするべきだと思うが、 集約クラス側の実装内容が共通クラス側のメソッドを呼び出しているだけの極めてシンプルな内容の為、 集約クラス側だけのテストでも十分共通クラス側の動作保証ができると判断したので、このテストのみである。</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#a613cbff8226c5d0c61015bff82586e3b">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.TestInterface.ZipProcess_ExtractZip_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_af0aa583c7ebf791ab0274bca3562ec09_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_af0aa583c7ebf791ab0274bca3562ec09_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_af0aa583c7ebf791ab0274bca3562ec09_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_af0aa583c7ebf791ab0274bca3562ec09_cgraph">
+<area shape="rect" title="集約クラス側の圧縮ファイル解凍抽出メソッドの成功パターンのテストを行う。" alt="" coords="5,199,676,283"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utils19264b44c3ca6c41e3af348b87f310cd.html#af9997bf04a6a3b6a204a5f384452064f" title="テスト後に生成した一時ファイルを削除する。" alt="" coords="735,5,1009,75"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_zip.html#a9c91fc3bd5ffccabe1f66c791ae9de14" title="受け取った圧縮ファイルを、データの正当性検査を確認しながら解凍する。" alt="" coords="744,99,1000,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utils19264b44c3ca6c41e3af348b87f310cd.html#acc532cb3bf0bdc9dfb09b235d33bd2da" title="テスト時にテスト対象クラスに投入するファイルのコピーを作成する。" alt="" coords="745,163,999,232"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#ae1dc47a4e0782d9747c298861a6234b6" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="724,257,1020,311"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a8f62a6ca6bd14894929edfba970e7f79" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="736,335,1008,390"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a87a7e218fc3ed138a350ea7e7a2db518" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="727,414,1017,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formefe0aca6bd0568b36a5b80ec38b7a276.html#aa7f38bddbe94d8d609ffe780f7a41606" title="バリデーションにおいて特に問題ないテストケースを読み込んで、マップリストを作成する。" alt="" coords="1068,257,1396,311"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_formefe0aca6bd0568b36a5b80ec38b7a276.html#a68b6d104ffd753bfe33336bede89001c" title="バリデーションで合格するテストケースを読み込んで、マップリストを作成する。" alt="" coords="1080,335,1384,390"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_ed5c1bce6869fbe8d95b8898bd79f805.html#aaebcd4bfe5c1f97cb8a2019b0f157671" title="バリデーションで合格するテストケースを読み込んで返却する。" alt="" coords="1085,414,1379,469"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a04db081b8869245371e42caf256c2ab5" name="a04db081b8869245371e42caf256c2ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04db081b8869245371e42caf256c2ab5">&#9670;&#160;</a></span>圧縮ファイルからのデータ抽出機能の失敗パターンの確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.圧縮ファイルからのデータ抽出機能の失敗パターンの確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>集約クラス側の圧縮ファイル解凍抽出メソッドの失敗パターンのテストを行う。 </p>
+<ul>
+<li>検査方法としては、テスト対象メソッドに処理に失敗するパターンの圧縮ファイルを投入した際に、エラーとなり 処理が止まることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>テストケースから抽出処理でエラーになるパターンのテストケースを取得する。</li>
+<li>テスト用の圧縮ファイルをテスト対象メソッドに投入した際に、エラーとなることを確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>本来であれば、集約クラスのテストを行う前に共通クラス側を先に単体テストするべきだと思うが、 集約クラス側の実装内容が共通クラス側のメソッドを呼び出しているだけの極めてシンプルな内容の為、 集約クラス側だけのテストでも十分共通クラス側の動作保証ができると判断したので、このテストのみである。</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Facility_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test36bd69262f6ae3791076bccd304eec20.html#ac3c0fdf195fff94e6338d8a5bc302178">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.TestInterface.ZipProcess_ExtractZip_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a04db081b8869245371e42caf256c2ab5_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a04db081b8869245371e42caf256c2ab5_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a04db081b8869245371e42caf256c2ab5_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a04db081b8869245371e42caf256c2ab5_cgraph">
+<area shape="rect" title="集約クラス側の圧縮ファイル解凍抽出メソッドの失敗パターンのテストを行う。" alt="" coords="5,62,676,146"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_zip.html#a9c91fc3bd5ffccabe1f66c791ae9de14" title="受け取った圧縮ファイルを、データの正当性検査を確認しながら解凍する。" alt="" coords="749,5,1005,45"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utils19264b44c3ca6c41e3af348b87f310cd.html#acc532cb3bf0bdc9dfb09b235d33bd2da" title="テスト時にテスト対象クラスに投入するファイルのコピーを作成する。" alt="" coords="751,69,1004,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#ad79a394b3ea0dd712435b4ef5d478543" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="724,163,1031,218"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_zip_ed5c1bce6869fbe8d95b8898bd79f805.html#ac66c34d60230ac282e3e7443ce3e6af5" title="項目[設備写真ZIPファイル]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="1079,163,1392,218"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a34ec7792d1823f3b02739398f46d61ac" name="a34ec7792d1823f3b02739398f46d61ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ec7792d1823f3b02739398f46d61ac">&#9670;&#160;</a></span>一時ファイルディレクトリの初期化確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.一時ファイルディレクトリの初期化確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a34ec7792d1823f3b02739398f46d61ac_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a34ec7792d1823f3b02739398f46d61ac_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a34ec7792d1823f3b02739398f46d61ac_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e_a34ec7792d1823f3b02739398f46d61ac_cgraph">
+<area shape="rect" title="テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。" alt="" coords="5,5,508,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utils19264b44c3ca6c41e3af348b87f310cd.html#a19d38e6e582d8285e9585fbedb913ba5" title="テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。" alt="" coords="556,13,819,82"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="a65f1c107beffe661631ffbf3d01a071f" name="a65f1c107beffe661631ffbf3d01a071f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65f1c107beffe661631ffbf3d01a071f">&#9670;&#160;</a></span>faci_zip</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_facility___photo___zip.html">Facility_Photo_Zip</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.faci_zip</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a148623c7c25dd6794a1379d413e217be" name="a148623c7c25dd6794a1379d413e217be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148623c7c25dd6794a1379d413e217be">&#9670;&#160;</a></span>prefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.prefix = &quot;FacilityPhotoZipImplExtractZipTest&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab43207b2a243e0b659dd956359a35cfd" name="ab43207b2a243e0b659dd956359a35cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab43207b2a243e0b659dd956359a35cfd">&#9670;&#160;</a></span>softly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SoftAssertions com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.softly = new SoftAssertions()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3a8f1e64b56fdb86316d37a24f965b7" name="af3a8f1e64b56fdb86316d37a24f965b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3a8f1e64b56fdb86316d37a24f965b7">&#9670;&#160;</a></span>target_func</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.target_func = &quot;FacilityPhoto&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a159d5826a123cc14d5bd1af78b6e4190" name="a159d5826a123cc14d5bd1af78b6e4190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159d5826a123cc14d5bd1af78b6e4190">&#9670;&#160;</a></span>testcase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html">Facility_Photo_TestCase_Make</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Facility_Photo_ZipImpl_Test.Facility_Photo_ZipImpl_ExtractZip_Test.testcase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/JoinTests/FileIO/ZipProcess_Test/Facility_Photo_ZipImpl_Test/<a class="el" href="_join_tests_2_file_i_o_2_zip_process___test_2_facility___photo___zip_impl___test_2_facility___phe3a10996dc19c5ed920b75888ab44f01.html">Facility_Photo_ZipImpl_ExtractZip_Test.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests.html">JoinTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test.html">ZipProcess_Test</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___testf1305417c3a5cff97abb8f404585f5ad.html">Facility_Photo_ZipImpl_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_12fa922ae99dee70e0b08290269cc0b1e.html">Facility_Photo_ZipImpl_ExtractZip_Test</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

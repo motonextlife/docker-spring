@@ -1,0 +1,1338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">クラス</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_common_test_case_maker_8_history_8_history___test_case___make_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_common_test_case_maker_8_history_8_history___test_case___make_coll__map" id="acom_8springproject_8dockerspring_8_common_test_case_maker_8_history_8_history___test_case___make_coll__map">
+<area shape="rect" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1203,161,1457,216"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="752,43,1025,97"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="321,43,595,97"/>
+<area shape="rect" title=" " alt="" coords="7,169,154,195"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="308,155,608,209"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="319,279,597,333"/>
+<area shape="rect" title=" " alt="" coords="11,5,151,31"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="741,121,1036,176"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="744,200,1033,255"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="749,279,1028,333"/>
+<area shape="rect" title=" " alt="" coords="5,304,156,329"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+クラス</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴情報データを関連付けるためのマップキーの列挙型である。  <a href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html#details">[詳解]</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">[履歴データのフォームバリデーション]に関連するメソッド</div></td></tr>
+<tr class="memitem:a23d1171b74d5238b79594af74ce2c6f7"><td class="memItemLeft" align="right" valign="top">Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a23d1171b74d5238b79594af74ce2c6f7">getHistoryNormalData</a> ()</td></tr>
+<tr class="memdesc:a23d1171b74d5238b79594af74ce2c6f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a23d1171b74d5238b79594af74ce2c6f7">[詳解]</a><br /></td></tr>
+<tr class="separator:a23d1171b74d5238b79594af74ce2c6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeeb43c9b2e705846096e73d6efa44c1"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#adeeb43c9b2e705846096e73d6efa44c1">getHistoryOkData</a> ()</td></tr>
+<tr class="memdesc:adeeb43c9b2e705846096e73d6efa44c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#adeeb43c9b2e705846096e73d6efa44c1">[詳解]</a><br /></td></tr>
+<tr class="separator:adeeb43c9b2e705846096e73d6efa44c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b292680ef12a3e314ccb1074bbaa51"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ae9b292680ef12a3e314ccb1074bbaa51">getHistoryIdFailedData</a> (Boolean output_valid)</td></tr>
+<tr class="memdesc:ae9b292680ef12a3e314ccb1074bbaa51"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ae9b292680ef12a3e314ccb1074bbaa51">[詳解]</a><br /></td></tr>
+<tr class="separator:ae9b292680ef12a3e314ccb1074bbaa51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb5c837c6e7f9fce6d56b5f96935ea60"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#afb5c837c6e7f9fce6d56b5f96935ea60">getChangeDatetimeFailedData</a> ()</td></tr>
+<tr class="memdesc:afb5c837c6e7f9fce6d56b5f96935ea60"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#afb5c837c6e7f9fce6d56b5f96935ea60">[詳解]</a><br /></td></tr>
+<tr class="separator:afb5c837c6e7f9fce6d56b5f96935ea60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af93a10a0cf20cf71093b8119b368bf51"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af93a10a0cf20cf71093b8119b368bf51">getChangeKindsFailedData</a> ()</td></tr>
+<tr class="memdesc:af93a10a0cf20cf71093b8119b368bf51"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af93a10a0cf20cf71093b8119b368bf51">[詳解]</a><br /></td></tr>
+<tr class="separator:af93a10a0cf20cf71093b8119b368bf51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad73f066204f841842497fc04bfd6a29f"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ad73f066204f841842497fc04bfd6a29f">getOperationUserFailedData</a> ()</td></tr>
+<tr class="memdesc:ad73f066204f841842497fc04bfd6a29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ad73f066204f841842497fc04bfd6a29f">[詳解]</a><br /></td></tr>
+<tr class="separator:ad73f066204f841842497fc04bfd6a29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">[履歴データの検索テスト]に関連するメソッド</div></td></tr>
+<tr class="memitem:af89fc7e0ee37fcf39a5de2defd7029ea"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea">historySubjectRepoForm</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:af89fc7e0ee37fcf39a5de2defd7029ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af89fc7e0ee37fcf39a5de2defd7029ea">[詳解]</a><br /></td></tr>
+<tr class="separator:af89fc7e0ee37fcf39a5de2defd7029ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca79d226158ef5b04b841c972c90808"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808">historyOtherRepoForm</a> (<a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a> subject_key, Integer testcase_num)</td></tr>
+<tr class="memdesc:a7ca79d226158ef5b04b841c972c90808"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a7ca79d226158ef5b04b841c972c90808">[詳解]</a><br /></td></tr>
+<tr class="separator:a7ca79d226158ef5b04b841c972c90808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">[履歴データのデータベーステスト]に関連するメソッド</div></td></tr>
+<tr class="memitem:a5df7c09df1a53d9c1a55017856d636b9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a5df7c09df1a53d9c1a55017856d636b9">getCompareId</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:a5df7c09df1a53d9c1a55017856d636b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a5df7c09df1a53d9c1a55017856d636b9">[詳解]</a><br /></td></tr>
+<tr class="separator:a5df7c09df1a53d9c1a55017856d636b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2298cb81b88636782e7e35cef267447"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab2298cb81b88636782e7e35cef267447">getCompareChange_datetime</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:ab2298cb81b88636782e7e35cef267447"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab2298cb81b88636782e7e35cef267447">[詳解]</a><br /></td></tr>
+<tr class="separator:ab2298cb81b88636782e7e35cef267447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab73653b341c280bacf238bf16e3f1610"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab73653b341c280bacf238bf16e3f1610">getCompareChange_kinds</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:ab73653b341c280bacf238bf16e3f1610"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ab73653b341c280bacf238bf16e3f1610">[詳解]</a><br /></td></tr>
+<tr class="separator:ab73653b341c280bacf238bf16e3f1610"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5471ee358334b0dd640287d7d2ef7e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a1b5471ee358334b0dd640287d7d2ef7e">getCompareOperation_user</a> (Integer testcase_num)</td></tr>
+<tr class="memdesc:a1b5471ee358334b0dd640287d7d2ef7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a1b5471ee358334b0dd640287d7d2ef7e">[詳解]</a><br /></td></tr>
+<tr class="separator:a1b5471ee358334b0dd640287d7d2ef7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403d9013dd1fa6f616e32463c03d436d"><td class="memItemLeft" align="right" valign="top">List&lt; Date &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a403d9013dd1fa6f616e32463c03d436d">getFailChange_datetime</a> ()</td></tr>
+<tr class="memdesc:a403d9013dd1fa6f616e32463c03d436d"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a403d9013dd1fa6f616e32463c03d436d">[詳解]</a><br /></td></tr>
+<tr class="separator:a403d9013dd1fa6f616e32463c03d436d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8419729de3a37f231193b1ec60f532c4"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a8419729de3a37f231193b1ec60f532c4">getFailChange_kinds</a> ()</td></tr>
+<tr class="memdesc:a8419729de3a37f231193b1ec60f532c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a8419729de3a37f231193b1ec60f532c4">[詳解]</a><br /></td></tr>
+<tr class="separator:a8419729de3a37f231193b1ec60f532c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1048bd02170ba1107a58ec0bcf396c8d"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a1048bd02170ba1107a58ec0bcf396c8d">getFailOperation_user</a> ()</td></tr>
+<tr class="memdesc:a1048bd02170ba1107a58ec0bcf396c8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a1048bd02170ba1107a58ec0bcf396c8d">[詳解]</a><br /></td></tr>
+<tr class="separator:a1048bd02170ba1107a58ec0bcf396c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">[履歴データのエラーのデータベーステスト]に関連するメソッド</div></td></tr>
+<tr class="memitem:af290f5c9bdc345ba855e1cf1dc681469"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af290f5c9bdc345ba855e1cf1dc681469">getHistoryDatabaseFailData</a> ()</td></tr>
+<tr class="memdesc:af290f5c9bdc345ba855e1cf1dc681469"><td class="mdescLeft">&#160;</td><td class="mdescRight">インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af290f5c9bdc345ba855e1cf1dc681469">[詳解]</a><br /></td></tr>
+<tr class="separator:af290f5c9bdc345ba855e1cf1dc681469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:aaa94d0e9ac04412f485526b9825f6032"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html">History_Database_TestCase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#aaa94d0e9ac04412f485526b9825f6032">database_clazz</a></td></tr>
+<tr class="separator:aaa94d0e9ac04412f485526b9825f6032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9eb5fab6d143924b5761827347f2bd1"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html">History_Fail_Database_TestCase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#ad9eb5fab6d143924b5761827347f2bd1">fail_database_clazz</a></td></tr>
+<tr class="separator:ad9eb5fab6d143924b5761827347f2bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8e02b35e57818fc4661b69046b1c41"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html">History_Form_TestCase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#acb8e02b35e57818fc4661b69046b1c41">form_clazz</a></td></tr>
+<tr class="separator:acb8e02b35e57818fc4661b69046b1c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6faf7219abaf3e31e7416dd71296333f"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html">History_RepoForm_TestCase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#a6faf7219abaf3e31e7416dd71296333f">repoform_clazz</a></td></tr>
+<tr class="separator:a6faf7219abaf3e31e7416dd71296333f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。 </p>
+<ul>
+<li>当該パッケージ内で作成された各テストケースクラスをインジェクションし、このクラスから共通して 使えるようにする。</li>
+<li>各テストケースを集約し、メソッドを中継することが目的のクラスである。</li>
+<li>各テストケースクラスのインジェクションは、Lombokによりコンストラクタインジェクションを 行うことで実現する。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@ComponentScan</li>
+<li>@RequiredArgsConstructor(onConstructor = @__(@Autowired))</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd>
+<dd>
+History_Fail_Database_TestCase </dd>
+<dd>
+History_Form_TestCase </dd>
+<dd>
+History_RepoForm_TestCase </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="afb5c837c6e7f9fce6d56b5f96935ea60" name="afb5c837c6e7f9fce6d56b5f96935ea60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb5c837c6e7f9fce6d56b5f96935ea60">&#9670;&#160;</a></span>getChangeDatetimeFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getChangeDatetimeFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,308,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html#a7c75c88d63f519699dfadedf22affebd" title="項目[履歴日時]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="356,5,657,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_afb5c837c6e7f9fce6d56b5f96935ea60_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="404,257,707,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a01d58d250958a4bab632a3b37af6a391" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="12,5,349,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a884aaafbb631d1763aa292a6e26cf930" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="29,84,332,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a603eb3d6b5e4ff8fabc388302617fc6b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="19,163,343,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#afc2a93c3213dfa9c86891c39a1001073" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="15,257,346,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#af6d1d115d83e7ccd3c0e64b3ce4f2d1f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="9,336,353,391"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a344248fd20ecfd97728704be36c29863" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="16,415,345,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#ad69ed8260e2436af23fb4604072db3cd" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,493,356,548"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af93a10a0cf20cf71093b8119b368bf51" name="af93a10a0cf20cf71093b8119b368bf51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93a10a0cf20cf71093b8119b368bf51">&#9670;&#160;</a></span>getChangeKindsFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getChangeKindsFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,289,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html#a889bef0d05d82ea1061790bfa0c7049e" title="項目[履歴種別]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="337,5,627,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af93a10a0cf20cf71093b8119b368bf51_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="385,257,669,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a9fca96664819b43a9fe7b4da9645bf18" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="12,5,331,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a7626053eb194d038ca9752fdfd5a705e" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="29,84,313,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a008ac70b17b4899ef6cdcd872b38a3fd" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="19,163,324,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a39c5f67d3496f6c0bb299a175f8fa402" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="16,257,327,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a11fbdca2f8d2dfd084e8f312a730a319" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="9,336,334,391"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#ac97e42dc58024fd22d4e146d96869358" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="16,415,327,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a3cbd166f3d0116f7c03772f42c7684ad" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,493,337,548"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab2298cb81b88636782e7e35cef267447" name="ab2298cb81b88636782e7e35cef267447"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2298cb81b88636782e7e35cef267447">&#9670;&#160;</a></span>getCompareChange_datetime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getCompareChange_datetime </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,304,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a016502f53982cb8cffdea47778773c2b" title="データベースに正常に保存される、[履歴日時]をリストに格納したものである。" alt="" coords="352,5,715,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab2298cb81b88636782e7e35cef267447_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="821,1032,1120,1087"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad5ac835447e51d28e191d8e7ba6646fd" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="409,5,759,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a0f4daccf263b69cd39fe3e210fa4e5e3" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="427,85,741,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a1eb40e6a2390ffe5fc4d41a659c3c536" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="421,178,747,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ab11a290dfcd032c00b87bfa3339061be" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="421,271,747,341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4a2f91648525767758f82f03ee715705" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="430,365,738,434"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#a9863a1b88f3fc54dada812ebc264fdae" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="459,458,709,527"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a4894971bdbd1fd8809d5f0ec2126320a" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="401,552,767,607"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#a9e095be1503305d4f02196b2183ff4cd" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="424,631,744,685"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a22beb1090f40b48bd2bd4d98b81bec96" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="408,709,760,764"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a3ca8740216aa092f4034c2f00d241605" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="402,788,766,843"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a170909c9533d733c81ec4d342bcbc5d2" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="403,867,765,921"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#aab2c75e35d70814c0e822845a6cb2cab" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="411,945,757,1000"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#abeeb9ced4079433d20b3d365aa67d4b0" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="459,1025,709,1094"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#ab495176453ca82b8d84f660b5f12b5f7" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="415,1119,753,1173"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4e38315e56949b97bda74e2152e63bdf" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="425,1198,743,1267"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#aedfd29279c2beb0c8b10e7c0f0cd6a7a" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="438,1291,730,1361"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#ae1cc38bf0f603cb85092afc607c0b9e9" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="457,1385,711,1454"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a626e1fa518a669118e9aac7b6aaea5d2" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="422,1478,746,1547"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#ad770dbbb21d232841d40e39e6075cdf3" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="416,1571,752,1641"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a518e40bc6e3c30f7565f2228a744ef2a" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="429,1665,739,1734"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a2eff4e84566a133520c7bee514348c52" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="417,1758,751,1827"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ae2cafc04f852ae964f0064f8c3d9ab0d" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="417,1852,751,1907"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a9f8c5d0daf3138078dde1642f5a6ae12" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="401,1931,767,1985"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a15355d34a0450350a3b36a28f35d6e69" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="395,2009,773,2064"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ad64162dc110712cc0ffee2831fe57911" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="428,2089,740,2158"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a7244d3e242994ecfebd08418b129bb80" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="34,5,318,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a3169e8af9cab45db8c0818ce4ba235c4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="21,92,331,147"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#af813b2a2131b80a2753375d6a4b59764" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="13,185,339,240"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aeb4c7587fa81b9887201454261456c15" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="10,279,342,333"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a5672c4e4af052966c10cc2be83a9e124" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="17,372,335,427"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a8a2eb3f6a899464d3a48f2ba6bcc8948" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="25,458,327,527"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a787b381eb556821bf7b5337709478294" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="21,552,331,607"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a4a6c5ac261bbd67a9baaf4967a8b995f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="47,631,305,685"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a316ec4859005fed66302a453225ac22b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="33,709,319,764"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a7ab6d607664504453034ef9a6550f0f7" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="27,788,325,843"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a93885763ba84f32d2782c95f22da9554" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="25,867,327,921"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#ab2b21d08631c2af110757ce313d1182a" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="31,945,321,1000"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a2f7a7d91055bd719758f50c507c9a9b9" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="7,1032,345,1087"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#ac24c6fcf22466cca4bae315c7eaf7703" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="35,1119,317,1173"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a40978663ec16dae01c9147cfe96ff599" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="13,1205,339,1260"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a9b1bed97f3645f4a908a527bce58cbbc" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="29,1299,323,1353"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a01d81e6629dce97138c3a4b5e193f576" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="21,1385,331,1454"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a272926a994db028be648a5c36e4e6a48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="16,1485,336,1540"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ad3be30aeff77f44887d9eb476ba611b4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="9,1579,343,1633"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#acad54fa62c6edd3b331c190116bbbb0b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="17,1672,335,1727"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#adca209e0f8970991b693222bd9e7eb45" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,1765,347,1820"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a83983b9368d59fb856ece96968ed0581" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="41,1852,311,1907"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#aa589f2dde750cc4d6baec2fc989b2d24" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="27,1931,325,1985"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a7ab84042f5e19ae2983e0adb8a31b172" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="21,2009,331,2064"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab73653b341c280bacf238bf16e3f1610" name="ab73653b341c280bacf238bf16e3f1610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab73653b341c280bacf238bf16e3f1610">&#9670;&#160;</a></span>getCompareChange_kinds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getCompareChange_kinds </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,284,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a3d50dcfb617e58dc70592c06fe78cf67" title="データベースに正常に保存される、[履歴種別]をリストに格納したものである。" alt="" coords="332,5,675,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ab73653b341c280bacf238bf16e3f1610_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1187,1029,1465,1084"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad5ac835447e51d28e191d8e7ba6646fd" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="775,231,1124,285"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a0f4daccf263b69cd39fe3e210fa4e5e3" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="792,569,1107,638"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a1eb40e6a2390ffe5fc4d41a659c3c536" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="786,835,1113,905"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ab11a290dfcd032c00b87bfa3339061be" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="786,929,1113,998"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4a2f91648525767758f82f03ee715705" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="795,1022,1103,1091"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#a9863a1b88f3fc54dada812ebc264fdae" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="825,1115,1074,1185"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a4894971bdbd1fd8809d5f0ec2126320a" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="766,1209,1133,1264"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a22beb1090f40b48bd2bd4d98b81bec96" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="773,489,1125,544"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4e38315e56949b97bda74e2152e63bdf" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="791,1289,1108,1358"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#aedfd29279c2beb0c8b10e7c0f0cd6a7a" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="803,395,1095,465"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#ae1cc38bf0f603cb85092afc607c0b9e9" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="822,1382,1077,1451"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a626e1fa518a669118e9aac7b6aaea5d2" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="787,742,1111,811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#ad770dbbb21d232841d40e39e6075cdf3" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="781,1475,1117,1545"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a518e40bc6e3c30f7565f2228a744ef2a" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="794,1569,1105,1638"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a2eff4e84566a133520c7bee514348c52" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="782,1662,1117,1731"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ae2cafc04f852ae964f0064f8c3d9ab0d" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="782,316,1117,371"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a9f8c5d0daf3138078dde1642f5a6ae12" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="766,663,1133,717"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a15355d34a0450350a3b36a28f35d6e69" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="760,1756,1139,1811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ad64162dc110712cc0ffee2831fe57911" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="793,1835,1105,1905"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a7244d3e242994ecfebd08418b129bb80" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="399,229,683,284"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a7ee226c2b58391992bc9c43aa3895d31" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="27,5,301,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#aaf61c06e87a70a937be15e630ade97e9" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="31,113,297,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f79b0c15a65742d60ee7d45bb4fe3856a.html#ac153b23c1f78de50381be15d1df97c34" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,222,299,291"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f5af146024e4cdf4e9283229a1bc7dbb3.html#a674c9e8d3a986dbc40355aad685eb803" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="31,315,297,385"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a3169e8af9cab45db8c0818ce4ba235c4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,576,697,631"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a3a94b7589df363e2e74f3a08c1665650" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="11,517,317,601"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m87fb5a85c056be64a04d26b82169ff0d.html#a57a77816e4a6a6c0770c29fbb34be8d1" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="15,409,313,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mad725ffea9a216ea38cee08a41928715.html#a70a493ab4324f78786f1fed425a3c2c4" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="15,626,313,695"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="17,719,311,789"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#af813b2a2131b80a2753375d6a4b59764" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,849,704,904"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ad695f73ad9ed78b0c1c24a34afdc8fd9" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="5,813,323,897"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mc6b628a6161797032c74ba783d1c8417.html#a14ed477bc177f6f8165bae355247a021" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="9,921,319,1005"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m533cdf344a18879148329a087d3d0104.html#a30bcff248da7f631edb62203b200c679" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="8,1030,320,1099"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aeb4c7587fa81b9887201454261456c15" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="375,936,707,991"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a5672c4e4af052966c10cc2be83a9e124" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="382,1029,701,1084"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a8a2eb3f6a899464d3a48f2ba6bcc8948" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="391,1115,692,1185"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a787b381eb556821bf7b5337709478294" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,1209,697,1264"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a316ec4859005fed66302a453225ac22b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="398,489,685,544"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a40978663ec16dae01c9147cfe96ff599" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="378,1296,705,1351"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a9b1bed97f3645f4a908a527bce58cbbc" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="395,401,688,456"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a01d81e6629dce97138c3a4b5e193f576" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,1382,697,1451"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a272926a994db028be648a5c36e4e6a48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="381,748,701,803"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ad3be30aeff77f44887d9eb476ba611b4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="374,1483,709,1537"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#acad54fa62c6edd3b331c190116bbbb0b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="382,1576,701,1631"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#adca209e0f8970991b693222bd9e7eb45" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="371,1669,712,1724"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a83983b9368d59fb856ece96968ed0581" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="406,320,677,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#aa589f2dde750cc4d6baec2fc989b2d24" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="393,667,690,721"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a7ab84042f5e19ae2983e0adb8a31b172" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,1756,697,1811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#af588d7007c0c5cca4ff362786b9851ec" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="382,1843,701,1897"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5df7c09df1a53d9c1a55017856d636b9" name="a5df7c09df1a53d9c1a55017856d636b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5df7c09df1a53d9c1a55017856d636b9">&#9670;&#160;</a></span>getCompareId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getCompareId </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,260,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a8b97dc8a70292a3ae99393b1a895fabf" title="データベースに正常に保存される、[管理番号]をリストに格納したものである。" alt="" coords="308,5,581,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a5df7c09df1a53d9c1a55017856d636b9_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1196,1345,1451,1399"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad5ac835447e51d28e191d8e7ba6646fd" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="790,383,1139,438"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a0f4daccf263b69cd39fe3e210fa4e5e3" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="807,1023,1122,1092"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a1eb40e6a2390ffe5fc4d41a659c3c536" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="801,1299,1128,1368"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ab11a290dfcd032c00b87bfa3339061be" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="801,1488,1128,1557"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4a2f91648525767758f82f03ee715705" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="811,1699,1119,1768"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#a9863a1b88f3fc54dada812ebc264fdae" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="840,2027,1089,2096"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a4894971bdbd1fd8809d5f0ec2126320a" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="781,2590,1148,2645"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a22beb1090f40b48bd2bd4d98b81bec96" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="789,791,1141,846"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a7244d3e242994ecfebd08418b129bb80" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="425,207,709,262"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a7ee226c2b58391992bc9c43aa3895d31" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="43,193,316,277"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#aaf61c06e87a70a937be15e630ade97e9" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="46,301,313,385"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f79b0c15a65742d60ee7d45bb4fe3856a.html#ac153b23c1f78de50381be15d1df97c34" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="44,5,315,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f5af146024e4cdf4e9283229a1bc7dbb3.html#a674c9e8d3a986dbc40355aad685eb803" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="46,99,313,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a3169e8af9cab45db8c0818ce4ba235c4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="412,849,723,903"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a3a94b7589df363e2e74f3a08c1665650" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="27,625,332,709"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m87fb5a85c056be64a04d26b82169ff0d.html#a57a77816e4a6a6c0770c29fbb34be8d1" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="30,733,329,817"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mad725ffea9a216ea38cee08a41928715.html#a70a493ab4324f78786f1fed425a3c2c4" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="30,841,329,911"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="33,935,326,1004"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#af813b2a2131b80a2753375d6a4b59764" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="405,1230,730,1285"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ad695f73ad9ed78b0c1c24a34afdc8fd9" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="21,1215,338,1299"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mc6b628a6161797032c74ba783d1c8417.html#a14ed477bc177f6f8165bae355247a021" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="24,1323,335,1407"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m533cdf344a18879148329a087d3d0104.html#a30bcff248da7f631edb62203b200c679" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="23,1028,335,1097"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m7ad95df9e4e0522fc95535cb5f8cef56.html#a8756dbb44a8bc73684f62ac1f472db78" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="26,1121,333,1191"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aeb4c7587fa81b9887201454261456c15" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="401,1533,733,1587"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se45b0a43cffd36b00bb38ba5d4bcc248.html#af1463b44aa0483a4b955e6e46eb45868" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="5,1619,353,1703"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s6b12851dfe4f879fe781e2374f348067.html#ad577bba2a61ee945c0dfebf0b70c8353" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="24,1727,335,1811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s7b450ac61178ab6ff5ae17aa2fcea9aa.html#a0d49ed4988d25db04a3287b9ea2cdf12" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="20,1432,339,1501"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_sfa63bdd6d9ea5118933d6ed82dd27d75.html#acc4a14dac479770a4e81aa2f1f9661fb" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="22,1525,337,1595"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a5672c4e4af052966c10cc2be83a9e124" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="408,1937,727,1991"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#ad0fc38b26a1e2665f8244c3697fc67a6" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="30,2023,329,2107"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a77d4360cebde9824152e865b77fa69a7" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="33,2131,325,2215"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a78890f9d0d80e72b104e1279f5c1b401.html#a74e7c09cf04ec60e09abe730776e7a40" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="27,1836,332,1905"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a54dcb23a886e4570e9635f279667c2b5.html#ae45426a640de4080181ed0ff7298207c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,1929,329,1999"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a8a2eb3f6a899464d3a48f2ba6bcc8948" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="417,2333,718,2403"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#a8d5c0807dea02341c3c0ad5392ba7868" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="22,2427,337,2511"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#a53291f7b35465a12ffec9e4351f676dd" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="25,2535,333,2619"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fd01ad44450c4c5c14ac2f45f704dfd34.html#a0be7d55f363ad32a0754673ce3ed9501" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="23,2240,335,2309"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f2b39cee3cf2cdc0af1112b5d7a9c6f22.html#a04bda0b2810286d96e58d64720ffc71c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="26,2333,333,2403"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a787b381eb556821bf7b5337709478294" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="412,2745,723,2799"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s1eb17f3a68b89eee82dab14b8ae533bf.html#ac451117d828463334158d7e41f343f0a" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="34,2831,325,2915"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s6dfeb442fcdcbc0e8ba3f2511cbb71e9.html#aeea02eb430bf72d459df16a1d50f7d9a" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="37,2939,322,3023"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_sdb87f362959d7f6fe9496a2c4cee8f8e.html#a3fc949ea4d410e067192abbd4e435337" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="31,2644,328,2713"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se75f9736aad93ec202aeed656948391f.html#a2a81a6b856fa03635a5ccd870f3ebf5f" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="33,2737,325,2807"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a316ec4859005fed66302a453225ac22b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="424,639,711,694"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m3bb87535ea534530ca6125e719d16608.html#a2cf6dfb13795c69ecbfb2ee263591694" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。" alt="" coords="47,409,311,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m2f6358580cb7f494f939fb9265270db8.html#a227369824a85a5faa950e1d2c4a0cb7d" title="このインナークラス内で使用するフィールド変数のセットアップと同時に、テスト対象テーブルへの 削除対象データの格納を行う。" alt="" coords="46,517,313,601"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1b5471ee358334b0dd640287d7d2ef7e" name="a1b5471ee358334b0dd640287d7d2ef7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5471ee358334b0dd640287d7d2ef7e">&#9670;&#160;</a></span>getCompareOperation_user()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getCompareOperation_user </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,291,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a2d1bfb0ca4a823913d41e380345f038f" title="データベースに正常に保存される、[操作ユーザー名]をリストに格納したものである。" alt="" coords="339,5,688,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1b5471ee358334b0dd640287d7d2ef7e_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1187,1029,1472,1084"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad5ac835447e51d28e191d8e7ba6646fd" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="775,231,1124,285"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a0f4daccf263b69cd39fe3e210fa4e5e3" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="792,569,1107,638"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a1eb40e6a2390ffe5fc4d41a659c3c536" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="786,835,1113,905"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ab11a290dfcd032c00b87bfa3339061be" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="786,929,1113,998"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4a2f91648525767758f82f03ee715705" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="795,1022,1103,1091"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#a9863a1b88f3fc54dada812ebc264fdae" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="825,1115,1074,1185"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a4894971bdbd1fd8809d5f0ec2126320a" title="履歴用データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いる モックのエンティティを作成する。" alt="" coords="766,1209,1133,1264"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a22beb1090f40b48bd2bd4d98b81bec96" title="履歴用のリポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="773,489,1125,544"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a4e38315e56949b97bda74e2152e63bdf" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="791,1289,1108,1358"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#aedfd29279c2beb0c8b10e7c0f0cd6a7a" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="803,395,1095,465"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#ae1cc38bf0f603cb85092afc607c0b9e9" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="822,1382,1077,1451"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a626e1fa518a669118e9aac7b6aaea5d2" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="787,742,1111,811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#ad770dbbb21d232841d40e39e6075cdf3" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="781,1475,1117,1545"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a518e40bc6e3c30f7565f2228a744ef2a" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="794,1569,1105,1638"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a2eff4e84566a133520c7bee514348c52" title="履歴用リポジトリでの更新＆追加処理の際に使用する、カラムに許容される文字数ギリギリの文字数を 格納したモックエンティティを作成する。" alt="" coords="782,1662,1117,1731"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ae2cafc04f852ae964f0064f8c3d9ab0d" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="782,316,1117,371"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a9f8c5d0daf3138078dde1642f5a6ae12" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="766,663,1133,717"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a15355d34a0450350a3b36a28f35d6e69" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="760,1756,1139,1811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#ad64162dc110712cc0ffee2831fe57911" title="リポジトリでの更新＆追加処理の際に使用する、カラムに許容されるNullの値を入れた場合の モックエンティティを作成する。" alt="" coords="793,1835,1105,1905"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a7244d3e242994ecfebd08418b129bb80" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="399,229,683,284"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a7ee226c2b58391992bc9c43aa3895d31" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="27,5,301,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#aaf61c06e87a70a937be15e630ade97e9" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="31,113,297,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f79b0c15a65742d60ee7d45bb4fe3856a.html#ac153b23c1f78de50381be15d1df97c34" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,222,299,291"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f5af146024e4cdf4e9283229a1bc7dbb3.html#a674c9e8d3a986dbc40355aad685eb803" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="31,315,297,385"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a3169e8af9cab45db8c0818ce4ba235c4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,576,697,631"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a3a94b7589df363e2e74f3a08c1665650" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="11,517,317,601"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m87fb5a85c056be64a04d26b82169ff0d.html#a57a77816e4a6a6c0770c29fbb34be8d1" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="15,409,313,493"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mad725ffea9a216ea38cee08a41928715.html#a70a493ab4324f78786f1fed425a3c2c4" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="15,626,313,695"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="17,719,311,789"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#af813b2a2131b80a2753375d6a4b59764" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,849,704,904"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ad695f73ad9ed78b0c1c24a34afdc8fd9" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="5,813,323,897"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mc6b628a6161797032c74ba783d1c8417.html#a14ed477bc177f6f8165bae355247a021" title="必要なクラスをDIした後に、データベースにテストケースを準備するなどのセットアップを行う。" alt="" coords="9,921,319,1005"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m533cdf344a18879148329a087d3d0104.html#a30bcff248da7f631edb62203b200c679" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="8,1030,320,1099"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aeb4c7587fa81b9887201454261456c15" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="375,936,707,991"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a5672c4e4af052966c10cc2be83a9e124" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="382,1029,701,1084"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a8a2eb3f6a899464d3a48f2ba6bcc8948" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="391,1115,692,1185"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a787b381eb556821bf7b5337709478294" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,1209,697,1264"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a316ec4859005fed66302a453225ac22b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="398,489,685,544"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a40978663ec16dae01c9147cfe96ff599" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="378,1296,705,1351"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a9b1bed97f3645f4a908a527bce58cbbc" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="395,401,688,456"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a01d81e6629dce97138c3a4b5e193f576" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,1382,697,1451"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a272926a994db028be648a5c36e4e6a48" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="381,748,701,803"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ad3be30aeff77f44887d9eb476ba611b4" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="374,1483,709,1537"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#acad54fa62c6edd3b331c190116bbbb0b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="382,1576,701,1631"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#adca209e0f8970991b693222bd9e7eb45" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="371,1669,712,1724"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a83983b9368d59fb856ece96968ed0581" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="406,320,677,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#aa589f2dde750cc4d6baec2fc989b2d24" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="393,667,690,721"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a7ab84042f5e19ae2983e0adb8a31b172" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="386,1756,697,1811"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#af588d7007c0c5cca4ff362786b9851ec" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="382,1843,701,1897"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a403d9013dd1fa6f616e32463c03d436d" name="a403d9013dd1fa6f616e32463c03d436d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a403d9013dd1fa6f616e32463c03d436d">&#9670;&#160;</a></span>getFailChange_datetime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Date &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getFailChange_datetime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,272,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#a089c145c097bfc09cc6f6c3a2a024294" title="データベースに保存する際にエラーになる、[履歴日時]をリストに格納したものである。" alt="" coords="320,5,651,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a403d9013dd1fa6f616e32463c03d436d_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1149,293,1416,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a8fdf9c938bdd9ec31fc33a8214017543" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="737,27,1092,82"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad24c405a72d14eefd39273fa28a3e41c" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="750,114,1079,169"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#adea6c7f39bd77c1d0966eac4700520f8" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="790,197,1039,267"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a7ce3def4cdd88de9e388e4f445995999" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="734,293,1095,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#addca378efcef48d1fcad6f7ad6ee03ec" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="728,375,1101,430"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a0ef3e21204caee20d0d7500b134ad315" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="741,465,1088,519"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a2920486dc559bebd284ccce4523a72ca" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="759,545,1070,615"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a8116432e61d2e87943597eacea7d64cb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="375,23,673,78"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a54dcb23a886e4570e9635f279667c2b5.html#ae45426a640de4080181ed0ff7298207c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="13,5,313,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a3dbb9e5b1764141f5cfd0085c63b4d30" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="392,111,656,166"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f5af146024e4cdf4e9283229a1bc7dbb3.html#a674c9e8d3a986dbc40355aad685eb803" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,99,296,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#aa3d4cc6417d22bf91aba649ee00227c9" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="383,196,665,265"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f2b39cee3cf2cdc0af1112b5d7a9c6f22.html#a04bda0b2810286d96e58d64720ffc71c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="9,192,316,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#afee1282e4e49af5ea86d37de39107711" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,293,669,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="16,285,309,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a71ec47dc30afef0a5dedc06e0a177926" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="371,382,677,437"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m7ad95df9e4e0522fc95535cb5f8cef56.html#a8756dbb44a8bc73684f62ac1f472db78" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="9,379,316,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#adbd0eb4f6633f2875a4a5e96c5660961" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,470,669,525"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se75f9736aad93ec202aeed656948391f.html#a2a81a6b856fa03635a5ccd870f3ebf5f" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="17,472,309,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a6565d72de5291e0c9443fd6a98257fd7" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="368,555,680,610"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_sfa63bdd6d9ea5118933d6ed82dd27d75.html#acc4a14dac479770a4e81aa2f1f9661fb" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,565,320,635"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8419729de3a37f231193b1ec60f532c4" name="a8419729de3a37f231193b1ec60f532c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8419729de3a37f231193b1ec60f532c4">&#9670;&#160;</a></span>getFailChange_kinds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getFailChange_kinds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,260,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#afb0755573e34ef62169f440bd129ccd3" title="データベースに保存する際にエラーになる、[履歴種別]をリストに格納したものである。" alt="" coords="308,5,620,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a8419729de3a37f231193b1ec60f532c4_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1149,293,1404,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a8fdf9c938bdd9ec31fc33a8214017543" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="737,27,1092,82"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad24c405a72d14eefd39273fa28a3e41c" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="750,114,1079,169"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#adea6c7f39bd77c1d0966eac4700520f8" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="790,197,1039,267"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a7ce3def4cdd88de9e388e4f445995999" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="734,293,1095,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#addca378efcef48d1fcad6f7ad6ee03ec" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="728,375,1101,430"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a0ef3e21204caee20d0d7500b134ad315" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="741,465,1088,519"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a2920486dc559bebd284ccce4523a72ca" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="759,545,1070,615"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a8116432e61d2e87943597eacea7d64cb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="375,23,673,78"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a54dcb23a886e4570e9635f279667c2b5.html#ae45426a640de4080181ed0ff7298207c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="13,5,313,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a3dbb9e5b1764141f5cfd0085c63b4d30" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="392,111,656,166"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f5af146024e4cdf4e9283229a1bc7dbb3.html#a674c9e8d3a986dbc40355aad685eb803" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,99,296,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#aa3d4cc6417d22bf91aba649ee00227c9" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="383,196,665,265"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f2b39cee3cf2cdc0af1112b5d7a9c6f22.html#a04bda0b2810286d96e58d64720ffc71c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="9,192,316,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#afee1282e4e49af5ea86d37de39107711" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,293,669,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="16,285,309,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a71ec47dc30afef0a5dedc06e0a177926" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="371,382,677,437"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m7ad95df9e4e0522fc95535cb5f8cef56.html#a8756dbb44a8bc73684f62ac1f472db78" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="9,379,316,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#adbd0eb4f6633f2875a4a5e96c5660961" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,470,669,525"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se75f9736aad93ec202aeed656948391f.html#a2a81a6b856fa03635a5ccd870f3ebf5f" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="17,472,309,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a6565d72de5291e0c9443fd6a98257fd7" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="368,555,680,610"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_sfa63bdd6d9ea5118933d6ed82dd27d75.html#acc4a14dac479770a4e81aa2f1f9661fb" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,565,320,635"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1048bd02170ba1107a58ec0bcf396c8d" name="a1048bd02170ba1107a58ec0bcf396c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1048bd02170ba1107a58ec0bcf396c8d">&#9670;&#160;</a></span>getFailOperation_user()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getFailOperation_user </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,260,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html#aa7d6e0468570d9c11914b8f21024d248" title="データベースに保存する際にエラーになる、[操作ユーザー名]をリストに格納したものである。" alt="" coords="308,5,627,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a1048bd02170ba1107a58ec0bcf396c8d_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1149,293,1404,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_databasebc73653e2f2ab69096f89b45245819a5.html#a8fdf9c938bdd9ec31fc33a8214017543" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="737,27,1092,82"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_database_14a4b2af64d60221121208bbb2e6f9ec1.html#ad24c405a72d14eefd39273fa28a3e41c" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="750,114,1079,169"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_data3639814fb49eae2d1b6ae5f757b449bc.html#adea6c7f39bd77c1d0966eac4700520f8" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="790,197,1039,267"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_databas111895b40f7b603c8203fcbe60b3c0ea.html#a7ce3def4cdd88de9e388e4f445995999" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="734,293,1095,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#addca378efcef48d1fcad6f7ad6ee03ec" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="728,375,1101,430"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a0ef3e21204caee20d0d7500b134ad315" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="741,465,1088,519"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_databa4db7d48f69915b9f470c375df25e59c9.html#a2920486dc559bebd284ccce4523a72ca" title="履歴用リポジトリでの更新＆追加処理の際に使用する、保存に失敗するテストケースのモック エンティティを作成。" alt="" coords="759,545,1070,615"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a8116432e61d2e87943597eacea7d64cb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="375,23,673,78"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a54dcb23a886e4570e9635f279667c2b5.html#ae45426a640de4080181ed0ff7298207c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="13,5,313,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a3dbb9e5b1764141f5cfd0085c63b4d30" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="392,111,656,166"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f5af146024e4cdf4e9283229a1bc7dbb3.html#a674c9e8d3a986dbc40355aad685eb803" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="29,99,296,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#aa3d4cc6417d22bf91aba649ee00227c9" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="383,196,665,265"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f2b39cee3cf2cdc0af1112b5d7a9c6f22.html#a04bda0b2810286d96e58d64720ffc71c" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="9,192,316,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#afee1282e4e49af5ea86d37de39107711" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,293,669,347"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_mee9ea44262560fc9405d6968ded202d0.html#a4dde55668c955118484ecb3d0058413e" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="16,285,309,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a71ec47dc30afef0a5dedc06e0a177926" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="371,382,677,437"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m7ad95df9e4e0522fc95535cb5f8cef56.html#a8756dbb44a8bc73684f62ac1f472db78" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="9,379,316,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#adbd0eb4f6633f2875a4a5e96c5660961" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="379,470,669,525"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se75f9736aad93ec202aeed656948391f.html#a2a81a6b856fa03635a5ccd870f3ebf5f" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="17,472,309,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a6565d72de5291e0c9443fd6a98257fd7" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="368,555,680,610"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_sfa63bdd6d9ea5118933d6ed82dd27d75.html#acc4a14dac479770a4e81aa2f1f9661fb" title="必要なクラスをDIした後に、データベースへのデータ格納試験の際に用いるテストデータを用意する。" alt="" coords="5,565,320,635"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af290f5c9bdc345ba855e1cf1dc681469" name="af290f5c9bdc345ba855e1cf1dc681469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af290f5c9bdc345ba855e1cf1dc681469">&#9670;&#160;</a></span>getHistoryDatabaseFailData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getHistoryDatabaseFailData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Fail_Database_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,13,295,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html#a0739946b5ac6ea00cb78e981c5bdadab" title="履歴用のテーブルで出力時にエラーとなるデータのリストを返す。" alt="" coords="343,13,724,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html#af6535b3b0cb9504a5ec746c3ea9e278c" title="項目[操作ユーザー名]でエラーになるテストケースを格納したマップリストを作成する。" alt="" coords="772,5,1079,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html#a3398594fa649b3b9933e90fb90626d37" title="エラーケースのデータを作成するうえで基礎となる、合格ケースのリストを用意する。" alt="" coords="1127,13,1435,67"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af290f5c9bdc345ba855e1cf1dc681469_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="427,279,716,333"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_fail_databa2c89155c717db1c448bc418591b5c0a.html#aee17c714e7c70c42ea4b566d4524267a" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="15,5,369,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a817b965f710491eff2242a9053f02cb1" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="61,85,323,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_fail_5c161eac48d4b61c5a09b818059768f7.html#a02688920be709c0546a5e4627010db3e" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="55,178,329,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_fail_db867dd4263561102eb5e34a2ecdd982a.html#a0095af3f7c35658d00a74bc4eaf57c0a" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="56,271,328,341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_fail_dat8c25799ea25f6bebfd5b78a045ae20ab.html#a6aa80d9ec4d1de2e917e7244f11d07d5" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="65,365,319,434"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_fail9e487233dff97aacae7663497fbe5f94.html#a3b2dac871d9a22ec0467a9a59cc808a1" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="49,458,335,527"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_fail_datacd058296c2642b2a8ec71973309f6622.html#a905da421502ea9fb8727a165bdf6aed7" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="5,552,379,607"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae9b292680ef12a3e314ccb1074bbaa51" name="ae9b292680ef12a3e314ccb1074bbaa51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b292680ef12a3e314ccb1074bbaa51">&#9670;&#160;</a></span>getHistoryIdFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getHistoryIdFailedData </td>
+          <td>(</td>
+          <td class="paramtype">Boolean&#160;</td>
+          <td class="paramname"><em>output_valid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,264,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html#ab565274bf3fd59d6d8b4bde322c1a27b" title="項目[履歴番号]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="312,5,601,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ae9b292680ef12a3e314ccb1074bbaa51_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="360,257,619,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#af5e4d2ea14fe40aefad98e9a053d6c23" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="13,5,305,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#ab3c0005b32be9b7527f448f2efcf3bb2" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="29,84,288,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a4563b47af7ad729076c7e9acec2ffa9d" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="19,163,298,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a8f674262fd163b39cba936a23c1dd581" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="15,257,302,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a119ddab6b1d7c08ab0f99f25bbdfa41f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="9,336,308,391"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a5fb0cdf5547a64965a7202a430a00d31" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="17,415,301,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a74866ef6fdfe6a214bf4944e7f7d7d86" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,493,312,548"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a23d1171b74d5238b79594af74ce2c6f7" name="a23d1171b74d5238b79594af74ce2c6f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23d1171b74d5238b79594af74ce2c6f7">&#9670;&#160;</a></span>getHistoryNormalData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>, String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getHistoryNormalData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,260,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html#a7127153a7c134efdcb6f29df7663814c" title="バリデーションにおいて特に問題ないテストケースを読み込んで、マップリストを作成する。" alt="" coords="308,5,597,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a23d1171b74d5238b79594af74ce2c6f7_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1096,573,1351,627"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a8e8469450f7cbc7a1923c82d1f28bc94" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="735,90,1023,145"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a1032a380d7b66fe8d5bbfe2a4149e54d" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="751,246,1008,301"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#ad5a52369b92ca6dcf63c065773dc9cc1" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="711,439,1048,494"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a9f4f3a2d607e6e466d51807bac383ea8" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="736,573,1023,627"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a29373c70d2f72de3d7feac1bb79a733e" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="731,806,1028,861"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#ac1d9ee12d75b85c8502d08c659214d7c" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="739,938,1019,993"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a9948463af0dc3018798a5c4501464e39" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="728,1179,1031,1234"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_aud764997fad124b7789ff6a5ad5a05cd07.html#a672d277206f16d04b6f1e30e5f696d56" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="42,5,626,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac542dfdb20697a32c39d291528da5a6ee.html#a1dfd2ff9a344f78ed213f40bd9d18778" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="85,99,583,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_entity_1_1_history_entity_1_1_facil3d5cb606506ca1a9aa87356a9d834e59.html#a064eb5c037dcb42ec67e0ae04180b226" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="85,192,583,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac50bba0a1feb0b0ab57c607422c3d049e.html#aee8713c681d7075f8e3435aece8f5390" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="74,285,594,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_fac2cb105cf5258e64f29663a5a4825a378.html#a9ea60287304fe436b0bf9e28bd94c6b5" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="18,379,650,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_mem0e1fc1622a341250bec7364bee052804.html#ad451ffd37ec42c964d70ef43163bfd9c" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="29,472,639,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_entity_1_1_history_entity_1_1_membe8794e5caec51dae57bae8badbd17b133.html#a283fab19032c468a177d917d084e15a8" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="29,565,639,635"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_mem4512f13d0a9557669c8b10da46a22918.html#a5bed3fb74c8b2b3546b92cc913b17cd2" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="42,659,626,728"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_mus18e2ce7abbcf03e02af6e396460766d3.html#a9e4956774520811a65b2db67fce3ab2a" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="5,752,663,821"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_entity_1_1_history_entity_1_1_music047527feabe33a562054f27d24155fa8.html#a53f454fec37a6838c35a6d96766dc9d8" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="5,845,663,915"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_mus360ef5f1cdd75068177b69139a9d0b63.html#ad5a11cfaa308a0a8dbeaf43c38dd9b19" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="18,939,650,1008"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_scoa00b1913f3323c422380d8e8cdec730d.html#adbc994d854ff37ea65087e62e663064f" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="42,1032,626,1101"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_souddedf80ba44081bf24b3082d0f81e181.html#ab02293a8547ece8e7e4cbf3e0f5da554" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="5,1125,663,1195"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_entity_1_1_history_entity_1_1_sound70d60ce5156d65e750d340022792b7f2.html#aeec2c0967bd61ddc84d1ce7060d597ab" title="入力した通常エンティティからデータを取り出して履歴用エンティティに格納したデータが、 あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="5,1219,663,1288"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_history_entity_1_1_souace0cdc96386406ba1add459666f4eaa.html#aa49ce0222e4c3e6ad51df62420feee28" title="あらかじめ対象エンティティにデータを格納しておき、検査対象メソッドを動かしてデータを取得 した際に、あらかじめ用意しておいたテストケースと同一であることを確認する。" alt="" coords="18,1312,650,1381"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adeeb43c9b2e705846096e73d6efa44c1" name="adeeb43c9b2e705846096e73d6efa44c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeeb43c9b2e705846096e73d6efa44c1">&#9670;&#160;</a></span>getHistoryOkData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getHistoryOkData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,260,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html#abae18e7d0e280870b2e59b8b55b80a79" title="バリデーションで合格するテストケースを読み込んで、マップリストを作成する。" alt="" coords="308,5,597,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_adeeb43c9b2e705846096e73d6efa44c1_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="367,241,621,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a78fd373c4023429b497421f4fe5da539" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="29,5,295,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a88607d3717d8c2aaaec4f605b83d29cd" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="33,84,291,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a6952da37c0eda4a80058039a7525ab19" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,163,319,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a25bc82cb6fde2a1bd1afa04e4df38339" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="19,241,305,296"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a4235281761e73d786dc3a50bd4fffabb" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="13,320,311,375"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#ae4415fbeb6828a1c86644df53b42d82f" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="32,399,292,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#adf265d8d57a5cd480f3cf3daa56bea00" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="18,477,306,532"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad73f066204f841842497fc04bfd6a29f" name="ad73f066204f841842497fc04bfd6a29f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad73f066204f841842497fc04bfd6a29f">&#9670;&#160;</a></span>getOperationUserFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; String &gt; com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.getOperationUserFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,296,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html#ae1b03adc0b8fc775d2b9908bd953cdae" title="項目[操作ユーザー名]でバリデーションエラーになるテストケースを読み取って、リストを作成する。" alt="" coords="344,5,633,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_ad73f066204f841842497fc04bfd6a29f_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="392,257,683,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a4a2d5dcf27bfba940965b748bac19a57" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="13,5,337,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#ab73faa1e04c6d5c7b6b755db61e79112" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="29,84,320,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a0cebae2c84a3812bbdefbde42be92e8c" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="33,163,317,233"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#ab9d01cb01e71353ae7b115c417a9ff42" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="16,257,333,312"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a194f97c7b9fd61fe369266fe714184f5" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="9,336,340,391"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a259f1c9cfb3424cb812c782a765e8212" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="17,415,333,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#aecae3d1e8149d1051308e4a4b129eb07" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,493,344,548"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7ca79d226158ef5b04b841c972c90808" name="a7ca79d226158ef5b04b841c972c90808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca79d226158ef5b04b841c972c90808">&#9670;&#160;</a></span>historyOtherRepoForm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String[] com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.historyOtherRepoForm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___te272c7e9d59f97fe6b21ee520f1accab5.html">History_TestKeys</a>&#160;</td>
+          <td class="paramname"><em>subject_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,264,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#a910d2591088977512601375ffb5c9e65" title="マッピングエンティティから読み取った[検索種別以外]のテストケースを出力する。" alt="" coords="312,5,639,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_a7ca79d226158ef5b04b841c972c90808_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1311,3417,1569,3471"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#a3d49fb9fa95dc133c9f808ee58e52dde" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="963,619,1255,674"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a061352d5ad802d91e0bfc4a0354f8b03" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="980,1833,1239,1887"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#aba9c1ebac805eef122ab82d181485b98" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="969,3039,1250,3108"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a5de42fda0093d7e0cc81d13ec649a2f1" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="966,3417,1253,3471"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a8af21efad99c0a28830c3057017bec27" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="960,3495,1259,3550"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a0e1570e7f7f479d4a632b935927eccb0" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="967,3574,1251,3629"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a83827167bbba48df73b46d2f0be721ba" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="956,3653,1263,3707"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a64619ea45ac0b0efd89932c89b0b0bf1" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="41,5,873,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#ab2c30d17a786a740a4998caaf773fe6f" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="9,99,904,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a5e986db90273c4ba601363390a285b66" title="リポジトリメソッド[findAllByDateBetweenCount]に対してのテストを行う。" alt="" coords="107,192,807,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a24f3055a0b4546fed2c2a10ac83b63ee" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="41,285,873,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a0d83b4177872df066a6d7078eab930ca" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="41,379,873,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a8fb8b94b2a48b26a7b95390fc2ae89d8" title="リポジトリメソッド[findBySound_idCount]に対してのテストを行う。" alt="" coords="107,472,807,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a61f700007965d9a128eab76dafa8729f" title="リポジトリメソッド[findAllByDateBetween][findAllByDateBetweenDESC]を実行した際の検索結果を 判定する。" alt="" coords="127,565,786,635"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="19,659,894,728"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#af9b79b84fcd53714918794c451bbda4b" title="リポジトリメソッド[findBySound_id][findBySound_idDESC]を実行した際の 検索結果を判定する。" alt="" coords="127,752,786,821"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a04a4eac9f82aad95ee3d72d96dc501ad" title="リポジトリメソッド[findByOperation_userCount]に対してのテストを行う。" alt="" coords="75,845,838,915"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a63a7c74caf4b83d34bf81ff86a83ff21" title="リポジトリメソッド[findByChange_kinds][findByChange_kindsDESC]を実行した際の 検索結果を判定する。" alt="" coords="127,939,786,1008"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#a59d49cbacd51956ea8172b35101bcad9" title="リポジトリメソッド[findByOperation_user][findByOperation_userDESC]を実行した際の 検索結果を判定する。" alt="" coords="96,1032,817,1101"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a656f4b273d5befcf80a315bd0e42963c.html#ada45d655ff93f7554a9347009b22d2fc" title="リポジトリメソッド[findByChange_kindsCount]に対してのテストを行う。" alt="" coords="107,1125,807,1195"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a5863a36de67c3524f30fb64d184bfb8b" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="57,1219,856,1288"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#ae4e0b8d7da9601f701b6da96422a1b76" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="26,1312,887,1381"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#a88848dbeb2317ac81869b629f08436be" title="リポジトリメソッド[findAllByDateBetweenCount]に対してのテストを行う。" alt="" coords="123,1405,790,1475"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a2c9c03c89817850e0fd22935b3124b4c" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="57,1499,856,1568"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a5d2a7af7c52df30f78904701d6fdf9d9" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="57,1592,856,1661"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#a89babb060c8a6ccf6c741b315f8e08ec" title="リポジトリメソッド[findAllByDateBetween][findAllByDateBetweenDESC]を実行した際の検索結果を 判定する。" alt="" coords="145,1685,769,1755"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#a046eb141f963fe9d0fe3580180cb2841" title="リポジトリメソッド[findByFaci_idCount]に対してのテストを行う。" alt="" coords="123,1779,790,1848"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a36583aeb5c82816e7aad563070bd1c1f" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="37,1872,877,1941"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#aa862e27801755a25fffc4c37648b7118" title="リポジトリメソッド[findByFaci_id][findByFaci_idDESC]を実行した際の 検索結果を判定する。" alt="" coords="145,1965,769,2035"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#af3305ba5eea050e618d584b31b0d7716" title="リポジトリメソッド[findByOperation_userCount]に対してのテストを行う。" alt="" coords="92,2059,821,2128"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#a6bece1f0508c87ec3fc163a488812321" title="リポジトリメソッド[findByChange_kinds][findByChange_kindsDESC]を実行した際の 検索結果を判定する。" alt="" coords="145,2152,769,2221"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#a4c1cae864d87dc00b6348f1363dba7b8" title="リポジトリメソッド[findByOperation_user][findByOperation_userDESC]を実行した際の 検索結果を判定する。" alt="" coords="113,2245,800,2315"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f0d76dedce1948e7c7b34c6901254fc42.html#a8d4bac3e595b4ad78b20f35da64ba592" title="リポジトリメソッド[findByChange_kindsCount]に対してのテストを行う。" alt="" coords="123,2339,790,2408"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#a8540d6b2cb93099fec41e6688d6e22b6" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="37,2432,876,2501"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#ad1c955541a9da0cf88129e84e99164df" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="16,2525,897,2595"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#adcaf0834cc15e2088c154c33868d5111" title="リポジトリメソッド[findByOperation_user][findByOperation_userDESC]を実行した際の 検索結果を判定する。" alt="" coords="93,2619,821,2688"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#a07109782e349245f7f053954ce0e4e32" title="リポジトリメソッド[findByFaci_id][findByFaci_idDESC]を実行した際の 検索結果を判定する。" alt="" coords="124,2712,789,2781"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#a68c1c222ce7c0059ff9b768716172fef" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="37,2805,876,2875"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#ae149d55c061245643b61f4c0826dcbbd" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="37,2899,876,2968"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#a48d3102692f35751a555ee0666e52370" title="リポジトリメソッド[findAllByDateBetweenCount]に対してのテストを行う。" alt="" coords="103,2992,810,3061"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#ae0ad99c13bdd94046a16471af5b7e446" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="5,3085,908,3155"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#a86f0c367df5729f9670a804448cfac9a" title="リポジトリメソッド[findAllByDateBetween][findAllByDateBetweenDESC]を実行した際の検索結果を 判定する。" alt="" coords="124,3179,789,3248"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#aabfc9164e8198e87b6288f812e181246" title="リポジトリメソッド[findByChange_kinds][findByChange_kindsDESC]を実行した際の 検索結果を判定する。" alt="" coords="124,3272,789,3341"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#a60d2a480b1d5ddddcab3c4d3e9498599" title="リポジトリメソッド[findByFaci_idCount]に対してのテストを行う。" alt="" coords="103,3365,810,3435"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#a02842ee0d30f7b310700cba268e9bc1e" title="リポジトリメソッド[findByChange_kindsCount]に対してのテストを行う。" alt="" coords="103,3459,810,3528"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_fa03a057125996a2d3bd7e9c737b77050.html#aed64298efd18d9f991d60c8e400e8e84" title="リポジトリメソッド[findByOperation_userCount]に対してのテストを行う。" alt="" coords="71,3552,842,3621"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m87fb5a85c056be64a04d26b82169ff0d.html#a44378f5cb635cd12aa671f91c1584ee1" title="リポジトリメソッド[findByMember_id][findByMember_idDESC]を実行した際の 検索結果を判定する。" alt="" coords="131,3645,782,3715"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a3bb5bf5ec48f428f2513517fdc786cc7" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="44,3739,869,3808"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a240c8f82d7900d9b81485d2f4489964e" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="13,3832,901,3901"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af89fc7e0ee37fcf39a5de2defd7029ea" name="af89fc7e0ee37fcf39a5de2defd7029ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af89fc7e0ee37fcf39a5de2defd7029ea">&#9670;&#160;</a></span>historySubjectRepoForm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.historySubjectRepoForm </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>testcase_num</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。 </p>
+<dl class="section see"><dt>参照</dt><dd>History_Form_TestCase </dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_cgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,5,276,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html#ab94d438bfe1d40c1766aeaea10e878c0" title="マッピングエンティティから読み取った[検索種別]を出力する。" alt="" coords="324,5,663,60"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make_af89fc7e0ee37fcf39a5de2defd7029ea_icgraph">
+<area shape="rect" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1323,1599,1593,1654"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_audio_data_1_1_audio___data___test_case___make.html#ac80314b3559ee81ab1528b0c717946d6" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="963,246,1267,301"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_1_1_facility___test_case___make.html#a7b0acb87b15218da04dbc82c3695f2fd" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="980,713,1251,767"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_facility_photo_1_1_facility___photo___test_case___make.html#a54a5c6b8876876f074d0a7c1360a956a" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="969,1172,1262,1241"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a04733b271e29244ad33e2eaf45153723" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="967,1599,1264,1654"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#ac3cfacbc915e23abccdac81145a75843" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="960,2019,1271,2074"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a917d2fe709be1f4e4698b1837ff99782" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="967,2486,1263,2541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_sound_source_1_1_sound___source___test_case___make.html#a80e3e5063d2196d3ab5e6aab48c3e93d" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="956,2982,1275,3037"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a64619ea45ac0b0efd89932c89b0b0bf1" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="41,5,873,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#ab2c30d17a786a740a4998caaf773fe6f" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="9,99,904,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a24f3055a0b4546fed2c2a10ac83b63ee" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="41,192,873,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a0d83b4177872df066a6d7078eab930ca" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="41,285,873,355"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_a96743304ff0123934ec4e72409501483.html#a101a566963a7a4194e5af9fbec37c0b5" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="19,379,894,448"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a5863a36de67c3524f30fb64d184bfb8b" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="57,472,856,541"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#ae4e0b8d7da9601f701b6da96422a1b76" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="26,565,887,635"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a2c9c03c89817850e0fd22935b3124b4c" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="57,659,856,728"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a5d2a7af7c52df30f78904701d6fdf9d9" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="57,752,856,821"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f44822431e0d2337f9716c35148bf3e1a.html#a36583aeb5c82816e7aad563070bd1c1f" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="37,845,877,915"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#ad1c955541a9da0cf88129e84e99164df" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="16,939,897,1008"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#a8540d6b2cb93099fec41e6688d6e22b6" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="37,1032,876,1101"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#a68c1c222ce7c0059ff9b768716172fef" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="37,1125,876,1195"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#ae149d55c061245643b61f4c0826dcbbd" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="37,1219,876,1288"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_f24f73594298fbff25de12f088b7545da.html#ae0ad99c13bdd94046a16471af5b7e446" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="5,1312,908,1381"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a3bb5bf5ec48f428f2513517fdc786cc7" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="44,1405,869,1475"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a240c8f82d7900d9b81485d2f4489964e" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="13,1499,901,1568"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#a70f27f637d53d34296e8d4f4ef5aa017" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="44,1592,869,1661"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#ae6c1b9e1a1ed2d6f0d42bbaad5175bb1" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="44,1685,869,1755"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m077150d5cf33a1bf5a6eaf794694a9fd.html#aff69c9c6da52ade646f4d20c146c9258" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="23,1779,890,1848"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#ae6c23671c6c30ff137b6b98f9292cff2" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="37,1872,876,1941"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a52767658fe3c7e83423642f0ec51de54" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="5,1965,908,2035"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a9e626721210d892eb70242dc05683141" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="37,2059,876,2128"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a247cfa5cdf3915cb3ed6446d191f53a8" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="37,2152,876,2221"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_m5a41732ace12a8327a0a9ca35fed4684.html#a15f187bc599364886176c7aabb49f9dd" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="16,2245,897,2315"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s1eb17f3a68b89eee82dab14b8ae533bf.html#af00045f8a8a2435d5161781c7c6d44ed" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="45,2339,869,2408"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s1eb17f3a68b89eee82dab14b8ae533bf.html#a00d90b880d2c3cb02aada6a81bcaaf9d" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="13,2432,900,2501"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s1eb17f3a68b89eee82dab14b8ae533bf.html#a8c1cdc4cfa0235685bb77bc8beffe9c4" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="45,2525,869,2595"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s1eb17f3a68b89eee82dab14b8ae533bf.html#ac787c31d9db6c55b4277fe76b813fd23" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="45,2619,869,2688"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_s1eb17f3a68b89eee82dab14b8ae533bf.html#abf5928c67f7f323d590630008a4be6a0" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="23,2712,890,2781"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se45b0a43cffd36b00bb38ba5d4bcc248.html#a0d0c283e4d7f270e8d43c0d91f14fae2" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeDatetime]にした時の検索結果を判定する。" alt="" coords="144,2806,769,2890"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se45b0a43cffd36b00bb38ba5d4bcc248.html#a8479e8697ba2d38d8b7fdcb79b9e3e4e" title="リポジトリメソッド[findAllBranch]において、検索種別を[OperationUser]にした時の検索結果を判定する。" alt="" coords="113,2914,801,2998"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se45b0a43cffd36b00bb38ba5d4bcc248.html#a47468456f14e965a08921049084811a5" title="リポジトリメソッド[findAllBranch]において、検索種別を[Id]にした時の検索結果を判定する。" alt="" coords="144,3022,769,3106"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se45b0a43cffd36b00bb38ba5d4bcc248.html#a319b764221fd06be9874dddec56715d9" title="リポジトリメソッド[findAllBranch]において、検索種別を[ChangeKinds]にした時の検索結果を判定する。" alt="" coords="144,3130,769,3214"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_repository_1_1_history_repo_1_1_se45b0a43cffd36b00bb38ba5d4bcc248.html#aa143554e1b648b50e2bc6e6c4548f748" title="リポジトリメソッド[findAllBranch]において、検索種別を違反した物とした場合にエラーになることを 確認する。" alt="" coords="123,3238,790,3322"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="aaa94d0e9ac04412f485526b9825f6032" name="aaa94d0e9ac04412f485526b9825f6032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa94d0e9ac04412f485526b9825f6032">&#9670;&#160;</a></span>database_clazz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html">History_Database_TestCase</a> com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.database_clazz</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad9eb5fab6d143924b5761827347f2bd1" name="ad9eb5fab6d143924b5761827347f2bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9eb5fab6d143924b5761827347f2bd1">&#9670;&#160;</a></span>fail_database_clazz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html">History_Fail_Database_TestCase</a> com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.fail_database_clazz</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb8e02b35e57818fc4661b69046b1c41" name="acb8e02b35e57818fc4661b69046b1c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8e02b35e57818fc4661b69046b1c41">&#9670;&#160;</a></span>form_clazz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html">History_Form_TestCase</a> com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.form_clazz</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6faf7219abaf3e31e7416dd71296333f" name="a6faf7219abaf3e31e7416dd71296333f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6faf7219abaf3e31e7416dd71296333f">&#9670;&#160;</a></span>repoform_clazz</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html">History_RepoForm_TestCase</a> com.springproject.dockerspring.CommonTestCaseMaker.History.History_TestCase_Make.repoform_clazz</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/CommonTestCaseMaker/History/<a class="el" href="_history___test_case___make_8java.html">History_TestCase_Make.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker.html">CommonTestCaseMaker</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history.html">History</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html">History_TestCase_Make</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

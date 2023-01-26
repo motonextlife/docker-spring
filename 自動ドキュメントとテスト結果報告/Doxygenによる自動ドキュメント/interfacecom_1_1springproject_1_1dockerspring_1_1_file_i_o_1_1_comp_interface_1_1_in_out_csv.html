@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.FileIO.CompInterface.InOutCsv&lt; T &gt; インタフェーステンプレート</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.FileIO.CompInterface.InOutCsv&lt; T &gt; インタフェーステンプレート</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>CSVファイルの入出力の機能を提供したインターフェース  
+ <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#details">[詳解]</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a1caba110735d3204a329905f6f176812"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a1caba110735d3204a329905f6f176812">csvToDatabase</a> (File tmp_csv_file, Consumer&lt; List&lt; T &gt; &gt; goto_database)  throws ParseException, IOException</td></tr>
+<tr class="memdesc:a1caba110735d3204a329905f6f176812"><td class="mdescLeft">&#160;</td><td class="mdescRight">バリデーションが終わり正常なCSVファイルを再度抽出し、データベースに情報を格納する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a1caba110735d3204a329905f6f176812">[詳解]</a><br /></td></tr>
+<tr class="separator:a1caba110735d3204a329905f6f176812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693bb9626182b2899bb0db0ef104695e"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a693bb9626182b2899bb0db0ef104695e">extractCsv</a> (MultipartFile csv_file)  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a693bb9626182b2899bb0db0ef104695e"><td class="mdescLeft">&#160;</td><td class="mdescRight">入力されたCSVファイルから、データを抽出する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a693bb9626182b2899bb0db0ef104695e">[詳解]</a><br /></td></tr>
+<tr class="separator:a693bb9626182b2899bb0db0ef104695e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06d06a13652e6ab75d191736fd6cd97"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#ab06d06a13652e6ab75d191736fd6cd97">outputCsv</a> (Function&lt; Integer, List&lt; Map&lt; String, String &gt; &gt; &gt; database_generate)  throws IOException</td></tr>
+<tr class="memdesc:ab06d06a13652e6ab75d191736fd6cd97"><td class="mdescLeft">&#160;</td><td class="mdescRight">データベースに保存しているデータを、CSVデータとして出力する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#ab06d06a13652e6ab75d191736fd6cd97">[詳解]</a><br /></td></tr>
+<tr class="separator:ab06d06a13652e6ab75d191736fd6cd97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f06d2c53a4506c1c3cfdf59efc48176"><td class="memItemLeft" align="right" valign="top">File&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a1f06d2c53a4506c1c3cfdf59efc48176">outputTemplate</a> ()  throws IOException</td></tr>
+<tr class="memdesc:a1f06d2c53a4506c1c3cfdf59efc48176"><td class="mdescLeft">&#160;</td><td class="mdescRight">このシステムへのCSVファイルの入力時に使用するCSVファイルのテンプレートを出力する。 このテンプレートに入力したいデータを書き込むことで、ユーザーが入力データを作成しやすくする。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html#a1f06d2c53a4506c1c3cfdf59efc48176">[詳解]</a><br /></td></tr>
+<tr class="separator:a1f06d2c53a4506c1c3cfdf59efc48176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >CSVファイルの入出力の機能を提供したインターフェース </p>
+<ul>
+<li>入力されたCSVファイルからのデータの抽出のほか、保存されているデータをCSVファイルに 入力し出力する機能を持つ。 </li>
+</ul>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a1caba110735d3204a329905f6f176812" name="a1caba110735d3204a329905f6f176812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1caba110735d3204a329905f6f176812">&#9670;&#160;</a></span>csvToDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html">com.springproject.dockerspring.FileIO.CompInterface.InOutCsv</a>&lt; T &gt;.csvToDatabase </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>tmp_csv_file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Consumer&lt; List&lt; T &gt; &gt;&#160;</td>
+          <td class="paramname"><em>goto_database</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ParseException, IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>バリデーションが終わり正常なCSVファイルを再度抽出し、データベースに情報を格納する。 </p>
+<ul>
+<li>データベースに格納する処理は、サービス側から関数型インターフェースで渡して、その中で実行する。 これによってCSV処理とデータベース処理を明確に分ける。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tmp_csv_file</td><td>データベースに投入する一時CSVファイル </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">goto_database</td><td>抽出したデータをデータベースに投入する処理の関数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1caba110735d3204a329905f6f176812_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1caba110735d3204a329905f6f176812_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1caba110735d3204a329905f6f176812_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1caba110735d3204a329905f6f176812_icgraph">
+<area shape="rect" title="バリデーションが終わり正常なCSVファイルを再度抽出し、データベースに情報を格納する。" alt="" coords="727,399,963,453"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1973340e77a19bc881385d32801277a16.html#a312a00d95e0646f10d59a8cae4e27623" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,5,587,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_1933a0242868b4a675ccdd51b5a654203.html#a0c7a0d269d38f6efef8a3b94272a9395" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,113,587,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_14fba33766ac3d8a6a05f2ba224aa2723.html#ae9ab9d97bea0312e82cfaf34768ca8a2" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,221,587,305"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_178aaf6bd05859aeb99ec7bb5f0c5cd14.html#ad7015b3c9a10e71892dcc137a9dae89a" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="5,329,679,413"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_171a2f7b2d39a2c3b742f253b51073011.html#a564c252a28ef9342902e9d9393c35d9c" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,437,587,521"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_1f59fa090ceb775037c677c54ae980d1b.html#a5047555f592840946dda608aba668797" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,545,587,629"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ff25b22612020a2222fa9dd41798139a.html#a8e54154590d1583237a9c321319b5319" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,653,587,737"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_192da331fbed8dfa9f0fd6678925cd71f.html#a06c9d1c0f2400de7624f74468b4361ed" title="集約クラス側のCSVファイルデータベース保存用のメソッドの検査を行う。" alt="" coords="97,761,587,845"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a693bb9626182b2899bb0db0ef104695e" name="a693bb9626182b2899bb0db0ef104695e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a693bb9626182b2899bb0db0ef104695e">&#9670;&#160;</a></span>extractCsv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html">com.springproject.dockerspring.FileIO.CompInterface.InOutCsv</a>&lt; T &gt;.extractCsv </td>
+          <td>(</td>
+          <td class="paramtype">MultipartFile&#160;</td>
+          <td class="paramname"><em>csv_file</em></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>入力されたCSVファイルから、データを抽出する。 </p>
+<ul>
+<li>受け付けるCSVファイルは厳密にバリデーションを行い、ヘッダー行が不正だったり、不正に長い文字列が 格納されていればエラーを出す。</li>
+<li>抽出が成功したら、次の工程のフォームバリデーションに渡すために、一時ファイルを作成して再度 抽出済みのデータを書き込む。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>抽出が成功し、再度CSVファイルとして一時生成したファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">csv_file</td><td>入力されたCSVファイル</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a693bb9626182b2899bb0db0ef104695e_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a693bb9626182b2899bb0db0ef104695e_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a693bb9626182b2899bb0db0ef104695e_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a693bb9626182b2899bb0db0ef104695e_icgraph">
+<area shape="rect" title="入力されたCSVファイルから、データを抽出する。" alt="" coords="523,406,787,446"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_112c85ec80d5926bae9f7e694170fa926.html#a8bad1b664e3add28d23c9876816a596a" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。" alt="" coords="5,5,475,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_112c85ec80d5926bae9f7e694170fa926.html#a929ac6287c6fa9864b7bb2dedc99949d" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。" alt="" coords="5,113,475,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_144d21bff65f5a5377a2e2b9810231873.html#a0874d58dcdf36041bc39965f3e74a466" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。" alt="" coords="5,221,475,305"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1f6ffb9674a32d79a751b6ddd7f4ec563.html#ad8b37783b9cb7e596056d1f4d4594fa2" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。" alt="" coords="5,329,475,413"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_144d21bff65f5a5377a2e2b9810231873.html#a0fd91f3e6a67bbb08a880e560016cb40" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。" alt="" coords="5,437,475,521"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1f6ffb9674a32d79a751b6ddd7f4ec563.html#a43f7513b63b8a15d87e7940bc1ef3c9b" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。" alt="" coords="5,545,475,629"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a559f66b6bddc1b42605e4fae9b67f4d5" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 失敗するパターンである。" alt="" coords="5,653,475,737"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1ad065d609888461503cadee5940e4ca1.html#a05f5d88b51819c643f0e959869fce4d3" title="集約クラス側のCSVファイルデータ抽出用のメソッドの検査を行う。このテストは、抽出が 成功するパターンである。" alt="" coords="5,761,475,845"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab06d06a13652e6ab75d191736fd6cd97" name="ab06d06a13652e6ab75d191736fd6cd97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06d06a13652e6ab75d191736fd6cd97">&#9670;&#160;</a></span>outputCsv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html">com.springproject.dockerspring.FileIO.CompInterface.InOutCsv</a>&lt; T &gt;.outputCsv </td>
+          <td>(</td>
+          <td class="paramtype">Function&lt; Integer, List&lt; Map&lt; String, String &gt; &gt; &gt;&#160;</td>
+          <td class="paramname"><em>database_generate</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>データベースに保存しているデータを、CSVデータとして出力する。 </p>
+<ul>
+<li>データベースからデータを読み込む処理は、サービス側から関数型インターフェースで渡して、 その中で実行する。これによってCSV処理とデータベース処理を明確に分ける。</li>
+<li>取得するデータは、出力時にもバリデーションを行い、通過したものを用いる。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成されたCSVファイル</dd></dl>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">database_generate</td><td>データベースから出力対象のデータを取得する処理の関数</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_ab06d06a13652e6ab75d191736fd6cd97_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_ab06d06a13652e6ab75d191736fd6cd97_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_ab06d06a13652e6ab75d191736fd6cd97_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_ab06d06a13652e6ab75d191736fd6cd97_icgraph">
+<area shape="rect" title="データベースに保存しているデータを、CSVデータとして出力する。" alt="" coords="705,406,965,446"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1393e38edbefe761db377792fef77e18d.html#a6ee89c54f00a2c964b22b10957e50e93" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,5,566,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_114c04717aafbbc0f62b5d320ca3f5840.html#a096133d9dd0fa3ce740ee564610f8fb3" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,113,566,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_114d6d79692399e9965f6d454d88fb8bf.html#a8652fddc21e56217f2e85b2b604e592a" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,221,566,305"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_17be063bcc93ccd809253025a41e5b484.html#a921c9ab573014f380249c14686982ebb" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="5,329,657,413"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_139885f55b4ed2f90b9f57eea1772ee0c.html#a609c9b523196b355f35d2c7d950bc581" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,437,566,521"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_1abe004fb4d13aa95d5c8635c50deb845.html#ab9131b1121cae95949ad9a6e2ca96b87" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,545,566,629"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1e51d24b597f1e39007cfa2017dc3906a.html#ad2dc1b0b72188fea99e676b947dfd845" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,653,566,737"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test_1_13541326a9fe2c681d3da09f0cf41604e.html#a294db3b6372e24b477291a9131d2f756" title="集約クラス側のCSVデータベース保存データ出力用のメソッドの検査を行う。" alt="" coords="97,761,566,845"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1f06d2c53a4506c1c3cfdf59efc48176" name="a1f06d2c53a4506c1c3cfdf59efc48176"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f06d2c53a4506c1c3cfdf59efc48176">&#9670;&#160;</a></span>outputTemplate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">File <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html">com.springproject.dockerspring.FileIO.CompInterface.InOutCsv</a>&lt; T &gt;.outputTemplate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>このシステムへのCSVファイルの入力時に使用するCSVファイルのテンプレートを出力する。 このテンプレートに入力したいデータを書き込むことで、ユーザーが入力データを作成しやすくする。 </p>
+<ul>
+<li>出力されるテンプレートの内容としては、ヘッダー行と書き込める限界行数を記述した空っぽの CSVファイルである。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>生成されたCSVファイル</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1f06d2c53a4506c1c3cfdf59efc48176_icgraph.png" border="0" usemap="#ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1f06d2c53a4506c1c3cfdf59efc48176_icgraph" alt=""/></div>
+<map name="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1f06d2c53a4506c1c3cfdf59efc48176_icgraph" id="ainterfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv_a1f06d2c53a4506c1c3cfdf59efc48176_icgraph">
+<area shape="rect" title="このシステムへのCSVファイルの入力時に使用するCSVファイルのテンプレートを出力する。 このテンプレートに入力したいデータを書き込むことで、ユーザーが入力データを作成しやすくする。" alt="" coords="436,183,675,237"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1fb9e9c74a5ba99bdcc6ef6cf1df3e8b4.html#ab0eb4fd83a4d159487c3574c980f0afb" title="集約クラス側のCSVテンプレート出力用のメソッドの検査を行う。" alt="" coords="15,5,379,89"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_163d3b8ea169f2aef41b167959e9d8668.html#aa5b235974394fa8850349e2be3504f83" title="集約クラス側のCSVテンプレート出力用のメソッドの検査を行う。" alt="" coords="9,113,385,197"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_1f2ac5276173b7a9a53ea366e61bb0389.html#a590113b4be40945014f1e16ac1b62486" title="集約クラス側のCSVテンプレート出力用のメソッドの検査を行う。" alt="" coords="15,221,379,305"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_file_i_o_1_1_csv_process___test_17d5f9b40f3ddb3746d04ed3d2768dd35.html#a7369dd6299575a79d1ded8fc9be3081a" title="集約クラス側のCSVテンプレート出力用のメソッドの検査を行う。" alt="" coords="5,329,388,413"/>
+</map>
+</div>
+
+</div>
+</div>
+<hr/>このインタフェース詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/FileIO/CompInterface/<a class="el" href="_in_out_csv_8java.html">InOutCsv.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface.html">CompInterface</a></li><li class="navelem"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_csv.html">InOutCsv</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

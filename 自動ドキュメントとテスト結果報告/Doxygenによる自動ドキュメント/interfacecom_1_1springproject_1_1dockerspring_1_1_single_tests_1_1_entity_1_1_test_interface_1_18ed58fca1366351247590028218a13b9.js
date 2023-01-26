@@ -1,0 +1,7 @@
+var interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_test_interface_1_18ed58fca1366351247590028218a13b9 =
+[
+    [ "入力した通常エンティティデータの同一性確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_test_interface_1_18ed58fca1366351247590028218a13b9.html#a91aa980bd069405c92a516bc6f5fccf4", null ],
+    [ "通常エンティティの初期化対象文字のNull初期化確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_test_interface_1_18ed58fca1366351247590028218a13b9.html#a5f48fa945c2d099292d797453d989318", null ],
+    [ "通常エンティティのNull入力時のNullPointerException未発生確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_test_interface_1_18ed58fca1366351247590028218a13b9.html#a22c4d22805b090e92ece7bf499d766dc", null ],
+    [ "登録履歴種別の同一性確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_single_tests_1_1_entity_1_1_test_interface_1_18ed58fca1366351247590028218a13b9.html#ab963a36d231598dac60499541e1182f3", null ]
+];

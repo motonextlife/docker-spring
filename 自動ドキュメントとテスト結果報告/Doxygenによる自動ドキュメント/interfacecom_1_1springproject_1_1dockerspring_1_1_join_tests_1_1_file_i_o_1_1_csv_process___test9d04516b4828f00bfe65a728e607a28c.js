@@ -1,0 +1,5 @@
+var interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test9d04516b4828f00bfe65a728e607a28c =
+[
+    [ "共通クラス側のCSV抽出データのデータベース格納機能の動作確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test9d04516b4828f00bfe65a728e607a28c.html#a5271bb12a8fb8505f69a2745f5cbdef9", null ],
+    [ "集約クラス側のCSV抽出データのデータベース格納機能の動作確認", "interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_csv_process___test9d04516b4828f00bfe65a728e607a28c.html#a1fd23100bd3be4d2b889d8d05c9c5fd6", null ]
+];

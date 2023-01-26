@@ -1,0 +1,1544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_da3213a92da09d3d2dc86949e29295242c.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[団員管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_da070dc4c75b65cb38201815240800a0aa.png" border="0" usemap="#acom_8springproject_8dockerspring_8_common_test_case_maker_8_member_info_8_fail_database_8_member___info___fail___database___test_case_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_common_test_case_maker_8_member_info_8_fail_database_8_member___info___fail___database___test_case_coll__map" id="acom_8springproject_8dockerspring_8_common_test_case_maker_8_member_info_8_fail_database_8_member___info___fail___database___test_case_coll__map">
+<area shape="rect" title="主に[団員管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="1891,449,2197,504"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_form_1_1_member___info___form___yaml.html" title="主に[団員管理]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="632,388,907,443"/>
+<area shape="rect" title=" " alt="" coords="7,192,154,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="321,65,595,120"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="308,155,608,209"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="319,305,597,360"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1412,227,1667,281"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="941,67,1215,121"/>
+<area shape="rect" title=" " alt="" coords="11,5,151,31"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="931,227,1225,281"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="933,148,1223,203"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="939,305,1217,360"/>
+<area shape="rect" title=" " alt="" coords="5,496,156,521"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="1399,449,1680,504"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="952,528,1204,583"/>
+<area shape="rect" title=" " alt="" coords="415,543,501,568"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="952,449,1204,504"/>
+<area shape="rect" title=" " alt="" coords="410,464,506,489"/>
+<area shape="rect" title=" " alt="" coords="1491,528,1588,553"/>
+<area shape="rect" title=" " alt="" coords="1503,585,1575,611"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a975114ed64d2e8ecc2cf2c70a47c761f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a975114ed64d2e8ecc2cf2c70a47c761f">Member_Info_Fail_Database_TestCase</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ae012efce48ccb61a3fa799ba38749ef7">config_factory</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html">History_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a1205e82289f40222c73fa84a73ad0716">hist_testcase_make</a>)  throws IOException</td></tr>
+<tr class="memdesc:a975114ed64d2e8ecc2cf2c70a47c761f"><td class="mdescLeft">&#160;</td><td class="mdescRight">使用するテストケースクラスのDIのほか、YMLファイルからデータを読み取って専用エンティティへの マッピングを行う。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a975114ed64d2e8ecc2cf2c70a47c761f">[詳解]</a><br /></td></tr>
+<tr class="separator:a975114ed64d2e8ecc2cf2c70a47c761f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd5470ddb63f841c3d7a8f7896c87ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#aebd5470ddb63f841c3d7a8f7896c87ec">failDatabaseReset</a> ()</td></tr>
+<tr class="memdesc:aebd5470ddb63f841c3d7a8f7896c87ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#aebd5470ddb63f841c3d7a8f7896c87ec">[詳解]</a><br /></td></tr>
+<tr class="separator:aebd5470ddb63f841c3d7a8f7896c87ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6cc384f184ca5d20ca50fa7df365a1"><td class="memItemLeft" align="right" valign="top">Map&lt; Integer, String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a8c6cc384f184ca5d20ca50fa7df365a1">failDatabaseSetup</a> ()  throws IOException, ParseException</td></tr>
+<tr class="memdesc:a8c6cc384f184ca5d20ca50fa7df365a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">リポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a8c6cc384f184ca5d20ca50fa7df365a1">[詳解]</a><br /></td></tr>
+<tr class="separator:a8c6cc384f184ca5d20ca50fa7df365a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98869dcb0a22e70225e3936d14e45ec4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a98869dcb0a22e70225e3936d14e45ec4">historyFailDatabaseReset</a> ()</td></tr>
+<tr class="memdesc:a98869dcb0a22e70225e3936d14e45ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴用のリポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a98869dcb0a22e70225e3936d14e45ec4">[詳解]</a><br /></td></tr>
+<tr class="separator:a98869dcb0a22e70225e3936d14e45ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5520caa457d892af33d4215665ca7afb"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a5520caa457d892af33d4215665ca7afb">historyFailDatabaseSetup</a> ()  throws IOException, ParseException</td></tr>
+<tr class="memdesc:a5520caa457d892af33d4215665ca7afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴用のリポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a5520caa457d892af33d4215665ca7afb">[詳解]</a><br /></td></tr>
+<tr class="separator:a5520caa457d892af33d4215665ca7afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96cf77bb8582b4951ac36ad16c51d184"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a96cf77bb8582b4951ac36ad16c51d184">makeBaseData</a> ()</td></tr>
+<tr class="memdesc:a96cf77bb8582b4951ac36ad16c51d184"><td class="mdescLeft">&#160;</td><td class="mdescRight">エラーケースのデータを作成するうえで基礎となる、合格ケースのリストを用意する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a96cf77bb8582b4951ac36ad16c51d184">[詳解]</a><br /></td></tr>
+<tr class="separator:a96cf77bb8582b4951ac36ad16c51d184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:af80468fe18fbbcb0a0b0b3cd68d408a7"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#af80468fe18fbbcb0a0b0b3cd68d408a7">getDatabaseFail</a> ()</td></tr>
+<tr class="memdesc:af80468fe18fbbcb0a0b0b3cd68d408a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">通常テーブルで用いるエラーテストケースを全て格納したリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#af80468fe18fbbcb0a0b0b3cd68d408a7">[詳解]</a><br /></td></tr>
+<tr class="separator:af80468fe18fbbcb0a0b0b3cd68d408a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817b965f710491eff2242a9053f02cb1"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; String, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a817b965f710491eff2242a9053f02cb1">getHistoryDatabaseFail</a> ()</td></tr>
+<tr class="memdesc:a817b965f710491eff2242a9053f02cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a817b965f710491eff2242a9053f02cb1">[詳解]</a><br /></td></tr>
+<tr class="separator:a817b965f710491eff2242a9053f02cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f1bfacf3e0e95c0e096721ffe05304"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a37f1bfacf3e0e95c0e096721ffe05304">makeAddrFailedData</a> ()</td></tr>
+<tr class="memdesc:a37f1bfacf3e0e95c0e096721ffe05304"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[現住所]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a37f1bfacf3e0e95c0e096721ffe05304">[詳解]</a><br /></td></tr>
+<tr class="separator:a37f1bfacf3e0e95c0e096721ffe05304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a422ef5756084d1c8d9792a7307e5e3d4"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a422ef5756084d1c8d9792a7307e5e3d4">makeAddrPostcodeFailedData</a> ()</td></tr>
+<tr class="memdesc:a422ef5756084d1c8d9792a7307e5e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[現住所郵便番号]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a422ef5756084d1c8d9792a7307e5e3d4">[詳解]</a><br /></td></tr>
+<tr class="separator:a422ef5756084d1c8d9792a7307e5e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a375f19c1046bd433a9e70c720d2ecf2e"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a375f19c1046bd433a9e70c720d2ecf2e">makeAssignDateFailedData</a> ()</td></tr>
+<tr class="memdesc:a375f19c1046bd433a9e70c720d2ecf2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[配属日]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a375f19c1046bd433a9e70c720d2ecf2e">[詳解]</a><br /></td></tr>
+<tr class="separator:a375f19c1046bd433a9e70c720d2ecf2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac542ac7c790011fae665966788c0be8b"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ac542ac7c790011fae665966788c0be8b">makeAssignDeptFailedData</a> ()</td></tr>
+<tr class="memdesc:ac542ac7c790011fae665966788c0be8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[配属部署]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ac542ac7c790011fae665966788c0be8b">[詳解]</a><br /></td></tr>
+<tr class="separator:ac542ac7c790011fae665966788c0be8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac407a2dcbee6dc436f1afa5a52f132e4"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ac407a2dcbee6dc436f1afa5a52f132e4">makeEmailFailedData</a> ()</td></tr>
+<tr class="memdesc:ac407a2dcbee6dc436f1afa5a52f132e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[メールアドレス]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ac407a2dcbee6dc436f1afa5a52f132e4">[詳解]</a><br /></td></tr>
+<tr class="separator:ac407a2dcbee6dc436f1afa5a52f132e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01bf19dcaa1461050f5153f50276c2e3"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a01bf19dcaa1461050f5153f50276c2e3">makeFacePhotoFailedData</a> ()</td></tr>
+<tr class="memdesc:a01bf19dcaa1461050f5153f50276c2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[顔写真]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a01bf19dcaa1461050f5153f50276c2e3">[詳解]</a><br /></td></tr>
+<tr class="separator:a01bf19dcaa1461050f5153f50276c2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22a7c6fb1c7d114a3d4950b7c00ed131"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a22a7c6fb1c7d114a3d4950b7c00ed131">makeInstChargeFailedData</a> ()</td></tr>
+<tr class="memdesc:a22a7c6fb1c7d114a3d4950b7c00ed131"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[担当楽器]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a22a7c6fb1c7d114a3d4950b7c00ed131">[詳解]</a><br /></td></tr>
+<tr class="separator:a22a7c6fb1c7d114a3d4950b7c00ed131"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb553eec88652b10c46930390fc915a"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#adcb553eec88652b10c46930390fc915a">makeJobFailedData</a> ()</td></tr>
+<tr class="memdesc:adcb553eec88652b10c46930390fc915a"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[職種名]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#adcb553eec88652b10c46930390fc915a">[詳解]</a><br /></td></tr>
+<tr class="separator:adcb553eec88652b10c46930390fc915a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc14f1bcbb3381abe8fa64642b76ec4"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#accc14f1bcbb3381abe8fa64642b76ec4">makeJoinDateFailedData</a> ()</td></tr>
+<tr class="memdesc:accc14f1bcbb3381abe8fa64642b76ec4"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[入団日]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#accc14f1bcbb3381abe8fa64642b76ec4">[詳解]</a><br /></td></tr>
+<tr class="separator:accc14f1bcbb3381abe8fa64642b76ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263ea9d96bbf944fdfaf4fd027bb9af9"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a263ea9d96bbf944fdfaf4fd027bb9af9">makeMemberIdFailedData</a> ()</td></tr>
+<tr class="memdesc:a263ea9d96bbf944fdfaf4fd027bb9af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[団員番号]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a263ea9d96bbf944fdfaf4fd027bb9af9">[詳解]</a><br /></td></tr>
+<tr class="separator:a263ea9d96bbf944fdfaf4fd027bb9af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad93564ea2dde06e58763dc8bc4f77b37"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ad93564ea2dde06e58763dc8bc4f77b37">makeNameFailedData</a> ()</td></tr>
+<tr class="memdesc:ad93564ea2dde06e58763dc8bc4f77b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[名前]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ad93564ea2dde06e58763dc8bc4f77b37">[詳解]</a><br /></td></tr>
+<tr class="separator:ad93564ea2dde06e58763dc8bc4f77b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa046cfd99153c88a09fd35969eff5a56"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#aa046cfd99153c88a09fd35969eff5a56">makeNamePronuFailedData</a> ()</td></tr>
+<tr class="memdesc:aa046cfd99153c88a09fd35969eff5a56"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[ふりがな]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#aa046cfd99153c88a09fd35969eff5a56">[詳解]</a><br /></td></tr>
+<tr class="separator:aa046cfd99153c88a09fd35969eff5a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97dc5d4ad3f7e6779ec6c3c24b04b8e6"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a97dc5d4ad3f7e6779ec6c3c24b04b8e6">makeOtherCommentFailedData</a> ()</td></tr>
+<tr class="memdesc:a97dc5d4ad3f7e6779ec6c3c24b04b8e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[その他コメント]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a97dc5d4ad3f7e6779ec6c3c24b04b8e6">[詳解]</a><br /></td></tr>
+<tr class="separator:a97dc5d4ad3f7e6779ec6c3c24b04b8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6d368a5545277d9673df8f81779e34"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#aab6d368a5545277d9673df8f81779e34">makePositionArriDateFailedData</a> ()</td></tr>
+<tr class="memdesc:aab6d368a5545277d9673df8f81779e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[現役職着任日]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#aab6d368a5545277d9673df8f81779e34">[詳解]</a><br /></td></tr>
+<tr class="separator:aab6d368a5545277d9673df8f81779e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd204d813d6ebf8df875ad79d8e1d73"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a8cd204d813d6ebf8df875ad79d8e1d73">makePositionFailedData</a> ()</td></tr>
+<tr class="memdesc:a8cd204d813d6ebf8df875ad79d8e1d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[役職名]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a8cd204d813d6ebf8df875ad79d8e1d73">[詳解]</a><br /></td></tr>
+<tr class="separator:a8cd204d813d6ebf8df875ad79d8e1d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731d59152468f1700093aed7ef71bc79"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a731d59152468f1700093aed7ef71bc79">makeRetDateFailedData</a> ()</td></tr>
+<tr class="memdesc:a731d59152468f1700093aed7ef71bc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[退団日]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a731d59152468f1700093aed7ef71bc79">[詳解]</a><br /></td></tr>
+<tr class="separator:a731d59152468f1700093aed7ef71bc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae19941f42b5428fc79f5aa9c96b08c3d"><td class="memItemLeft" align="right" valign="top">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ae19941f42b5428fc79f5aa9c96b08c3d">makeTelFailedData</a> ()</td></tr>
+<tr class="memdesc:ae19941f42b5428fc79f5aa9c96b08c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">項目[電話番号]でエラーになるテストケースを格納したマップリストを作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ae19941f42b5428fc79f5aa9c96b08c3d">[詳解]</a><br /></td></tr>
+<tr class="separator:ae19941f42b5428fc79f5aa9c96b08c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:ae012efce48ccb61a3fa799ba38749ef7"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ae012efce48ccb61a3fa799ba38749ef7">config_factory</a></td></tr>
+<tr class="separator:ae012efce48ccb61a3fa799ba38749ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585aba75b285d550ae6410bd6ff2801d"><td class="memItemLeft" align="right" valign="top">final SqlOperation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a585aba75b285d550ae6410bd6ff2801d">FOREIGN_KEY_CHECK_0</a> = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 0&quot;)</td></tr>
+<tr class="separator:a585aba75b285d550ae6410bd6ff2801d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10818a7dd8bb7d53b25ace25ec2ce3bc"><td class="memItemLeft" align="right" valign="top">final SqlOperation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a10818a7dd8bb7d53b25ace25ec2ce3bc">FOREIGN_KEY_CHECK_1</a> = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 1&quot;)</td></tr>
+<tr class="separator:a10818a7dd8bb7d53b25ace25ec2ce3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77069f72678aacecee1763a49949f9b"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_form_1_1_member___info___form___yaml.html">Member_Info_Form_Yaml</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ac77069f72678aacecee1763a49949f9b">form_yml</a></td></tr>
+<tr class="separator:ac77069f72678aacecee1763a49949f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1205e82289f40222c73fa84a73ad0716"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html">History_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a1205e82289f40222c73fa84a73ad0716">hist_testcase_make</a></td></tr>
+<tr class="separator:a1205e82289f40222c73fa84a73ad0716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c9352f3d2358fac8f0bddff33ddfcba"><td class="memItemLeft" align="right" valign="top">final Truncate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a0c9352f3d2358fac8f0bddff33ddfcba">HISTORY_TABLE</a> = Truncate.table(<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ad0291c4eeb89a47e0b9eda24595a5238">HISTORY_TABLE_NAME</a>)</td></tr>
+<tr class="separator:a0c9352f3d2358fac8f0bddff33ddfcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0291c4eeb89a47e0b9eda24595a5238"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ad0291c4eeb89a47e0b9eda24595a5238">HISTORY_TABLE_NAME</a> = &quot;Member_Info_History&quot;</td></tr>
+<tr class="separator:ad0291c4eeb89a47e0b9eda24595a5238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32bf905a7be850c228b470472935b344"><td class="memItemLeft" align="right" valign="top">final Truncate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a32bf905a7be850c228b470472935b344">NORMAL_TABLE</a> = Truncate.table(<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a992122755cdcefbece980d47f1755cba">NORMAL_TABLE_NAME</a>)</td></tr>
+<tr class="separator:a32bf905a7be850c228b470472935b344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a992122755cdcefbece980d47f1755cba"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a992122755cdcefbece980d47f1755cba">NORMAL_TABLE_NAME</a> = &quot;Member_Info&quot;</td></tr>
+<tr class="separator:a992122755cdcefbece980d47f1755cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[団員管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。 </p>
+<ul>
+<li>このクラスでは、データベースの初期化のほか、初期化時に使用したデータをテスト時の比較用として モックのエンティティに格納して返却が可能。</li>
+<li>必要に応じてファイルサーバーと連携してデータベースとファイルサーバーのどちらも初期化すること が可能である。</li>
+<li>なお、このクラスは通常データ用と履歴データ用で共用で用いる。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Component</li>
+<li>@Import({ConfigureFactory.class, History_TestCase_Make.class})</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Member_Info_Form_Yaml </dd>
+<dd>
+ConfigureFactory </dd>
+<dd>
+History_TestCase_Make </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="a975114ed64d2e8ecc2cf2c70a47c761f" name="a975114ed64d2e8ecc2cf2c70a47c761f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a975114ed64d2e8ecc2cf2c70a47c761f">&#9670;&#160;</a></span>Member_Info_Fail_Database_TestCase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.Member_Info_Fail_Database_TestCase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a>&#160;</td>
+          <td class="paramname"><em>config_factory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html">History_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>hist_testcase_make</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>使用するテストケースクラスのDIのほか、YMLファイルからデータを読み取って専用エンティティへの マッピングを行う。 </p>
+<ul>
+<li>データベースやファイルサーバーのセットアップに必要なクラスを、インジェクションする。</li>
+<li>データベースに格納するテストケースが記述されたYMLファイルを読み込んで、専用のエンティティに マッピングする。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">config_factory</td><td>テスト設定ファイルの総合クラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hist_testcase_make</td><td>履歴情報のデータベース関連のエラーテストケースクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>引数で渡されたクラスを、コンストラクタインジェクションする。</li>
+<li>指定されたYMLファイルのテストケースを読み込む。</li>
+<li>読み込んだYMLファイルを専用のエンティティにマッピングする。</li>
+<li>インジェクションしたクラスを、フィールド変数に格納する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Member_Info_Form_Yaml </dd>
+<dd>
+ConfigureFactory </dd>
+<dd>
+History_TestCase_Make</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="aebd5470ddb63f841c3d7a8f7896c87ec" name="aebd5470ddb63f841c3d7a8f7896c87ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebd5470ddb63f841c3d7a8f7896c87ec">&#9670;&#160;</a></span>failDatabaseReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.failDatabaseReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。 </p>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>対象のデータベースのテーブルを初期化するクエリを組み立てる。</li>
+<li>組み上げたクエリを実行する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_cgraph">
+<area shape="rect" title="リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="5,5,267,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="315,13,596,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="644,13,896,67"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_aebd5470ddb63f841c3d7a8f7896c87ec_icgraph">
+<area shape="rect" title="リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="340,5,601,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a2808c3f8494d955f64636b568fb22f65" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,13,292,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8c6cc384f184ca5d20ca50fa7df365a1" name="a8c6cc384f184ca5d20ca50fa7df365a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6cc384f184ca5d20ca50fa7df365a1">&#9670;&#160;</a></span>failDatabaseSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map&lt; Integer, String &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.failDatabaseSetup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>リポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。 </p>
+<ul>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。</li>
+<li>なおセットアップ後は、データ検索に必要なシリアルナンバーと管理番号を返す。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>データ検索に必要なシリアルナンバーと管理番号のマップリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>保存前に保存対象のテーブルを初期化するクエリを組み立てる。</li>
+<li>組み上げたクエリを実行する。</li>
+<li>クエリ組み上げの過程で保存しておいた、データ検索に必要なシリアルナンバーと管理番号を戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_cgraph">
+<area shape="rect" title="リポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。" alt="" coords="5,5,267,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="315,13,596,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="644,13,896,67"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a8c6cc384f184ca5d20ca50fa7df365a1_icgraph">
+<area shape="rect" title="リポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。" alt="" coords="340,5,601,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a5fdf8554c7a7ca0f5491d8f93f455642" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,13,292,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af80468fe18fbbcb0a0b0b3cd68d408a7" name="af80468fe18fbbcb0a0b0b3cd68d408a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80468fe18fbbcb0a0b0b3cd68d408a7">&#9670;&#160;</a></span>getDatabaseFail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.getDatabaseFail </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>通常テーブルで用いるエラーテストケースを全て格納したリストを作成する。 </p>
+<ul>
+<li>テストケースに登録されている全てのエラーケースをリスト化したものを作成する。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>団員番号が一意制約に違反しないように、「団員番号がエラーのケース」以外のエラーケースに関しては、 確実に一意のエラーが起こらない団員番号に上書きする。</li>
+<li>取り出したデータは、順番にリストに格納する。</li>
+<li>各項目の格納が終わったリストを全て結合し、一つのリストにしたものを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a817b965f710491eff2242a9053f02cb1" name="a817b965f710491eff2242a9053f02cb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817b965f710491eff2242a9053f02cb1">&#9670;&#160;</a></span>getHistoryDatabaseFail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; String, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.getHistoryDatabaseFail </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。 </p>
+<ul>
+<li>テストケースに登録されている全てのエラーケースをリスト化したものを作成する。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd><ul>
+<li>履歴内の履歴情報データがエラーになるケースでは、通常データはエラーにならないような適当な値を格納。</li>
+<li>履歴内の通常データがエラーになるケースでは、履歴付随情報はエラーにならないような適当な値を格納。</li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>取り出したデータは、順番にリストに格納する。</li>
+<li>各項目の格納が終わったリストを全て結合し、一つのリストにしたものを戻り値とする。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a817b965f710491eff2242a9053f02cb1_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a817b965f710491eff2242a9053f02cb1_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a817b965f710491eff2242a9053f02cb1_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a817b965f710491eff2242a9053f02cb1_cgraph">
+<area shape="rect" title="履歴テーブルで用いるエラーテストケースを全て格納したリストを作成する。" alt="" coords="5,5,267,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html#af290f5c9bdc345ba855e1cf1dc681469" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="315,13,604,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html#a0739946b5ac6ea00cb78e981c5bdadab" title="履歴用のテーブルで出力時にエラーとなるデータのリストを返す。" alt="" coords="652,13,1033,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html#af6535b3b0cb9504a5ec746c3ea9e278c" title="項目[操作ユーザー名]でエラーになるテストケースを格納したマップリストを作成する。" alt="" coords="1081,5,1388,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html#a3398594fa649b3b9933e90fb90626d37" title="エラーケースのデータを作成するうえで基礎となる、合格ケースのリストを用意する。" alt="" coords="1436,13,1744,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a98869dcb0a22e70225e3936d14e45ec4" name="a98869dcb0a22e70225e3936d14e45ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98869dcb0a22e70225e3936d14e45ec4">&#9670;&#160;</a></span>historyFailDatabaseReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.historyFailDatabaseReset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>履歴用のリポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。 </p>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>対象のデータベースのテーブルを初期化するクエリを組み立てる。</li>
+<li>組み上げたクエリを実行する。 </li>
+</ol>
+</dd></dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_cgraph">
+<area shape="rect" title="履歴用のリポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="5,5,267,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="315,13,596,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="644,13,896,67"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a98869dcb0a22e70225e3936d14e45ec4_icgraph">
+<area shape="rect" title="履歴用のリポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="356,5,617,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a7e359372f776150e749e9e60b35f1f7d" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,13,308,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5520caa457d892af33d4215665ca7afb" name="a5520caa457d892af33d4215665ca7afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5520caa457d892af33d4215665ca7afb">&#9670;&#160;</a></span>historyFailDatabaseSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Integer &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.historyFailDatabaseSetup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>履歴用のリポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。 </p>
+<ul>
+<li>セットアップ後は、データ検索に必要な履歴番号を返す。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>データ検索に必要な履歴番号をリストに格納した物。</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>保存前に保存対象のテーブルを初期化するクエリを組み立てる。</li>
+<li>組み上げたクエリを実行する。</li>
+<li>クエリ組み上げの過程で保存しておいた、データ検索に必要な履歴番号のリストを戻り値とする。</li>
+</ol>
+</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">ParseException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_cgraph">
+<area shape="rect" title="履歴用のリポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。" alt="" coords="5,5,267,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="315,13,596,67"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="644,13,896,67"/>
+</map>
+</div>
+<div class="dynheader">
+被呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_icgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_icgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_icgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131_a5520caa457d892af33d4215665ca7afb_icgraph">
+<area shape="rect" title="履歴用のリポジトリの検査時に用いるデータベースに、エラーテストケースのデータを保存する。" alt="" coords="356,5,617,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member___info___test_case___make.html#a7c6524ae71db9cc49db3829e1c566a93" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="5,13,308,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a37f1bfacf3e0e95c0e096721ffe05304" name="a37f1bfacf3e0e95c0e096721ffe05304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37f1bfacf3e0e95c0e096721ffe05304">&#9670;&#160;</a></span>makeAddrFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeAddrFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[現住所]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a422ef5756084d1c8d9792a7307e5e3d4" name="a422ef5756084d1c8d9792a7307e5e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a422ef5756084d1c8d9792a7307e5e3d4">&#9670;&#160;</a></span>makeAddrPostcodeFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeAddrPostcodeFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[現住所郵便番号]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a375f19c1046bd433a9e70c720d2ecf2e" name="a375f19c1046bd433a9e70c720d2ecf2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a375f19c1046bd433a9e70c720d2ecf2e">&#9670;&#160;</a></span>makeAssignDateFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeAssignDateFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[配属日]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="ac542ac7c790011fae665966788c0be8b" name="ac542ac7c790011fae665966788c0be8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac542ac7c790011fae665966788c0be8b">&#9670;&#160;</a></span>makeAssignDeptFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeAssignDeptFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[配属部署]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a96cf77bb8582b4951ac36ad16c51d184" name="a96cf77bb8582b4951ac36ad16c51d184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96cf77bb8582b4951ac36ad16c51d184">&#9670;&#160;</a></span>makeBaseData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeBaseData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>エラーケースのデータを作成するうえで基礎となる、合格ケースのリストを用意する。 </p>
+<ul>
+<li>ここで作成するリストを、項目一つづつ上書きすることで、一つの項目のみがエラーであるマップリストを 作成することが可能である。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>正常データのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>取り出したデータは、順番にリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="ac407a2dcbee6dc436f1afa5a52f132e4" name="ac407a2dcbee6dc436f1afa5a52f132e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac407a2dcbee6dc436f1afa5a52f132e4">&#9670;&#160;</a></span>makeEmailFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeEmailFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[メールアドレス]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a01bf19dcaa1461050f5153f50276c2e3" name="a01bf19dcaa1461050f5153f50276c2e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01bf19dcaa1461050f5153f50276c2e3">&#9670;&#160;</a></span>makeFacePhotoFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeFacePhotoFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[顔写真]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a22a7c6fb1c7d114a3d4950b7c00ed131" name="a22a7c6fb1c7d114a3d4950b7c00ed131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a7c6fb1c7d114a3d4950b7c00ed131">&#9670;&#160;</a></span>makeInstChargeFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeInstChargeFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[担当楽器]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="adcb553eec88652b10c46930390fc915a" name="adcb553eec88652b10c46930390fc915a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb553eec88652b10c46930390fc915a">&#9670;&#160;</a></span>makeJobFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeJobFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[職種名]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="accc14f1bcbb3381abe8fa64642b76ec4" name="accc14f1bcbb3381abe8fa64642b76ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc14f1bcbb3381abe8fa64642b76ec4">&#9670;&#160;</a></span>makeJoinDateFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeJoinDateFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[入団日]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a263ea9d96bbf944fdfaf4fd027bb9af9" name="a263ea9d96bbf944fdfaf4fd027bb9af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a263ea9d96bbf944fdfaf4fd027bb9af9">&#9670;&#160;</a></span>makeMemberIdFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeMemberIdFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[団員番号]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="ad93564ea2dde06e58763dc8bc4f77b37" name="ad93564ea2dde06e58763dc8bc4f77b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93564ea2dde06e58763dc8bc4f77b37">&#9670;&#160;</a></span>makeNameFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeNameFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[名前]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="aa046cfd99153c88a09fd35969eff5a56" name="aa046cfd99153c88a09fd35969eff5a56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa046cfd99153c88a09fd35969eff5a56">&#9670;&#160;</a></span>makeNamePronuFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeNamePronuFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[ふりがな]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a97dc5d4ad3f7e6779ec6c3c24b04b8e6" name="a97dc5d4ad3f7e6779ec6c3c24b04b8e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97dc5d4ad3f7e6779ec6c3c24b04b8e6">&#9670;&#160;</a></span>makeOtherCommentFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeOtherCommentFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[その他コメント]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="aab6d368a5545277d9673df8f81779e34" name="aab6d368a5545277d9673df8f81779e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab6d368a5545277d9673df8f81779e34">&#9670;&#160;</a></span>makePositionArriDateFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makePositionArriDateFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[現役職着任日]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a8cd204d813d6ebf8df875ad79d8e1d73" name="a8cd204d813d6ebf8df875ad79d8e1d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd204d813d6ebf8df875ad79d8e1d73">&#9670;&#160;</a></span>makePositionFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makePositionFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[役職名]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="a731d59152468f1700093aed7ef71bc79" name="a731d59152468f1700093aed7ef71bc79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a731d59152468f1700093aed7ef71bc79">&#9670;&#160;</a></span>makeRetDateFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeRetDateFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[退団日]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<a id="ae19941f42b5428fc79f5aa9c96b08c3d" name="ae19941f42b5428fc79f5aa9c96b08c3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae19941f42b5428fc79f5aa9c96b08c3d">&#9670;&#160;</a></span>makeTelFailedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; Map&lt; <a class="el" href="enumcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_member__7bde3ff49378aecfccb36d4e182bef85.html">Member_Info_TestKeys</a>, String &gt; &gt; com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.makeTelFailedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>項目[電話番号]でエラーになるテストケースを格納したマップリストを作成する。 </p>
+<ul>
+<li>マッピングしたエンティティから該当項目のエラーケースを取り出し、ベースとなる合格ケースのリストを 上書きすることで作成する。</li>
+<li>一つの項目のみがエラーとなるようにしているので、テストエラー時の原因を把握しやすくなる。</li>
+<li>ただし、データベースに格納できないようなエラーケース（例、列挙型や日付型）は対象外。 これは、データベースに格納する前に制約に違反し保存できない為、テーブル内にテストケースを用意できないから。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>エラーケースのマップが順番に格納されたリスト</dd></dl>
+<dl class="section user"><dt>処理の大まかな流れ</dt><dd><ol type="1">
+<li>あらかじめ定義した配列内の文字を連結して、データを取得する際のキー名を組む。</li>
+<li>マッピングしたエンティティから、エラーテストケースのみを取り出す。</li>
+<li>あらかじめ作成した合格ケースのリストを取得し、そのリストの該当項目をエラーケースで上書きする。</li>
+<li>上書きしたデータは、順番に新規のリストに格納する。</li>
+<li>格納が終わったリストを戻り値とする。 </li>
+</ol>
+</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ae012efce48ccb61a3fa799ba38749ef7" name="ae012efce48ccb61a3fa799ba38749ef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae012efce48ccb61a3fa799ba38749ef7">&#9670;&#160;</a></span>config_factory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html">ConfigureFactory</a> com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.config_factory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a585aba75b285d550ae6410bd6ff2801d" name="a585aba75b285d550ae6410bd6ff2801d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a585aba75b285d550ae6410bd6ff2801d">&#9670;&#160;</a></span>FOREIGN_KEY_CHECK_0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SqlOperation com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.FOREIGN_KEY_CHECK_0 = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 0&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10818a7dd8bb7d53b25ace25ec2ce3bc" name="a10818a7dd8bb7d53b25ace25ec2ce3bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10818a7dd8bb7d53b25ace25ec2ce3bc">&#9670;&#160;</a></span>FOREIGN_KEY_CHECK_1</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SqlOperation com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.FOREIGN_KEY_CHECK_1 = SqlOperation.of(&quot;SET FOREIGN_KEY_CHECKS = 1&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac77069f72678aacecee1763a49949f9b" name="ac77069f72678aacecee1763a49949f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77069f72678aacecee1763a49949f9b">&#9670;&#160;</a></span>form_yml</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_form_1_1_member___info___form___yaml.html">Member_Info_Form_Yaml</a> com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.form_yml</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1205e82289f40222c73fa84a73ad0716" name="a1205e82289f40222c73fa84a73ad0716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1205e82289f40222c73fa84a73ad0716">&#9670;&#160;</a></span>hist_testcase_make</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html">History_TestCase_Make</a> com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.hist_testcase_make</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c9352f3d2358fac8f0bddff33ddfcba" name="a0c9352f3d2358fac8f0bddff33ddfcba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9352f3d2358fac8f0bddff33ddfcba">&#9670;&#160;</a></span>HISTORY_TABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Truncate com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.HISTORY_TABLE = Truncate.table(<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#ad0291c4eeb89a47e0b9eda24595a5238">HISTORY_TABLE_NAME</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0291c4eeb89a47e0b9eda24595a5238" name="ad0291c4eeb89a47e0b9eda24595a5238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0291c4eeb89a47e0b9eda24595a5238">&#9670;&#160;</a></span>HISTORY_TABLE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.HISTORY_TABLE_NAME = &quot;Member_Info_History&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a32bf905a7be850c228b470472935b344" name="a32bf905a7be850c228b470472935b344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32bf905a7be850c228b470472935b344">&#9670;&#160;</a></span>NORMAL_TABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final Truncate com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.NORMAL_TABLE = Truncate.table(<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html#a992122755cdcefbece980d47f1755cba">NORMAL_TABLE_NAME</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a992122755cdcefbece980d47f1755cba" name="a992122755cdcefbece980d47f1755cba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a992122755cdcefbece980d47f1755cba">&#9670;&#160;</a></span>NORMAL_TABLE_NAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.CommonTestCaseMaker.MemberInfo.FailDatabase.Member_Info_Fail_Database_TestCase.NORMAL_TABLE_NAME = &quot;Member_Info&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/CommonTestCaseMaker/MemberInfo/FailDatabase/<a class="el" href="_member___info___fail___database___test_case_8java.html">Member_Info_Fail_Database_TestCase.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker.html">CommonTestCaseMaker</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info.html">MemberInfo</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_database.html">FailDatabase</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_member_info_1_1_fail_dae30d4ecaf7226456258eb99845f1a131.html">Member_Info_Fail_Database_TestCase</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

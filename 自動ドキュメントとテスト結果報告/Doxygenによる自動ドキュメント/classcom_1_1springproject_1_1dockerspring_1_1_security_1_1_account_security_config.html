@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.Security.AccountSecurityConfig クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pro-methods">限定公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.Security.AccountSecurityConfig クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>このシステム上のSpringSecurityのセキュリティ設定を全般的に設定するクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.Security.AccountSecurityConfig 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config__coll__graph.png" border="0" usemap="#acom_8springproject_8dockerspring_8_security_8_account_security_config_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_security_8_account_security_config_coll__map" id="acom_8springproject_8dockerspring_8_security_8_account_security_config_coll__map">
+<area shape="rect" title="このシステム上のSpringSecurityのセキュリティ設定を全般的に設定するクラス" alt="" coords="1329,319,1536,359"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_success_handler.html" title="セキュリティに関する機能において、ログインに成功した際のハンドリングを行うクラス" alt="" coords="919,405,1172,460"/>
+<area shape="rect" title=" " alt="" coords="547,427,747,452"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_jwt_token_generate.html" title="セキュリティに関する機能において、JWTトークンの作成や解析を行うクラス" alt="" coords="533,481,760,521"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_token_filter.html" title="セキュリティに関する機能において、ユーザーから渡ってきたJWTトークンを検証する クラス" alt="" coords="912,489,1179,529"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="217,449,444,489"/>
+<area shape="rect" title=" " alt="" coords="242,513,419,553"/>
+<area shape="rect" title=" " alt="" coords="595,236,698,261"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_failure_handler.html" title="セキュリティに関する機能において、認証処理の際にログインに失敗した際のハンドリングを 行うクラス" alt="" coords="925,153,1166,208"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_entry_point.html" title="セキュリティに関する機能において、認証されていないユーザーが、直接認証が必要な URLにアクセスした場合に拒否された際のハンドリングを行うクラス" alt="" coords="914,233,1177,273"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_denied_handler.html" title="セキュリティに関する機能において、認証済みのユーザーではあるがアクセス先のURLの 権限を持っておらずアクセス拒否された際に発するイベントのハンドリングを行うクラス" alt="" coords="924,75,1167,129"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_logout_handler.html" title="セキュリティに関する機能において、ログアウト処理が終わった後の際のハンドリングを 行うクラス" alt="" coords="925,312,1166,367"/>
+<area shape="rect" title=" " alt="" coords="553,55,741,80"/>
+<area shape="rect" title=" " alt="" coords="563,133,730,159"/>
+<area shape="rect" title=" " alt="" coords="571,5,722,31"/>
+<area shape="rect" title=" " alt="" coords="583,551,710,576"/>
+<area shape="rect" title=" " alt="" coords="569,348,725,373"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_account_details_service.html" title="セキュリティに関する機能において、データベースからアカウント情報を取得するクラス" alt="" coords="920,625,1171,665"/>
+<area shape="rect" title=" " alt="" coords="581,600,712,625"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_system___user___repo.html" title="主に[システムユーザー管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="543,649,751,704"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="222,649,439,704"/>
+<area shape="rect" title=" " alt="" coords="5,704,168,729"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_find_all_crud_repository.html" title="検索リポジトリで使用する、ベースとなる既存のリポジトリインターフェースに 追加して、使用する分岐メソッドを定義したインターフェース。" alt="" coords="222,728,439,783"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_repository_1_1_normal_repo_1_1_usage___authority___repo.html" title="主に[権限管理]機能で使用する、データベースとの通信を行うリポジトリの インターフェースである。" alt="" coords="543,728,750,783"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:a0c899e8d60d7f862085393604a625f2f"><td class="memItemLeft" align="right" valign="top">AuthenticationEventPublisher&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a0c899e8d60d7f862085393604a625f2f">authenticationEventPublisher</a> (ApplicationEventPublisher pub)</td></tr>
+<tr class="memdesc:a0c899e8d60d7f862085393604a625f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">認証の際に発生するイベントを検知して、処理を行えるようにする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a0c899e8d60d7f862085393604a625f2f">[詳解]</a><br /></td></tr>
+<tr class="separator:a0c899e8d60d7f862085393604a625f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5577adec2860e0d02fd03654683ff99d"><td class="memItemLeft" align="right" valign="top">BCryptPasswordEncoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a5577adec2860e0d02fd03654683ff99d">passwordEncoder</a> ()</td></tr>
+<tr class="memdesc:a5577adec2860e0d02fd03654683ff99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">認証の際に利用するハッシュ関数を登録する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a5577adec2860e0d02fd03654683ff99d">[詳解]</a><br /></td></tr>
+<tr class="separator:a5577adec2860e0d02fd03654683ff99d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+限定公開メンバ関数</h2></td></tr>
+<tr class="memitem:a3a76f6d58f61507ec2b3fefcf8e9a415"><td class="memItemLeft" align="right" valign="top">SecurityFilterChain&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a3a76f6d58f61507ec2b3fefcf8e9a415">securityFilterChain</a> (HttpSecurity http)  throws Exception </td></tr>
+<tr class="memdesc:a3a76f6d58f61507ec2b3fefcf8e9a415"><td class="mdescLeft">&#160;</td><td class="mdescRight">認証時の設定を一元的に設定する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a3a76f6d58f61507ec2b3fefcf8e9a415">[詳解]</a><br /></td></tr>
+<tr class="separator:a3a76f6d58f61507ec2b3fefcf8e9a415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a893645c25074fc01efc24294f377d823"><td class="memItemLeft" align="right" valign="top">UserDetailsService&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a893645c25074fc01efc24294f377d823">userDetailsService</a> ()  throws Exception </td></tr>
+<tr class="memdesc:a893645c25074fc01efc24294f377d823"><td class="mdescLeft">&#160;</td><td class="mdescRight">データベースから認証情報を取得し、専用のエンティティに格納してBeanに登録する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a893645c25074fc01efc24294f377d823">[詳解]</a><br /></td></tr>
+<tr class="separator:a893645c25074fc01efc24294f377d823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:ad78b0d28eebf7257d071814a7d325f25"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_denied_handler.html">AccountDeniedHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#ad78b0d28eebf7257d071814a7d325f25">denied_handler</a></td></tr>
+<tr class="separator:ad78b0d28eebf7257d071814a7d325f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd2686a946e730957d19f29352a95e0"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_account_details_service.html">AccountDetailsService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a5dd2686a946e730957d19f29352a95e0">details_service</a></td></tr>
+<tr class="separator:a5dd2686a946e730957d19f29352a95e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f5ac9e08b6d5e698efb5018d938bba"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_entry_point.html">AccountEntryPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a26f5ac9e08b6d5e698efb5018d938bba">entry_point</a></td></tr>
+<tr class="separator:a26f5ac9e08b6d5e698efb5018d938bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f27746f1f242e890dcd6214f3a895d"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_failure_handler.html">AccountFailureHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a31f27746f1f242e890dcd6214f3a895d">failure_handler</a></td></tr>
+<tr class="separator:a31f27746f1f242e890dcd6214f3a895d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4f95d771bb88f684e040c6d854ac34"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_logout_handler.html">AccountLogoutHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#aeb4f95d771bb88f684e040c6d854ac34">logout_handler</a></td></tr>
+<tr class="separator:aeb4f95d771bb88f684e040c6d854ac34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a351c4cd1ea974e9e58d8478f284b3baa"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_success_handler.html">AccountSuccessHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#a351c4cd1ea974e9e58d8478f284b3baa">success_handler</a></td></tr>
+<tr class="separator:a351c4cd1ea974e9e58d8478f284b3baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5dca34607e580c967667ce6cbacc31e"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_token_filter.html">AccountTokenFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html#ab5dca34607e580c967667ce6cbacc31e">token_filter</a></td></tr>
+<tr class="separator:ab5dca34607e580c967667ce6cbacc31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >このシステム上のSpringSecurityのセキュリティ設定を全般的に設定するクラス </p>
+<ul>
+<li>基本的にセキュリティに関する設定は、このクラスに記載する。</li>
+<li>詳しい仕様を把握した場合は、SpringSecurityのドキュメントを参照のこと。</li>
+<li>なお、このクラスに実装しているメソッドはすべて、Beanとして登録するようになっている。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@Configuration</li>
+<li>@EnableWebSecurity</li>
+<li>@EnableWebMvc</li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>AccountSuccessHandler </dd>
+<dd>
+AccountFailureHandler </dd>
+<dd>
+AccountEntryPoint </dd>
+<dd>
+AccountDeniedHandler </dd>
+<dd>
+AccountTokenFilter </dd>
+<dd>
+AccountLogoutHandler </dd>
+<dd>
+AccountDetailsService </dd></dl>
+</div><h2 class="groupheader">メソッド詳解</h2>
+<a id="a0c899e8d60d7f862085393604a625f2f" name="a0c899e8d60d7f862085393604a625f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c899e8d60d7f862085393604a625f2f">&#9670;&#160;</a></span>authenticationEventPublisher()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AuthenticationEventPublisher com.springproject.dockerspring.Security.AccountSecurityConfig.authenticationEventPublisher </td>
+          <td>(</td>
+          <td class="paramtype">ApplicationEventPublisher&#160;</td>
+          <td class="paramname"><em>pub</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>認証の際に発生するイベントを検知して、処理を行えるようにする。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pub</td><td>アプリケーションのイベント受付設定クラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>イベント受付の設定クラス </dd></dl>
+
+</div>
+</div>
+<a id="a5577adec2860e0d02fd03654683ff99d" name="a5577adec2860e0d02fd03654683ff99d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5577adec2860e0d02fd03654683ff99d">&#9670;&#160;</a></span>passwordEncoder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BCryptPasswordEncoder com.springproject.dockerspring.Security.AccountSecurityConfig.passwordEncoder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>認証の際に利用するハッシュ関数を登録する。 </p>
+<ul>
+<li>ハッシュ関数としては、[BCrypt]を採用する。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>ハッシュ関数のエンコーダ </dd></dl>
+
+</div>
+</div>
+<a id="a3a76f6d58f61507ec2b3fefcf8e9a415" name="a3a76f6d58f61507ec2b3fefcf8e9a415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a76f6d58f61507ec2b3fefcf8e9a415">&#9670;&#160;</a></span>securityFilterChain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SecurityFilterChain com.springproject.dockerspring.Security.AccountSecurityConfig.securityFilterChain </td>
+          <td>(</td>
+          <td class="paramtype">HttpSecurity&#160;</td>
+          <td class="paramname"><em>http</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>認証時の設定を一元的に設定する。 </p>
+<p >設定内容としては、以下のようになる。</p><ol type="1">
+<li>セキュリティを適用するURL<ul>
+<li>[/System]配下のパスをすべて適用する。</li>
+</ul>
+</li>
+<li>ログイン時の設定<ul>
+<li>ログイン時のURL: [/login]</li>
+<li>ログイン成功時に呼び出すハンドラクラス: AccountSuccessHandler</li>
+<li>ログイン失敗時に呼び出すハンドラクラス: AccountFailureHandler</li>
+<li>ログイン時のユーザー名のパラメータ名: username</li>
+<li>ログイン時のパスワードのパラメータ名: password</li>
+<li>なお、ログイン時に使用するURLはセキュリティの対象外とする</li>
+</ul>
+</li>
+<li>セッションのマネジメント設定<ul>
+<li>このシステムのSpringsSecurityは、セッションを一切生成しない設定とする</li>
+</ul>
+</li>
+<li>認証や認可失敗時のハンドラ設定<ul>
+<li>認証されていないユーザーが直接、認証が必要なURLにアクセスしたとき: AccountEntryPoint</li>
+<li>認証されているが、必要な権限を持っていないユーザーがアクセスしたとき: AccountDeniedHandler</li>
+</ul>
+</li>
+<li>認証処理前に行うフィルター<ul>
+<li>JWTトークンの検証クラス: AccountTokenFilter</li>
+<li>なおこのフィルターは、[UsernamePasswordAuthenticationFilter]の実行前に必ず行う。</li>
+</ul>
+</li>
+<li>CSRFトークン生成の設定<ul>
+<li>CSRF対策は無効とする。JWTトークンで要件を満たせるからである。</li>
+</ul>
+</li>
+<li>ログアウト時の設定<ul>
+<li>ログアウト時のURL: [/Logout]</li>
+<li>生成されたセッションはすべて無効にし削除する。</li>
+<li>ログアウト成功時に呼び出すハンドラ: AccountLogoutHandler</li>
+</ul>
+</li>
+</ol>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">http</td><td>HTTP通信時のセキュリティ設定のクラス</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>セキュリティの設定を組み立てた設定クラス</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>AccountSuccessHandler </dd>
+<dd>
+AccountFailureHandler </dd>
+<dd>
+AccountEntryPoint </dd>
+<dd>
+AccountDeniedHandler </dd>
+<dd>
+AccountTokenFilter </dd>
+<dd>
+AccountLogoutHandler </dd></dl>
+
+</div>
+</div>
+<a id="a893645c25074fc01efc24294f377d823" name="a893645c25074fc01efc24294f377d823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a893645c25074fc01efc24294f377d823">&#9670;&#160;</a></span>userDetailsService()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UserDetailsService com.springproject.dockerspring.Security.AccountSecurityConfig.userDetailsService </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>データベースから認証情報を取得し、専用のエンティティに格納してBeanに登録する。 </p>
+<ul>
+<li>認証に関しては、インメモリ認証は一切用いない。</li>
+<li>データベースからの認証情報の取得に関しては、独自に実装したサービスクラスを実装して 取得する。</li>
+</ul>
+<dl class="section return"><dt>戻り値</dt><dd>認証情報を格納した専用エンティティ</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>AccountDetailsService </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="ad78b0d28eebf7257d071814a7d325f25" name="ad78b0d28eebf7257d071814a7d325f25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad78b0d28eebf7257d071814a7d325f25">&#9670;&#160;</a></span>denied_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_denied_handler.html">AccountDeniedHandler</a> com.springproject.dockerspring.Security.AccountSecurityConfig.denied_handler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5dd2686a946e730957d19f29352a95e0" name="a5dd2686a946e730957d19f29352a95e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd2686a946e730957d19f29352a95e0">&#9670;&#160;</a></span>details_service</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_service_1_1_account_details_service.html">AccountDetailsService</a> com.springproject.dockerspring.Security.AccountSecurityConfig.details_service</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a26f5ac9e08b6d5e698efb5018d938bba" name="a26f5ac9e08b6d5e698efb5018d938bba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26f5ac9e08b6d5e698efb5018d938bba">&#9670;&#160;</a></span>entry_point</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_entry_point.html">AccountEntryPoint</a> com.springproject.dockerspring.Security.AccountSecurityConfig.entry_point</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31f27746f1f242e890dcd6214f3a895d" name="a31f27746f1f242e890dcd6214f3a895d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f27746f1f242e890dcd6214f3a895d">&#9670;&#160;</a></span>failure_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_failure_handler.html">AccountFailureHandler</a> com.springproject.dockerspring.Security.AccountSecurityConfig.failure_handler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aeb4f95d771bb88f684e040c6d854ac34" name="aeb4f95d771bb88f684e040c6d854ac34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb4f95d771bb88f684e040c6d854ac34">&#9670;&#160;</a></span>logout_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_logout_handler.html">AccountLogoutHandler</a> com.springproject.dockerspring.Security.AccountSecurityConfig.logout_handler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a351c4cd1ea974e9e58d8478f284b3baa" name="a351c4cd1ea974e9e58d8478f284b3baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a351c4cd1ea974e9e58d8478f284b3baa">&#9670;&#160;</a></span>success_handler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_success_handler.html">AccountSuccessHandler</a> com.springproject.dockerspring.Security.AccountSecurityConfig.success_handler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5dca34607e580c967667ce6cbacc31e" name="ab5dca34607e580c967667ce6cbacc31e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5dca34607e580c967667ce6cbacc31e">&#9670;&#160;</a></span>token_filter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_event_handler_1_1_account_token_filter.html">AccountTokenFilter</a> com.springproject.dockerspring.Security.AccountSecurityConfig.token_filter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/main/java/com/springproject/dockerspring/Security/<a class="el" href="_account_security_config_8java.html">AccountSecurityConfig.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_security.html">Security</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_security_1_1_account_security_config.html">AccountSecurityConfig</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

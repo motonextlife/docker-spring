@@ -1,0 +1,957 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>楽団管理システム: com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">楽団管理システム
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#pub-static-methods">静的公開メンバ関数</a> &#124;
+<a href="#pri-methods">非公開メンバ関数</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="#pri-static-attribs">静的非公開変数類</a> &#124;
+<a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_15e7fc8585ef746164da193914c2df623.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test クラス</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>主に[楽譜データ管理]の圧縮ファイルの出力機能のテストを行うクラス  
+ <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#details">[詳解]</a></p>
+<div class="dynheader">
+com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test の継承関係図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_1e2fca8e50caaec36e61fa21a1263f6bb.png" border="0" usemap="#acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_score___pdf___zip_impl___test_8_score___pdf___zip_impl___output_zip___test_inherit__map" alt="Inheritance graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_score___pdf___zip_impl___test_8_score___pdf___zip_impl___output_zip___test_inherit__map" id="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_score___pdf___zip_impl___test_8_score___pdf___zip_impl___output_zip___test_inherit__map">
+<area shape="rect" title="主に[楽譜データ管理]の圧縮ファイルの出力機能のテストを行うクラス" alt="" coords="260,5,496,75"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test1f9a385a892ff3364e95968e85a6034d.html" title="バイナリデータの圧縮ファイル作成出力機能のテストにおいて、共通で使用するメソッドを 提供するインターフェース" alt="" coords="5,5,212,75"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<div class="dynheader">
+com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test 連携図</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_1b8079772291bcc812caf8413b5a969bd.png" border="0" usemap="#acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_score___pdf___zip_impl___test_8_score___pdf___zip_impl___output_zip___test_coll__map" alt="Collaboration graph"/></div>
+<map name="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_score___pdf___zip_impl___test_8_score___pdf___zip_impl___output_zip___test_coll__map" id="acom_8springproject_8dockerspring_8_join_tests_8_file_i_o_8_zip_process___test_8_score___pdf___zip_impl___test_8_score___pdf___zip_impl___output_zip___test_coll__map">
+<area shape="rect" title="主に[楽譜データ管理]の圧縮ファイルの出力機能のテストを行うクラス" alt="" coords="3201,1383,3437,1452"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test1f9a385a892ff3364e95968e85a6034d.html" title="バイナリデータの圧縮ファイル作成出力機能のテストにおいて、共通で使用するメソッドを 提供するインターフェース" alt="" coords="2781,420,2988,489"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html" title="主に[楽譜データ管理]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="2755,514,3015,569"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_form_1_1_score___pdf___form___test_case.html" title="主に[楽譜データ機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="2280,126,2540,181"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_form_1_1_score___pdf___form___yaml.html" title="主に[楽譜データ情報]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="1637,126,1897,181"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_fail_datacd058296c2642b2a8ec71973309f6622.html" title="主に[楽譜データ情報]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="2257,454,2563,509"/>
+<area shape="rect" title=" " alt="" coords="17,719,164,745"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_repo_formadcfc7a1d552ce8fa8c43255147d7ee4.html" title="主に[楽譜データ情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="346,414,637,469"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_zip_1_1_score___pdf___zip___yaml.html" title="主に[楽譜データ情報]機能のテストにおいて、ZIPファイルの入出力のテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="351,42,632,97"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_1ed35426e5e81cd88ddec4abce0327c7.html" title="主に[楽譜データ情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="671,570,956,625"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_41838fffa0da7d6aaa50f8e6d1295a12.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="355,1017,628,1071"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_common___hist___form___yml.html" title="主に[共通の履歴情報]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="341,781,641,835"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_16f427d5e12422001e495241387c37478.html" title="主に[共通の履歴情報]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="352,929,631,983"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_e96ee1773a85fcd9774111e11f11ce5c.html" title="主に[楽譜管理]機能のテストにおいて、フォームバリデーションテストの際に用いる テストケースをマッピングするクラス。" alt="" coords="1623,1342,1910,1397"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_aae241c7ad94c65d39a6f83aef770b78.html" title="主に[楽譜管理]機能のテストにおいて、リポジトリでの検索メソッド時に使用する テストケースのマッピングを行うクラス。" alt="" coords="350,1407,633,1462"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_csv_1_1_musical___score___csv___yaml.html" title="主に[楽譜管理]機能のテストにおいて、CSVファイルの入出力に関係するテストケースの マッピングを行うクラス。" alt="" coords="353,1514,630,1569"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab52f26acf9c8531e2a6a4beaea0fabc28.html" title="主に[楽譜管理]機能のテストにおいて、データベースが関連したテストの際に用いる、 データベースセットアップ用のデータのYMLファイルをマッピングするエンティティを格納したファイル。" alt="" coords="336,1161,647,1215"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_repo_form942dbbdb8b6d1266e0083cef193863e9.html" title="主に[楽譜データ管理]機能のテストにおいて、リポジトリの検索のテストを行う際の検索 ワードのテストケースを読み取るクラス。" alt="" coords="1299,233,1589,287"/>
+<area shape="rect" title=" " alt="" coords="15,943,166,969"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_zip_1_1_score___pdf___zip___test_case.html" title="主に[楽譜データ機能]機能のテストにおいて、ZIPの入出力の機能において使用するテスト ケースを読み取るクラス。" alt="" coords="1945,43,2226,98"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html" title="主に[楽譜データ情報]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="2267,558,2553,613"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_history___test_case___make.html" title="主に[共通の履歴機能]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="1639,955,1894,1010"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html" title="主に[楽譜管理]機能のテストにおいて、全てのテストに用いるテストケースを全般的に 生成するクラス。" alt="" coords="2736,1275,3033,1330"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html" title="主に[楽譜管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内に初期値データを格納してセットアップするクラス。" alt="" coords="2255,939,2565,994"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_fail_5c161eac48d4b61c5a09b818059768f7.html" title="主に[楽譜管理]機能のテストにおいて、データベースとの通信テストの際に、あらかじめ データベース内にエラーとなる初期値データを格納してセットアップするクラス。" alt="" coords="2251,1234,2569,1289"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_database_1_3771c8a9beaf71beee893f6f6cffc80d.html" title="主に[共通の履歴機能]機能のテストにおいて、テストケースのファイルから値を読み取る クラス。" alt="" coords="991,1017,1264,1071"/>
+<area shape="rect" title=" " alt="" coords="21,1153,161,1178"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_fail_databaef3c427a9940ea48f59d8e6acd7ac558.html" title="主に[共通の履歴機能]機能のテストにおいて、データベースに格納するフォームバリデーション でエラーになるテストケースを読み取るクラス。" alt="" coords="980,859,1275,914"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_form_1_1_history___form___test_case.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="983,781,1272,835"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_history_1_1_repo_form_12a1f9dfe1b8c38466567b2257bc24960.html" title="主に[共通の履歴機能]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="988,938,1267,993"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9b57a7c4683438bd9d379c9d7a7e6e43.html" title="主に[楽譜データ情報]機能のテストにおいて、ファイルサーバーとの通信テストの際に ファイルサーバーに初期データをセットアップするクラス。" alt="" coords="1624,435,1909,490"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html" title="テストケースに必要な設定の全般を行うクラス。" alt="" coords="987,458,1268,513"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_fail_data93442ab7fc6da17b070672cccb1b6b85.html" title="主に[楽譜データ情報]機能のテストにおいて、ファイルサーバーとの通信テストの際に ファイルサーバーににエラーとなる初期データをセットアップするクラス。" alt="" coords="1613,357,1920,411"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html" title="テストコード全体において、データベースを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="365,121,617,175"/>
+<area shape="rect" title=" " alt="" coords="47,135,134,161"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html" title="テストコード全体において、ファイルサーバーを使用可能なように接続情報などを定義して、 初期化をするクラスを格納するファイル。" alt="" coords="365,493,617,547"/>
+<area shape="rect" title=" " alt="" coords="1718,722,1815,747"/>
+<area shape="rect" title=" " alt="" coords="1731,631,1803,657"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_form_f6b26b52ef427cf9d2d77c9850b0eab8.html" title="主に[楽譜管理]機能のテストにおいて、バリデーションエラーになるテストケースを 読み取るクラス。" alt="" coords="2267,1318,2553,1373"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_repo_44cc611869042ce1267ba1519b1319b0.html" title="主に[楽譜管理]機能のテストにおいて、リポジトリの検索のテストを行う際の検索 ワードのテストケースを読み取るクラス。" alt="" coords="1944,1406,2227,1461"/>
+<area shape="rect" title=" " alt="" coords="15,1469,167,1494"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_csv_1b94e2abf36adfc36d94d4f603a2f8075.html" title="主に[楽譜管理]機能のテストにおいて、CSVファイルに関係するテストケースを読み込む クラス。" alt="" coords="1305,1486,1583,1541"/>
+<area shape="rect" title=" " alt="" coords="5,1567,176,1607"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___zip.html" title="主に[楽譜データ管理]機能で使用する、バイナリデータの圧縮ファイルを入出力する 機能を提供するインターフェース" alt="" coords="2769,1355,3000,1395"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_zip.html" title="バイナリデータの圧縮ファイルを入出力する機能を提供するインターフェース" alt="" coords="2307,1523,2513,1563"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___samba.html" title="主に[楽譜データ管理]機能で使用する、ファイルサーバーとの通信を行うクラスに 機能を提供するインターフェース。" alt="" coords="2781,1419,2988,1474"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html" title="バイナリデータのファイルサーバーとの通信で使用する機能を提供したインターフェース" alt="" coords="2301,1587,2519,1627"/>
+<area shape="rect" title=" " alt="" coords="2831,1498,2938,1523"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html" title="環境変数の取り込みを行うクラスである。" alt="" coords="2771,1548,2998,1588"/>
+<area shape="rect" title=" " alt="" coords="2834,1613,2935,1638"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">凡例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:af8fc11a45040addabb53ac616e0d7554"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#af8fc11a45040addabb53ac616e0d7554">Score_Pdf_ZipImpl_OutputZip_Test</a> (<a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html">Score_Pdf_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a21be568ccc66a225c472e457a369128a">testcase</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a80adec98191198352c0334968e2b171b">foreign_case</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html">Common_Zip</a> common_zip, <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___samba.html">Score_Pdf_Samba</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#acefb287b45f0d20260147c775cffefa2">score_samba</a>, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#acc7169531a41b93250c563d00b25fd23">samba_config</a>)  throws IOException</td></tr>
+<tr class="memdesc:af8fc11a45040addabb53ac616e0d7554"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#af8fc11a45040addabb53ac616e0d7554">[詳解]</a><br /></td></tr>
+<tr class="separator:af8fc11a45040addabb53ac616e0d7554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ae7aa1b443274e09d8ea8caf5b6b79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#ac9ae7aa1b443274e09d8ea8caf5b6b79">圧縮ファイル出力機能の動作確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ac9ae7aa1b443274e09d8ea8caf5b6b79"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト対象メソッドに圧縮する複数のファイルを渡し、正常に圧縮された状態で返ってくることを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#ac9ae7aa1b443274e09d8ea8caf5b6b79">[詳解]</a><br /></td></tr>
+<tr class="separator:ac9ae7aa1b443274e09d8ea8caf5b6b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2b296c191da5dd827dbc3be357c716f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test1f9a385a892ff3364e95968e85a6034d.html#ae2b296c191da5dd827dbc3be357c716f">圧縮ファイル出力機能の動作確認</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:ae2b296c191da5dd827dbc3be357c716f"><td class="mdescLeft">&#160;</td><td class="mdescRight">バイナリデータの圧縮ファイル作成出力処理において共通クラスをDIした集約クラス側の メソッドの検査を行う。ファイルの同一性はハッシュ化して確認し、作成した一時ファイルは使用後必ず 削除する。  <a href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test1f9a385a892ff3364e95968e85a6034d.html#ae2b296c191da5dd827dbc3be357c716f">[詳解]</a><br /></td></tr>
+<tr class="separator:ae2b296c191da5dd827dbc3be357c716f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+静的公開メンバ関数</h2></td></tr>
+<tr class="memitem:a08e23b709b96fb0de9537e02492de25c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a08e23b709b96fb0de9537e02492de25c">一時ファイル用のディレクトリとファイルサーバーの初期化確認</a> ()  throws InterruptedException, IOException</td></tr>
+<tr class="memdesc:a08e23b709b96fb0de9537e02492de25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト終了後に、一時ファイル用のディレクトリとファイルサーバーが空っぽであることを確認する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a08e23b709b96fb0de9537e02492de25c">[詳解]</a><br /></td></tr>
+<tr class="separator:a08e23b709b96fb0de9537e02492de25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+非公開メンバ関数</h2></td></tr>
+<tr class="memitem:af8e1a16cebcc7550dcb09e0d5d0744e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#af8e1a16cebcc7550dcb09e0d5d0744e7">checkCompressData</a> (File compress_file)  throws IOException</td></tr>
+<tr class="memdesc:af8e1a16cebcc7550dcb09e0d5d0744e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">テスト対象メソッドから生成された圧縮ファイルを解凍し、中に入っていたデータの同一性を検証する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#af8e1a16cebcc7550dcb09e0d5d0744e7">[詳解]</a><br /></td></tr>
+<tr class="separator:af8e1a16cebcc7550dcb09e0d5d0744e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6743ab50c3e8e190ef800222960fab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#afb6743ab50c3e8e190ef800222960fab">configStaticSet</a> ()</td></tr>
+<tr class="memdesc:afb6743ab50c3e8e190ef800222960fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">DIした環境変数を、静的変数でも使えるようにする。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#afb6743ab50c3e8e190ef800222960fab">[詳解]</a><br /></td></tr>
+<tr class="separator:afb6743ab50c3e8e190ef800222960fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc6ed08bfd6c1c4fb3fe63101464658"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a4fc6ed08bfd6c1c4fb3fe63101464658">makeCommpressFiles</a> ()  throws IOException, InputFileDifferException</td></tr>
+<tr class="memdesc:a4fc6ed08bfd6c1c4fb3fe63101464658"><td class="mdescLeft">&#160;</td><td class="mdescRight">圧縮対象となるテストケースのファイルを複数作成する。  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a4fc6ed08bfd6c1c4fb3fe63101464658">[詳解]</a><br /></td></tr>
+<tr class="separator:a4fc6ed08bfd6c1c4fb3fe63101464658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:aed335f1e070cc2dd653287e212dcb157"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#aed335f1e070cc2dd653287e212dcb157">all_datasize</a> = 0</td></tr>
+<tr class="memdesc:aed335f1e070cc2dd653287e212dcb157"><td class="mdescLeft">&#160;</td><td class="mdescRight">圧縮前の総合データサイズ <br  />
+  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#aed335f1e070cc2dd653287e212dcb157">[詳解]</a><br /></td></tr>
+<tr class="separator:aed335f1e070cc2dd653287e212dcb157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62daa25a7d6603aaff84382fb6d3e19c"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a62daa25a7d6603aaff84382fb6d3e19c">extension</a> = &quot;pdf&quot;</td></tr>
+<tr class="separator:a62daa25a7d6603aaff84382fb6d3e19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80adec98191198352c0334968e2b171b"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a80adec98191198352c0334968e2b171b">foreign_case</a></td></tr>
+<tr class="separator:a80adec98191198352c0334968e2b171b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48dc453ab686eb5a090b65e8a52bde4e"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a48dc453ab686eb5a090b65e8a52bde4e">generate_name</a> = new ArrayList&lt;&gt;()</td></tr>
+<tr class="memdesc:a48dc453ab686eb5a090b65e8a52bde4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">生成予定のファイル名  <a href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a48dc453ab686eb5a090b65e8a52bde4e">[詳解]</a><br /></td></tr>
+<tr class="separator:a48dc453ab686eb5a090b65e8a52bde4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4d572644c5281f9edc2d3e6a38ec0d2"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#aa4d572644c5281f9edc2d3e6a38ec0d2">prefix</a> = &quot;ScorePdfZipImplOutputZipTest&quot;</td></tr>
+<tr class="separator:aa4d572644c5281f9edc2d3e6a38ec0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7169531a41b93250c563d00b25fd23"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#acc7169531a41b93250c563d00b25fd23">samba_config</a></td></tr>
+<tr class="separator:acc7169531a41b93250c563d00b25fd23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acefb287b45f0d20260147c775cffefa2"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___samba.html">Score_Pdf_Samba</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#acefb287b45f0d20260147c775cffefa2">score_samba</a></td></tr>
+<tr class="separator:acefb287b45f0d20260147c775cffefa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1fd9ffc94d0fe12513fc1727e74613"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___zip.html">Score_Pdf_Zip</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a3e1fd9ffc94d0fe12513fc1727e74613">score_zip</a></td></tr>
+<tr class="separator:a3e1fd9ffc94d0fe12513fc1727e74613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e538143bad68949096b1aed5bd4c42f"><td class="memItemLeft" align="right" valign="top">final SoftAssertions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a4e538143bad68949096b1aed5bd4c42f">softly</a> = new SoftAssertions()</td></tr>
+<tr class="separator:a4e538143bad68949096b1aed5bd4c42f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add10e465c8e360f0aa8c2cc0516f3734"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#add10e465c8e360f0aa8c2cc0516f3734">target_dir</a> = &quot;setup&quot;</td></tr>
+<tr class="separator:add10e465c8e360f0aa8c2cc0516f3734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fbe83c36fd19732b1bd9b988bfcbfb8"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a8fbe83c36fd19732b1bd9b988bfcbfb8">target_func</a> = &quot;ScorePdf&quot;</td></tr>
+<tr class="separator:a8fbe83c36fd19732b1bd9b988bfcbfb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21be568ccc66a225c472e457a369128a"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html">Score_Pdf_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a21be568ccc66a225c472e457a369128a">testcase</a></td></tr>
+<tr class="separator:a21be568ccc66a225c472e457a369128a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+静的非公開変数類</h2></td></tr>
+<tr class="memitem:ae9eebc2f73552a457409fd2ba81ad97b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#ae9eebc2f73552a457409fd2ba81ad97b">foreign_case_static</a></td></tr>
+<tr class="separator:ae9eebc2f73552a457409fd2ba81ad97b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfe453980c47d9db3162a3d3a00b21b6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#abfe453980c47d9db3162a3d3a00b21b6">samba_config_static</a></td></tr>
+<tr class="separator:abfe453980c47d9db3162a3d3a00b21b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b23fa32c0ff5759767479ca209b096d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html">Score_Pdf_TestCase_Make</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html#a5b23fa32c0ff5759767479ca209b096d">testcase_static</a></td></tr>
+<tr class="separator:a5b23fa32c0ff5759767479ca209b096d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">詳解</h2>
+<div class="textblock"><p >主に[楽譜データ管理]の圧縮ファイルの出力機能のテストを行うクラス </p>
+<ul>
+<li>このテストで対象となるクラスは、[Score_Pdf_ZipImpl]である。</li>
+<li>主に、集約クラス側の圧縮ファイルの出力機能をテストする。</li>
+</ul>
+<dl class="section see"><dt>参照</dt><dd>Score_Double_Component_TestUtils </dd>
+<dd>
+ZipProcess_OutputZip_Test </dd>
+<dd>
+Score_Pdf_ZipImpl </dd>
+<dd>
+Score_Pdf_Zip </dd>
+<dd>
+Common_Zip </dd>
+<dd>
+Score_Pdf_SambaImpl </dd>
+<dd>
+Score_Pdf_Samba </dd>
+<dd>
+Common_Samba</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>ここと同名のパッケージが、パッケージ[<a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_single_tests.html" title="このシステムのテストのうち、[単体テスト]を格納したパッケージ">SingleTests</a>]に存在するが、こちらは 依存するクラスを、モックを使わずそのまま使ってテストした、結合テストである。 </dd></dl>
+</div><h2 class="groupheader">構築子と解体子</h2>
+<a id="af8fc11a45040addabb53ac616e0d7554" name="af8fc11a45040addabb53ac616e0d7554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8fc11a45040addabb53ac616e0d7554">&#9670;&#160;</a></span>Score_Pdf_ZipImpl_OutputZip_Test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.Score_Pdf_ZipImpl_OutputZip_Test </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html">Score_Pdf_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>testcase</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a>&#160;</td>
+          <td class="paramname"><em>foreign_case</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_zip_process_1_1_common___zip.html">Common_Zip</a>&#160;</td>
+          <td class="paramname"><em>common_zip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___samba.html">Score_Pdf_Samba</a>&#160;</td>
+          <td class="paramname"><em>score_samba</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a>&#160;</td>
+          <td class="paramname"><em>samba_config</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。 </p>
+<ul>
+<li>環境変数に関しては、不定値の為、モックとしてインジェクションを行う。</li>
+<li>環境変数は使用しないが、モックとしてインジェクションする必要がある。</li>
+</ul>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">testcase</td><td>テストケースクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">foreign_case</td><td>参照するテストケースクラス </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">common_zip</td><td>共通クラス側</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>参照</dt><dd>Common_Zip </dd>
+<dd>
+Score_Pdf_ZipImpl </dd>
+<dd>
+Score_Pdf_Samba</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8fc11a45040addabb53ac616e0d7554_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8fc11a45040addabb53ac616e0d7554_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8fc11a45040addabb53ac616e0d7554_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8fc11a45040addabb53ac616e0d7554_cgraph">
+<area shape="rect" title="コンストラクタインジェクションで、テストケースと検査対象クラスをDIする。" alt="" coords="5,31,241,115"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#acc9d01c6dc1859c38cd5ef8c5a15b97b" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="289,5,587,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#ab1a36baa56f8fed1c0a2fa6f4e07f98c" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="308,84,568,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#a33f66dc2303db00ca4ec7d61582ed70f" title="リポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="635,5,957,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1007,5,1289,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="1353,5,1605,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#addd526db70bb6d849746df8c2a6e43b4" title="リポジトリの検査時に用いるデータベースに、テストケースのデータを保存する。" alt="" coords="647,84,945,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9b57a7c4683438bd9d379c9d7a7e6e43.html#ac16cf2e0a1411571f7b45870805e1550" title="通常データのファイルサーバーテスト時に使用したデータをすべて削除し、ファイルサーバをリセットする。" alt="" coords="1005,84,1291,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9b57a7c4683438bd9d379c9d7a7e6e43.html#afa1c86d1ced287ef65719afd2dc648d6" title="通常データのファイルサーバーの検査時に用いるテストケースのバイナリデータを保存する。" alt="" coords="1005,163,1291,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a19a59c1c5849087eabd3f4fef116c2fe" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1339,84,1620,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html#a1dfdf3ea28495c1b31ebd70633a54d77" title="ファイルサーバーに格納されているテスト用のデータを削除し、初期化する。" alt="" coords="1668,84,1920,139"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a05527263dfd189138746be7d0d16973c" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1339,163,1620,217"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html#a54ab0384df8d0d605fc65de2097e590d" title="通常データのファイルサーバーへの初期値データの挿入を行う。" alt="" coords="1668,163,1920,217"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="af8e1a16cebcc7550dcb09e0d5d0744e7" name="af8e1a16cebcc7550dcb09e0d5d0744e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e1a16cebcc7550dcb09e0d5d0744e7">&#9670;&#160;</a></span>checkCompressData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.checkCompressData </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>compress_file</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト対象メソッドから生成された圧縮ファイルを解凍し、中に入っていたデータの同一性を検証する。 </p>
+<ul>
+<li>中身のデータがテストケースの圧縮前のファイルと同一のものに復元できているか確認する。</li>
+<li>また、事前に作成しておいた予想される連番付きのファイル名と比較して、圧縮ファイル内のファイルの名称が 、自動連番がついて生成されていることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>引数で渡された圧縮ファイルと、圧縮前の複数ファイルの総合データ量を比較し、明らかに圧縮前のデータの 量よりも小さくなっている事を確認する。</li>
+<li>圧縮ファイルを解凍し、事前に用意したテストケースのファイルと、ハッシュ化して比較を行う。 なお、ファイルの順番は順不同の為、同じデータが存在すれば良いものとする。確認が終われば削除する。</li>
+<li>抽出したファイルの名称が被っていた場合、自動連番がついて自動生成されたファイル名がついていることを 確認する。事前に作成した予想される名前のリストと比較する。一致確認が取れたら、そのファイルを削除する。</li>
+<li>最終的に抽出したすべてのファイルが、確認が終わって消えており、確認漏れで残ったファイルが存在しない事を 確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Score_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8e1a16cebcc7550dcb09e0d5d0744e7_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8e1a16cebcc7550dcb09e0d5d0744e7_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8e1a16cebcc7550dcb09e0d5d0744e7_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_af8e1a16cebcc7550dcb09e0d5d0744e7_cgraph">
+<area shape="rect" title="テスト対象メソッドから生成された圧縮ファイルを解凍し、中に入っていたデータの同一性を検証する。" alt="" coords="5,85,321,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a27b62b8a0f83553998adcc1e738edcb6" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="369,5,667,60"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilsde460261b81282f054260b0ad89ba97d.html#a85371c2934db6bac753d24838cd15f3d" title="テスト出力結果として戻ってきたZIPファイルを解凍し、ファイル名とファイルのマップリストを作成 して返す。" alt="" coords="399,85,637,154"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilsde460261b81282f054260b0ad89ba97d.html#af311b3831da7e8ce08c0b5ea9a7cb1df" title="テスト後に生成した一時ファイルを削除する。" alt="" coords="399,178,637,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#a913aef32dfd60ef2e25458d339546e91" title="ファイルサーバーにセットアップしたバイナリデータの比較用として、保存したファイルのファイル名を 返す。" alt="" coords="715,5,1069,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afb6743ab50c3e8e190ef800222960fab" name="afb6743ab50c3e8e190ef800222960fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6743ab50c3e8e190ef800222960fab">&#9670;&#160;</a></span>configStaticSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.configStaticSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>DIした環境変数を、静的変数でも使えるようにする。 </p>
+<ul>
+<li>設けた理由としては、テスト後のデータベースのリセット確認の際に環境変数を用いる必要があるが、AfterAll は静的メソッドでしか実装できない為、通常のフィールド変数にDIされている環境変数が使えない。</li>
+<li>そのため、新たに静的フィールド変数を作成して、その中にDIした環境変数の参照を入れておくことで、テスト後の データベースリセット確認にも環境変数を使用できるようにしている。</li>
+</ul>
+<dl class="section user"><dt>使用アノテーション</dt><dd><ul>
+<li>@PostConstruct</li>
+</ul>
+</dd></dl>
+<dl class="section note"><dt>覚え書き</dt><dd>このメソッドは、セットアップのための非公開メソッドであり、外部に出さない。 </dd></dl>
+
+</div>
+</div>
+<a id="a4fc6ed08bfd6c1c4fb3fe63101464658" name="a4fc6ed08bfd6c1c4fb3fe63101464658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fc6ed08bfd6c1c4fb3fe63101464658">&#9670;&#160;</a></span>makeCommpressFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_form_1_1_blob_impl_form_1_1_file_entity.html">FileEntity</a> &gt; com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.makeCommpressFiles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>圧縮対象となるテストケースのファイルを複数作成する。 </p>
+<ul>
+<li>作成の際には、圧縮後とのデータ量の比較の為、全てのファイルデータ量を合算した数値を保存しておく。</li>
+<li>圧縮ファイルに格納するファイルの名前が被った場合の比較リストとして、オリジナルの名前の名前本体と ドット付き拡張子文字列の間に、括弧を付けて連番をふったものを作成する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>ファイルサーバーから、シリアルナンバーを指定して順番にバイナリデータを取得する。取得の際には、 テストケースから対応するハッシュ値を用いて、照合を行ってから取得する。</li>
+<li>データを取得したら、任意をファイル名をつけて専用のエンティティに格納する。名前は、被った際の 挙動を確認したいので、すべてのファイルで同一にしておく。</li>
+<li>圧縮処理に投入するデータの全てのデータ量の合計を記憶しておく。圧縮後に、圧縮後のデータ量と比較して 圧縮がされていることを確認するためである。</li>
+<li>想定される圧縮後の新しいファイル名を、リストに格納して記憶しておく。想定されるファイル名としては、 名称が被った際にファイル名と拡張子の間に連番がふられたファイル名である。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Score_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a4fc6ed08bfd6c1c4fb3fe63101464658_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a4fc6ed08bfd6c1c4fb3fe63101464658_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a4fc6ed08bfd6c1c4fb3fe63101464658_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a4fc6ed08bfd6c1c4fb3fe63101464658_cgraph">
+<area shape="rect" title="圧縮対象となるテストケースのファイルを複数作成する。" alt="" coords="5,34,331,103"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#afb9e2027f94a33824647106bae495d73" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="383,5,653,60"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_samba.html#a04d24ff1dccf98d82ca35b80a01c130a" title="指定されたシリアルナンバーの、ファイルサーバー内のファイルを取得し、事前に取得しておいた ファイルのハッシュ値を照合して、合致した場合のみ返す。" alt="" coords="379,85,657,125"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#af183ea1aa2bd5bc97936f49529fb2314" title="データベースの初期化データとして使ったデータを用いて、テストの際に比較用として用いるモックの エンティティを作成する。" alt="" coords="705,5,1032,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac9ae7aa1b443274e09d8ea8caf5b6b79" name="ac9ae7aa1b443274e09d8ea8caf5b6b79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ae7aa1b443274e09d8ea8caf5b6b79">&#9670;&#160;</a></span>圧縮ファイル出力機能の動作確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.圧縮ファイル出力機能の動作確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException, <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_original_exception_1_1_input_file_differ_exception.html">InputFileDifferException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>テスト対象メソッドに圧縮する複数のファイルを渡し、正常に圧縮された状態で返ってくることを確認する。 </p>
+<ul>
+<li>内容としては、圧縮後のファイルを解析し、圧縮前のファイルと同一のものが入っている事、ファイル名が 想定された通りの名称になっていることを確認する。</li>
+</ul>
+<dl class="section user"><dt>大まかな処理の流れ</dt><dd><ol type="1">
+<li>モックの関数型インターフェースとして、圧縮対象となる複数のバイナリファイルを生成するモックの関数を 作成する。</li>
+<li>テスト対象メソッドに、その関数型インターフェースを渡し、圧縮処理を実施する。</li>
+<li>返ってきた圧縮ファイルを解凍して解析し、圧縮前のファイルと同一のものがすべて入っている事、ファイル名が 被っていた場合に、自動連番がついた自動生成のファイル名がついていることを確認する。</li>
+</ol>
+</dd></dl>
+<dl class="section see"><dt>参照</dt><dd>Score_Double_Component_TestUtils</dd></dl>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InputFileDifferException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p><a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test1f9a385a892ff3364e95968e85a6034d.html#ae2b296c191da5dd827dbc3be357c716f">com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.TestInterface.ZipProcess_OutputZip_Test</a>を実装しています。</p>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_ac9ae7aa1b443274e09d8ea8caf5b6b79_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_ac9ae7aa1b443274e09d8ea8caf5b6b79_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_ac9ae7aa1b443274e09d8ea8caf5b6b79_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_ac9ae7aa1b443274e09d8ea8caf5b6b79_cgraph">
+<area shape="rect" title="テスト対象メソッドに圧縮する複数のファイルを渡し、正常に圧縮された状態で返ってくることを確認する。" alt="" coords="5,5,516,75"/>
+<area shape="rect" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_in_out_zip.html#aee8ba6371af83499efebf8f4cb30aab7" title="ファイルサーバーに保存しているファイルを取り出し、ZIPファイルに格納して出力する。" alt="" coords="564,20,816,60"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a08e23b709b96fb0de9537e02492de25c" name="a08e23b709b96fb0de9537e02492de25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08e23b709b96fb0de9537e02492de25c">&#9670;&#160;</a></span>一時ファイル用のディレクトリとファイルサーバーの初期化確認()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.一時ファイル用のディレクトリとファイルサーバーの初期化確認 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws InterruptedException, IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>テスト終了後に、一時ファイル用のディレクトリとファイルサーバーが空っぽであることを確認する。 </p>
+<dl class="exception"><dt>例外</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">InterruptedException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+呼び出し関係図:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a08e23b709b96fb0de9537e02492de25c_cgraph.png" border="0" usemap="#aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a08e23b709b96fb0de9537e02492de25c_cgraph" alt=""/></div>
+<map name="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a08e23b709b96fb0de9537e02492de25c_cgraph" id="aclasscom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f_a08e23b709b96fb0de9537e02492de25c_cgraph">
+<area shape="rect" title="テスト終了後に、一時ファイル用のディレクトリとファイルサーバーが空っぽであることを確認する。" alt="" coords="5,143,809,212"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilsde460261b81282f054260b0ad89ba97d.html#af01a46f6b5ce92f273be8481c9047e5a" title="テスト終了後に、ファイルサーバーが空っぽであることを確認する。" alt="" coords="887,5,1125,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilsde460261b81282f054260b0ad89ba97d.html#a63a104a32b0aa832243b7b87a8229782" title="テスト終了後に、一時ファイル用のディレクトリが空っぽであることを確認する。" alt="" coords="887,99,1125,168"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html#a6c944e4d0b4e1435ad32ed0e4788f1bf" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="857,193,1155,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html#a02674b6aae9c9ee48020e7cc50bde7c2" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="876,271,1136,326"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_component___test_utilsde460261b81282f054260b0ad89ba97d.html#aea7f3c5898ccd924bd6c719b7e8d88fd" title="テスト対象となるファイルサーバーの接続のセットアップを行う。" alt="" coords="1245,5,1483,75"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_datab97144989dec3bdb5da6d3f872726dbaf.html#ae66df5e2f7cc929cb0e1b5fb09ffa441" title="リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="1203,193,1525,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a841a3f4436dd6a50223496213d950fa3" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1575,193,1857,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_database_set_up.html#a9080400fc0c64c4c0347bd827ba58ef4" title="引数で渡されたSQLの実行を行う。" alt="" coords="1921,193,2173,247"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9a356eeef3518611bf9837b192ded209.html#ae2c79efbed1ecd2703d5ca7079d6ab67" title="リポジトリの検査時に使用したデータベース内のデータを全削除してリセットする。" alt="" coords="1215,271,1513,326"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_database_9b57a7c4683438bd9d379c9d7a7e6e43.html#ac16cf2e0a1411571f7b45870805e1550" title="通常データのファイルサーバーテスト時に使用したデータをすべて削除し、ファイルサーバをリセットする。" alt="" coords="1573,271,1859,326"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_configure_factory.html#a19a59c1c5849087eabd3f4fef116c2fe" title="インジェクションしたクラスのメソッドの中継メソッドである。詳しくは該当クラスを参照。" alt="" coords="1907,271,2188,326"/>
+<area shape="rect" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_configure_1_1_test_samba_set_up.html#a1dfdf3ea28495c1b31ebd70633a54d77" title="ファイルサーバーに格納されているテスト用のデータを削除し、初期化する。" alt="" coords="2236,271,2488,326"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="aed335f1e070cc2dd653287e212dcb157" name="aed335f1e070cc2dd653287e212dcb157"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed335f1e070cc2dd653287e212dcb157">&#9670;&#160;</a></span>all_datasize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.all_datasize = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>圧縮前の総合データサイズ <br  />
+ </p>
+
+</div>
+</div>
+<a id="a62daa25a7d6603aaff84382fb6d3e19c" name="a62daa25a7d6603aaff84382fb6d3e19c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62daa25a7d6603aaff84382fb6d3e19c">&#9670;&#160;</a></span>extension</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.extension = &quot;pdf&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80adec98191198352c0334968e2b171b" name="a80adec98191198352c0334968e2b171b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80adec98191198352c0334968e2b171b">&#9670;&#160;</a></span>foreign_case</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.foreign_case</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9eebc2f73552a457409fd2ba81ad97b" name="ae9eebc2f73552a457409fd2ba81ad97b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9eebc2f73552a457409fd2ba81ad97b">&#9670;&#160;</a></span>foreign_case_static</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_musical_score_1_1_musical___score___test_case___make.html">Musical_Score_TestCase_Make</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.foreign_case_static</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48dc453ab686eb5a090b65e8a52bde4e" name="a48dc453ab686eb5a090b65e8a52bde4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48dc453ab686eb5a090b65e8a52bde4e">&#9670;&#160;</a></span>generate_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;String&gt; com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.generate_name = new ArrayList&lt;&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>生成予定のファイル名 </p>
+
+</div>
+</div>
+<a id="aa4d572644c5281f9edc2d3e6a38ec0d2" name="aa4d572644c5281f9edc2d3e6a38ec0d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d572644c5281f9edc2d3e6a38ec0d2">&#9670;&#160;</a></span>prefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.prefix = &quot;ScorePdfZipImplOutputZipTest&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc7169531a41b93250c563d00b25fd23" name="acc7169531a41b93250c563d00b25fd23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc7169531a41b93250c563d00b25fd23">&#9670;&#160;</a></span>samba_config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.samba_config</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abfe453980c47d9db3162a3d3a00b21b6" name="abfe453980c47d9db3162a3d3a00b21b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfe453980c47d9db3162a3d3a00b21b6">&#9670;&#160;</a></span>samba_config_static</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_enum_1_1_environment___config.html">Environment_Config</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.samba_config_static</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acefb287b45f0d20260147c775cffefa2" name="acefb287b45f0d20260147c775cffefa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acefb287b45f0d20260147c775cffefa2">&#9670;&#160;</a></span>score_samba</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___samba.html">Score_Pdf_Samba</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.score_samba</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e1fd9ffc94d0fe12513fc1727e74613" name="a3e1fd9ffc94d0fe12513fc1727e74613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1fd9ffc94d0fe12513fc1727e74613">&#9670;&#160;</a></span>score_zip</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfacecom_1_1springproject_1_1dockerspring_1_1_file_i_o_1_1_comp_interface_1_1_score___pdf___zip.html">Score_Pdf_Zip</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.score_zip</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e538143bad68949096b1aed5bd4c42f" name="a4e538143bad68949096b1aed5bd4c42f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e538143bad68949096b1aed5bd4c42f">&#9670;&#160;</a></span>softly</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final SoftAssertions com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.softly = new SoftAssertions()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add10e465c8e360f0aa8c2cc0516f3734" name="add10e465c8e360f0aa8c2cc0516f3734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add10e465c8e360f0aa8c2cc0516f3734">&#9670;&#160;</a></span>target_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.target_dir = &quot;setup&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8fbe83c36fd19732b1bd9b988bfcbfb8" name="a8fbe83c36fd19732b1bd9b988bfcbfb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fbe83c36fd19732b1bd9b988bfcbfb8">&#9670;&#160;</a></span>target_func</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.target_func = &quot;ScorePdf&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21be568ccc66a225c472e457a369128a" name="a21be568ccc66a225c472e457a369128a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21be568ccc66a225c472e457a369128a">&#9670;&#160;</a></span>testcase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html">Score_Pdf_TestCase_Make</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.testcase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b23fa32c0ff5759767479ca209b096d" name="a5b23fa32c0ff5759767479ca209b096d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b23fa32c0ff5759767479ca209b096d">&#9670;&#160;</a></span>testcase_static</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_common_test_case_maker_1_1_score_pdf_1_1_score___pdf___test_case___make.html">Score_Pdf_TestCase_Make</a> com.springproject.dockerspring.JoinTests.FileIO.ZipProcess_Test.Score_Pdf_ZipImpl_Test.Score_Pdf_ZipImpl_OutputZip_Test.testcase_static</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>docker-spring/spring_prj/src/test/java/com/springproject/dockerspring/JoinTests/FileIO/ZipProcess_Test/Score_Pdf_ZipImpl_Test/<a class="el" href="_join_tests_2_file_i_o_2_zip_process___test_2_score___pdf___zip_impl___test_2_score___pdf___zip_impl___output_zip___test_8java.html">Score_Pdf_ZipImpl_OutputZip_Test.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><b>com</b></li><li class="navelem"><b>springproject</b></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring.html">dockerspring</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests.html">JoinTests</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o.html">FileIO</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test.html">ZipProcess_Test</a></li><li class="navelem"><a class="el" href="namespacecom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test10f59a74cadf36d2cbb2166564c131e5.html">Score_Pdf_ZipImpl_Test</a></li><li class="navelem"><a class="el" href="classcom_1_1springproject_1_1dockerspring_1_1_join_tests_1_1_file_i_o_1_1_zip_process___test_1_107954f1c316a002ac178c881d6d3bb7f.html">Score_Pdf_ZipImpl_OutputZip_Test</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>
